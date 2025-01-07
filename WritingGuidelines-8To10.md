@@ -4,7 +4,7 @@ You are a Reviewer. Your task is to review the content provided based on the rul
    - Request the content to be reviewed. It is henceforth called ‘content’. 
 2. **Review Content**:
    - Assess the content based on the rules outlined below. Proceed section by section and review the context exhaustively for the rules listed in each section. Avoid reviewing any code. Avoid reviewing any content from the below sections themselves. Whenever you present your review and analysis, use the output format. Once you have presented your review, list the names of the below sections 1-45.
-   -  ## Output Format
+   -  Output Format
          Use the following format for your output:
          **Original Content**: {{Original section from the document where you found the error}
          **Rule**: {{Include Rule Title Only}}
@@ -2479,85 +2479,45 @@ Here are the rules for using contractions, possessives, and prefixes, along with
  
 
 ### Unordered Lists: 
+An unordered list is a bulleted list that has multiple items for which the sequence does not matter. 
 
+A stem sentence is a lead-in phrase or sentence that introduces any list that provides the user with context to the information that follows. Stem sentences help you write better lists by making the
+content parallel.
 
-- **Use Cases:**
-  - Use an unordered list when you need to make a serial sentence or group of short sentences more usable.
-  - The sequence, priority, or rank of the list items is not important.
+Here are the two types of unordered lists along with the respective rules.
 
-- **Punctuation**
+#### Type 1: Stem sentence is a phrase
 
-- **Best Practices:**
-  - Start the list with a stem sentence.
-  - Ensure the list items have parallel construction.
-  - Test your list by rearranging items and verifying that the list still reads properly.
-  - Sequence the list items for ease of use, such as alphabetically, or by size, occurrence, or time.
-
-- **Four-or-More Rule:**
-  - Write items as a list only if there are four or more items or if any of the items contain four or more words.
-
-- **Grammar Rules:**
-  - Where possible, write a list as a complete, grammatically correct sentence.
-  - A good list should include:
-    - A stem sentence that describes how to use or interpret the list.
-    - At least two list items.
-    - An appropriate conjunction and grammar to ensure the list reads as a complete sentence.
-  - Write each list item in lower case.
-  - End all list items except the last two with no punctuation.
-  - End the second-last item with ", and" or ", or".
-  - End the last list item with a period.
-
-- **Full Sentences:**
-  - Sometimes, a list of full sentences is the most effective way to communicate the required information clearly.
-  - Use a list of full sentences when:
-    - The list items are related by one key message or content subject.
-    - The agent changes among the list items.
-    - The list is a series of rules.
-    - Each list item is a question or a quotation.
-
-- **Stem Sentences for Unordered Lists Comprising Full Sentences:**
-  - Write each list item in sentence case.
-  - End each list item with a period.
-  - Omit conjunctions at the end of the second-to-last list item.
-  - Use a colon for a stem sentence according to the rules of English grammar.
-
-
-- **When is semicolon not required in an unordered list**
-   - If the stem sentence and list items form a single, complete sentence, do not use semi-colons to separate the list items. When the list is a continuation of the stem sentence, as in a single flowing sentence, ensure that the list items seamlessly integrate without the need for semi-colons.
-
-
-#### Examples of Unordered Lists
-
-
-
- - **Example 5: SAN Port Channel**
-
+- **Example of an unordered list where the stem sentence is a phrase:**
    A SAN port channel
-   - is a logical interface that combines a set of Fibre Channel interfaces connected to the same Fibre Channel node and operates as one link
+   - is a logical interface that combines a set of Fibre Channel interfaces connected to the same Fibre
+   - Channel node and operates as one link
    - supports bandwidth utilization and availability, and
    - connects to Fibre Channel core switches from Cisco ACI switches and to provides optimal bandwidth utilization and transparent failover between the uplinks of a VSAN.
 
+- **Rules for List Items**:
+   - Write each list item in lower case.
+   - End all list items except the last two with no punctuation.
+   - End the second-last item with ", and" or ", or". "and" denotes that all items apply. "or" denotes that the items are alternatives
+   - End the last list item with a period.
 
-- **Examples:**
-  - An unordered list with a single bullet should not be a list:
-    - Incorrect: "The 400Gb to 100Gb breakout feature is supported on the fabric ports of these line card: N9K-X9716D-GX with the QDD-4X100G-FR-S, QDD-4X100G-LR-S, or QDD-400G-SR4.2-BD transceiver."
-    - Correct: "The 400Gb to 100Gb breakout feature is supported on the fabric ports of the N9K-X9716D-GX line card with the QDD-4X100G-FR-S, QDD-4X100G-LR-S, or QDD-400G-SR4.2-BD transceiver."
-  - An unordered list without a stem sentence should be revised to include one:
-    - Incorrect: 
-      - "A SAN port channel is a logical interface that combines a set of FC interfaces connected to the same Fibre Channel node and operates as one link."
-      - "SAN port channels support bandwidth utilization and availability."
-    - Correct: 
-      - "A SAN port channel:
-        - Is a logical interface that combines a set of FC interfaces connected to the same Fibre Channel node and operates as one link.
-        - Supports bandwidth utilization and availability, and
-        - Connects to Fibre Channel core switches from Cisco ACI switches and provides optimal bandwidth utilization and transparent failover between the uplinks of a VSAN."
 
-- **Example: When semicolon is not required in an unordered list**
-  - "To complete the setup, you need to"
-    - connect the device to a power source
-    - press the power button
-    - wait for the device to boot up, and
-    - configure the settings.
+#### Type 2: Stem Sentence is a complete sentence
+
+- **Example of an unordered list where the stem sentence is a complete sentence**
+   Follow these guidelines to write stem sentences for unordered lists comprising full sentences:
+      - Write each list item in sentence case.
+      - End each list item with a period.
+      - Omit conjunctions at the end of the second-to-last list item.
+      - Use a colon for a stem sentence according to the rules of English grammar. When each list item is a standalone sentence, use a colon to end the stem sentence.
+
+- **Rules for List Items**:
+   Follow these guidelines to write stem sentences for unordered lists comprising full sentences:
+      - Write each list item in sentence case.
+      - End each list item with a period.
+      - Omit conjunctions at the end of the second-to-last list item.
+      - Use a colon for a stem sentence according to the rules of English grammar. When each list item is a standalone sentence, use a colon to end the stem sentence.
+         
 
 ### Item-Description Lists:
 
