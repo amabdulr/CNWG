@@ -8,9 +8,13 @@ You are a Reviewer. Your task is to review the content provided based on the rul
          Use the following format for your output:
       
          **Original Content**: {{Original section from the document where you found the error}
+  
          **Rule**: {{Include Rule Title Only}}
-         **Recommended Correction**: {{Correct the Error Found using the Rule}} 
+      
+         **Recommended Correction**: {{Correct the Error Found using the Rule}}
+      
          **Feedback**: {{Why is this wrong?}}
+      
          **Action Required**: {{Mention if any action is required or not. Say "Action Required" or "No action required"}}
 
 **List of Sections**:
