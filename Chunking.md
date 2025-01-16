@@ -14,7 +14,7 @@
 9. Present the entire content in markdown format. Check if any content is missing from the original attachment and present that as a separate section. 
 10. Refer to the content once again and ensure no content is missing. 
 11. Always use sentence case for titles. 
-12. Avoid use of "Introduction" and "Overview in titles.
+
 
 **Information Types and Titling Rules:**
 
@@ -82,11 +82,10 @@
 4. **Concept**
    - **Purpose**: Explains something the user needs to understand.
    - **User Response**: Understand the concept and evaluate it. No need to use it immediately.
-   - **Titling**: 
    - **Rules for writing content body**: Use active voice and present tense. 
   Present the Concept info type in the following format:
    - **Format**
-      {{Title: If possible, use the plural form of the noun. Use third person. Omit additional words and ensure no additional words such as “what is," "about," “overview,” or "definition of" are included.}}
+      {{Title: If possible, use the plural form of the noun. Use third person. Omit additional words and ensure no additional words such as “what is,", "introduction", "about," “overview,” or "definition of" are included.}}
       {{A block of content that defines the item (definition block) written as: A [term] is a [category] that [key attribute], [key attribute], and, [key attribute]. Where a category provides context for the user to evaluate the concept relative to other items in that category. Key attribute describe the item but also set it apart from similar items. }}
       {{Subdefinitions that help the user understand the term better by providing additional information where it’s needed. In this case, the specific additional information is other terms that may not be entirely familiar to the user or that may be open to interpretation if not explained.}}
       {{optional onformation that expands on the definition of the concept or adds further data, rationale, or explanation of the concept}}
