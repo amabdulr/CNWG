@@ -22,7 +22,7 @@ Feedback: {{Why is this wrong?}}
 ***Rules:
 
 1. **Cisco Name Usage:**
- - Use full company name with nonbreaking spaces, where required, such manual titles, headers, and footers: "Cisco Systems, Inc."
+ - Use the full company name with nonbreaking spaces, where required, such manual titles, headers, and footers: "Cisco Systems, Inc."
  - For first use in chapters or sections, use "Cisco", and minimize further usage unless necessary.
 
 2. **Acronyms:**
