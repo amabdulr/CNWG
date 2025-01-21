@@ -21,7 +21,7 @@
 1. **Task**
    - **Purpose**: Instructs the user on the step commands to perform a task. Always include a clear action verb in every step command. Ensure you use simple or complex step commands wherever necessary.  
    - **User Response**: Perform the task successfully by following the step commands.
-   - **Step Command Rules**: Provide a single direction to follow, ensuring it includes a clear action verb. Step commands can be simple or complex. A simple command consists of an action verb and either an object noun or a prepositional phrase. A complex command includes the following:
+   - **Step Command Rules**: Provide a single direction to follow, ensuring it includes a clear action verb. Step commands can be simple or complex. A simple step command consists of an action verb and either an object noun or a prepositional phrase. A complex step command includes the following:
          - If-condition: Specify conditions under which the action is taken.
          - Use-modifier: Modify the command for specific scenarios.
          - Adverb: Describe how the action should be performed.
@@ -32,7 +32,7 @@
          - Substeps (optional): Break down larger steps into concise mini-steps. Keep each step to no more than 9 substeps.
          - Additional Information (optional): Include any necessary information to support the step, possibly using if-then conditions.
          - Step Result (optional) - Describe the outcome or confirmation of successful completion of this step.
-     The phrasing of a command uses some or all parts of the formula, but always in the same order. Most step commands use between two and just a few parts of the formula. Refer to the Examples of Task with complex step commands section. 
+     The phrasing of a step command uses some or all parts of the formula, but always in the same order. Most step commands use between two and just a few parts of the formula. Refer to the Examples of Task with complex step commands section. 
    - **Task Format**: Organize the task information type in this format: 
       {{Title using imperative verb, second person. For example, Create a transaction}}
       {{Purpose}}, 
@@ -174,7 +174,9 @@ Examples of various types of complex step commands
       define the type of traffic to be monitored.
       Command with Adverb
       • Carefully move the chassis from the pallet onto the lifting device.
+
 - **Concept Example**
+         
 Title: Smart Licensing Using Policy
 Body:
 Smart Licensing Using Policy is a policy-driven licensing model built on the existing Cisco Smart Licensing model that:
@@ -187,7 +189,7 @@ Key features of Smart Licensing Using Policy:
   - Policy-Based Management: The Cisco default policy, enabled by default, automates license management, streamlining operations and ensuring compliance.'''
 
 '''
-**Process**
+- **Process Example**
 TItle: How DHCP servers work
 Body:
 In modern IP networks, network devices need unique IP addresses and other network configuration parameters to communicate effectively. Manually configuring these settings for each device can be time-consuming and error-prone, especially.
@@ -203,7 +205,7 @@ The DHCP process results in the efficient and automated configuration of network
 
 '''
 '''
-**Principle**
+- **Principle Example**
 Caution: Wear eye protection.
 Tip: We recommend using the included Torx screwdriver, which is the correct length to reach the screws for this step.
 '''
