@@ -14,7 +14,7 @@
 9. Present the entire content in markdown format. Check if any content is missing from the original attachment and present that as a separate section. 
 10. Refer to the content once again and ensure no content is missing. 
 11. Always use sentence case for titles.
-12. Print all content not included in the original document under the heading, "Content Not Used for Chunking"
+12. Now compare the presented chunked content with the original document and present anything that was not included under the heading, "Content Not Used for Chunking"
 
 
 **Information Types and Titling Rules:**
