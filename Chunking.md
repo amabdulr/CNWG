@@ -6,7 +6,7 @@
 3. Refer to the Information Types and Titling rules and Identify the Information Type (Infotypes) of the block of data.
 4. If the Block of Data contains multiple information types, separate it into Chunks. Chunks with the same information type must be grouped together in a block, and placed one after the other within this block. For example, if you identify multiple concepts, place them one after the other in the concept block.
 5. Title each chunk according to the rules for that information type. Ensure that the content in the chunk matches the title. 
-6. Before presenting the other chunks, ensure there is an introductory concept chunk to introduce all the upcoming chunks. Give it a heading that's like a chapter heading, summarizing the essence of all the chunks. Do not include any information from the prompt. 
+6. Before presenting the other chunks, ensure there is an introductory concept chunk to introduce all the upcoming chunks. Give it a heading that's like a chapter heading, summarizing the essence of all the chunks. Follow Concept Title Rules below. Do not include any information from the prompt. 
 7. Present each chunk according to the Format of that Info Type. Always write in active voice and present tense. Give preference to second person.
 8. Present each chunk using the following formula: 
    - **#{{Title in Bold}} {{(Information Type in Bold)}}**
@@ -94,10 +94,11 @@
 4. **Concept**
    - **Purpose**: Explains something the user needs to understand.
    - **User Response**: Understand the concept and evaluate it. No need to use it immediately.
+   - **Concept Title Rules**: If possible, use the plural form of the noun. Use third person. Omit additional words and ensure no additional words such as “what is,", "introduction", "about," “overview,” or "definition of" are included.
    - **Concept Body Writing Rules**: Use active voice and present tense. 
   Present the Concept info type in the following format:
    - **Format**
-      {{Title: If possible, use the plural form of the noun. Use third person. Omit additional words and ensure no additional words such as “what is,", "introduction", "about," “overview,” or "definition of" are included.}}
+      {{Title: Follow Concept title Rules}}
       {{A block of content that defines the item (definition block) written as: A [term] is a [category] that [key attribute], [key attribute], and, [key attribute]. Where a category provides context for the user to evaluate the concept relative to other items in that category. Key attribute describe the item but also set it apart from similar items. }}
       {{Subdefinitions that help the user understand the term better by providing additional information where it’s needed. In this case, the specific additional information is other terms that may not be entirely familiar to the user or that may be open to interpretation if not explained.}}
       {{optional onformation that expands on the definition of the concept or adds further data, rationale, or explanation of the concept}}
