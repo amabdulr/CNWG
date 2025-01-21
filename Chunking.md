@@ -13,25 +13,35 @@
    - {{Chunk}}
 9. Present the entire content in markdown format. Check if any content is missing from the original attachment and present that as a separate section. 
 10. Refer to the content once again and ensure no content is missing. 
-11. Always use sentence case for titles.
+11. Always use sentence case for titles. 
 12. Now compare the presented chunked content with the original document and present anything that was not included under the heading, "Content Not Used for Chunking"
-
 
 **Information Types and Titling Rules:**
 
 1. **Task**
-   - **Purpose**: Instructs the user on steps to perform a task.
-   - **User Response**: Perform the task successfully.
-   - **Format**: Organize the task body in this format: 
+   - **Purpose**: Instructs the user on the step commands to perform a task. 
+   - **User Response**: Perform the task successfully by following the step commands.
+   - **Step Command Rules**: Provide a single direction to follow, ensuring it includes a clear action verb. Step commands can be simple or complex. A simple command consists of an action verb and either an object noun or a prepositional phrase. A complex command includes the following:
+         - If-condition: Specify conditions under which the action is taken.
+         - Use-modifier: Modify the command for specific scenarios.
+         - Adverb: Describe how the action should be performed.
+         - Action verb and object noun: Clearly state the action and what it acts upon.
+         - Prepositional phrase: Provide additional context or details.
+         - Purpose: Explain why the action is being performed.
+         - Until-conclusion: Describe when the action should stop.
+         - Substeps (optional): Break down larger steps into concise mini-steps. Keep each step to no more than 9 substeps.
+         - Additional Information (optional): Include any necessary information to support the step, possibly using if-then conditions.
+         - Step Result (optional) - Describe the outcome or confirmation of successful completion of this step.
+   - **Task Format**: Organize the task information type in this format: 
       {{Title using imperative verb, second person. For example, Create a transaction}}
       {{Purpose}}, 
       {{Context}}, 
-      **Before you begin**: {{Prequisites for this task, this is optional}}
-      Follow these steps to {{what these steps accomplish. for example. "create a transaction"}}
-      Step 1: {{first step of this task and any substeps or notes, step result if any}}
-      Step 2: {{second step of this task and any substeps or notes, step result if any}}
-      ...{{continue for each step}}
-      Step n: {{last step of this task and any substeps or notes, step result if any}}
+      **Before you begin**: {{Prerequisites for this task, this is optional}}
+      Follow these steps to {{what these step command accomplish. Follow the step command rules. for example. "create a transaction"}}
+      Step 1: {{first step command of this task and any substeps or notes, step result if any}}
+      Step 2: {{second step command of this task and any substeps or notes, step result if any}}
+      ...{{continue for each step command}}
+      Step n: {{last step command of this task and any substeps or notes, step result if any}}
       {{additional information}}, 
       **Result**: {{task results}}
       **Post-requisites**: {{What to do next}}
@@ -40,11 +50,11 @@
    - **Purpose**: Illustrates how something works or what happens. 
    - **User Response**: Understand how parts and actors work together.
    Present the Process info type in the following format:
-  - **Titling Rules**:
+  - **Process Titling Rules**:
      - Human Processes: Verb gerund ("...ing") + plural noun.
      - System Processes: "How (items) [work]". Use the third person.
    - **Format**: 
-    {{Title as per titling rules}} 
+    {{Title as per Process titling rules}} 
     {{Context. Provide background information that explains the relevance and purpose of the process}}
     The actors or components: {{The actors or components introduces the key components involved in the process, including the actors and any essential elements. Keep this as a basic introduction only and do not mention stages of the process. Present it as a bulleted list}}
     stages: {{The actions taken by actors, or role they perform. Break down the process into clear stages, describing the actions taken by each actor and any conditions involved. Use third person, active voice, and present tense. Make sure to include stage blocks that identify the actor and actions in each stage}}
@@ -67,14 +77,14 @@
 3. **Principle**
    - **Purpose**: Advises what to do or not do, and when. Includes items ranging from light gravity (or seriousness) to heavy gravity.  The increasing order of gravity is an include these in increasing order of gravity: “Tip,” Note” or Recommendation” or "Guidelines" or "Best Practice" or "Requirement" or "Caution" or "Policy" or "Warning" or "Code".
    - **User Response**: Identify the principle and its importance.
-   - **Titling**: Express the gravity first and the principle later or vice versa. Use the second person, imperative.
+   - **Principle Titling Rules**: Express the gravity first and the principle later or vice versa. Use the second person, imperative. Title in the form of Gravity + principle or Principle + Gravity
    - **Rules for principle body**:  Use active voice, imperative, and present tense non-command-form verb while addressing the user for principles of light gravity (tips, recommendations). Use a positive language. Avoid using 'do not' except when the consequenes are severe. C  Use a tone that matches the gravity of the principle. 
       - Light Gravity - say "You can" or "We recommend"
       - Moderate Gravity - say "Ensure that…"
       - Heavy Gravity - say "Use the screws included with the kit to mount the brackets in the rack."
   Present the Principle info type in the following format:
    - **Format**
-      {{Title in the form of Gravity + principle or Principle + Gravity}}
+      {{Title according to Principle Titling Rules}}
       {{states the essence of the principle}}
    - **Title Examples**:
      - Recommendations for disk partitioning
@@ -83,7 +93,7 @@
 4. **Concept**
    - **Purpose**: Explains something the user needs to understand.
    - **User Response**: Understand the concept and evaluate it. No need to use it immediately.
-   - **Rules for writing content body**: Use active voice and present tense. 
+   - **Concept Body Writing Rules**: Use active voice and present tense. 
   Present the Concept info type in the following format:
    - **Format**
       {{Title: If possible, use the plural form of the noun. Use third person. Omit additional words and ensure no additional words such as “what is,", "introduction", "about," “overview,” or "definition of" are included.}}
