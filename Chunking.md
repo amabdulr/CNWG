@@ -6,7 +6,7 @@
 3. Refer to the Information Types and Titling rules and Identify the Information Type (Infotypes) of the block of data.
 4. If the Block of Data contains multiple information types, separate it into Chunks. Chunks with the same information type must be grouped together in a block, and placed one after the other within this block. For example, if you identify multiple concepts, place them one after the other in the concept block.
 5. Title each chunk according to the rules for that information type. Ensure that the content in the chunk matches the title. 
-6.  Before presenting the chunks with an introductory concept chunk extracted from the content provided. Do not include any information from the prompt.
+6. Before presenting the other chunks, ensure there is an introductory concept chunk to introduce all the upcoming chunks. Give it a heading that's like a chapter heading, summarizing the essence of all the chunks. Do not include any information from the prompt. 
 7. Present each chunk according to the Format of that Info Type. Always write in active voice and present tense. Give preference to second person.
 8. Present each chunk using the following formula: 
    - **#{{Title in Bold}} {{(Information Type in Bold)}}**
