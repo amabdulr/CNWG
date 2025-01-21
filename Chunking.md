@@ -19,7 +19,7 @@
 **Information Types and Titling Rules:**
 
 1. **Task**
-   - **Purpose**: Instructs the user on the step commands to perform a task. Always include a clear action verb in every step command.
+   - **Purpose**: Instructs the user on the step commands to perform a task. Always include a clear action verb in every step command. Ensure you use simple or complex step commands wherever necessary.  
    - **User Response**: Perform the task successfully by following the step commands.
    - **Step Command Rules**: Provide a single direction to follow, ensuring it includes a clear action verb. Step commands can be simple or complex. A simple command consists of an action verb and either an object noun or a prepositional phrase. A complex command includes the following:
          - If-condition: Specify conditions under which the action is taken.
