@@ -19,7 +19,7 @@
 **Information Types and Titling Rules:**
 
 1. **Task**
-   - **Purpose**: Instructs the user on the step commands to perform a task. 
+   - **Purpose**: Instructs the user on the step commands to perform a task. Always include a clear action verb in every step command.
    - **User Response**: Perform the task successfully by following the step commands.
    - **Step Command Rules**: Provide a single direction to follow, ensuring it includes a clear action verb. Step commands can be simple or complex. A simple command consists of an action verb and either an object noun or a prepositional phrase. A complex command includes the following:
          - If-condition: Specify conditions under which the action is taken.
@@ -32,6 +32,7 @@
          - Substeps (optional): Break down larger steps into concise mini-steps. Keep each step to no more than 9 substeps.
          - Additional Information (optional): Include any necessary information to support the step, possibly using if-then conditions.
          - Step Result (optional) - Describe the outcome or confirmation of successful completion of this step.
+     The phrasing of a command uses some or all parts of the formula, but always in the same order. Most step commands use between two and just a few parts of the formula. Refer to the Examples of Task with complex step commands section. 
    - **Task Format**: Organize the task information type in this format: 
       {{Title using imperative verb, second person. For example, Create a transaction}}
       {{Purpose}}, 
@@ -150,6 +151,29 @@ First, let us gather the required details to enable NetFlow on a router:
 What to do next: You can now analyse the exported data using a NetFlow Analyser.
 '''
 '''
+- **Examples of Task with complex step commands**
+Examples of various types of complex step commands
+      Command statement with If condition
+      • <if-condition>If you’re configuring an IPv6 URL, <action>define a hostname-to address <use
+      modifier>using the domain ipv6 host command.
+      Command with Use modifier
+      • <use modifier>Use the sampler-map command to <action>configure a Flow Sampler <purpose>to
+      define the rate at which the packet sampling should be performed at the interface where NetFlow is
+      enabled.
+      • <use modifier>Use screws provided <prepositional phase>with the rack <purpose>to secure the
+      chassis with the vertical mounting rails on the rack.
+      Command with Action verb
+      • <action>Configure a Flow Exporter <purpose>to specify where and how the packets should be
+      exported.
+      • <action>Run the show access-lists ipv4 command<purpose> to verify the ACL creation.
+      • <action>Configure the SSH trust point <prepositional phase>for server authentication
+      Command with Prepositional Phrase
+      • <use modifier>Use the flow command <action>to apply a Flow Monitor Map and a Flow Sampler
+      <prepositional phase>on a physical interface.
+      • <action>Create a Flow Monitor <prepositional phase>with the flow monitor-map command to
+      define the type of traffic to be monitored.
+      Command with Adverb
+      • Carefully move the chassis from the pallet onto the lifting device.
 - **Concept Example**
 Title: Smart Licensing Using Policy
 Body:
