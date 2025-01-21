@@ -58,7 +58,7 @@ You are a Reviewer. Your task is to review the content provided based on the rul
   - Avoid ambiguous characters like &, /, and @ unless necessary for technical content.
   - Use en dashes for ranges in tables and em dashes for emphasis in text.
 **Capitalization**:
-  - Follow specific rules for titles, headings, and names. Use initial capitalization for proper nouns and titles.
+  - Use initial capitalization for proper nouns and titles. For example, Getting started with Meraki dashboard API.
 **Abbreviations and Acronyms**:
   - Avoid creating new acronyms. Expand acronyms on first use unless commonly recognized.
 **Sentence Structure**:
