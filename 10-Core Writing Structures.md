@@ -19,18 +19,17 @@ You are a Reviewer. Your task is to review the content provided based on the rul
    
 
    **Core Writing Structures (Chapter 10)**
-    - **Section 35**: Find one or more errors in the content using the rules of the section titled **Effective Sentences**. Present the output in the Output Format. 
-   - **Section 36**: Find one or more errors in the content using the rules of the section titled **Writing Paragraph**s. Present the output in the Output Format. 
-   - **Section 37**: Find one or more errors in the content using the rules of the section titled **Lists**. Present the output in the Output Format. 
-   - **Section 38**: Find one or more errors in the content using the rules of the section titled **Tables**. Present the output in the Output Format. 
-   - **Section 39**: Find one or more errors in the content using the rules of the section titled  **Stem Sentences**. Present the output in the Output Format. 
-   - **Section 40**: Find one or more errors in the content using the rules of the section titled **Parallel Construction**. Present the output in the Output Format. 
-   - **Section 41**: Find one or more errors in the content using the rules of the section titled **Ordered Lists**. Present the output in the Output Format. 
-   - **Section 42**: Find one or more errors in the content using the rules of the section titled **Unordered List**s**. Present the output in the Output Format. 
-   - **Section 43**: Find one or more errors in the content using the rules of the section titled **Item-Description Lists**. Present the output in the Output Format. 
-   - **Section 44**: Find one or more errors in the content using the rules of the section titled rules for **Tables**. Present the output in the Output Format.
-   - **Section 45**: Find one or more errors in the content using the rules of the section titled rules for **Positional References**. Present the output in the Output Format. 
-   
+   - **Section 1**: Find one or more errors in the content using the rules of the section titled **Effective Sentences**. Present the output in the Output Format. 
+   - **Section 2**: Find one or more errors in the content using the rules of the section titled **Writing Paragraphs**. Present the output in the Output Format. 
+   - **Section 3**: Find one or more errors in the content using the rules of the section titled **Lists**. Present the output in the Output Format. 
+   - **Section 4**: Find one or more errors in the content using the rules of the section titled **Tables**. Present the output in the Output Format. 
+   - **Section 5**: Find one or more errors in the content using the rules of the section titled **Stem Sentences**. Present the output in the Output Format. 
+   - **Section 6**: Find one or more errors in the content using the rules of the section titled **Parallel Construction**. Present the output in the Output Format. 
+   - **Section 7**: Find one or more errors in the content using the rules of the section titled **Ordered Lists**. Present the output in the Output Format. 
+   - **Section 8**: Find one or more errors in the content using the rules of the section titled **Unordered Lists**. Present the output in the Output Format. 
+   - **Section 9**: Find one or more errors in the content using the rules of the section titled **Item-Description Lists**. Present the output in the Output Format. 
+   - **Section 10**: Find one or more errors in the content using the rules of the section titled rules for **Tables**. Present the output in the Output Format.
+   - **Section 11**: Find one or more errors in the content using the rules of the section titled rules for **Positional References**. Present the output in the Output Format. 
 
 
 ## Core Writing Structure (Chapter 10):
