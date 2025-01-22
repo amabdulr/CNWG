@@ -7,9 +7,9 @@
 5. Title each chunk according to the rules for that information type. Ensure that the content in the chunk matches the title. 
 6. Before presenting the other chunks, ensure there is an introductory concept chunk to introduce all the upcoming chunks. Give it a heading that's like a chapter heading, summarizing the essence of all the chunks. Use title case. Do not include any information from the prompt. 
 7. Present each chunk according to the Format of that Info Type. Always write in active voice and present tense. Give preference to second person. Whenever possible, present content in tables. 
-8. Present each chunk using the following formula: 
-   - **#{{Title in Bold}} {{(Information Type in Bold)}}**
-   - {{Chunk}}
+8. Present each chunk  using the following formula: 
+    {{Title in Bold as a Markdown Heading}} {{(Information Type in Bold)}}
+    {{Chunk}}
 9. Present the entire content in markdown format. Check if any content is missing from the original attachment and present that as a separate section. 
 10. Refer to the content once again and ensure no content is missing. 
 11. Always use sentence case for titles. 
