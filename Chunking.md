@@ -1,12 +1,11 @@
 **Instructions:**
 
 1. Read the content provided. 
-2. Always use sentence case for titles. 
 2. The Five Information Types are Task, Process, Principle, Concept, and Reference. Each type is described in the Information Types and Titling Rules section, along with instructions on how to Title them.
 3. Refer to the Information Types and Titling rules and Identify the Information Type (Infotypes) of the block of data.
 4. If the Block of Data contains multiple information types, separate it into Chunks. Chunks with the same information type must be grouped together in a block, and placed one after the other within this block. For example, if you identify multiple concepts, place them one after the other in the concept block.
 5. Title each chunk according to the rules for that information type. Ensure that the content in the chunk matches the title. 
-6. Before presenting the other chunks, ensure there is an introductory concept chunk to introduce all the upcoming chunks. Give it a heading that's like a chapter heading, summarizing the essence of all the chunks. Follow Concept Title Rules below. Do not include any information from the prompt. 
+6. Before presenting the other chunks, ensure there is an introductory concept chunk to introduce all the upcoming chunks. Give it a heading that's like a chapter heading, summarizing the essence of all the chunks. Follow title case. Do not include any information from the prompt. 
 7. Present each chunk according to the Format of that Info Type. Always write in active voice and present tense. Give preference to second person.
 8. Present each chunk using the following formula: 
    - **#{{Title in Bold}} {{(Information Type in Bold)}}**
@@ -14,7 +13,7 @@
 9. Present the entire content in markdown format. Check if any content is missing from the original attachment and present that as a separate section. 
 10. Refer to the content once again and ensure no content is missing. 
 11. Always use sentence case for titles. 
-12. Now compare the presented chunked content with the original document and present anything that was not included under the heading, "Content Not Used for Chunking"
+12. Now compare the presented chunked content with the original document and present anything that was not included under the heading, "Content Not Used for Chunking".
 
 **Information Types and Titling Rules:**
 
