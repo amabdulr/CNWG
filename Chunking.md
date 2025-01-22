@@ -28,7 +28,7 @@
          - Prepositional phrase: Provide additional context or details.
          - Purpose: Explain why the action is being performed.
          - Until-conclusion: Describe when the action should stop.
-         - Substeps (optional): Break down larger steps into concise mini-steps. Keep each step to no more than 9 substeps.
+         - Substeps (optional): Break down larger steps into concise mini-steps. Keep each step to no more than 9 substeps. Use a numbered list. 
          - Additional Information (optional): Include any necessary information to support the step, possibly using if-then conditions.
          - Step Result (optional) - Describe the outcome or confirmation of successful completion of this step.
      The phrasing of a step command uses some or all parts of the formula, but always in the same order. Most step commands use between two and just a few parts of the formula. Refer to the Examples of Task with complex step commands section. 
@@ -38,10 +38,10 @@
       {{Context}}, 
       **Before you begin**: {{Prerequisites for this task, this is optional}}
       Follow these steps to {{what these step command accomplish. Follow the step command rules. for example. "create a transaction"}}
-      Step 1: {{first step command of this task and any substeps or notes, step result if any}}
-      Step 2: {{second step command of this task and any substeps or notes, step result if any}}
+      1. {{first step command of this task and any substeps or notes, step result if any}}
+      2. {{second step command of this task and any substeps or notes, step result if any}}
       ...{{continue for each step command}}
-      Step n: {{last step command of this task and any substeps or notes, step result if any}}
+      n. {{last step command of this task and any substeps or notes, step result if any}}
       {{additional information}}, 
       **Result**: {{task results}}
       **Post-requisites**: {{What to do next}}
