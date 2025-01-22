@@ -5,7 +5,7 @@
 3. Refer to the Information Types and Titling rules and Identify the Information Type (Infotypes) of the block of data.
 4. If the Block of Data contains multiple information types, separate it into Chunks. Chunks with the same information type must be grouped together in a block, and placed one after the other within this block. For example, if you identify multiple concepts, place them one after the other in the concept block.
 5. Title each chunk according to the rules for that information type. Ensure that the content in the chunk matches the title. 
-6. Before presenting the other chunks, ensure there is an introductory concept chunk to introduce all the upcoming chunks. Give it a heading that's like a chapter heading, summarizing the essence of all the chunks. Follow title case. Do not include any information from the prompt. 
+6. Before presenting the other chunks, ensure there is an introductory concept chunk to introduce all the upcoming chunks. Give it a heading that's like a chapter heading, summarizing the essence of all the chunks. Use title case. Do not include any information from the prompt. 
 7. Present each chunk according to the Format of that Info Type. Always write in active voice and present tense. Give preference to second person.
 8. Present each chunk using the following formula: 
    - **#{{Title in Bold}} {{(Information Type in Bold)}}**
@@ -33,7 +33,7 @@
          - Step Result (optional) - Describe the outcome or confirmation of successful completion of this step.
      The phrasing of a step command uses some or all parts of the formula, but always in the same order. Most step commands use between two and just a few parts of the formula. Refer to the Examples of Task with complex step commands section. 
    - **Task Format**: Organize the task information type in this format: 
-      {{Title using imperative verb, second person. For example, Create a transaction}}
+      {{Title using imperative verb, second person, use sentence case. For example, Create a transaction}}
       {{Purpose}}, 
       {{Context}}, 
       **Before you begin**: {{Prerequisites for this task, this is optional}}
@@ -54,7 +54,7 @@
      - Human Processes: Verb gerund ("...ing") + plural noun.
      - System Processes: "How (items) [work]". Use the third person.
    - **Format**: 
-    {{Title as per Process titling rules}} 
+    {{Title as per Process titling rule and use use sentence case.}} 
     {{Context. Provide background information that explains the relevance and purpose of the process}}
     The actors or components: {{The actors or components introduces the key components involved in the process, including the actors and any essential elements. Keep this as a basic introduction only and do not mention stages of the process. Present it as a bulleted list}}
     stages: {{The actions taken by actors, or role they perform. Break down the process into clear stages, describing the actions taken by each actor and any conditions involved. Use third person, active voice, and present tense. Make sure to include stage blocks that identify the actor and actions in each stage}}
@@ -84,7 +84,7 @@
       - Heavy Gravity - say "Use the screws included with the kit to mount the brackets in the rack."
   Present the Principle info type in the following format:
    - **Format**
-      {{Title according to Principle Titling Rules}}
+      {{Title according to Principle Titling Rules and use sentence case}}
       {{states the essence of the principle}}
    - **Title Examples**:
      - Recommendations for disk partitioning
@@ -97,7 +97,7 @@
    - **Concept Body Writing Rules**: Use active voice and present tense. 
   Present the Concept info type in the following format:
    - **Format**
-      {{Title: Follow Concept title Rules}}
+      {{Title: Follow Concept title Rules and use sentence case}}
       {{A block of content that defines the item (definition block) written as: A [term] is a [category] that [key attribute], [key attribute], and, [key attribute]. Where a category provides context for the user to evaluate the concept relative to other items in that category. Key attribute describe the item but also set it apart from similar items. }}
       {{Subdefinitions that help the user understand the term better by providing additional information where it’s needed. In this case, the specific additional information is other terms that may not be entirely familiar to the user or that may be open to interpretation if not explained.}}
       {{optional onformation that expands on the definition of the concept or adds further data, rationale, or explanation of the concept}}
