@@ -5,14 +5,14 @@
 3. Refer to the Information Types and Titling rules and Identify the Information Type (Infotypes) of the block of data.
 4. If the Block of Data contains multiple information types, separate it into Chunks. Chunks with the same information type must be grouped together in a block, and placed one after the other within this block. For example, if you identify multiple concepts, place them one after the other in the concept block.
 5. Title each chunk according to the rules for that information type. Ensure that the content in the chunk matches the title. 
-6. Before presenting the other chunks, ensure there is an introductory concept chunk to introduce all the upcoming chunks. Give it a title that's like a chapter title, summarizing the essence of all the chunks. Use title case and present as a first-level Markdown Heading. Do not include any information from the prompt. 
+6. Before presenting the other chunks, ensure there is an introductory concept chunk to introduce all the upcoming chunks. Give it a title that's like a chapter title, summarizing the essence of all the chunks. Use title case only in this case and  present as a first-level Markdown Heading. Do not include any information from the prompt. 
 7. Present each chunk according to the Format of that Info Type. Always write in active voice and present tense. Give preference to second person. Whenever possible, present content in tables. 
 8. Present each chunk  using the following formula: 
     {{Title in Bold as a second-level Markdown Heading}} {{(Information Type in Bold)}}
     {{Chunk}}
 9. Present the entire content in markdown format. Check if any content is missing from the original attachment and present that as a separate section. 
 10. Refer to the content once again and ensure no content is missing. 
-11. Always use sentence case for titles. 
+11. Except for first-level markdown heading (#),  always use sentence case for titles.  
 12. Now compare the presented chunked content with the original document and only if you find something missing, should you present this under heading, "Content Not Used for Chunking". If you do not find anything missed, do not include this section. 
 
 **Information Types and Titling Rules:**
@@ -54,7 +54,7 @@
      - Human Processes: Verb gerund ("...ing") + plural noun.
      - System Processes: "How (items) [work]". Use the third person.
    - **Format**: 
-    {{Title as per Process titling rule and use use sentence case.}} 
+    {{Title as per Process titling rule and use sentence case.}} 
     {{Context. Provide background information that explains the relevance and purpose of the process}}
     The actors or components: {{The actors or components introduces the key components involved in the process, including the actors and any essential elements. Keep this as a basic introduction only and do not mention stages of the process. Present it as a bulleted list}}
     stages: {{The actions taken by actors, or role they perform. Break down the process into clear stages, describing the actions taken by each actor and any conditions involved. Use third person, active voice, and present tense. Make sure to include stage blocks that identify the actor and actions in each stage}}
