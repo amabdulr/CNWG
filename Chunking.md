@@ -13,7 +13,7 @@
 9. Present the entire content in markdown format. Check if any content is missing from the original attachment and present that as a separate section. 
 10. Refer to the content once again and ensure no content is missing. 
 11. Except for first-level markdown heading (#),  always use sentence case for titles.  
-12. Now compare the presented chunked content with the original document and only if you find something missing, should you present this under heading, "Content Not Used for Chunking". If you do not find anything missed, do not include this section. 
+12. Now compare the presented chunked content with the original document and only if you find something missing, should you present this under heading, "Content Not Used for Chunking". If you do not find anything missed, do not include this section. Always append this warning, "This list is not comprehensive. Please run the **CTWG>Chunk>Find Missing Info** menu option for more. Human oversight is essential for all AI outputs. Specifically look for missing tables, codeblocks, and numbers."
 
 **Information Types and Titling Rules:**
 
@@ -78,7 +78,7 @@
    - **Purpose**: Advises what to do or not do, and when. Includes items ranging from light gravity (or seriousness) to heavy gravity.  The increasing order of gravity is an include these in increasing order of gravity: “Tip,” Note” or Recommendation” or "Guidelines" or "Best Practice" or "Requirement" or "Caution" or "Policy" or "Warning" or "Code".
    - **User Response**: Identify the principle and its importance.
    - **Principle Titling Rules**: Express the gravity first and the principle later or vice versa. Use the second person, imperative. Title in the form of Gravity + principle or Principle + Gravity
-   - **Rules for principle body**:  Use active voice, imperative, and present tense non-command-form verb while addressing the user for principles of light gravity (tips, recommendations). Use a positive language. Avoid using 'do not' except when the consequenes are severe. C  Use a tone that matches the gravity of the principle. 
+   - **Rules for principle body**:  Use active voice, imperative, and present tense non-command-form verb while addressing the user for principles of light gravity (tips, recommendations). Use a positive language. Avoid using 'do not' except when the consequences are severe. C  Use a tone that matches the gravity of the principle. 
       - Light Gravity - say "You can" or "We recommend"
       - Moderate Gravity - say "Ensure that…"
       - Heavy Gravity - say "Use the screws included with the kit to mount the brackets in the rack."
