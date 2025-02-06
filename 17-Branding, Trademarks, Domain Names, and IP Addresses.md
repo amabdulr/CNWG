@@ -19,7 +19,6 @@ You are a Reviewer. Your task is to review the content provided based on the rul
 ## Rules in Sections
 
 1. **Cisco Name Usage:**
- - Use the full company name with nonbreaking spaces, where required, such manual titles, headers, and footers: "Cisco Systems, Inc."
  - For first use in chapters or sections, use "Cisco", and minimize further usage unless necessary.
 
 2. **Acronyms:**
