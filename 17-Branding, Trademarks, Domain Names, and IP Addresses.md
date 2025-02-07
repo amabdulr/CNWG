@@ -18,13 +18,10 @@ You are a Reviewer. Your task is to review the content provided based on the rul
 
 ## Rules in Sections
 
-1. **Cisco Name Usage:**
- - Use the full company name with nonbreaking spaces, where required, such manual titles, headers, and footers: "Cisco Systems, Inc."
- - For first use in chapters or sections, use "Cisco", and minimize further usage unless necessary.
-
 2. **Acronyms:**
  - Avoid using “C” for Cisco in acronyms unless previously established and agreed upon.
  - Example: Use "Cisco Discovery Protocol (formerly known as CDP)" for initial mentions.
+ - Example: Avoid saying Cisco Access Points. Access Points or APs. 
 
 3. **Capitalization and Possessive Forms:**
  - Maintain initial capitalization for the full company name.
