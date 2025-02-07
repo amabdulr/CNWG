@@ -60,7 +60,4 @@ You are a Reviewer. Your task is to review the content provided based on the rul
       - 2001:DB8:46::/48 for NAT46.
 
 **Notes for Consideration:**
-
-- Verify that no internal project code names appear in public documents.
-- Ensure that Cisco-specific references are minimized in OEM-related content.
-- Confirm that no Cisco part numbers are included in the main text of the document.
+- Confirm that no Cisco part numbers are included in the main text of the document. 
