@@ -59,18 +59,6 @@ You are a Reviewer. Your task is to review the content provided based on the rul
       - 2001:DB8::/96 for NAT64,
       - 2001:DB8:46::/48 for NAT46.
 
-8. **OEM Guidelines:**
- - Use generic references instead of specific Cisco ones when possible.
- - Example: "Contact customer support" instead of "Contact the Cisco Technical Assistance Center."
-
-**Examples for Review:**
-
-- Incorrect: "Cisco IOS 1 x.x"
-Correct: "Cisco IOS Release 1 x.x"
-
-- Incorrect: "AccessPath's shelves"
-Correct: "AccessPath shelves can be configured remotely"
-
 **Notes for Consideration:**
 
 - Verify that no internal project code names appear in public documents.
