@@ -15,9 +15,9 @@
 **Information Types and Titling Rules:**
 
 1. **Task**
-   - **Purpose**: Instructs the user on the step commands to perform a task. Always include a clear action verb in every step command. Ensure you use simple or complex step commands wherever necessary.  
+   - **Purpose**: Instructs the user on the step commands to perform a task. Always include a clear action verb in every step command. Use simple or complex step commands as necessary.  
    - **User Response**: Perform the task successfully by following the step commands.
-   - **Step Command Rules**: Provide a single direction to follow, ensuring it includes a clear action verb. Step commands can be simple or complex. A simple step command consists of an action verb and either an object noun or a prepositional phrase. A complex step command includes the following:
+   - **Step Command Rules**: Provide a single direction to follow, with a clear action verb. Step commands can be simple or complex. A simple step command consists of an action verb and either an object noun or a prepositional phrase. A complex step command includes the following:
          - If-condition: Specify conditions under which the action is taken.
          - Use-modifier: Modify the command for specific scenarios.
          - Adverb: Describe how the action should be performed.
@@ -27,14 +27,14 @@
          - Until-conclusion: Describe when the action should stop.
          - Substeps (optional): Break down larger steps into concise mini-steps. Keep each step to no more than 9 substeps. Use a numbered list. 
          - Additional Information (optional): Include any necessary information to support the step, possibly using if-then conditions.
-         - Step Result (optional) - Describe the outcome or confirmation of successful completion of this step.
+         - Step Result (optional): Describe the outcome or confirmation of successful completion of this step.
      The phrasing of a step command uses some or all parts of the formula, but always in the same order. Most step commands use between two and just a few parts of the formula. Refer to the Examples of Task with complex step commands section. 
    - **Task Format**: Organize the task information type in this format: 
-      {{Title using imperative verb, second person, use sentence case. For example, Create a transaction}}
+      {{Title indicating the purpose of the task, using an imperative verb. Use sentence case. For example, "Create a transaction"}}
       {{Purpose}}, 
       {{Context}}, 
       **Before you begin**: {{Prerequisites for this task, this is optional}}
-      Follow these steps to {{what these step command accomplish. Follow the step command rules. for example. "create a transaction"}}
+      Follow these steps to {{what these step command accomplish. Follow the step command rules. For example, "Create a transaction"}}
       1. {{first step command of this task and any substeps or notes, step result if any}}
       2. {{second step command of this task and any substeps or notes, step result if any}}
       ...{{continue for each step command}}
@@ -49,13 +49,13 @@
    Present the Process info type in the following format:
   - **Process Titling Rules**:
      - Human Processes: Verb gerund ("...ing") + plural noun.
-     - System Processes: "How (items) [work]". Use the third person.
+     - System Processes: "How (items) [work]". Use third-person verbs.
    - **Format**: 
     {{Title as per Process titling rule and use sentence case.}} 
     {{Context. Provide background information that explains the relevance and purpose of the process}}
-    The actors or components: {{The actors or components introduces the key components involved in the process, including the actors and any essential elements. Keep this as a basic introduction only and do not mention stages of the process. Present it as a bulleted list}}
-    stages: {{The actions taken by actors, or role they perform. Break down the process into clear stages, describing the actions taken by each actor and any conditions involved. Use third person, active voice, and present tense. Make sure to include stage blocks that identify the actor and actions in each stage}}
-    result: {{Result: Summarize the outcome or the impact of the process. Provides valuable direction to the reader, that is not obvious from the  title and not captured in another chunk.}}
+    The actors or components: {{The actors or components section introduces the key components involved in the process, including the actors and any essential elements. Keep this as a basic introduction only and do not mention stages of the process. Present it as a bulleted list}}
+    Stages: {{The actions taken by actors, or role they perform. Break down the process into clear stages, describing the actions taken by each actor and any conditions involved. Use verbs in third person, active voice, present tense. Include stage blocks that identify the actor and actions in each stage}}
+    Result: {{Result: Summarize the outcome or the impact of the process. Provides valuable direction to the reader, that is not obvious from the  title and not captured in another chunk.}}
   - **Title Examples**:
      - Processing member applications
      - How jet engines produce power
@@ -72,13 +72,13 @@
    - **Result Example**: “The DHCP process results in the efficient and automated configuration of network devices, ensuring they have the necessary IP addresses and network settings to operate effectively within the network.”
 
 3. **Principle**
-   - **Purpose**: Advises what to do or not do, and when. Includes items ranging from light gravity (or seriousness) to heavy gravity.  The increasing order of gravity is an include these in increasing order of gravity: “Tip,” Note” or Recommendation” or "Guidelines" or "Best Practice" or "Requirement" or "Caution" or "Policy" or "Warning" or "Code".
+   - **Purpose**: Advises what to do or not do, and when. In this context "gravity" means seriousness. A principle can address issues ranging from light gravity to heavy gravity.  The increasing order of gravity can include these in increasing order of gravity: "Tip" or "Note" or "Recommendation" or "Guidelines" or "Best Practice" or "Requirement" or "Caution" or "Policy" or "Warning" or "Code".
    - **User Response**: Identify the principle and its importance.
-   - **Principle Titling Rules**: Express the gravity first and the principle later or vice versa. Use the second person, imperative. Title in the form of Gravity + principle or Principle + Gravity
+   - **Principle Titling Rules**: Express the gravity first and the principle later or vice versa. Use imperative verbs. Title in the form of Gravity + principle or Principle + Gravity
    - **Rules for principle body**:  Use active voice, imperative, and present tense non-command-form verb while addressing the user for principles of light gravity (tips, recommendations). Use a positive language. Avoid using 'do not' except when the consequences are severe. C  Use a tone that matches the gravity of the principle. 
       - Light Gravity - say "You can" or "We recommend"
       - Moderate Gravity - say "Ensure that…"
-      - Heavy Gravity - say "Use the screws included with the kit to mount the brackets in the rack."
+      - Heavy Gravity - Use a direct, imperative-form verb. For example, "Use the screws included with the kit to mount the brackets in the rack."
   Present the Principle info type in the following format:
    - **Format**
       {{Title according to Principle Titling Rules and use sentence case}}
@@ -124,7 +124,7 @@
 - **Reference Example**
 Title: Routed PON solution
 Body:
-  - Advantages of routed PON solution
+  - Advantages of the routed PON solution
   - The routed PON solution enhances network efficiency and lowers costs by offering a streamlined infrastructure that:
     - eliminates third-party hardware for OLTs which streamlines infrastructure and reduces vendor dependency,
     - simplifies deployment and upgrades through the PON Manager, offering centralized management, and
@@ -134,11 +134,11 @@ Body:
 - **Task Example**
 Title: Configure the NetFlow version 9 protocol
 Body:
-To monitor traffic, you must configure one or more Flow Exporter, associate it to a Flow Monitor Flow Monitor, and enable NetFlow on the interface either in egress or ingress direction. Optionally, you can configure a Flow Sampler to set the sampling rate for flow samples.
+To monitor traffic, configure one or more Flow Exporters, associate them to Flow Monitor Flow Monitors, and enable NetFlow on the interface either in the egress or ingress direction. Optionally, you can configure a Flow Sampler to set the sampling rate for flow samples.
 
 Before you begin: 
 
-First, let us gather the required details to enable NetFlow on a router:
+Gather the required details to enable NetFlow on a router:
   Procedure:
     1. Configure a Flow Exporter  to specify where and how the packets should be exported.
     2. Create a Flow Monitor  with the flow monitor-map command to define the type of traffic to be monitored. You can include one or more exporter maps in the monitor map. A single flow monitor map can support up to eight exporters.
@@ -150,26 +150,19 @@ What to do next: You can now analyse the exported data using a NetFlow Analyser.
 '''
 - **Examples of Task with complex step commands**
 Examples of various types of complex step commands
-      Command statement with If condition
-      • <if-condition>If you’re configuring an IPv6 URL, <action>define a hostname-to address <use
-      modifier>using the domain ipv6 host command.
-      Command with Use modifier
-      • <use modifier>Use the sampler-map command to <action>configure a Flow Sampler <purpose>to
-      define the rate at which the packet sampling should be performed at the interface where NetFlow is
-      enabled.
-      • <use modifier>Use screws provided <prepositional phase>with the rack <purpose>to secure the
-      chassis with the vertical mounting rails on the rack.
-      Command with Action verb
-      • <action>Configure a Flow Exporter <purpose>to specify where and how the packets should be
-      exported.
+    - Command statement with If condition
+      • <if-condition>If you’re configuring an IPv6 URL, <action>define a hostname-to address <use modifier>using the domain ipv6 host command.
+    - Command with Use modifier
+      • <use modifier>Use the sampler-map command to <action>configure a Flow Sampler <purpose>to define the rate at which the packet sampling should be performed at the interface where NetFlow is enabled.
+      • <use modifier>Use screws provided <prepositional phase>with the rack <purpose>to secure the chassis with the vertical mounting rails on the rack.
+    - Command with Action verb
+      • <action>Configure a Flow Exporter <purpose>to specify where and how the packets should be exported.
       • <action>Run the show access-lists ipv4 command<purpose> to verify the ACL creation.
       • <action>Configure the SSH trust point <prepositional phase>for server authentication
-      Command with Prepositional Phrase
-      • <use modifier>Use the flow command <action>to apply a Flow Monitor Map and a Flow Sampler
-      <prepositional phase>on a physical interface.
-      • <action>Create a Flow Monitor <prepositional phase>with the flow monitor-map command to
-      define the type of traffic to be monitored.
-      Command with Adverb
+    - Command with Prepositional Phrase
+      • <use modifier>Use the flow command <action>to apply a Flow Monitor Map and a Flow Sampler <prepositional phase>on a physical interface.
+      • <action>Create a Flow Monitor <prepositional phase>with the flow monitor-map command to define the type of traffic to be monitored.
+    - Command with Adverb
       • Carefully move the chassis from the pallet onto the lifting device.
 
 - **Concept Example**
@@ -189,10 +182,10 @@ Key features of Smart Licensing Using Policy:
 - **Process Example**
 TItle: How DHCP servers work
 Body:
-In modern IP networks, network devices need unique IP addresses and other network configuration parameters to communicate effectively. Manually configuring these settings for each device can be time-consuming and error-prone, especially.
+In modern IP networks, network devices need unique IP addresses and other network configuration parameters to communicate effectively. Manually configuring these settings for each device can be time-consuming and error-prone.
   
 The key components that are involved in the DHCP process are:
-- **DHCP Server**: The entity that manages the allocation of IP addresses and other network configuration parameters to DHCP clients. It listens to DHCP requests and responds with the necessary information.
+- **DHCP Server**: The entity that manages the allocation of IP addresses and other network configuration parameters to DHCP clients. It receives DHCP requests and responds with the necessary information.
 - **DHCP Client**: A device (such as a computer, smartphone, or printer) that requests network configuration information from a DHCP server to join the network.
 - **DHCP Relay Agent**: A network device that forwards DHCP messages between clients and servers when they are not on the same physical subnet.
   
