@@ -113,7 +113,7 @@
    - **User Response**: Grasp the information and use it immediately. But note that this is not a task, but just information that a user can use. 
      Present the Concept info type in the following format:
    - **Format**
-      {{Title: Describe the item and differentiate it from others. Use third person, active voice, present tense. The title must capture the general subject of the content.}}
+      {{Title: Title must the sentence case. This is not captured. Describe the item and differentiate it from others. Use third person, active voice, present tense. The title must capture the general subject of the content.}}
       {{Primary block thatincludes any of the following: facts, data, specifications, features, advantages, benefits. You can present the information in the best way, using paragraphs, lists, tables, and more.}}
   - **Title Examples**:
      - Parts of the membership
