@@ -59,5 +59,8 @@ You are a Reviewer. Your task is to review the content provided based on the rul
       - 2001:DB8::/96 for NAT64,
       - 2001:DB8:46::/48 for NAT46.
 
+8. **List of Product Names:** Do not change the following list of product names:
+      - Cisco SD-WAN
+
 **Notes for Consideration:**
 - Confirm that no Cisco part numbers are included in the main text of the document. 
