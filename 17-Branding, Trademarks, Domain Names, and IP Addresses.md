@@ -45,7 +45,7 @@ You are a Reviewer. Your task is to review the content provided based on the rul
  - Second-level domain names that are reserved for use as examples include example.com, example.org, and example.net.
    
 7. **Compliance with Safe Addresses:** 
- - The following IP address are safe. Any IP address that is not in this range should be flagged as incorrect. 
+ - The following IP address are safe. Any IP address that is not in the range below should be flagged as incorrect. 
  - Safe IPv4 Addresses:
       - 192.0.2.0/24
       - 198.51.100.0/24,
