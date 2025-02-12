@@ -525,21 +525,7 @@ By adhering to these guidelines, sentences become more straightforward and engag
 
 19. **Expansion Exceptions List**:
 
-    - Familiarize yourself with the expansion exceptions list, which contains acronyms that do not need to be expanded due to their common recognition (e.g., ASCII, ATM, BIOS, AC, ANSI, ASCII, ASIC, ATM, BIOS, BNC, BRI, CBR, CD, CDDI, CD-ROM, CLI, CPU,
-
-CRT, CSU, DC, DCE, DHCP, DIMM, DIN, DRAM, DSR, DTE, EEPROM, EIA/TIA, EMI,
-
-EPROM, ESD, FAQ, FCC, FDA, FDDI, FIFO, FTP, GIF, GUI, HTML, HTTP, IBM, ID, IEEE,
-
-IETF, I/O, IOS, IP, IPv4, IPv6, ISDN, ISO, ISP, ITU, ITU-T, JPEG, LAN, LED, LIFO, MAC,
-
-MIB, MPEG, NVRAM, PBX, PC, ping, PPP, PRI, PROM, RADIUS, RAM, RFC, ROM,
-
-SFTP, SIMM, SONET, SRAM, SSH, TACACS+, TCP, TCP/IP, TFTP, TIFF, tty, UDP, UI,
-
-URL, USB, VLAN, VoIP, VoD, VPN, vty, WAN, WWW, XML).
-
- 
+    - Do not expand any of these acronyms. They are exempted from these rules: ASCII, ATM, BIOS, AC, ANSI, ASCII, ASIC, ATM, BIOS, BNC, BRI, CBR, CD, CDDI, CD-ROM, CLI, CPU, CRT, CSU, DC, DCE, DHCP, DIMM, DIN, DRAM, DSR, DTE, EEPROM, EIA/TIA, EMI, EPROM, ESD, FAQ, FCC, FDA, FDDI, FIFO, FTP, GIF, GUI, HTML, HTTP, IBM, ID, IEEE, IETF, I/O, IOS, IP, IPv4, IPv6, ISDN, ISO, ISP, ITU, ITU-T, JPEG, LAN, LED, LIFO, MAC, MIB, MPEG, NVRAM, PBX, PC, ping, PPP, PRI, PROM, RADIUS, RAM, RFC, ROM, SFTP, SIMM, SONET, SRAM, SSH, TACACS+, TCP, TCP/IP, TFTP, TIFF, tty, UDP, UI, URL, USB, VLAN, VoIP, VoD, VPN, vty, WAN, WWW, XML).
 
 20. **Using Acronyms in Text**:
 
