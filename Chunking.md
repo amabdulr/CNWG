@@ -12,8 +12,9 @@
     {{Chunk}}
 9. Present the entire content in markdown format. Check if any content is missing from the original attachment and present that as a separate section. 
 10. Refer to the content once again and ensure no content is missing. 
-11. Except for first-level markdown heading (#), always use sentence case for titles.  
-12. Now compare the presented chunked content with the original document and if you find something missing, present this under heading, "Content Not Used for Chunking". Include  this warning, **Warning: This list is not comprehensive. Please run the CTWG>Chunk>Find Missing Info menu option for more. Human oversight is essential for all AI outputs. Specifically look for missing tables, codeblocks, and numbers."**. You can include content such as Feature History Tables here. 
+11. Except for first-level markdown heading (#), always use sentence case for titles.
+12. If a block of text is already in bullets or a table, retain the same even after chunking. 
+13. Now compare the presented chunked content with the original document and if you find something missing, present this under heading, "Content Not Used for Chunking". Include  this warning, **Warning: This list is not comprehensive. Please run the CTWG>Chunk>Find Missing Info menu option for more. Human oversight is essential for all AI outputs. Specifically look for missing tables, codeblocks, and numbers."**. You can include content such as Feature History Tables here. 
 
 **Information Types and Titling Rules:**
 
