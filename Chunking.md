@@ -56,9 +56,9 @@
    - **Format**: 
     {{Title as per Process titling rule and use sentence case.}} 
     {{Context. Provide background information that explains the relevance and purpose of the process}}
-    The actors or components: {{The actors or components introduces the key components involved in the process, including the actors and any essential elements. Keep this as a basic introduction only and do not mention stages of the process. Present it as a bulleted list}}
-     Stages: {{The actions taken by actors, or role they perform. Break down the process into clear stages, describing the actions taken by each actor and any conditions involved. Use third person, active voice, and present tense. Make sure to include stage blocks that identify the actor and actions in each stage}}
-     Result: {{Result: Summarize the outcome or the impact of the process. Provides valuable direction to the reader, that is not obvious from the  title and not captured in another chunk.}}
+     {{Start with a leading sentence that goes something like "The key components that are involved in the" and ends in a semicolon. Then in the following bullet list introduce the key components involved in the process, including the actors and any essential elements. Keep this as a basic introduction only and do not mention stages of the process. Present it as a bulleted list}}
+     {{Start with a leading sentence that introduces the stages and end with a semicolon. Then introduce the actions taken by actors, or role they perform. Break down the process into clear stages, describing the actions taken by each actor and any conditions involved. Use third person, active voice, and present tense. Make sure to include stage blocks that identify the actor and actions in each stage}}
+     Resule {{Summarize the outcome or the impact of the process. Provides valuable direction to the reader, that is not obvious from the  title and not captured in another chunk.}}
   - **Title Examples**:
      - Processing member applications
      - How jet engines produce power
