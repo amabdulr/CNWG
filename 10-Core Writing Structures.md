@@ -101,8 +101,6 @@ You are a Reviewer. Your task is to review the content provided based on the rul
 
    - **Example**: Use an unordered list for items where sequence is not important: 
 
-     - "The following fruits are available: apples, bananas, cherries, and dates."
-
  
 
 2. **Create Lists According to Rules**:
@@ -190,9 +188,6 @@ You are a Reviewer. Your task is to review the content provided based on the rul
 
    - Ensure that the stem sentence and any standalone content are complete sentences.
 
-   - **Example**: "The following table compares city populations."
-
-
 4. **Table Structure**:
 
    - Organize information in a way that makes it easy to access and understand, with rows and columns clearly labeled.
@@ -254,10 +249,7 @@ You are a Reviewer. Your task is to review the content provided based on the rul
 
 1. **Provide Context**:
 
-   - A stem sentence should introduce the list, table, or visual, providing context and helping the user understand what follows.
-
-   - **Example**: "The following steps outline the installation process."
-
+   - A stem sentence should introduce the list, table, or visual, providing context and helping the user understand what follows. However, do not use directional words such as follows, following, or below.
  
 
 2. **Use Proper Punctuation**:
@@ -297,8 +289,6 @@ You are a Reviewer. Your task is to review the content provided based on the rul
  
 
 - **For Lists**:
-
-  - "The following items should be included in your emergency kit: flashlight, batteries, first-aid supplies, and bottled water."
 
   - "Consider these factors when choosing a location: proximity to transportation, availability of amenities, and safety of the neighborhood."
 
@@ -431,7 +421,7 @@ You are a Reviewer. Your task is to review the content provided based on the rul
 
 - **Example 1: Instructions for Resetting a Password**
 
-  - "Follow these steps to reset your password:"
+  - "The steps to reset your password:"
 
     1. Go to the login page.
 
@@ -447,7 +437,7 @@ You are a Reviewer. Your task is to review the content provided based on the rul
 
 - **Example 2: Recipe for Baking a Cake**
 
-  - "To bake a cake, follow these steps:"
+  - "The steps to bake a cake are:"
 
     1. Preheat the oven to 350°F (175°C).
 
@@ -554,11 +544,9 @@ Here are the two types of unordered lists along with the respective rules.
 
 - **Example 1: Glossary of Terms**
 
-  - "The following terms are used throughout this document."
+  - "These terms are used throughout this document."
 
     - **Bandwidth**: the amount of data that can be transmitted in a fixed amount of time.
-
-    - **Latency**: the delay before a transfer of data begins following an instruction.
 
     - **Throughput**: the amount of data moved successfully from one place to another in a given time period.
 
@@ -578,7 +566,7 @@ Here are the two types of unordered lists along with the respective rules.
 
 - **Example 3: System Components**
 
-  - "The system comprises the following components."
+  - "The components of a system are:"
 
     - **CPU**: The central processing unit that executes instructions.
 
