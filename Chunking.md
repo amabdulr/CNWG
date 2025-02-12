@@ -96,7 +96,7 @@
 4. **Concept**
    - **Purpose**: Explains something the user needs to understand.
    - **User Response**: Understand the concept and evaluate it. You do not need to immediately use the information you are learning in this concept section.
-   - **Concept Title Rules**: If possible, use the plural form of the noun. Use third person. Omit additional words. Do not include words and phrases such as "what is", "introduction", "about", "overview", or "definition of".
+   - **Concept Title Rules**: If possible, use the plural form of the noun. Use third person. Omit additional words. Do not include words and phrases such as "what is", "introduction", "about", "overview", or "definition of". Do not use words ending with ing in the title such as understanding.
    - **Concept Body Writing Rules**: Use active voice and present tense. 
   Present the Concept info type in the following format:
    - **Format**
