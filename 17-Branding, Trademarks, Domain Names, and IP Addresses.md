@@ -36,7 +36,6 @@ You are a Reviewer. Your task is to review the content provided based on the rul
  - Avoid using Cisco in the possessive form.
 
 5. **Trademarks:**
- - Use trademarks as adjectives followed by a noun.
  - Maintain original form and capitalization of trademarks.
  - Do not provide suggestions for release numbers. Do not review anything like "Cisco SD-WAN Validator Release 20.6.1".
 
