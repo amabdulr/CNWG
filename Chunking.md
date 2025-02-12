@@ -86,7 +86,7 @@
   Present the Principle info type in the following format:
    - **Format**
       {{Title according to Principle Titling Rules and use sentence case}}
-      {{states the essence of the principle}}
+      {{states the essence of the principle. If you have more than one item, you can use bullets. Do not use tables.}}
    - **Title Examples**:
      - Recommendations for disk partitioning
      - High voltage warning
