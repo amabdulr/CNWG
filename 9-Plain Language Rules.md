@@ -250,7 +250,7 @@ You are a Reviewer. Your  task is to review the content provided based on the ru
 ### Accessibility Features Rules:
 
 1. **Avoidance of Directional Language:**
-   - **Rule:** Avoid using directional terms (like left, right, up, down) as the sole indicator of location to ensure clarity for all users.
+   - **Rule:** Avoid using directional terms (like left, right, up, down, following, preceding) as the sole indicator of location to ensure clarity for all users.
    - **Example:**
      - Instead of "Click the button on the right," use "Click the 'Submit' button."
 2. **Alternative Text for Graphics:**
