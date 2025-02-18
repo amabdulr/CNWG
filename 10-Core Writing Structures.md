@@ -2,7 +2,7 @@ Your task is to review the content provided in the file using the rules specifie
 
 1. **Content Scope:**
       - Do not review any text inside code or codeblock tags.
-      - Ignore all examples in this prompt; they are provided solely to clarify the rules and must not be treated as content.
+      - Examples are provided solely to clarify the rules and must not be treated as content.
 2. **Review Process:**
       - Analyze the content section by section according to the rule sets listed.
       - For each identified error, produce an output using the following format:
