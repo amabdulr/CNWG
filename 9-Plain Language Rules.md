@@ -55,19 +55,19 @@ Your task is to review the content provided in the file (such as chunked.md) usi
    - Is there a clear purpose that guides the user on what actions to take?
 3. **Clarity and Directness:**
    - Are sentences directed to the user using the second person? 
-   - Example: Instead of "All agents must complete the form," use "You must complete the form."
+   - Example for Clarification (Do not Analyze): Instead of "All agents must complete the form," use "You must complete the form."
 4. **Positive Language:**
    - Does the document focus on what the user should do rather than what they should not do?
-   - Example: Instead of "Do not press the red button," use "Press the green button to proceed."
+   - Example for Clarification (Do not Analyze): Instead of "Do not press the red button," use "Press the green button to proceed."
 5. **Structure and Organization:**
    - Is the content broken into manageable chunks with clear, useful titles?
    - Does the structure follow a logical hierarchy that aids in user navigation?
 6. **Gender-Neutral Language:**
    - Are gender-neutral pronouns like "they" used instead of "he/she"?
-   - Example: Instead of "based on the SLA he has signed," use "based on the customer's SLA."
+   - Example for Clarification (Do not Analyze): Instead of "based on the SLA he has signed," use "based on the customer's SLA."
 7. **Active Voice:**
    - Are active voice constructions used to make actions clear?
-   - Example: Instead of "The system is upgraded by the user," use "You upgrade the system."
+   - Example for Clarification (Do not Analyze): Instead of "The system is upgraded by the user," use "You upgrade the system."
 8. **Simplicity and Conciseness:**
    - Are sentences kept to 20 words or fewer?
    - Is unnecessary content eliminated to maintain focus?
@@ -77,7 +77,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
     - Are accessibility features described, and is the content accessible to users with disabilities?
 11. **Bias-Free Language:**
     - Is the language free of bias regarding race, gender, age, etc.?
-#### Examples for Review:**
+#### Example for Clarification (Do not Analyze):**
     - **Incorrect:** "The project management tool can arguably help improve efficiency by leveraging cutting-edge technologies."
     - **Correct:** "Use the project management tool to improve efficiency with advanced technology."
     
@@ -105,7 +105,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
    - Is the title concise while still being descriptive?
 7. **Action-Oriented (if applicable):**
    - For procedural content, does the title indicate an action or outcome?
-   - Example: Use "Configuring Network Settings" instead of just "Network Settings."
+   - Example for Clarification (Do not Analyze): Use "Configuring Network Settings" instead of just "Network Settings."
 
 **Examples for Clarification (Do Not Analyze):**
 - **Incorrect:** "Limitations"
@@ -137,7 +137,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
 5. **Imperative Mood for Instructions:**
    - Are instructions written in the imperative mood to directly address the user?
-   - Example: Use "Complete the form" instead of "You should complete the form."
+   - Example for Clarification (Do not Analyze): Use "Complete the form" instead of "You should complete the form."
 
 
 6. **Avoidance of Unnecessary Complexity:**
@@ -166,22 +166,22 @@ Your task is to review the content provided in the file (such as chunked.md) usi
     - **Correct:** Features categorized into 'Hardware Support', 'Software Features', and 'User Interface'.
 2. **Clarity and Purpose:**
    - Ensure each list, table, or visual has a clear purpose and contributes to understanding the content.
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
      - **List Purpose:** "Components required for installation."
      - **Table Purpose:** "Comparison of product specifications."
 3. **Useful Titles:**
    - **Rule:** Provide a descriptive and useful title for every list, table, and visual.
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
   - **Incorrect:** "Table 1".
     - **Correct:** "Comparison of Router Specifications"
 4. **Simplicity and Conciseness:**
    - **Rule:** Avoid overloading lists and tables with long paragraphs of text. Use concise bullet points or entries.
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
      - **Incorrect**: "The list of features includes a variety of different options that allow for enhanced performance, increased reliability, and better user experience."
      - **Correct:** "- Enhanced performance\n- Increased reliability\n- Improved user experience"
 6. **Consistency:**
    - **Rule:** Maintain consistent formatting and style across all lists, tables, and visuals to ensure a professional appearance.
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
      - **Correct**: All tables use the same column headings style and font size.
  
 
@@ -189,27 +189,27 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
 1. **Sentence Length:**
    - **Rule:** Keep sentences to 20 words or fewer to ensure they are easy to read and understand.
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
      - Long (incorrect): "The new software update, which includes several important features designed to improve system performance and user experience, should be installed by all users at the earliest convenience."
      - Short (correct): "Install the new software update to improve system performance and user experience."
 2. **Direct Verbs and Action:**
    - **Rule:** Use direct verbs to emphasize the action and focus on one main idea per sentence.
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
      - Indirect (incorrect): "To address this issue the recommendation is to deploy MACsec in should secure mode and once all the links are up then change the security mode to must secure."
      - Short (correct): "Deploy MACsec in should secure mode. Change to must secure once all links are up."
 3. **Section Length:**
    - **Rule:** Break content into short sections, each covering a single topic or idea, to improve focus and readability.
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
      - Long Section (incorrect): A single section covering installation, configuration, and troubleshooting.
      - Short Sections (correct): Separate sections for "Installation Steps," "Configuration Guidelines," and "Troubleshooting Tips."
 4. **Avoid Roundabout Construction:**
    - **Rule:** Use straightforward language and structure to avoid complex, roundabout constructions. Place words in the format [subject] [verb] [object] with as little between them as possible. Intervening modifiers, phrases, and clauses confuse the message and increase reading time while lowering comprehension. The intervening phrases may be a single word or numerous words. Examples include items such as Only, Just, As requested by Including, but not limited to.
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
      - Roundabout (incorrect): "In order to be able to complete the task, it is necessary to first gather all the required materials."
      - Straightforward (correct): "Gather all required materials to complete the task."
 5. **Focus on User Needs:**
    - **Rule:** Write only what the user needs, removing any unnecessary information that could distract or overwhelm.
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
      - Unnecessary: "This feature, which was first introduced in the 2020 update, allows users to..."
      - Necessary: "This feature allows users to..."
 
@@ -219,27 +219,27 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
 1. **Eliminate Redundancy:**
    - **Rule:** Remove redundant phrases and words that do not add value to the content.
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
      - Redundant: "The software update is absolutely essential and necessary for optimal performance."
      - Concise: "The software update is essential for optimal performance."
 2. **Use Direct Verbs:**
    - **Rule:** Replace roundabout verbs and phrases with direct verbs to simplify sentences.
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
      - Indirect: "The process of changing the settings can be facilitated by accessing the control panel."
      - Direct: "Change the settings through the control panel."
 3. **Avoid Filler Words:**
    - **Rule:** Remove filler words that do not contribute to the sentence’s meaning.
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
      - With Fillers: "In order to successfully complete the installation, you will need to follow the instructions carefully."
      - Without Fillers: "Follow the instructions to complete the installation."
 4. **Simplify Phrases:**
    - **Rule:** Use simpler alternatives for complex phrases where possible.
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
      - Complex: "Utilize the application to facilitate data entry and management processes."
      - Simple: "Use the application for data entry and management."
 5. **Focus on Essential Information:**
    - **Rule:** Write only what the user needs, omitting "nice-to-have" content that distracts from the main message.
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
      - Non-Essential: "It's important to note that the previous versions of the software lacked this feature, which has now been added."
      - Essential: "The new version includes this feature."
 
@@ -251,59 +251,59 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
 1. **Avoidance of Directional Language:**
    - **Rule:** Avoid using directional terms (like left, right, up, down, following, preceding) as the sole indicator of location to ensure clarity for all users.
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
      - Instead of "Click the button on the right," use "Click the 'Submit' button."
 2. **Alternative Text for Graphics:**
    - **Rule:** Provide alternative text for all graphics to ensure users who cannot see them still understand the content.
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
      - For an image of a network diagram, include alt text such as "Diagram of network topology showing connections between routers and servers."
 
 
 ### Bias-Free Documentation:
 1. **Gender-Neutral Language:**
    - **Rule:** Use gender-neutral pronouns and terms. Avoid gender-specific pronouns unless necessary.
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
      - Instead of "Each user should update his profile," use "Each user should update their profile."
 2. **Cultural and Racial Sensitivity:**
    - **Rule:** Avoid terms that may show bias regarding race or culture. Use terms that are inclusive and respectful of all backgrounds.
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
      - Instead of "Blacklist," use "Blocked list."
      - Instead of "Whitelist," use "Allowed list."
      - Instead of “master” use “active,” or “primary”. 
      - Instead of “slave,” use "Secondary”, “standby”, “subordinate”, “subsidiary."
 3. **Avoiding Stereotypes:**
    - **Rule:** Do not include stereotypes or assumptions about abilities, interests, or roles based on identity or background.
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
      - Avoid: "As a developer, he naturally enjoys solving puzzles."
      - Use: "Developers often enjoy solving puzzles."
 4. **Disability Awareness:**
    - **Rule:** Use language that acknowledges people with disabilities respectfully and accurately.
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
      - Instead of "blind customers," use "customers who are blind."
 5. **Inclusive Language for Sexual Orientation and Gender Identity:**
    - **Rule:** Use language that respects different sexual orientations and gender identities.
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
      - Instead of "husband/wife," use "spouse" or "partner."
 6. **Use of Diverse Examples:**
    - **Rule:** Use diverse names and scenarios in examples to reflect different cultural backgrounds.
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
      - Use names like "Yuvika calls Brett using Webex" to reflect diversity.
 7. **Avoidance of Offensive Terms:**
    - **Rule:** Ensure no language or imagery is offensive or suggestive.
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
      - Avoid terms like "master/slave" in technical contexts, use "primary/secondary" instead.
 
  
 ### Foreign Words:
 1. **Identification of Foreign Words:**
    - **Rule:** Identify foreign words and phrases that may not be universally understood by the document's audience.
-   - **Example Foreign Words:**
+   - **Example Foreign Words for clarification (Do not Analyze):**
      - "Etc."
      - "E.g."
      - "I.e."
 2. **Provide English Equivalents:**
    - **Rule:** Replace foreign words with their English equivalents to enhance understanding.
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
      - Foreign: "e.g."
      - English: "for example"
      - Foreign: "i.e."
@@ -311,16 +311,16 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
 3. **Avoid Abbreviations of Foreign Phrases:**
    - **Rule:** Avoid using abbreviations of foreign phrases as they may be confusing, especially for non-native English speakers.
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
      - Instead of "etc.," use "and so on."
 4. **Consider Audience Understanding:**
    - **Rule:** Ensure that any necessary use of foreign words is accompanied by an explanation or definition, considering the audience's potential familiarity with the terms.
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
      - If using a term like "bona fide," provide context or a definition like "genuine or real."
 
 5. **Focus on Clarity:**
    - **Rule:** Use language that enhances clarity and avoids potential misunderstandings due to unfamiliarity with foreign terminology.
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
      - Foreign: "per annum"
      - Clear: "per year"
 
@@ -336,7 +336,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Identify instances where human traits, motivations, or emotions are attributed to technology or inanimate objects.
 
-   - **Examples of Anthropomorphisms:**
+   - **Examples of Anthropomorphisms for clarification (Do not analyze):**
 
      - "The system wants to update."
 
@@ -350,7 +350,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Replace anthropomorphic language with precise technical descriptions of the system’s actions.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Anthropomorphic: "The software is interested in your location."
 
@@ -362,7 +362,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Clearly describe what the technology does using objective language that specifies actions and processes.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Anthropomorphic: "The device remembers your settings."
 
@@ -374,7 +374,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Describe actions from the perspective of user interaction and system functionality rather than implied intentions or desires.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Anthropomorphic: "The printer is thinking about the task."
 
@@ -386,7 +386,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Ensure descriptions are technically accurate and convey the correct operation or feature of the technology.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Anthropomorphic: "The algorithm wants to learn from the data."
 
@@ -402,7 +402,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Always include the protocol (e.g., "http://", "https://") at the beginning of a URL.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Correct: "https://www.example.com"
 
@@ -414,7 +414,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Verify that all URLs are live and direct users to the intended web pages. Ensure they are up-to-date and functioning correctly.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Before inclusion, check that "https://www.example.com" leads to the correct page.
 
@@ -424,7 +424,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Include URLs in running text or place them on a separate line with an introductory phrase.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - In-text: "Visit our website at https://www.example.com for more information."
 
@@ -436,7 +436,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Break long URLs into smaller parts if necessary, following specific guidelines, without inserting hyphens.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Break after a slash or before a period, but not after a hyphen.
 
@@ -446,7 +446,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Do not include URLs to internal or non-relevant external sites that may imply endorsement.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Avoid linking to internal corporate sites like "wwwin.cisco.com" or external sites unrelated to the content.
 
@@ -456,7 +456,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Where possible, use descriptive text or anchor text instead of displaying the raw URL.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Anchor text: "For more details, visit our [product page](https://www.example.com)."
 
@@ -466,7 +466,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Obtain permission from the legal department if linking to external sites other than for software downloads required for using a Cisco product.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Allowed: Linking to an open-source software page for necessary downloads.
 
@@ -476,7 +476,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Ensure all website references direct users to accurate and current web pages. Verify the URLs for correctness and accessibility.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Check that "https://www.example.com" is accurate and leads to the intended information.
 
@@ -486,7 +486,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Do not include references to internal intranet sites or resources that are inaccessible to the general public.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Incorrect: Including "wwwin.cisco.com" as a resource.
 
@@ -496,7 +496,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Do not link to external websites that may imply endorsement or affiliation unless necessary.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Avoid: Linking to unrelated third-party commercial sites.
 
@@ -506,7 +506,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** When referencing an external resource, describe it without providing a direct link unless it is essential for the user.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Correct: "Refer to the VMware Hardware Compatibility Guide on the VMware website."
 
@@ -518,7 +518,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Obtain permission from the legal department if linking to external sites outside of necessary software downloads.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Permissible: Including a link to a required open-source download page after obtaining permissions.
 
@@ -528,7 +528,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Use descriptive text for website references to provide context and clarity.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - "For installation guidelines, visit the [Cisco Support Page](https://www.cisco.com/support)."
 
@@ -538,7 +538,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Clearly state the purpose of the website reference and what the reader can expect to find there.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - "Visit the Cisco documentation site for comprehensive setup instructions."
 
@@ -550,7 +550,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Look for phrases where it is unclear which noun a modifier is describing. These can lead to misunderstandings.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Ambiguous: "He gave the book to the student with a smile."
 
@@ -562,7 +562,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Place modifiers next to the word or phrase they are intended to modify to eliminate ambiguity.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Ambiguous: "The manager approved the new policy quickly."
 
@@ -574,7 +574,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Break down complex modifier strings into simpler phrases to improve clarity.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Ambiguous: "New Cisco virtual private network session counting software."
 
@@ -586,7 +586,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Avoid using too many modifiers for a single noun, which can create confusion.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Ambiguous: "Fast accurate data processing system."
 
@@ -608,7 +608,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Look for words that can serve as different parts of speech or have various definitions. Ensure their meaning is clear in context.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Ambiguous: "The bark was loud."
 
@@ -620,7 +620,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Provide sufficient context to make the intended meaning of the word clear.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Ambiguous: "Set the table."
 
@@ -632,7 +632,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Use a word consistently for one meaning within a particular context or section to avoid confusion.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Ambiguous: "The bank was steep."
 
@@ -644,7 +644,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Avoid using words with multiple meanings in complex sentences where their role might become unclear.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Ambiguous: "He left the leaves on the table."
 
@@ -656,7 +656,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** If a word with multiple meanings might confuse readers, provide a brief definition or explanation.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Clarified: "The seal, a marine mammal, was spotted near the shore."
 
@@ -671,7 +671,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Look for instances where conjunctions like "and" or "or" create ambiguity regarding which elements they are connecting.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Ambiguous: "The package includes a manual and software updates and support."
 
@@ -683,7 +683,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Ensure elements joined by conjunctions are parallel in structure to clarify their relationship.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Ambiguous: "She likes reading, movies, and to jog."
 
@@ -695,7 +695,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Use commas or semicolons to clarify which items are grouped together, especially in lists.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Ambiguous: "He will invite John, a friend, and a teacher."
 
@@ -707,7 +707,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Add words to clarify the meaning of conjunctions when multiple interpretations are possible.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Ambiguous: "Choose the red or blue shirt and pants."
 
@@ -719,7 +719,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Break down complex sentences with multiple conjunctions into simpler sentences to enhance clarity.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Ambiguous: "He said he would call, and he didn't."
 
@@ -737,7 +737,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Look for nouns used as adjectives that could imply either a singular or plural form, causing potential confusion.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Ambiguous: "The switch and router settings."
 
@@ -749,7 +749,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Specify whether nouns are singular or plural to provide clarity to the reader.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Ambiguous: "The engineer and manager approval."
 
@@ -761,7 +761,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Use plural forms consistently when referring to multiple items to avoid misunderstanding.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Ambiguous: "Server and database connections."
 
@@ -773,7 +773,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Ensure that compound nouns are clearly separated to indicate singular or plural forms.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Ambiguous: "Network and security configuration."
 
@@ -785,7 +785,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Offer additional context if necessary to clarify whether singular or plural is intended.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Ambiguous: "Student and teacher interaction."
 
@@ -805,7 +805,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Look for introductory phrases or clauses that do not clearly and logically modify a specific noun or subject in the main clause.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Dangling: "After reading the manual, the software was easy to install."
 
@@ -817,7 +817,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Ensure that the subject of the main clause is what the modifier is intended to describe.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Dangling: "Walking through the park, the flowers were beautiful."
 
@@ -829,7 +829,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Rephrase sentences to clearly indicate the subject that the modifier is intended to modify.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Dangling: "To improve efficiency, the report was revised."
 
@@ -841,7 +841,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Ensure that the introductory phrase or clause has a clear, explicit subject in the main clause.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Dangling: "While driving to work, the traffic was heavy."
 
@@ -853,7 +853,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Place the modifier close to the word it is intended to modify to avoid confusion.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Dangling: "Covered in chocolate, the children ate the strawberries."
 
@@ -869,7 +869,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Look for sentences where "that" is omitted, potentially leading to confusion or misinterpretation. Do not omit that, especially in a sentence with a past-participle or present-participle construction.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Omitted: "The report you submitted was incomplete."
 
@@ -881,7 +881,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Include "that" where its omission may create ambiguity or disrupt the flow of the sentence.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Omitted: "She said the meeting was canceled."
 
@@ -893,7 +893,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Ensure that the sentence structure remains clear and understandable with the inclusion of "that."
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Omitted: "The software we use is outdated."
 
@@ -905,7 +905,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Prevent misleading constructions by using "that" to clarify which clause is being modified.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Omitted: "He announced the updates would be delayed."
 
@@ -917,7 +917,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Consistently use "that" in similar sentence constructions to maintain uniformity and clarity.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Omitted: "The book she borrowed was interesting."
 
@@ -933,7 +933,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Look for sentences that omit articles, conjunctions, or other essential words, making the text terse or unclear.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Telegraphic: "No translation attempted between protocols."
 
@@ -945,7 +945,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Rewrite sentences to include necessary articles (a, an, the) and verbs to form complete thoughts.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Telegraphic: "Update required immediately."
 
@@ -957,7 +957,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Ensure each sentence has a subject, verb, and object where applicable to provide clear communication.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Telegraphic: "User guide attached."
 
@@ -969,7 +969,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Include all necessary details to ensure the reader fully understands the message.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Telegraphic: "Meeting 10 a.m. Monday."
 
@@ -981,7 +981,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Use complete sentences to convey intent and action clearly, avoiding ambiguity.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Telegraphic: "Submit form before deadline."
 
@@ -999,7 +999,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Include both metric and imperial units for measurements to accommodate international readers.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Length: "1 mile (1.6 kilometers)"
 
@@ -1011,7 +1011,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Use consistent units throughout the document to avoid confusion.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Consistent: "The package weighs 5 pounds (2.27 kilograms) and measures 12 inches (30.48 centimeters) in length."
 
@@ -1021,7 +1021,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Express time using both 12-hour and 24-hour notations to ensure clarity for all audiences.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Time: "8:00 a.m. to 5:00 p.m. (0800 to 1700)"
 
@@ -1031,7 +1031,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Avoid abbreviations that may not be universally recognized or understood.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Use "kilometers" instead of "km" if abbreviation clarity is in question.
 
@@ -1041,7 +1041,7 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Present numerical values clearly and accurately, ensuring that decimal and thousand separators follow regional standards if applicable.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Clear: "The distance is 1,500 meters (1.5 kilometers)."
 
@@ -1051,6 +1051,6 @@ Your task is to review the content provided in the file (such as chunked.md) usi
 
    - **Rule:** Use proper punctuation for time notation, ensuring no confusion in international contexts.
 
-   - **Example:**
+   - **Examples for Clarification (Do Not Analyze):**
 
      - Correct: "The meeting starts at 14:30 (2:30 p.m.)."
