@@ -49,6 +49,7 @@ Your task is to review the content provided in the file using the rules specifie
    
 7. **Compliance with Safe Addresses:** 
    - For each IP address found in the content, perform a CIDR range check to see if it falls within one of the safe ranges listed.
+   - If an IP address does not fall within one of the safe ranges, do not flag it as incorrect. Instead, provide them with the safe IP address and encourage the user to verify it for themselves.
    - **Safe IPv4 Addresses:**
      - 192.0.2.0/24
      - 198.51.100.0/24
