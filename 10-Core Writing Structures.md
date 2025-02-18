@@ -585,4 +585,6 @@ Here are the two types of unordered lists along with the respective rules.
 
    - **Examples for Clarification (Do Not Analyze):**: Instead of "The table below shows...", use "Table 1 shows..."
 
+**Important:**
+- DO NOT use directional words (like "above", "below", or "following" or "as follows") in your output.
 
