@@ -6,6 +6,7 @@ Your task is to review the content provided in the file using the rules specifie
 2. **Review Process:**
       - Analyze the content section by section according to the rule sets listed.
       - For each identified error, produce an output using the following format:
+        
             **Original Content**: [Exact text from the content where the error is found]
         
             **Rule**: [Rule Title Only] 
