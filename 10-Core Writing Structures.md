@@ -102,7 +102,7 @@ Your task is to review the content provided in the file using the rules specifie
 
    - Select the writing structure that best fits the information being presented.
 
-   - **Example**: Use an unordered list for items where sequence is not important: 
+   - **Examples for Clarification (Do Not Analyze):**: Use an unordered list for items where sequence is not important: 
 
  
 
@@ -110,8 +110,8 @@ Your task is to review the content provided in the file using the rules specifie
 
    - Ensure each list is constructed according to its specific rules (unordered, ordered, item-description).
 
-   - **Example (Ordered List)**: Steps to reset your password:
-
+   - **Example (Ordered List) for clarification (Do not analyze)**:
+     Steps to reset your password:
      1. Go to the login page.
 
      2. Click on 'Forgot Password'.
@@ -126,7 +126,7 @@ Your task is to review the content provided in the file using the rules specifie
 
    - Do not fill lists with paragraphs of text; keep them concise.
 
-   - **Example**: Instead of: 
+   - **Examples for Clarification (Do Not Analyze):**: Instead of: 
 
      - "Apples are red or green and sweet or tart, depending on the variety. Bananas are yellow when ripe and are a good source of potassium."
 
@@ -142,7 +142,7 @@ Your task is to review the content provided in the file using the rules specifie
 
    - Break large lists into smaller, simpler units to enhance accessibility.
 
-   - **Example**: 
+   - **Examples for Clarification (Do Not Analyze):**: 
 
      - Original: "Items in the store include apples, bananas, cherries, dates, eggs, flour, grapes, honey, ice cream, jam."
 
@@ -162,7 +162,7 @@ Your task is to review the content provided in the file using the rules specifie
 
    - Provide a context-setting sentence before the table.
 
-   - **Example**: "Table 1 shows the nutritional content of fruits."
+   - **Examples for Clarification (Do Not Analyze):**: "Table 1 shows the nutritional content of fruits."
 
    - Table 1: Nutritional Content of Fruits
 
@@ -183,7 +183,7 @@ Your task is to review the content provided in the file using the rules specifie
    - Do not use references like "below" or "as follows." or "following"
    - Do not use any any occurrences of directional words such as "following", "follows", "preceding", "precedes", "below", "above". However, do not confuse or flag usage of the word follow (as in follow these steps).
 
-   - **Example**: Instead of "The table below shows...", use "Table 1 shows..."
+   - **Examples for Clarification (Do Not Analyze):**: Instead of "The table below shows...", use "Table 1 shows..."
 
  
 
@@ -195,7 +195,7 @@ Your task is to review the content provided in the file using the rules specifie
 
    - Organize information in a way that makes it easy to access and understand, with rows and columns clearly labeled.
 
-   - **Example**: Use headers for each column to clarify the type of data being presented.
+   - **Examples for Clarification (Do Not Analyze):**: Use headers for each column to clarify the type of data being presented.
 
  
 
@@ -209,7 +209,7 @@ Your task is to review the content provided in the file using the rules specifie
 
      - **Phrase with Header**: Use lower case, and the final column may end with a period if it completes a sentence.
 
-   - **Example**:
+   - **Examples for Clarification (Do Not Analyze):**:
 
      - Complete Sentence: "The system is fully operational."
 
@@ -219,8 +219,8 @@ Your task is to review the content provided in the file using the rules specifie
 
  
 
-#### Example of a Table
-
+#### Example of a Table (Do not analyze. For clarification only)
+ 
  
 
 - Example Table: Product Specifications**
@@ -259,7 +259,7 @@ Your task is to review the content provided in the file using the rules specifie
 
    - The punctuation of a stem sentence depends on its structure and what it introduces. It may end with a period, colon, or no punctuation, following English grammar rules.
 
-   - **Example**: "Table 1 displays the supported software versions."
+   - **Examples for Clarification (Do Not Analyze):**: "Table 1 displays the supported software versions."
 
  
 
@@ -267,7 +267,7 @@ Your task is to review the content provided in the file using the rules specifie
 
    - Avoid using terms like "below" or "as follows" or "following" which can become confusing if the content layout changes.
 
-   - **Example**: Instead of "The table below shows...", use "Table 2 shows the annual sales data."
+   - **Examples for Clarification (Do Not Analyze):**: Instead of "The table below shows...", use "Table 2 shows the annual sales data."
 
  
 
@@ -275,7 +275,7 @@ Your task is to review the content provided in the file using the rules specifie
 
    - Stem sentences should be complete sentences to ensure clarity, especially if they appear alone without immediate context.
 
-   - **Example**: "Figure 4 illustrates the workflow of the new system."
+   - **Examples for Clarification (Do Not Analyze):**: "Figure 4 illustrates the workflow of the new system."
 
  
 
@@ -283,7 +283,7 @@ Your task is to review the content provided in the file using the rules specifie
 
    - When introducing lists, ensure that the stem sentence and list items form a complete, parallel construction.
 
-   - **Example**: "A good diet includes fruits, vegetables, and whole grains."
+   - **Examples for Clarification (Do Not Analyze):**: "A good diet includes fruits, vegetables, and whole grains."
 
  
 
@@ -326,7 +326,7 @@ Your task is to review the content provided in the file using the rules specifie
 
    - Use the same grammatical structure for similar ideas or elements within a sentence or list to maintain consistency and clarity.
 
-   - **Example**: Ensure that verbs, nouns, or phrases are in the same form. 
+   - **Examples for Clarification (Do Not Analyze):**: Ensure that verbs, nouns, or phrases are in the same form. 
 
  
 
@@ -334,7 +334,7 @@ Your task is to review the content provided in the file using the rules specifie
 
    - Clauses or phrases should be balanced in terms of their structure and importance, giving them equal weight.
 
-   - **Example**: Use balanced lists or pairs to convey ideas effectively.
+   - **Examples for Clarification (Do Not Analyze):**: Use balanced lists or pairs to convey ideas effectively.
 
  
 
@@ -342,7 +342,7 @@ Your task is to review the content provided in the file using the rules specifie
 
    - Use conjunctions such as "and" or "or" to join parallel elements. They should be able to interchange positions without affecting the sentence's meaning.
 
-   - **Example**: Join parallel elements with conjunctions for smooth flow.
+   - **Examples for Clarification (Do Not Analyze):**: Join parallel elements with conjunctions for smooth flow.
 
  
 
@@ -350,11 +350,11 @@ Your task is to review the content provided in the file using the rules specifie
 
    - Parallel construction enhances readability and helps the reader follow the logic of the content more easily.
 
-   - **Example**: Use parallel structure to guide the reader through complex ideas.
+   - **Examples for Clarification (Do Not Analyze):**: Use parallel structure to guide the reader through complex ideas.
 
  
 
-#### Example of Parallel Construction
+#### Example of Parallel Construction (Do not analyze. For clarification only)
 
  
 
@@ -382,7 +382,7 @@ Your task is to review the content provided in the file using the rules specifie
 
    - Use ordered lists when the sequence or order of the items is important.
 
-   - **Example**: Use ordered lists for instructions or steps in a process.
+   - **Examples for Clarification (Do Not Analyze):**: Use ordered lists for instructions or steps in a process.
 
  
 
@@ -390,7 +390,7 @@ Your task is to review the content provided in the file using the rules specifie
 
    - Ensure that each item is in the correct sequence to convey the intended meaning or process.
 
-   - **Example**: Steps should be logically ordered to guide the reader.
+   - **Examples for Clarification (Do Not Analyze):**: Steps should be logically ordered to guide the reader.
 
  
 
@@ -398,7 +398,7 @@ Your task is to review the content provided in the file using the rules specifie
 
    - Number each list item to indicate the order and make it easier for the reader to follow.
 
-   - **Example**: Use numbers (1, 2, 3,...) to denote sequence.
+   - **Examples for Clarification (Do Not Analyze):**: Use numbers (1, 2, 3,...) to denote sequence.
 
  
 
@@ -406,7 +406,7 @@ Your task is to review the content provided in the file using the rules specifie
 
    - Do not use additional grammar within the list items. Each item should be a concise statement or instruction.
 
-   - **Example**: Avoid unnecessary punctuation like semicolons at the end of list items.
+   - **Examples for Clarification (Do Not Analyze):**: Avoid unnecessary punctuation like semicolons at the end of list items.
 
  
 
@@ -414,15 +414,15 @@ Your task is to review the content provided in the file using the rules specifie
 
    - Use a stem sentence to introduce the list, ending with a colon to indicate that a list follows.
 
-   - **Example**: Provide context with a clear introductory sentence.
+   - **Examples for Clarification (Do Not Analyze):**: Provide context with a clear introductory sentence.
 
  
 
-#### Examples of Ordered Lists
+#### Examples of Ordered Lists (Do not analyze. For clarification only)
 
  
 
-- **Example 1: Instructions for Resetting a Password**
+- **Example 1: Instructions for Resetting a Password (Do not analyze. For clarification only)**
 
   - "The steps to reset your password:"
 
@@ -438,7 +438,7 @@ Your task is to review the content provided in the file using the rules specifie
 
  
 
-- **Example 2: Recipe for Baking a Cake**
+- **Example 2: Recipe for Baking a Cake (Do not analyze. For clarification only)**
 
   - "The steps to bake a cake are:"
 
@@ -466,7 +466,7 @@ Here are the two types of unordered lists along with the respective rules.
 
 #### Type 1: Stem sentence is a phrase
 
-- **Example of an unordered list where the stem sentence is a phrase:**
+- **Example of an unordered list where the stem sentence is a phrase (Do not analyze. For clarification only):**
    A SAN port channel
    - is a logical interface that combines a set of Fibre Channel interfaces connected to the same Fibre
    - Channel node and operates as one link
@@ -482,7 +482,7 @@ Here are the two types of unordered lists along with the respective rules.
 
 #### Type 2: Stem Sentence is a complete sentence
 
-- **Example of an unordered list where the stem sentence is a complete sentence**
+- **Example of an unordered list where the stem sentence is a complete sentence (Do not analyze. For clarification only)**
    Follow these guidelines to write stem sentences for unordered lists comprising full sentences:
       - Write each list item in sentence case.
       - End each list item with a period.
@@ -505,7 +505,7 @@ Here are the two types of unordered lists along with the respective rules.
 
    - Each item in the list should have two parts: the item itself and its corresponding description.
 
-   - **Example**: Clearly separate the item from its description for clarity.
+   - **Examples for Clarification (Do Not Analyze):**: Clearly separate the item from its description for clarity.
 
  
 
@@ -513,7 +513,7 @@ Here are the two types of unordered lists along with the respective rules.
 
    - Use an item-description list when detailing parts and their descriptions, or when items in a list have associated values or features.
 
-   - **Example**: Ideal for glossary entries or feature lists.
+   - **Examples for Clarification (Do Not Analyze):**: Ideal for glossary entries or feature lists.
 
  
 
@@ -521,7 +521,7 @@ Here are the two types of unordered lists along with the respective rules.
 
    - If the description is a sentence fragment, start it with a lowercase letter. If it's a complete sentence, start with an uppercase letter.
 
-   - **Example**: Ensure consistency in formatting based on the description type.
+   - **Examples for Clarification (Do Not Analyze):**: Ensure consistency in formatting based on the description type.
 
  
 
@@ -529,7 +529,7 @@ Here are the two types of unordered lists along with the respective rules.
 
    - Avoid using positional references like "below" or "as follows" in the stem sentence introducing the list.
 
-   - **Example**: Use a complete sentence without relying on the document's layout.
+   - **Examples for Clarification (Do Not Analyze):**: Use a complete sentence without relying on the document's layout.
 
  
 
@@ -537,15 +537,15 @@ Here are the two types of unordered lists along with the respective rules.
 
    - Always use a period at the end of the stem sentence.
 
-   - **Example**: Ensure the stem sentence is a standalone complete sentence.
+   - **Examples for Clarification (Do Not Analyze):**: Ensure the stem sentence is a standalone complete sentence.
 
  
 
-#### Examples of Item-Description Lists
+#### Examples of Item-Description Lists (Do not analyze. For clarification only):
 
  
 
-- **Example 1: Glossary of Terms**
+- **Example 1: (Do not analyze. For clarification only)**
 
   - "These terms are used throughout this document."
 
@@ -555,7 +555,7 @@ Here are the two types of unordered lists along with the respective rules.
 
  
 
-- **Example 2: Feature Descriptions of a Product**
+- **Example 2 (Do not analyze. For clarification only):**
 
   - "This product includes several key features."
 
@@ -567,7 +567,7 @@ Here are the two types of unordered lists along with the respective rules.
 
  
 
-- **Example 3: System Components**
+- **Example 3 (Do not analyze. For clarification only):**
 
   - "The components of a system are:"
 
@@ -583,6 +583,6 @@ Here are the two types of unordered lists along with the respective rules.
    - Do not use references like "below" or "as follows." or "following"
    - Do not use any any occurrences of directional words such as "following", "follows", "preceding", "precedes", "below", "above". However, do not confuse or flag usage of the word follow (as in follow these steps).
 
-   - **Example**: Instead of "The table below shows...", use "Table 1 shows..."
+   - **Examples for Clarification (Do Not Analyze):**: Instead of "The table below shows...", use "Table 1 shows..."
 
 
