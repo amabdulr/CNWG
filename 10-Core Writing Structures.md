@@ -182,7 +182,7 @@ Your task is to review the content provided in the file using the rules specifie
 2. **Avoid Positional References**:
 
    - Do not use references like "below" or "as follows." or "following"
-   - Do not use any any occurrences of directional words such as "following", "follows", "preceding", "precedes", "below", "above". However, do not confuse or flag usage of the word follow (as in follow these steps).
+   - Do not use any occurrences of directional words such as "following", "follows", "preceding", "precedes", "below", "above". However, do not confuse or flag usage of the word follow (as in follow these steps) which is acceptable.
 
    - **Examples for Clarification (Do Not Analyze):**: Instead of "The table below shows...", use "Table 1 shows..."
 
