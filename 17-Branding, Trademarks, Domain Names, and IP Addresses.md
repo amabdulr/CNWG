@@ -17,7 +17,7 @@ Your task is to review the content provided in the file using the rules specifie
         
             **Action Required**: [Either "Action Required" if a fix is needed or "No action required"]
 
-      - After completing the review, list the names of Sections 1–7 (see below).
+      - After completing the review, list the names of Sections 1–6 (see below).
 
 
 ## Rules in Sections
@@ -39,15 +39,11 @@ Your task is to review the content provided in the file using the rules specifie
  - Maintain initial capitalization for the full company name.
  - Avoid using Cisco in the possessive form.
 
-5. **Trademarks:**
- - Maintain original form and capitalization of trademarks.
- - Do not provide suggestions for release numbers. Do not review anything like "Cisco SD-WAN Validator Release 20.6.1".
-
-6. **Domain Names:**
+5. **Domain Names:**
  - Top level domain (TLD) name ".example" as per RFC 2606 is recommended for use in technical content.
  - Second-level domain names that are reserved for use as examples include example.com, example.org, and example.net.
    
-7. **Compliance with Safe Addresses:** 
+6. **Compliance with Safe Addresses:** 
    - For each IP address found in the content, perform a CIDR range check to see if it falls within one of the safe ranges listed.
    - If an IP address does not fall within one of the safe ranges, do not flag it as incorrect. Instead, provide them with the safe IP address and encourage the user to verify it for themselves.
    - **Safe IPv4 Addresses:**
