@@ -44,9 +44,7 @@ Your task is to review the content provided in the file using the rules specifie
  - Second-level domain names that are reserved for use as examples include example.com, example.org, and example.net.
    
 6. **Compliance with Safe Addresses:** 
-   - For each IP address found in the content, perform a CIDR range check to see if it falls within one of the safe ranges listed.
-   - If an IP address does not fall within one of the safe ranges, do not flag it as incorrect. Instead, provide them with the safe IP address and encourage the user to verify it for themselves.
-   - **Safe IPv4 Addresses:**
+   - **Do a CIDR range Check to see if the IP address is one of the following Safe IPv4 Addresses. If not, provide the list of addresses:**
      - 192.0.2.0/24
      - 198.51.100.0/24
      - 203.0.113.0/24 (This means any IP address from 203.0.113.0 to 203.0.113.255 is safe, including 203.0.113.1)
@@ -59,11 +57,12 @@ Your task is to review the content provided in the file using the rules specifie
      - 127.0.0.1
      - 224.0.0.0/8 to 239.0.0.0/8
      - 169.254.0.0/16
-   - **Safe IPv6 Addresses:**
+   - **Do a CIDR range Check to see if the IPv6 address is one of the following and if not, provide the list of addresses:**
      - 2001:DB8::/32, ::1, FE80::/10
      - 2001:DB8::/96 for NAT64
      - 2001:DB8:46::/48 for NAT46
-
+    
+     
 
 **Notes for Consideration:**
 - Confirm that no Cisco part numbers are included in the main text of the document. 
