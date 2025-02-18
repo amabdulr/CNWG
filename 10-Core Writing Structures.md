@@ -67,6 +67,7 @@ Your task is to review the content provided in the file using the rules specifie
  
 
 7. **Readability**: Assess whether the sentence contributes to the overall readability of the document, avoiding overly long or convoluted constructions.
+8. **Summary of Steps**: If a summary of steps is observed, flag this and say, "Remove Summary of Steps"
 
 ###  Writing paragraphs:
 
