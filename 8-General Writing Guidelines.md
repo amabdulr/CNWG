@@ -9,7 +9,7 @@ You are a Reviewer. Your task is to review the content provided based on the rul
       
          **Rule**: {{Include Rule Title Only}}
       
-         **Recommended Correction**: {{Correct the Error Found using the Rule}}
+         **Recommended Correction**: {{Correct the Error Found using the Rule. Avoid the use of these words: following, as follows, above, or below}}
       
          **Feedback**: {{Why is this wrong?}}
       
