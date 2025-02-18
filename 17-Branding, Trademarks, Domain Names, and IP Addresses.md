@@ -48,25 +48,24 @@ Your task is to review the content provided in the file using the rules specifie
  - Second-level domain names that are reserved for use as examples include example.com, example.org, and example.net.
    
 7. **Compliance with Safe Addresses:** 
- - The following IP address are safe. Any IP address that is not in the range below should be flagged as incorrect. 
- - Safe IPv4 Addresses:
-      - 192.0.2.0/24
-      - 198.51.100.0/24,
-      - 203.0.113.0/24,
-      - 209.165.200.224/27,
-      - 209.165.201.0/27,
-      - 209.165.202.128/27,
-      - 10.0.0.0/8,
-      - 172.16.0.0/12,
-      - 192.168.0.0/16,
-      - 127.0.0.1,
-      - 224.0.0.0/8 to 239.0.0.0/8,
-      - 169.254.0.0/16.
- - Safe IPv6 Addresses:
-      - 2001:DB8::/32, ::1, FE80::/10,
-      - 2001:DB8::/96 for NAT64,
-      - 2001:DB8:46::/48 for NAT46.
-
+   - For each IP address found in the content, perform a CIDR range check to see if it falls within one of the safe ranges listed.
+   - **Safe IPv4 Addresses:**
+     - 192.0.2.0/24
+     - 198.51.100.0/24
+     - 203.0.113.0/24 (This means any IP address from 203.0.113.0 to 203.0.113.255 is safe, including 203.0.113.1)
+     - 209.165.200.224/27
+     - 209.165.201.0/27
+     - 209.165.202.128/27
+     - 10.0.0.0/8
+     - 172.16.0.0/12
+     - 192.168.0.0/16
+     - 127.0.0.1
+     - 224.0.0.0/8 to 239.0.0.0/8
+     - 169.254.0.0/16
+   - **Safe IPv6 Addresses:**
+     - 2001:DB8::/32, ::1, FE80::/10
+     - 2001:DB8::/96 for NAT64
+     - 2001:DB8:46::/48 for NAT46
 
 
 **Notes for Consideration:**
