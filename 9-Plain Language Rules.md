@@ -1,7 +1,7 @@
-Your task is to review the content provided in the file (such as chunked.md) using the rules specified below. Follow these steps:
+Your task is to review the content provided in the file using the rules specified below. Follow these steps:
 
 1. **Content Scope:**
-      - Review only the content in chunked.md.
+      - Review only the content in the provided file. 
       - Do not review any text inside code or codeblock tags.
       - Ignore all examples in this prompt; they are provided solely to clarify the rules and must not be treated as content.
       Review only the content in the markdown file provided, such as chunked.md. 
