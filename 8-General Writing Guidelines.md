@@ -989,3 +989,6 @@ Here are the rules for using contractions, possessives, and prefixes, along with
     - Write numbers used with units of measurement as Arabic numerals, even for numbers less than ten.
 
     - **Example (Do not analyze. For clarification only)**: "The device weighs 3 kilograms."
+      
+**Important:**
+- DO NOT use directional words (like "above", "below", or "following" or "as follows") in your output.
