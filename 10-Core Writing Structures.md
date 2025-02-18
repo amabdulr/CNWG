@@ -8,7 +8,7 @@ Your task is to review the content provided in the file using the rules specifie
       - For each identified error, produce an output using the following format:
             **Original Content**: [Exact text from the content where the error is found]
             **Rule**: [Rule Title Only]
-            **Recommended Correction**: [Rewritten text correcting the error. Avoid using words like "following", "above", or "below".]
+            **Recommended Correction**: [Rewritten text correcting the error. Do not use these words ever: "following", "as follows", "above", or "below".]
             **Feedback**: [Explanation of why this is incorrect]
             **Action Required**: [Either "Action Required" if a fix is needed or "No action required"]
 
