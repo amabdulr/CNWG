@@ -37,3 +37,5 @@ Input:
 
 Review Output:  
 The title "Introduction to VFN" does not adhere to the concept titling rules because it includes the phrase "Introduction to" and does not use the plural form or third person. Additionally, check that it follows sentence case rules. Consider revising it to "Virtual function networks".
+
+IMPORTANT: As the AI is often unable to find errors in sentence case, rewrite the tite in sentence case and ask the writer to verify once again if the title is in sentence case explaining to them what sentence case is. 
