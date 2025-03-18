@@ -16,7 +16,7 @@
 
 - Use **third person**, **active voice**, and **present tense**.
 - Use **sentence case**.
-- Title must clearly capture the **general subject of the content**.
+- Use this formula for the reference title **What is it about? What about what it's about?**.
 - Differentiate this reference from others.
 - Avoid vague or generic titles.
 
