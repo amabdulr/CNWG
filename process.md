@@ -26,19 +26,20 @@
 
 #### **Process Body Writing Rules**
 
-- Always use **active voice** and **present tense**.
+- Always use **third person**, **active voice**, and **present tense**.
 - Present the process in the following structure:
 
-1. **Context**: Provide background information that explains the relevance or need for the process.
-2. **Key components involved**:
+1. **Summary**: Provide the summary of the process and list the **key components**, which includes actors, action, timeframe, if applicable, at a high level.
+   **Key components involved**:
    - Start with a leading sentence like:  
      _“The key components involved in the [process] are:”_
    - Use a bullet list to describe each actor, role, or element. Keep descriptions short and focused.
-3. **Process stages**:
+3. **Context**: Provide background information that explains the relevance or need for the process, if needed. This is optional.
+4. **Process stages**:
    - Start with a leading sentence like:  
      _“The [process] involves the following stages:”_
    - Present stages in a structured list, stating what each actor does, in what sequence, and under what conditions.
-4. **Result**: Summarize what the process achieves or enables.
+5. **Result**: Summarize what the process achieves or enables, if needed. This is optional
 
 ---
 
@@ -47,7 +48,7 @@
 ```
 ## {{Title based on Process titling rules}} **(Process)**
 
-**Context**: {{Describe the background or importance of the process}}
+**Summary**: {{Provide the summary of the process}}
 
 The key components involved in the process are:
 - {{Actor or component 1}}: {{Description of role or function}}
@@ -68,8 +69,8 @@ The process involves the following stages:
 
 ## How DHCP servers work **(Process)**
 
-**Context**:  
-In modern IP networks, devices need unique IP addresses and other network configuration parameters to communicate effectively. Manually assigning this information to each device is inefficient and error-prone.
+**Summary**:  
+DHCP servers automate network configuration by dynamically assigning IP addresses and other network parameters to devices, simplifying network management and ensuring efficient IP address usage. The key components that are involved in DHCP server process are
 
 The key components involved in the process are:
 - **DHCP server**: Allocates IP addresses and network settings to clients by responding to their DHCP requests.
@@ -77,11 +78,11 @@ The key components involved in the process are:
 - **DHCP relay agent**: Forwards DHCP messages between clients and servers when they are on different subnets.
 
 The process involves the following stages:
-- **Discovery**: The DHCP client broadcasts a request to find a DHCP server.
-- **Offer**: The DHCP server responds with an available IP address and configuration options.
-- **Request**: The client requests the offered IP address.
-- **Acknowledgment**: The server confirms the lease and completes the configuration.
-- **Renewal**: The client periodically renews the lease before it expires.
+1) **Discovery**: The DHCP client broadcasts a request to find a DHCP server.
+2) **Offer**: The DHCP server responds with an available IP address and configuration options.
+3) **Request**: The client requests the offered IP address.
+4) **Acknowledgment**: The server confirms the lease and completes the configuration.
+5) **Renewal**: The client periodically renews the lease before it expires.
 
 **Result**:  
 The DHCP process provides automated and efficient network configuration, ensuring devices can operate seamlessly with minimal manual intervention.
