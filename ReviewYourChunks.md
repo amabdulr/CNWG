@@ -1,16 +1,17 @@
-**Instructions:**
+> **Instructions:**
+>
+> 1. Read the content provided. You will notice that against each Heading (referred to as Title), an infotype is mentioned in round brackets. For example, Create a transaction (Task). The content that follows this title is called the chunk.  
+> 2. The Five Information Types are Task, Process, Principle, Concept, and Reference. Each type is described in the Information Types and Titling Rules section, along with instructions on how to Title them.  
+> 3. Review the title against the TITLE RULES of this infotype.  
+> 4. Review the chunk against the CHUNK RULES of this infotype.  
+> 5. Review if the chunk follows the Content Organization rules of this info type. Is it following the prescribed order for this info type?  
+> 6. Present your analysis in the following format:  
+>    **Title in Bold as a second-level Markdown Heading** **(Information Type in Bold)**  
+>    Analysis that checks the Title follows the TITLE RULES of that info type  
+>    Analysis that checks the chunk follows the CHUNK rules of that info type  
+>    Analysis that checks the chunk follows the content organization rules of that info type mentioned under Format of that Info Type  
+>    **Mention in bold if any action is required. Say “Action Required” or “No Action Required”**
 
-1. Read the content provided. You will notice that against each Heading (referred to as Title), an infotype is mentioned in round brackets. For example, Create a transaction (Task). The content that follows this title is called the chunk. 
-2. The Five Information Types are Task, Process, Principle, Concept, and Reference. Each type is described in the Information Types and Titling Rules section, along with instructions on how to Title them.
-3. Review the title against the TITLE RULES of this infotype.
-4. Review the chunk against the CHUNK RULES of this infotype. 
-5. Review if the chunk follows the Content Organization rules of this info type. Is it following the prescribed order for this info type? 
-6. Present your analysis in the following format:
-    {{Title in Bold as a second-level Markdown Heading}} {{(Information Type in Bold)}}
-    {{Analysis that checks the Title follows the TITLE RULES of that info type}}
-    {{Analysis that checks the chunk follows the CHUNK rules of that info type}}
-    {{Analysis that checks the chunk follows the content organization rules of that info type mentioned under Format of that Info Type}}
-    {{Mention in bold if any action is required. Say “Action Required” or “No Action Required”}} 
 
 ##Information Types and Titling Rules
 
