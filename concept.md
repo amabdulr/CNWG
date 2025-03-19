@@ -9,7 +9,7 @@
 - **Purpose**: Explain something the user needs to understand.
 - **User Response**: Understand and evaluate the concept. The user does not need to use this information immediately.
 - **Title Rules**:
-  - Use the **plural form of the noun**, if possible.
+  - Use the **plural form of the subject**, if it exists. If plural form does not exist, use **singular form of the subject**.
   - Use **third person**.
   - Use **sentence case**.
   - **Do not include** phrases such as “what is”, “introduction”, “about”, “overview”, or “definition of”.
@@ -21,13 +21,16 @@
 
 - Use **active voice** and **present tense**.
 - Write a **definition block** in this format:  
-  > A **[term]** is a **[category]** that **[key attribute]**, **[key attribute]**, and **[key attribute]**.  
+  - A **[term]** is a **[category]** that
+    > **[key attribute 1]**
+    > **[key attribute 2]**, and
+    > **[key attribute 3]**. 
   - The **category** provides context for understanding.
-  - The **key attributes** describe the item and distinguish it from others in the category.
+  - The **key attributes** describe the item and distinguish it from others in the category. If there are less than 3 **key attributes** then do not use an unordered list.
 
 - Add any or all of the following **optional elements**:
   - **Subdefinitions**: Clarify additional terms that might be ambiguous.
-  - **Expanded explanation**: Add relevant background, rationale, or elaboration.
+  - **Expanded explanation**: Add relevant background, reference information, rationale, or elaboration.
   - **Examples**
   - **Counter-examples**
   - **Contrast tables** (Use a table to compare differences between two concepts).
@@ -40,11 +43,14 @@
 ```
 ## {{Title (follow Concept title rules)}} **(Concept)**
 
-A [term] is a [category] that [key attribute], [key attribute], and [key attribute].
+A [term] is a [category] that
+- [key attribute 1]
+- [key attribute 2], and
+- [key attribute 3].
 
 {{Subdefinitions (optional)}}
 
-{{Additional information (optional)}}
+{{Additional reference information (optional)}}
 
 {{Examples (optional)}}
 
@@ -58,7 +64,7 @@ A [term] is a [category] that [key attribute], [key attribute], and [key attribu
 ---
 
 #### **Examples of Valid Titles**
-- Wireless devices and country codes  
+- Wireless devices
 - N+1 high availability  
 - NetFlow protocol  
 
