@@ -1,25 +1,12 @@
-**Instructions:**
-
-1. Read the content provided. 
-2. The Five Information Types are Task, Process, Principle, Concept, and Reference. Each type is described in the Information Types and Titling Rules section, along with instructions on how to title them.
-3. Refer to the Information Types and Titling rules and Identify the Information Type (Infotypes) of the block of data.
-4. If the Block of Data contains multiple information types, separate it into Chunks. Chunks with the same information type must be grouped together in a block, and placed one after the other within this block. For example, if you identify multiple concepts, place them one after the other in the concept block.
-5. Title each chunk according to the rules for that information type. Ensure that the content in the chunk matches the title. 
-6. Before presenting the other chunks, ensure there is an introductory concept chunk to introduce all the upcoming chunks. Give it a title that's like a chapter title, summarizing the essence of all the chunks. Use title case only in this case and  present as a first-level Markdown Heading. Do not include any information from the prompt. 
-7. Present each chunk according to the format of that info type. Always write in active voice and present tense. Give preference to second person. Whenever possible, present content in tables. 
-8. Present each chunk  using the following formula: 
-    {{Title in Bold as a second-level Markdown Heading}} {{(Information Type in Bold)}}
-    {{Chunk}}
-9. Present the entire content in markdown format. Check if any content is missing from the original attachment and present that as a separate section. 
-10. Refer to the content once again and ensure no content is missing. 
-11. Except for first-level markdown heading (#), always use sentence case for titles.
-12. If a block of text is already in bullets or a table, retain the same even after chunking.
-13. Avoid using lists if there is only one item in it.
-14. Avoid words such as "utilise". Instead say "use". Avoid any suggestions including words such as following, follows, above, or below, and other directional words.
-15. Now compare the presented chunked content with the original document and if you find something missing, present this under heading, "Content Not Used for Chunking". Include  this warning, **Warning: This list is not comprehensive. Please run the CTWG>Chunk>Find Missing Info menu option for more. Human oversight is essential for all AI outputs. Specifically look for missing tables, codeblocks, and numbers."**. You can include content such as Feature History Tables and FAQ sections here. 
-
 ##Information Types and Titling Rules
 
+### 📘 uconcept
+
+> 1. Read the user-provided content carefully.  
+> 2. Identify the core **term or concept** that needs to be explained. This term will be used to generate the **title**.  
+> 3. Rewrite the content as a **Concept Information Type**, following the detailed rules below:
+
+---
 
 #### **Concept Information Type Guidelines**
 
@@ -103,6 +90,13 @@ Policy-driven licensing is a licensing model based on a set of predefined polici
 
 ---
 
+### 📘 utask
+
+  > 1. Read the user-provided content carefully.  
+> 2. Identify the **main task** the user is expected to perform.  
+> 3. Rewrite the content as a **Task Information Type**, following the detailed rules below:
+
+---
 
 #### **Task Information Type Guidelines**
 
@@ -237,6 +231,13 @@ Examples of various types of complex step commands
 
 ---
 
+### 📘 uprocess
+
+> 1. Read the user-provided content carefully.  
+> 2. Identify the **main process** being described and the **key actors or components** involved.  
+> 3. Rewrite the content as a **Process Information Type**, following the rules outlined below.
+
+---
 
 #### **Process Information Type Guidelines**
 
@@ -323,6 +324,14 @@ The DHCP process provides automated and efficient network configuration, ensurin
 
 ---
 
+### 📘 ureference
+
+>  
+> 1. Read the user-provided content carefully.  
+> 2. Identify the **core information** the user needs to know immediately.  
+> 3. Rewrite the content as a **Reference Information Type**, following the rules outlined below.
+
+---
 
 #### **Reference Information Type Guidelines**
 
