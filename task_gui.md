@@ -35,6 +35,35 @@
   - **Additional information** *(optional)*: Add clarifying instructions, exceptions, or tips.
   - **Result**: Describe what happens after successful completion.
   - **Post-requisites** *(optional)*: Mention any follow-up steps, if applicable.
+  - ## UI Content Guidelines for Task Instructions
+
+When writing UI instructions, follow these guidelines:
+
+1. **Avoid Positional Descriptors**  
+   - **Rule**: Avoid using positional descriptors (e.g., top, bottom, left, right).  
+   - **Guidance**: If positional descriptors are necessary due to a poorly designed UI page, the writer may choose to retain them as exceptions.
+   - **Incorrect Example**:  
+     > Click the Filter icon from the top right corner of the table.
+   - **Correct Example**:  
+     > Click the filter icon.
+
+2. **Filter and Sort Instructions**  
+   - **Rule**: Provide concise, outcome-focused instructions instead of overly detailed UI steps.  
+   - **Incorrect Example**:  
+     > Filter and sort the sensor list  
+     >  
+     > To filter the sensor list, follow these steps:  
+     > 1. From the main menu, choose Admin > Sensors > Sensor Explorer.  
+     > 2. Click the Filter icon from the top right corner of the table.  
+     > 3. Type in the field or select from the drop-down menu to locate the folder(s) or sensor(s).  
+     > 4. Click Apply.
+   - **Correct Example**:  
+     > Filter or sort the sensor list by label, IP address, version, location, health, or processing status.  
+     >  
+     > To filter the list of sensors in the Admin > Sensors > Sensor Explorer page:  
+     > - Click the filter icon.  
+     > - To filter by a parameter, enter a value and click Apply.  
+     > - The page displays all results containing the specified value.
 
 ---
 
@@ -89,7 +118,7 @@ n. {{Final step command.}}
 
 #### **Task Example**
 
-## Register Crosswork Data Gateway with Crosswork Cloud Applications **(Task)**
+Register Crosswork Data Gateway with Crosswork Cloud Applications 
 
 **Purpose**: Enroll a Crosswork Data Gateway instance into Crosswork Cloud using a registration file.
 
@@ -119,7 +148,7 @@ Follow these steps to register the Crosswork Data Gateway with Crosswork Cloud a
 ---
 
 ---
-- **Examples of Task with complex step commands**
+#### **Task Example with complex step commands**
 Examples of various types of complex step commands
   - Command statement with If condition 
     • <if-condition>If you’re configuring an IPv6 URL, <action>define a hostname-to address <use modifier>using the domain ipv6 host command.
@@ -140,5 +169,85 @@ Examples of various types of complex step commands
   - Command with Adverb
     • Carefully move the chassis from the pallet onto the lifting device.
 
+
+---
+
+---
+#### **Task Example**
+
+SuperTask: Launch a Cisco ISE CFT through AWS Marketplace 
+
+You can use this task to Deploy a standalone Cisco Identity Services Engine (ISE) instance using a CloudFormation Template (CFT) from AWS Marketplace.
+
+The Cisco ISE CloudFormation Template (CFT) automates the deployment process and creates an instance using the General Purpose SSD (gp2) volume type. You can reuse the CFT to configure additional instances as needed.
+
+Follow these steps to launch a Cisco ISE CFT through AWS Marketplace:
+Task 1 Configure a Cisco ISE instance. 
+Task 2 Launch CFT and specify the parameters. 
+
+Task 1: Configure a Cisco ISE instance
+
+Follow these steps to configure a Cisco ISE instance:
+1. Log in to the Amazon management console at [https://console.aws.amazon.com](https://console.aws.amazon.com).
+2. Search for **AWS Marketplace Subscriptions**.
+3. On the **Manage Subscriptions** page, click **Discover Products**.
+4. Click the **product name** for Cisco ISE.
+5. Click **Continue to Configuration**.
+6. In the **Configure this Software** section, click **Learn More**.
+7. Click **Download CloudFormation Template** to download the Cisco ISE CFT to your local system.
+   - You can reuse the downloaded CFT to automate the configuration of other Cisco ISE instances.
+   - Click **View Template** in **Learn More** to view the CFT in AWS CloudFormation Designer.
+8. Choose the required values from the **Software Version** and **AWS Region** drop-down lists.
+9. Click **Continue to Launch**.
+   - For the next steps, see *Launch CFT and specify the parameters*.
+
+Task 2: Launch CFT and specify the parameters
+
+Follow these steps to launch the CFT and configure the parameters:
+1. From the **Choose Action** drop-down list, choose **Launch CloudFormation**.
+2. Click **Launch**.
+3. On the **Create Stack** page, select **Template is Ready** and **Amazon S3 URL**.
+4. Click **Next**.
+5. Enter a value in **Stack Name**.
+6. Enter the required details in **Parameters**.
+   - For more information about parameters, see *Configure the parameters for the Cisco ISE instance*.
+7. Click **Next** to initiate the instance creation process.
+
+**Result**: A standalone Cisco ISE instance is successfully deployed in AWS using the selected configuration and parameters from the CloudFormation Template.
+
+**Post-requisites**: Review the deployed instance to validate configuration, and optionally reuse the downloaded template for future deployments.
+
+---
+---
+#### **Task Example**
+
+Discover the devices 
+
+**Purpose**: Identify and register network devices by specifying their IP ranges and access credentials.
+
+**Context**: This task involves configuring the IP range and providing necessary credentials to initiate device discovery. You can optionally assign the loopback address of the appliance as the preferred management IP address.
+
+Follow these steps to discover the devices:
+1. Click **Let's Do It**.
+2. On the **Discover Devices: Provide IP Ranges** page, enter the specific IP information.
+   - Enter the IP address ranges of the devices you want to discover.
+     - **Note**: To add more IP ranges, click the **plus sign (+)**.
+   - Enter the name of the device discovery job.
+   - Specify whether to designate the appliance's **loopback address as its preferred management IP address**.
+3. Click **Next**.  
+   - **Step result**: The **Discover Devices: Provide Credentials** page is displayed.
+4. Select the credentials you want to configure.
+   - **Available credential types include**:
+     - CLI (SSH) credentials
+     - SNMP Credentials: SNMPv2c Read
+     - SNMP Credentials: SNMPv2c Write
+     - SNMP Credentials: SNMPv3
+     - NETCONF
+   - **Step result**: The field names and description text boxes display for the specific credentials.
+5. On the **Discover Devices: Provide Credentials** page, enter all required information into the field description text boxes for the credentials you selected, then click **Next**.
+
+**Result**: The system begins the discovery process using the configured IP ranges and credentials to identify network devices.
+
+**Post-requisites**: Review discovered devices and verify correct classification and connectivity status in the device list.
 
 ---
