@@ -12,9 +12,15 @@
 >    Analysis that checks the chunk follows the content organization rules of that info type mentioned under Format of that Info Type  
 >    **Mention in bold if any action is required. Say “Action Required” or “No Action Required”**
 
-
 ## Information Types and Titling Rules
 
+### Concept
+
+> 1. Read the user-provided content carefully.  
+> 2. Identify the core **term or concept** that needs to be explained. This term will be used to generate the **title**.  
+> 3. Rewrite the content as a **Concept Information Type**, following the detailed rules below:
+
+---
 
 #### **Concept Information Type Guidelines**
 
@@ -96,6 +102,17 @@ Policy-driven licensing is a licensing model based on a set of predefined polici
 **Key features of Smart Licensing Using Policy:**
 - **Policy-based management**: The Cisco default policy, enabled by default, automates license management, streamlining operations and ensuring compliance.
 
+----
+
+---
+
+### Task
+
+  > 1. Read the user-provided content carefully.  
+> 2. Identify the **main task** the user is expected to perform.  
+> 3. Rewrite the content as a **Task Information Type**, following the detailed rules below:
+
+---
 
 #### **Task Information Type Guidelines**
 
@@ -116,67 +133,18 @@ Policy-driven licensing is a licensing model based on a set of predefined polici
 
 #### **Task Body Writing Rules**
 
-1. **Describe Only Crucial UI Elements or UX Processes**  
-   - **Rule**: Only describe UI elements or UX processes that are crucial to a task.  
-   - **Incorrect Example**:  
-     > Do not call out transitionary UI elements or pages. Call out the purpose of these elements, if relevant to the task flow.
-   - **Correct Example**:  
-     > A loading icon appears for a few moments. Responses display with curl, Request URL, and the server response that you can copy or even download.  
-     >  
-     > *(Additional Correct Example)*  
-     > The API response is displayed after a few minutes, including a response body that you can edit, copy, or download.
-
-2. **Avoid Positional Descriptors**  
-   - **Rule**: Avoid using positional descriptors (e.g., top, bottom, left, right).  
-   - **Guidance**: If positional descriptors are necessary due to a poorly designed UI page, the writer may choose to retain them as exceptions.
-   - **Incorrect Example**:  
-     > Click the Filter icon from the top right corner of the table.
-   - **Correct Example**:  
-     > Click the filter icon.
-
-3. **Filter and Sort Instructions**  
-   - **Rule**: Provide concise, outcome-focused instructions instead of overly detailed UI steps.  
-   - **Incorrect Example**:  
-     > Filter and sort the sensor list  
-     >  
-     > To filter the sensor list, follow these steps:  
-     > 1. From the main menu, choose Admin > Sensors > Sensor Explorer.  
-     > 2. Click the Filter icon from the top right corner of the table.  
-     > 3. Type in the field or select from the drop-down menu to locate the folder(s) or sensor(s).  
-     > 4. Click Apply.
-   - **Correct Example**:  
-     > Filter or sort the sensor list by label, IP address, version, location, health, or processing status.  
-     >  
-     > To filter the list of sensors in the Admin > Sensors > Sensor Explorer page:  
-     > - Click the filter icon.  
-     > - To filter by a parameter, enter a value and click Apply.  
-     > - The page displays all results containing the specified value.
-
-4. **Do Not Call Out Specific UI Controls**  
-   - **Rule**: Avoid referencing UI control names unnecessarily.  
-   - **Incorrect Example**:  
-     > Click the drop-down arrow for the Protocol field and select a protocol from the drop-down list.
-   - **Correct Example**:  
-     > From the Protocol drop-down list, choose a syslog message protocol.
-
-5. **Avoid Over-Describing UI Elements**  
-   - **Rule**: Do not detail every UI element for the sake of mentioning everything on a page. Stay true to the purpose of the content chunk or topic type.  
-   - **Incorrect Example**:  
-     > Click the copy icon to copy the Fingerprint and enroll your center with a global center.  
-     > *(This level of detail may be unnecessary in a concept topic about certificate fingerprints.)*
-   - **Correct Example**:  
-     > In a task topic where copying the certificate fingerprint is essential, include only the necessary step:  
-     > **Step x**: Copy the certificate fingerprint.
-
-6. **Simplify Steps When Possible**  
-   - **Rule**: Remove intermediary steps that offer no additional actionable context (e.g., steps that only say “Click Next”).  
-   - **Incorrect Example**:  
-     > Step 1 From the Choose Action drop-down list, choose Launch CloudFormation.  
-     > Step 2 Click Launch.  
-     > Step 3 In the Create Stack page, click Template Is Ready and Amazon S3 URL.
-   - **Correct Example**:  
-     > Step 1: From the Choose Action drop-down list, choose Launch CloudFormation.  
-     > Step 2: In the Create Stack page, click Template Is Ready and Amazon S3 URL.
+- Always use **active voice** and **present tense**.
+- Use **step commands** — simple or complex — in every step.
+- Follow this structure:
+  - **Purpose**: Clearly state why the task is performed.
+  - **Context**: Provide relevant background or situation.
+  - **Before you begin** *(optional)*: State prerequisites or what the user needs to prepare.
+  - **Follow these steps to [achieve the outcome]:**
+    1. **Step Command**: Use a clear action verb. Add substeps, notes, or expected results if needed.
+    2. Repeat for each step.
+  - **Additional information** *(optional)*: Add clarifying instructions, exceptions, or tips.
+  - **Result**: Describe what happens after successful completion.
+  - **Post-requisites** *(optional)*: Mention any follow-up steps, if applicable.
 
 ---
 
@@ -231,37 +199,112 @@ n. {{Final step command.}}
 
 #### **Task Example**
 
-Register Crosswork Data Gateway with Crosswork Cloud Applications 
+## Configure the NetFlow version 9 protocol **(Task)**
 
-**Purpose**: Enroll a Crosswork Data Gateway instance into Crosswork Cloud using a registration file.
+**Purpose**: Monitor network traffic by configuring one or more Flow Exporters, associating them with a Flow Monitor, and enabling NetFlow on the appropriate router interface. Optionally, configure a Flow Sampler to set the sampling rate for flow samples.
 
-**Context**: The registration process securely associates the Crosswork Data Gateway with Crosswork Cloud applications using a JSON file that contains unique digital certificates.
+**Context**: Use this procedure when setting up NetFlow monitoring on a router. Consider this topology as an example configuration scenario.
 
 **Before you begin**:
-- Ensure you have the `.json` registration file for the Crosswork Data Gateway.
-- Verify that SNMP is enabled on your devices.
-- Confirm your firewall allows traffic to `cdg.crosswork.cisco.com` and `crosswork.cisco.com` (if applicable).
+- Identify the source IP address: `2001:db8::0003`.
+- Identify the NetFlow Collector (destination IP address): `2001:db8::0002`.
+- Determine the router interface to enable NetFlow on (e.g., `HundredGigE 0/0/0/24`).
+- Confirm that NetFlow version 9 will be used.
 
-Follow these steps to register the Crosswork Data Gateway with Crosswork Cloud applications:
-1. Access Crosswork Cloud and log in with your credentials.
-2. Navigate to **Configure > Data Gateways**, then click **Add**.
-3. Click **Registration File** and upload the `.json` enrollment data file you downloaded from the Crosswork Data Gateway.
-4. Enter a name for the Crosswork Data Gateway instance.
-5. In the **Application** field, select the Crosswork Cloud application to which you are assigning this Crosswork Data Gateway.
-6. Fill in the remaining required fields as needed, then click **Next**.
-7. Optionally, enter a tag name to group Crosswork Data Gateways with similar characteristics or purposes.
-8. Review the information you have entered to ensure accuracy.
-9. Click **Accept** to accept the security certificate.
+Follow these steps to configure the NetFlow version 9 protocol:
 
-**Result**: A confirmation message appears, indicating that the Crosswork Data Gateway has been successfully registered with the selected Crosswork Cloud application.
+1. **Configure a Flow Exporter** to specify where and how packets should be exported.
+   - **Example**:
+     ```
+     Router# configure
+     Router(config)# flow exporter-map Expo1
+     Router(config-fem)# source-address 2001:db8::0003
+     Router(config-fem)# destination 2001:db8::0002
+     Router(config-fem)# transport udp 1024
+     Router(config-fem)# version v9
+     Router(config-fem-ver)# options interface-table
+     Router(config-fem-ver)# commit
+     Router(config-fem-ver)# root
+     Router(config)# exit
+     ```
 
-**Post-requisites**: None.
+2. **Create a Flow Monitor** using the `flow monitor-map` command to define the type of traffic to be monitored.
+   - *Note*: You can include one or more exporter maps in the monitor map. A single flow monitor map can support up to eight exporters. The record type specifies the type of packets sampled (e.g., MPLS, IPv4, or IPv6).
+   - **Example**:
+     ```
+     Router# configure
+     Router(config)# flow monitor-map fmm-ipv6
+     Router(config-fmm)# record ipv6
+     Router(config-fmm)# cache entries 500000
+     Router(config-fmm)# cache timeout active 60
+     Router(config-fmm)# cache timeout inactive 20
+     ```
+
+3. **Configure a Flow Sampler** using the `sampler-map` command to define the rate at which packet sampling is performed.
+   - **Example**:
+     ```
+     Router(config)# configure
+     Router(config)# sampler-map fsm1
+     Router(config-sm)# random 1 out-of 262144
+     Router(config)# exit
+     Router(config)# commit
+     Router(config)# exit
+     ```
+
+4. **Apply a Flow Monitor Map and a Flow Sampler** on a physical interface to enable NetFlow on the router.
+   - *Note*: Use the same sampler map configuration on both sub-interfaces and physical interfaces under a port.
+   - **Example**:
+     ```
+     Router# configure
+     Router(config)# interface HundredGigE 0/0/0/24
+     Router(config-if)# flow ipv6 monitor fmm-ipv6 sampler fsm1 ingress
+     Router(config-if)# commit
+     Router(config-if)# root
+     Router(config)# exit
+     ```
+
+5. **Verify the NetFlow Configuration** on the router.
+   - **a. Verify the Flow Exporter**:
+     - **Example**:
+       ```
+       Router# show flow exporter-map Expo1
+       Flow Exporter Map : Expo1
+       -------------------------------------------------
+       Id : 1
+       Packet-Length : 1468
+       DestinationIpAddr : 2001:db8::2
+       VRFName : default
+       SourceIfName :
+       SourceIpAddr : 2001:db8::3
+       DSCP : 0
+       TransportProtocol : UDP
+       TransportDestPort : 1024
+       Do Not Fragment : Not Enabled
+       ```
+   - **b. Verify the Flow Monitor**:
+     - **Example**:
+       ```
+       Router# show flow monitor-map fmm-ipv6
+       Flow Monitor Map : fmm-ipv6
+       -------------------------------------------------
+       Id: 1
+       RecordMapName: ipv6
+       ExportMapName: Expo1
+       CacheAgingMode: Normal
+       CacheMaxEntries: 500000
+       CacheActiveTout: 60 seconds
+       CacheInactiveTout: 20 seconds
+       ```
+
+**Result**: The NetFlow version 9 protocol is successfully configured on the router, enabling you to monitor network traffic and analyze the exported data using a NetFlow analyzer.
+
+**Post-requisites**: Analyze the exported data with a NetFlow analyzer to assess network performance and traffic patterns.
 
 
 ---
 
 ---
-#### **Task Example with complex step commands**
+- **Examples of Task with complex step commands**
 Examples of various types of complex step commands
   - Command statement with If condition 
     • <if-condition>If you’re configuring an IPv6 URL, <action>define a hostname-to address <use modifier>using the domain ipv6 host command.
@@ -286,87 +329,14 @@ Examples of various types of complex step commands
 ---
 
 ---
-#### **Task Example**
 
-SuperTask: Launch a Cisco ISE CFT through AWS Marketplace 
+### Process
 
-You can use this task to Deploy a standalone Cisco Identity Services Engine (ISE) instance using a CloudFormation Template (CFT) from AWS Marketplace.
-
-The Cisco ISE CloudFormation Template (CFT) automates the deployment process and creates an instance using the General Purpose SSD (gp2) volume type. You can reuse the CFT to configure additional instances as needed.
-
-Follow these steps to launch a Cisco ISE CFT through AWS Marketplace:
-Task 1 Configure a Cisco ISE instance. 
-Task 2 Launch CFT and specify the parameters. 
-
-Task 1: Configure a Cisco ISE instance
-
-Follow these steps to configure a Cisco ISE instance:
-1. Log in to the Amazon management console at [https://console.aws.amazon.com](https://console.aws.amazon.com).
-2. Search for **AWS Marketplace Subscriptions**.
-3. On the **Manage Subscriptions** page, click **Discover Products**.
-4. Click the **product name** for Cisco ISE.
-5. Click **Continue to Configuration**.
-6. In the **Configure this Software** section, click **Learn More**.
-7. Click **Download CloudFormation Template** to download the Cisco ISE CFT to your local system.
-   - You can reuse the downloaded CFT to automate the configuration of other Cisco ISE instances.
-   - Click **View Template** in **Learn More** to view the CFT in AWS CloudFormation Designer.
-8. Choose the required values from the **Software Version** and **AWS Region** drop-down lists.
-9. Click **Continue to Launch**.
-   - For the next steps, see *Launch CFT and specify the parameters*.
-
-Task 2: Launch CFT and specify the parameters
-
-Follow these steps to launch the CFT and configure the parameters:
-1. From the **Choose Action** drop-down list, choose **Launch CloudFormation**.
-2. Click **Launch**.
-3. On the **Create Stack** page, select **Template is Ready** and **Amazon S3 URL**.
-4. Click **Next**.
-5. Enter a value in **Stack Name**.
-6. Enter the required details in **Parameters**.
-   - For more information about parameters, see *Configure the parameters for the Cisco ISE instance*.
-7. Click **Next** to initiate the instance creation process.
-
-**Result**: A standalone Cisco ISE instance is successfully deployed in AWS using the selected configuration and parameters from the CloudFormation Template.
-
-**Post-requisites**: Review the deployed instance to validate configuration, and optionally reuse the downloaded template for future deployments.
+> 1. Read the user-provided content carefully.  
+> 2. Identify the **main process** being described and the **key actors or components** involved.  
+> 3. Rewrite the content as a **Process Information Type**, following the rules outlined below.
 
 ---
----
-#### **Task Example**
-
-Discover the devices 
-
-**Purpose**: Identify and register network devices by specifying their IP ranges and access credentials.
-
-**Context**: This task involves configuring the IP range and providing necessary credentials to initiate device discovery. You can optionally assign the loopback address of the appliance as the preferred management IP address.
-
-Follow these steps to discover the devices:
-1. Click **Let's Do It**.
-2. On the **Discover Devices: Provide IP Ranges** page, enter the specific IP information.
-   - Enter the IP address ranges of the devices you want to discover.
-     - **Note**: To add more IP ranges, click the **plus sign (+)**.
-   - Enter the name of the device discovery job.
-   - Specify whether to designate the appliance's **loopback address as its preferred management IP address**.
-3. Click **Next**.  
-   - **Step result**: The **Discover Devices: Provide Credentials** page is displayed.
-4. Select the credentials you want to configure.
-   - **Available credential types include**:
-     - CLI (SSH) credentials
-     - SNMP Credentials: SNMPv2c Read
-     - SNMP Credentials: SNMPv2c Write
-     - SNMP Credentials: SNMPv3
-     - NETCONF
-   - **Step result**: The field names and description text boxes display for the specific credentials.
-5. On the **Discover Devices: Provide Credentials** page, enter all required information into the field description text boxes for the credentials you selected, then click **Next**.
-
-**Result**: The system begins the discovery process using the configured IP ranges and credentials to identify network devices.
-
-**Post-requisites**: Review discovered devices and verify correct classification and connectivity status in the device list.
-
----
-
----
-
 
 #### **Process Information Type Guidelines**
 
@@ -453,6 +423,14 @@ The DHCP process provides automated and efficient network configuration, ensurin
 
 ---
 
+### Reference
+
+>  
+> 1. Read the user-provided content carefully.  
+> 2. Identify the **core information** the user needs to know immediately.  
+> 3. Rewrite the content as a **Reference Information Type**, following the rules outlined below.
+
+---
 
 #### **Reference Information Type Guidelines**
 
@@ -513,7 +491,7 @@ The routed PON solution enhances network efficiency and lowers costs by providin
 
 ---
 
-### 📘 uprinciple
+### Principle
 
 >  
 > 1. Read the user-provided content carefully.  
@@ -570,7 +548,7 @@ The routed PON solution enhances network efficiency and lowers costs by providin
 
 #### **Principle Example**
 
-## Tip: Use the included Torx screwdriver **(Principle)**
+## Use the included Torx screwdriver **(Principle)**
 
 We recommend using the included Torx screwdriver, which is the correct length to reach the screws during this step. This makes the task easier and reduces the risk of damaging the components.
 

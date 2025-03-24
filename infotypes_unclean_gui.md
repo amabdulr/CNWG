@@ -1,6 +1,6 @@
 ##Information Types and Titling Rules
 
-### Concept
+### uconcept
 
 > 1. Read the user-provided content carefully.  
 > 2. Identify the core **term or concept** that needs to be explained. This term will be used to generate the **title**.  
@@ -92,7 +92,7 @@ Policy-driven licensing is a licensing model based on a set of predefined polici
 
 ---
 
-### Task
+### utask_gui
 
   > 1. Read the user-provided content carefully.  
 > 2. Identify the **main task** the user is expected to perform.  
@@ -373,7 +373,7 @@ Follow these steps to discover the devices:
 
 ---
 
-### Process
+### uprocess
 
 > 1. Read the user-provided content carefully.  
 > 2. Identify the **main process** being described and the **key actors or components** involved.  
@@ -466,7 +466,7 @@ The DHCP process provides automated and efficient network configuration, ensurin
 
 ---
 
-### Reference
+### ureference
 
 >  
 > 1. Read the user-provided content carefully.  
@@ -534,7 +534,7 @@ The routed PON solution enhances network efficiency and lowers costs by providin
 
 ---
 
-### Principle
+### uprinciple
 
 >  
 > 1. Read the user-provided content carefully.  
