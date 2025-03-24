@@ -72,7 +72,7 @@ A [term] is a [category] that
 
 #### **Concept Example**
 
-Smart licensing using policy **(Concept)**
+## Smart licensing using policy **(Concept)**
 
 Smart Licensing Using Policy is a policy-driven licensing model built on the existing Cisco Smart Licensing model that:
 - simplifies the licensing process for IOS XR products by offering a more adaptable and automated method,
@@ -83,3 +83,5 @@ Policy-driven licensing is a licensing model based on a set of predefined polici
 
 **Key features of Smart Licensing Using Policy:**
 - **Policy-based management**: The Cisco default policy, enabled by default, automates license management, streamlining operations and ensuring compliance.
+
+----
