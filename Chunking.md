@@ -19,7 +19,7 @@
 > 15. Now compare the presented chunked content with the original document and if you find something missing, present this under heading, "Content Not Used for Chunking". Include this warning, **Warning: This list is not comprehensive. Please run the CTWG>Chunk>Find Missing Info menu option for more. Human oversight is essential for all AI outputs. Specifically look for missing tables, codeblocks, and numbers.**
 
 
-##Information Types and Titling Rules
+## Information Types and Titling Rules
 
 
 #### **Concept Information Type Guidelines**
@@ -190,48 +190,107 @@ n. {{Final step command.}}
 
 #### **Task Example**
 
-## Configure the NetFlow version 9 protocol **(Task)**
+Configure the NetFlow version 9 protocol **(Task)**
 
-**Purpose**: Monitor network traffic patterns using the NetFlow version 9 protocol.
+**Purpose**: Monitor network traffic by configuring one or more Flow Exporters, associating them with a Flow Monitor, and enabling NetFlow on the appropriate router interface. Optionally, configure a Flow Sampler to set the sampling rate for flow samples.
 
-**Context**: You must configure exporters, monitors, and samplers before enabling NetFlow on interfaces.
+**Context**: Use this procedure when setting up NetFlow monitoring on a router. Consider this topology as an example configuration scenario.
 
-**Before you begin**:  
-Gather the required details to enable NetFlow on a router.
+**Before you begin**:
+- Identify the source IP address: `2001:db8::0003`.
+- Identify the NetFlow Collector (destination IP address): `2001:db8::0002`.
+- Determine the router interface to enable NetFlow on (e.g., `HundredGigE 0/0/0/24`).
+- Confirm that NetFlow version 9 will be used.
 
 Follow these steps to configure the NetFlow version 9 protocol:
-1. Configure a Flow Exporter to specify where and how the packets should be exported.
-2. Create a Flow Monitor with the flow monitor-map command to define the type of traffic to be monitored. You can include one or more exporter maps in the monitor map. A single flow monitor map can support up to eight exporters.
-3. Use the sampler-map command to configure a Flow Sampler to define the rate at which packet sampling should be performed at the interface where NetFlow is enabled.
-4. Apply a Flow Monitor Map and a Flow Sampler on a physical interface to enable NetFlow on the router.
 
-**Result**: You can now analyze the exported data using a NetFlow Analyzer.
+1. **Configure a Flow Exporter** to specify where and how packets should be exported.
+   - **Example**:
+     ```
+     Router# configure
+     Router(config)# flow exporter-map Expo1
+     Router(config-fem)# source-address 2001:db8::0003
+     Router(config-fem)# destination 2001:db8::0002
+     Router(config-fem)# transport udp 1024
+     Router(config-fem)# version v9
+     Router(config-fem-ver)# options interface-table
+     Router(config-fem-ver)# commit
+     Router(config-fem-ver)# root
+     Router(config)# exit
+     ```
 
-**Post-requisites**: None.
+2. **Create a Flow Monitor** using the `flow monitor-map` command to define the type of traffic to be monitored.
+   - *Note*: You can include one or more exporter maps in the monitor map. A single flow monitor map can support up to eight exporters. The record type specifies the type of packets sampled (e.g., MPLS, IPv4, or IPv6).
+   - **Example**:
+     ```
+     Router# configure
+     Router(config)# flow monitor-map fmm-ipv6
+     Router(config-fmm)# record ipv6
+     Router(config-fmm)# cache entries 500000
+     Router(config-fmm)# cache timeout active 60
+     Router(config-fmm)# cache timeout inactive 20
+     ```
 
----
+3. **Configure a Flow Sampler** using the `sampler-map` command to define the rate at which packet sampling is performed.
+   - **Example**:
+     ```
+     Router(config)# configure
+     Router(config)# sampler-map fsm1
+     Router(config-sm)# random 1 out-of 262144
+     Router(config)# exit
+     Router(config)# commit
+     Router(config)# exit
+     ```
 
----
-- **Examples of Task with complex step commands**
-Examples of various types of complex step commands
-  - Command statement with If condition 
-    • <if-condition>If you’re configuring an IPv6 URL, <action>define a hostname-to address <use modifier>using the domain ipv6 host command.
+4. **Apply a Flow Monitor Map and a Flow Sampler** on a physical interface to enable NetFlow on the router.
+   - *Note*: Use the same sampler map configuration on both sub-interfaces and physical interfaces under a port.
+   - **Example**:
+     ```
+     Router# configure
+     Router(config)# interface HundredGigE 0/0/0/24
+     Router(config-if)# flow ipv6 monitor fmm-ipv6 sampler fsm1 ingress
+     Router(config-if)# commit
+     Router(config-if)# root
+     Router(config)# exit
+     ```
 
-  - Command with Use modifier
-    • <use modifier>Use the sampler-map command to <action>configure a Flow Sampler <purpose>to define the rate at which the packet sampling should be performed at the interface where NetFlow is enabled.
-    • <use modifier>Use screws provided <prepositional phase>with the rack <purpose>to secure the chassis with the vertical mounting rails on the rack.
+5. **Verify the NetFlow Configuration** on the router.
+   - **a. Verify the Flow Exporter**:
+     - **Example**:
+       ```
+       Router# show flow exporter-map Expo1
+       Flow Exporter Map : Expo1
+       -------------------------------------------------
+       Id : 1
+       Packet-Length : 1468
+       DestinationIpAddr : 2001:db8::2
+       VRFName : default
+       SourceIfName :
+       SourceIpAddr : 2001:db8::3
+       DSCP : 0
+       TransportProtocol : UDP
+       TransportDestPort : 1024
+       Do Not Fragment : Not Enabled
+       ```
+   - **b. Verify the Flow Monitor**:
+     - **Example**:
+       ```
+       Router# show flow monitor-map fmm-ipv6
+       Flow Monitor Map : fmm-ipv6
+       -------------------------------------------------
+       Id: 1
+       RecordMapName: ipv6
+       ExportMapName: Expo1
+       CacheAgingMode: Normal
+       CacheMaxEntries: 500000
+       CacheActiveTout: 60 seconds
+       CacheInactiveTout: 20 seconds
+       ```
 
-  - Command with Action verb
-    • <action>Configure a Flow Exporter <purpose>to specify where and how the packets should be exported.
-    • <action>Run the show access-lists ipv4 command<purpose> to verify the ACL creation
-    • <action>Configure the SSH trust point <prepositional phase>for server authentication
+**Result**: The NetFlow version 9 protocol is successfully configured on the router, enabling you to monitor network traffic and analyze the exported data using a NetFlow analyzer.
 
-  - Command with Prepositional Phrase
-    • <use modifier>Use the flow command <action>to apply a Flow Monitor Map and a Flow Sampler <prepositional phase>on a physical interface.
-    • <action>Create a Flow Monitor <prepositional phase>with the flow monitor-map command to define the type of traffic to be monitored.
+**Post-requisites**: Analyze the exported data with a NetFlow analyzer to assess network performance and traffic patterns.
 
-  - Command with Adverb
-    • Carefully move the chassis from the pallet onto the lifting device.
 
 
 ---
