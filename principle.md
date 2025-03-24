@@ -53,7 +53,7 @@
 
 #### **Principle Example**
 
-Use the included Torx screwdriver **(Principle)**
+## Use the included Torx screwdriver **(Principle)**
 
 We recommend using the included Torx screwdriver, which is the correct length to reach the screws during this step. This makes the task easier and reduces the risk of damaging the components.
 
