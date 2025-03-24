@@ -67,7 +67,7 @@ The process involves the following stages:
 
 #### **Process Example**
 
-How DHCP servers work **(Process)**
+## How DHCP servers work **(Process)**
 
 **Summary**:  
 DHCP servers automate network configuration by dynamically assigning IP addresses and other network parameters to devices, simplifying network management and ensuring efficient IP address usage. The key components that are involved in DHCP server process are
