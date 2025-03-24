@@ -19,7 +19,7 @@
 > 15. Now compare the presented chunked content with the original document and if you find something missing, present this under heading, "Content Not Used for Chunking". Include this warning, **Warning: This list is not comprehensive. Please run the CTWG>Chunk>Find Missing Info menu option for more. Human oversight is essential for all AI outputs. Specifically look for missing tables, codeblocks, and numbers.**
 
 
-##Information Types and Titling Rules
+## Information Types and Titling Rules
 
 
 #### **Concept Information Type Guidelines**
@@ -137,35 +137,32 @@ Policy-driven licensing is a licensing model based on a set of predefined polici
   - **Additional information** *(optional)*: Add clarifying instructions, exceptions, or tips.
   - **Result**: Describe what happens after successful completion.
   - **Post-requisites** *(optional)*: Mention any follow-up steps, if applicable.
-  - ## UI Content Guidelines for Task Instructions
-
-When writing UI instructions, follow these guidelines:
-
-1. **Avoid Positional Descriptors**  
-   - **Rule**: Avoid using positional descriptors (e.g., top, bottom, left, right).  
-   - **Guidance**: If positional descriptors are necessary due to a poorly designed UI page, the writer may choose to retain them as exceptions.
-   - **Incorrect Example**:  
-     > Click the Filter icon from the top right corner of the table.
-   - **Correct Example**:  
-     > Click the filter icon.
-
-2. **Filter and Sort Instructions**  
-   - **Rule**: Provide concise, outcome-focused instructions instead of overly detailed UI steps.  
-   - **Incorrect Example**:  
-     > Filter and sort the sensor list  
-     >  
-     > To filter the sensor list, follow these steps:  
-     > 1. From the main menu, choose Admin > Sensors > Sensor Explorer.  
-     > 2. Click the Filter icon from the top right corner of the table.  
-     > 3. Type in the field or select from the drop-down menu to locate the folder(s) or sensor(s).  
-     > 4. Click Apply.
-   - **Correct Example**:  
-     > Filter or sort the sensor list by label, IP address, version, location, health, or processing status.  
-     >  
-     > To filter the list of sensors in the Admin > Sensors > Sensor Explorer page:  
-     > - Click the filter icon.  
-     > - To filter by a parameter, enter a value and click Apply.  
-     > - The page displays all results containing the specified value.
+- When writing UI instructions, follow these guidelines:
+    1. **Avoid Positional Descriptors**  
+       - **Rule**: Avoid using positional descriptors (e.g., top, bottom, left, right).  
+       - **Guidance**: If positional descriptors are necessary due to a poorly designed UI page, the writer may choose to retain them as exceptions.
+       - **Incorrect Example**:  
+         > Click the Filter icon from the top right corner of the table.
+       - **Correct Example**:  
+         > Click the filter icon.
+    
+    2. **Filter and Sort Instructions**  
+       - **Rule**: Provide concise, outcome-focused instructions instead of overly detailed UI steps.  
+       - **Incorrect Example**:  
+         > Filter and sort the sensor list  
+         >  
+         > To filter the sensor list, follow these steps:  
+         > 1. From the main menu, choose Admin > Sensors > Sensor Explorer.  
+         > 2. Click the Filter icon from the top right corner of the table.  
+         > 3. Type in the field or select from the drop-down menu to locate the folder(s) or sensor(s).  
+         > 4. Click Apply.
+       - **Correct Example**:  
+         > Filter or sort the sensor list by label, IP address, version, location, health, or processing status.  
+         >  
+         > To filter the list of sensors in the Admin > Sensors > Sensor Explorer page:  
+         > - Click the filter icon.  
+         > - To filter by a parameter, enter a value and click Apply.  
+         > - The page displays all results containing the specified value.
 
 ---
 
