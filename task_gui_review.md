@@ -140,7 +140,7 @@ n. {{Final step command.}}
 
 #### **Task Example**
 
-Register Crosswork Data Gateway with Crosswork Cloud Applications 
+## Register Crosswork Data Gateway with Crosswork Cloud Applications **(Task)**
 
 **Purpose**: Enroll a Crosswork Data Gateway instance into Crosswork Cloud using a registration file.
 
@@ -197,17 +197,18 @@ Examples of various types of complex step commands
 ---
 #### **Task Example**
 
-SuperTask: Launch a Cisco ISE CFT through AWS Marketplace 
+## Launch a Cisco ISE CFT through AWS Marketplace **(Task)**
 
 You can use this task to Deploy a standalone Cisco Identity Services Engine (ISE) instance using a CloudFormation Template (CFT) from AWS Marketplace.
 
 The Cisco ISE CloudFormation Template (CFT) automates the deployment process and creates an instance using the General Purpose SSD (gp2) volume type. You can reuse the CFT to configure additional instances as needed.
 
 Follow these steps to launch a Cisco ISE CFT through AWS Marketplace:
+
 Task 1 Configure a Cisco ISE instance. 
 Task 2 Launch CFT and specify the parameters. 
 
-Task 1: Configure a Cisco ISE instance
+### Configure a Cisco ISE instance **(Task)**
 
 Follow these steps to configure a Cisco ISE instance:
 1. Log in to the Amazon management console at [https://console.aws.amazon.com](https://console.aws.amazon.com).
@@ -223,7 +224,7 @@ Follow these steps to configure a Cisco ISE instance:
 9. Click **Continue to Launch**.
    - For the next steps, see *Launch CFT and specify the parameters*.
 
-Task 2: Launch CFT and specify the parameters
+### Launch CFT and specify the parameters **(Task)**
 
 Follow these steps to launch the CFT and configure the parameters:
 1. From the **Choose Action** drop-down list, choose **Launch CloudFormation**.
@@ -243,7 +244,7 @@ Follow these steps to launch the CFT and configure the parameters:
 ---
 #### **Task Example**
 
-Discover the devices 
+## Discover the devices **(Task)**
 
 **Purpose**: Identify and register network devices by specifying their IP ranges and access credentials.
 
