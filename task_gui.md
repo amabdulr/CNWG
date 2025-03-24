@@ -115,7 +115,7 @@ n. {{Final step command.}}
 
 #### **Task Example**
 
-Register Crosswork Data Gateway with Crosswork Cloud Applications 
+## Register Crosswork Data Gateway with Crosswork Cloud Applications **(Task)**
 
 **Purpose**: Enroll a Crosswork Data Gateway instance into Crosswork Cloud using a registration file.
 
@@ -145,7 +145,7 @@ Follow these steps to register the Crosswork Data Gateway with Crosswork Cloud a
 ---
 
 ---
-#### **Task Example with complex step commands**
+#### **Task Example with complex step commands** 
 Examples of various types of complex step commands
   - Command statement with If condition 
     • <if-condition>If you’re configuring an IPv6 URL, <action>define a hostname-to address <use modifier>using the domain ipv6 host command.
@@ -172,7 +172,7 @@ Examples of various types of complex step commands
 ---
 #### **Task Example**
 
-SuperTask: Launch a Cisco ISE CFT through AWS Marketplace 
+## Launch a Cisco ISE CFT through AWS Marketplace **(Task)**
 
 You can use this task to Deploy a standalone Cisco Identity Services Engine (ISE) instance using a CloudFormation Template (CFT) from AWS Marketplace.
 
@@ -182,7 +182,7 @@ Follow these steps to launch a Cisco ISE CFT through AWS Marketplace:
 Task 1 Configure a Cisco ISE instance. 
 Task 2 Launch CFT and specify the parameters. 
 
-Task 1: Configure a Cisco ISE instance
+### Configure a Cisco ISE instance **(Task)**
 
 Follow these steps to configure a Cisco ISE instance:
 1. Log in to the Amazon management console at [https://console.aws.amazon.com](https://console.aws.amazon.com).
@@ -198,7 +198,7 @@ Follow these steps to configure a Cisco ISE instance:
 9. Click **Continue to Launch**.
    - For the next steps, see *Launch CFT and specify the parameters*.
 
-Task 2: Launch CFT and specify the parameters
+### Launch CFT and specify the parameters **(Task)**
 
 Follow these steps to launch the CFT and configure the parameters:
 1. From the **Choose Action** drop-down list, choose **Launch CloudFormation**.
@@ -218,7 +218,7 @@ Follow these steps to launch the CFT and configure the parameters:
 ---
 #### **Task Example**
 
-Discover the devices 
+## Discover the devices **(Task)**
 
 **Purpose**: Identify and register network devices by specifying their IP ranges and access credentials.
 
@@ -251,7 +251,7 @@ Follow these steps to discover the devices:
 ---
 #### **Task Example**
 
-Start Discovery and Telemetry **(Task)**
+## Start Discovery and Telemetry **(Task)**
 
 **Purpose**: Discover the devices that Catalyst Center will manage and enable the collection of telemetry data for these devices as part of the Quick Start workflow.
 
