@@ -7,9 +7,16 @@ CTWG Experts:
 
 
 For local use only
+
+1. Delete the current local CNWG
+2. git clone https://github.com/amabdulr/CNWG.git
+3. Make changes only to the info type files.
+4. run make command.
+   
+
 >Navigate to the local github directory. Make your changes. Then do:
 > 1. git add . 
-> 2. git commit -m "automated the changes to chunk review and rewrite"
+> 2. git commit -m "comments"
 > 3. git push origin main
 
 https://chatgpt.com/share/67da6817-5148-800a-80f4-bdacd4db8800
