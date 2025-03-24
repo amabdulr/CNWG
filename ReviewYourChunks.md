@@ -10,7 +10,7 @@
 >    Analysis that checks the Title follows the TITLE RULES of that info type  
 >    Analysis that checks the chunk follows the CHUNK rules of that info type  
 >    Analysis that checks the chunk follows the content organization rules of that info type mentioned under Format of that Info Type  
->    **Mention in bold if any action is required. Say “Action Required” or “No Action Required”**
+>    **Mention in bold if any action is required. Say "Action Required" or "No Action Required"**
 
 
 ## Information Types and Titling Rules
@@ -31,8 +31,8 @@
   - Use the **plural form of the subject**, if it exists. If plural form does not exist, use **singular form of the subject**.
   - Use **third person**.
   - Use **sentence case**.
-  - **Do not include** phrases such as “what is”, “introduction”, “about”, “overview”, or “definition of”.
-  - **Avoid words ending in “-ing”**, such as “understanding” or “monitoring”.
+  - **Do not include** phrases such as "what is", "introduction", "about", "overview", or "definition of".
+  - **Avoid words ending in "-ing"**, such as "understanding" or "monitoring".
 
 ---
 
@@ -189,7 +189,7 @@ When rewriting UI instructions, follow these guidelines:
      > **Step x**: Copy the certificate fingerprint.
 
 6. **Simplify Steps When Possible**  
-   - **Rule**: Remove intermediary steps that offer no additional actionable context (e.g., steps that only say “Click Next”).  
+   - **Rule**: Remove intermediary steps that offer no additional actionable context (e.g., steps that only say "Click Next").  
    - **Incorrect Example**:  
      > Step 1 From the Choose Action drop-down list, choose Launch CloudFormation.  
      > Step 2 Click Launch.  
@@ -405,8 +405,8 @@ Follow these steps to discover the devices:
 
 #### **Process Title Rules**
 - Use **sentence case**.
-- For **human processes**, use a **verb gerund** followed by a **plural noun** (e.g., “Processing member applications”).
-- For **system processes**, use **“How [items] work”**.
+- For **human processes**, use a **verb gerund** followed by a **plural noun** (e.g., "Processing member applications").
+- For **system processes**, use **"How [items] work"**.
 - Use **third person**, **active voice**, and avoid unnecessary words.
 
 **Examples of valid titles**:
@@ -424,12 +424,12 @@ Follow these steps to discover the devices:
 1. **Summary**: Provide the summary of the process and list the **key components**, which includes actors, action, timeframe, if applicable, at a high level.
    **Key components involved**:
    - Start with a leading sentence like:  
-     _“The key components involved in the [process] are:”_
+     _"The key components involved in the [process] are:"_
    - Use a bullet list to describe each actor, role, or element. Keep descriptions short and focused.
 3. **Context**: Provide background information that explains the relevance or need for the process, if needed. This is optional.
 4. **Process stages**:
    - Start with a leading sentence like:  
-     _“The [process] involves the following stages:”_
+     _"The [process] involves the following stages:"_
    - Present stages in a structured list, stating what each actor does, in what sequence, and under what conditions.
 5. **Result**: Summarize what the process achieves or enables, if needed. This is optional
 
