@@ -35,35 +35,32 @@
   - **Additional information** *(optional)*: Add clarifying instructions, exceptions, or tips.
   - **Result**: Describe what happens after successful completion.
   - **Post-requisites** *(optional)*: Mention any follow-up steps, if applicable.
-  - ## UI Content Guidelines for Task Instructions
-
-When writing UI instructions, follow these guidelines:
-
-1. **Avoid Positional Descriptors**  
-   - **Rule**: Avoid using positional descriptors (e.g., top, bottom, left, right).  
-   - **Guidance**: If positional descriptors are necessary due to a poorly designed UI page, the writer may choose to retain them as exceptions.
-   - **Incorrect Example**:  
-     > Click the Filter icon from the top right corner of the table.
-   - **Correct Example**:  
-     > Click the filter icon.
-
-2. **Filter and Sort Instructions**  
-   - **Rule**: Provide concise, outcome-focused instructions instead of overly detailed UI steps.  
-   - **Incorrect Example**:  
-     > Filter and sort the sensor list  
-     >  
-     > To filter the sensor list, follow these steps:  
-     > 1. From the main menu, choose Admin > Sensors > Sensor Explorer.  
-     > 2. Click the Filter icon from the top right corner of the table.  
-     > 3. Type in the field or select from the drop-down menu to locate the folder(s) or sensor(s).  
-     > 4. Click Apply.
-   - **Correct Example**:  
-     > Filter or sort the sensor list by label, IP address, version, location, health, or processing status.  
-     >  
-     > To filter the list of sensors in the Admin > Sensors > Sensor Explorer page:  
-     > - Click the filter icon.  
-     > - To filter by a parameter, enter a value and click Apply.  
-     > - The page displays all results containing the specified value.
+  - When writing UI instructions, follow these guidelines:
+      1. **Avoid Positional Descriptors**  
+         - **Rule**: Avoid using positional descriptors (e.g., top, bottom, left, right).  
+         - **Guidance**: If positional descriptors are necessary due to a poorly designed UI page, the writer may choose to retain them as exceptions.
+         - **Incorrect Example**:  
+           > Click the Filter icon from the top right corner of the table.
+         - **Correct Example**:  
+           > Click the filter icon.
+      
+      2. **Filter and Sort Instructions**  
+         - **Rule**: Provide concise, outcome-focused instructions instead of overly detailed UI steps.  
+         - **Incorrect Example**:  
+           > Filter and sort the sensor list  
+           >  
+           > To filter the sensor list, follow these steps:  
+           > 1. From the main menu, choose Admin > Sensors > Sensor Explorer.  
+           > 2. Click the Filter icon from the top right corner of the table.  
+           > 3. Type in the field or select from the drop-down menu to locate the folder(s) or sensor(s).  
+           > 4. Click Apply.
+         - **Correct Example**:  
+           > Filter or sort the sensor list by label, IP address, version, location, health, or processing status.  
+           >  
+           > To filter the list of sensors in the Admin > Sensors > Sensor Explorer page:  
+           > - Click the filter icon.  
+           > - To filter by a parameter, enter a value and click Apply.  
+           > - The page displays all results containing the specified value.
 
 ---
 
@@ -249,5 +246,54 @@ Follow these steps to discover the devices:
 **Result**: The system begins the discovery process using the configured IP ranges and credentials to identify network devices.
 
 **Post-requisites**: Review discovered devices and verify correct classification and connectivity status in the device list.
+
+---
+---
+#### **Task Example**
+
+Start Discovery and Telemetry **(Task)**
+
+**Purpose**: Discover the devices that Catalyst Center will manage and enable the collection of telemetry data for these devices as part of the Quick Start workflow.
+
+**Context**: This procedure is part of the Catalyst Center Quick Start workflow. It configures device discovery and telemetry enablement to ensure that network devices are properly grouped and monitored.
+
+**Before you begin**:
+- Set up any necessary discovery jobs by:
+  - Identifying the credentials required for configuration.
+  - Entering the required information.
+
+Follow these steps to start discovery and telemetry:
+
+1. **Group devices into a site**  
+   On the Create Site screen, group the devices you are going to discover into one site to facilitate telemetry, then select **Next**.  
+   - *Step info*: You can either enter the site's information manually or click the location displayed on the map.
+
+2. **Enable telemetry**  
+   On the Enable Telemetry screen, check the network components that Catalyst Center will collect telemetry for, then select **Next**.  
+   - *Step info*: If the system grays out the Enable Telemetry and Disable Telemetry screen, it indicates that either:
+     - The devices are not capable of telemetry support, or
+     - The devices are running an OS version that does not support telemetry enablement.
+
+3. **Review and confirm settings**  
+   On the Summary screen, review the settings you entered and decide if you want to make changes.  
+   - *Step info*: 
+     - If you want to make changes, select the appropriate **Edit** link to open the relevant screen.
+     - If you are satisfied with your settings, select **Start Discovery and Telemetry**.
+   - *Step result*: Catalyst Center validates your settings to ensure they do not result in any issues. Once validation is complete, the screen updates.
+
+4. **Initiate discovery and telemetry enablement**  
+   Allow Catalyst Center to discover your network's devices and enable telemetry for the selected network components.  
+   - *Step info*: This process takes a minimum of 30 minutes to complete.
+   - *Step result*: A message displays at the top of the homepage indicating when the Quick Start workflow is complete.
+
+5. **Verify workflow completion**  
+   Choose one option to verify specific information from the Quick Start workflow.  
+   - *Step info*: The available options include:
+     - View Discovery
+     - Go to Network Settings
+     - View Activity Page
+     - Workflow Home
+
+**Result**: Catalyst Center successfully validates your settings and begins device discovery and telemetry enablement, ensuring that your network devices are grouped and monitored as intended.
 
 ---
