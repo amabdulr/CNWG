@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Hardcoded file paths
-INPUT_FILE="infotypes_unclean_gui.md"
-OUTPUT_FILE="infotypes_gui.md"
+INPUT_FILE="infotypes_unclean_cli.md"
+OUTPUT_FILE="infotypes_cli.md"
 
 awk '
 BEGIN { skip=0 }
