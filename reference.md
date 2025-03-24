@@ -52,7 +52,7 @@
 
 #### **Reference Example**
 
-Routed PON solution **(Reference)**
+## Routed PON solution **(Reference)**
 
 The routed PON solution enhances network efficiency and lowers costs by providing a streamlined infrastructure that:
 - eliminates third-party hardware for OLTs, which reduces vendor dependency,
