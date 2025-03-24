@@ -1,6 +1,6 @@
 #!/bin/bash
 
-output_file="infotypes_unclean.md"
+output_file="infotypes_unclean_gui.md"
 
 echo "##Information Types and Titling Rules" > "$output_file"
 echo "" >> "$output_file"
