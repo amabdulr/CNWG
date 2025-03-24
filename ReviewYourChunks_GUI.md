@@ -13,7 +13,7 @@
 >    **Mention in bold if any action is required. Say “Action Required” or “No Action Required”**
 
 
-##Information Types and Titling Rules
+## Information Types and Titling Rules
 
 
 #### **Concept Information Type Guidelines**
@@ -115,8 +115,6 @@ Policy-driven licensing is a licensing model based on a set of predefined polici
 ---
 
 #### **Task Body Writing Rules**
-
-When rewriting UI instructions, follow these guidelines:
 
 1. **Describe Only Crucial UI Elements or UX Processes**  
    - **Rule**: Only describe UI elements or UX processes that are crucial to a task.  
