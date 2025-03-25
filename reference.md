@@ -7,20 +7,15 @@
 
 #### **Reference Information Type Guidelines**
 
-- **Purpose**: Present facts, specifications, benefits, features, or other data the user must **know or refer to immediately**.
-- **User Response**: Understand and use the information right away. This is not a step-by-step task — it is **reference information**.
+### Title Rules
 
----
+- **Person, Voice, and Tense:** Use third person, active voice, and present tense.
+- **Case:** Use sentence case.
+- **Formula:** Follow the structure: _What is it about? What about what it's about?_
+- **Distinctiveness:** Ensure the title differentiates this reference from others.
+- **Clarity:** Avoid vague or generic titles.
 
-#### **Reference Title Rules**
-
-- Use **third person**, **active voice**, and **present tense**.
-- Use **sentence case**.
-- Use this formula for the reference title **What is it about? What about what it's about?**.
-- Differentiate this reference from others.
-- Avoid vague or generic titles.
-
-**Examples of valid titles**:
+*Examples of valid titles:*
 - Parts of the membership  
 - Comparison of available options  
 - Routed PON solution  
@@ -28,15 +23,29 @@
 
 ---
 
-#### **Reference Body Writing Rules**
+### Chunk Rules
 
-- Use **active voice** and **present tense**.
-- Present content in the **most effective format**, such as:
+- **Voice and Tense:** Always use active voice and present tense.
+- **Effective Presentation:** Present content in the most effective format for readability, such as:
   - Paragraphs
   - Bullet lists
   - Tables
-  - Any other structure that improves readability and clarity.
-- Focus on conveying facts, attributes, specifications, features, advantages, or benefits.
+  - Other clear structures as appropriate.
+- **Content Focus:** Clearly convey facts, attributes, specifications, features, advantages, or benefits.
+
+---
+
+### Chunk Organization Rules
+
+- **Markdown Header:**  
+  Begin with a Markdown header that includes the title (formatted according to the Title Rules) followed by the information type in bold:
+  ```
+  ## {{Title (following Reference Title Rules)}} **(Reference)**
+  ```
+- **Content Structure:**  
+  Organize the body using the most effective format (e.g., paragraphs, bullet lists, tables) to present the key reference information.
+- **Purpose:**  
+  Ensure the content is easily accessible and immediately usable by the user for reference purposes.
 
 ---
 
