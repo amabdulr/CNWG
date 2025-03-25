@@ -122,19 +122,22 @@ Policy-driven licensing is a licensing model based on a set of predefined polici
 
 ---
 
-#### **Task Title Rules**
-- Use **imperative verb form**, **second person**, and **sentence case**.
-- Ensure the title clearly communicates the action being performed.
-- **Examples of valid titles**:
+### **Task Title Rules**
+
+- **Form & Person:**  
+  Use the imperative verb form in second person.
+- **Case:**  
+  Use sentence case.
+- **Clarity:**  
+  Ensure the title clearly communicates the action being performed.
+- **Examples:**  
   - Configure a transaction record  
   - Create a new user group  
   - Upload a customer document  
 
 ---
 
-#### **Task Body Writing Rules**
-
-When rewriting UI instructions, follow these guidelines:
+### Chunk Rules
 
 1. **Describe Only Crucial UI Elements or UX Processes**  
    - **Rule**: Only describe UI elements or UX processes that are crucial to a task.  
@@ -199,6 +202,22 @@ When rewriting UI instructions, follow these guidelines:
      > Step 2: In the Create Stack page, click Template Is Ready and Amazon S3 URL.
 
 ---
+
+### Chunk Organization Rules
+
+- **Overall Structure:**  
+  Organize the content as a clearly ordered list of step commands that guide the user through the task.
+- **Section Grouping:**  
+  Group related instructions together (e.g., prerequisites, main steps, additional information, and expected results).
+- **Step Order:**  
+  Ensure each step follows the Step Command Formula and that the steps are in a logical sequence.
+- **Formatting:**  
+  Present the final output with a Markdown header (see Title Rules) followed by the ordered list of step commands.
+- **Clarity & Actionability:**  
+  Each step must be clear, concise, and directly contribute to performing the task successfully. And each step follows the step command formula below. 
+
+---
+
 
 #### **Step Command Formula**
 Step commands can be:
