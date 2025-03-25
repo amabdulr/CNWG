@@ -6,40 +6,62 @@
 
 #### **Process Information Type Guidelines**
 
-- **Purpose**: Describe how something works or what happens in a system or human activity.
-- **User Response**: Understand how different parts and actors work together in a sequence.
 
----
+### Title Rules
 
-#### **Process Title Rules**
-- Use **sentence case**.
-- For **human processes**, use a **verb gerund** followed by a **plural noun** (e.g., “Processing member applications”).
-- For **system processes**, use **“How [items] work”**.
-- Use **third person**, **active voice**, and avoid unnecessary words.
+- **Case:** Use sentence case.
+- **Format for Human Processes:**  
+  - Use a verb in its gerund form followed by a plural noun (e.g., “Processing member applications”).
+- **Format for System Processes:**  
+  - Use the format “How [items] work” (e.g., “How DHCP servers work”).
+- **Style:**  
+  - Use third person and active voice.
+  - Avoid unnecessary words.
 
-**Examples of valid titles**:
+*Examples of valid titles:*
 - Processing member applications  
 - How jet engines produce power  
 - How DHCP servers work  
 
 ---
 
-#### **Process Body Writing Rules**
+### Chunk Rules
 
-- Always use **third person**, **active voice**, and **present tense**.
-- Present the process in the following structure:
+- **Voice and Tense:**  
+  - Always use third person, active voice, and present tense.
+- **Structure:**  
+  - **Summary:**  
+    - Start with a leading sentence such as:  
+      _“The key components involved in the [process] are:”_  
+    - List the key components (actors, roles, actions, timeframes, if applicable) in a bullet list with short, focused descriptions.
+  - **Context (Optional):**  
+    - Provide background or explanation regarding the relevance or need for the process.
+  - **Process Stages:**  
+    - Begin with a leading sentence like:  
+      _“The [process] involves the following stages:”_  
+    - Present the stages in a structured list detailing what each actor does, in what sequence, and under what conditions.
+  - **Result (Optional):**  
+    - Summarize what the process achieves or enables.
 
-1. **Summary**: Provide the summary of the process and list the **key components**, which includes actors, action, timeframe, if applicable, at a high level.
-   **Key components involved**:
-   - Start with a leading sentence like:  
-     _“The key components involved in the [process] are:”_
-   - Use a bullet list to describe each actor, role, or element. Keep descriptions short and focused.
-3. **Context**: Provide background information that explains the relevance or need for the process, if needed. This is optional.
-4. **Process stages**:
-   - Start with a leading sentence like:  
-     _“The [process] involves the following stages:”_
-   - Present stages in a structured list, stating what each actor does, in what sequence, and under what conditions.
-5. **Result**: Summarize what the process achieves or enables, if needed. This is optional
+---
+
+### Chunk Organization Rules
+
+- **Markdown Header:**  
+  Begin with a Markdown header that includes the title (formatted according to the Title Rules) followed by the information type in bold.
+  ```
+  ## {{Title (following Process Title Rules)}} **(Process)**
+  ```
+- **Content Structure:**  
+  Present the body in the following order:
+  1. **Summary:**  
+     - A leading sentence introducing the key components, followed by a bullet list of those components.
+  2. **Context (Optional):**  
+     - A section providing background or further explanation if needed.
+  3. **Process Stages:**  
+     - A leading sentence introducing the stages, followed by a structured list of each stage detailing the sequence and conditions.
+  4. **Result (Optional):**  
+     - A section summarizing the outcome or achievement of the process.
 
 ---
 
