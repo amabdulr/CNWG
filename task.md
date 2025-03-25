@@ -1,4 +1,4 @@
-  > 1. Read the user-provided content carefully.  
+ > 1. Read the user-provided content carefully.  
 > 2. Identify the **main task** the user is expected to perform.  
 > 3. Rewrite the content as a **Task Information Type**, following the detailed rules below:
 
@@ -10,20 +10,24 @@
 - **User Response**: Perform the task successfully by following the steps.
 
 ---
+---
 
-#### **Task Title Rules**
-- Use **imperative verb form**, **second person**, and **sentence case**.
-- Ensure the title clearly communicates the action being performed.
-- **Examples of valid titles**:
+### **Task Title Rules**
+
+- **Form & Person:**  
+  Use the imperative verb form in second person.
+- **Case:**  
+  Use sentence case.
+- **Clarity:**  
+  Ensure the title clearly communicates the action being performed.
+- **Examples:**  
   - Configure a transaction record  
   - Create a new user group  
   - Upload a customer document  
 
 ---
 
-#### **Task Body Writing Rules**
-
-When rewriting UI instructions, follow these guidelines:
+### Chunk Rules
 
 1. **Describe Only Crucial UI Elements or UX Processes**  
    - **Rule**: Only describe UI elements or UX processes that are crucial to a task.  
@@ -78,7 +82,7 @@ When rewriting UI instructions, follow these guidelines:
      > **Step x**: Copy the certificate fingerprint.
 
 6. **Simplify Steps When Possible**  
-   - **Rule**: Remove intermediary steps that offer no additional actionable context (e.g., steps that only say “Click Next”).  
+   - **Rule**: Remove intermediary steps that offer no additional actionable context (e.g., steps that only say "Click Next").  
    - **Incorrect Example**:  
      > Step 1 From the Choose Action drop-down list, choose Launch CloudFormation.  
      > Step 2 Click Launch.  
@@ -88,6 +92,22 @@ When rewriting UI instructions, follow these guidelines:
      > Step 2: In the Create Stack page, click Template Is Ready and Amazon S3 URL.
 
 ---
+
+### Chunk Organization Rules
+
+- **Overall Structure:**  
+  Organize the content as a clearly ordered list of step commands that guide the user through the task.
+- **Section Grouping:**  
+  Group related instructions together (e.g., prerequisites, main steps, additional information, and expected results).
+- **Step Order:**  
+  Ensure each step follows the Step Command Formula and that the steps are in a logical sequence.
+- **Formatting:**  
+  Present the final output with a Markdown header (see Title Rules) followed by the ordered list of step commands.
+- **Clarity & Actionability:**  
+  Each step must be clear, concise, and directly contribute to performing the task successfully. And each step follows the step command formula below. 
+
+---
+
 
 #### **Step Command Formula**
 Step commands can be:
