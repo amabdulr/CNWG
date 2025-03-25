@@ -6,53 +6,70 @@
 
 #### **Task Information Type Guidelines**
 
-- **Purpose**: Instruct users with **step commands** to perform a task.
-- **User Response**: Perform the task successfully by following the steps.
+
+### Title Rules
+
+- **Verb Form & Person:**  
+  Use the imperative verb form in second person.
+- **Case:**  
+  Use sentence case.
+- **Clarity:**  
+  Ensure the title clearly communicates the action being performed.
+
+*Examples of valid titles:*
+- Configure a transaction record  
+- Create a new user group  
+- Upload a customer document  
 
 ---
 
-#### **Task Title Rules**
-- Use **imperative verb form**, **second person**, and **sentence case**.
-- Ensure the title clearly communicates the action being performed.
-- **Examples of valid titles**:
-  - Configure a transaction record  
-  - Create a new user group  
-  - Upload a customer document  
+### Chunk Rules
+
+- **Voice and Tense:**  
+  Always use active voice and present tense.
+- **Step Commands:**  
+  Use step commands — simple or complex — in every step.
+  - **Simple Step:** An action verb with an object noun or prepositional phrase.
+  - **Complex Step:** May include, in order, an if-condition, use-modifier, adverb, action verb and object noun, prepositional phrase, purpose, until-conclusion, substeps (if needed), and an optional step result.
+- **Content Elements:**  
+  The task body should include the following components:
+  - **Purpose:** Clearly state why the task is performed.
+  - **Context:** Provide relevant background or situational details.
+  - **Before you begin (Optional):** List prerequisites or preparations needed.
+  - **Steps:** Present step commands that lead to the outcome.
+  - **Additional Information (Optional):** Include clarifying instructions, exceptions, or tips.
+  - **Result:** Describe what happens after successful completion.
+  - **Post-requisites (Optional):** Mention any follow-up steps or actions.
 
 ---
 
-#### **Task Body Writing Rules**
+### Chunk Organization Rules
 
-- Always use **active voice** and **present tense**.
-- Use **step commands** — simple or complex — in every step.
-- Follow this structure:
-  - **Purpose**: Clearly state why the task is performed.
-  - **Context**: Provide relevant background or situation.
-  - **Before you begin** *(optional)*: State prerequisites or what the user needs to prepare.
-  - **Follow these steps to [achieve the outcome]:**
-    1. **Step Command**: Use a clear action verb. Add substeps, notes, or expected results if needed.
-    2. Repeat for each step.
-  - **Additional information** *(optional)*: Add clarifying instructions, exceptions, or tips.
-  - **Result**: Describe what happens after successful completion.
-  - **Post-requisites** *(optional)*: Mention any follow-up steps, if applicable.
+- **Markdown Header:**  
+  Start with a Markdown header containing the title (formatted per the Title Rules) followed by the information type in bold:
+  ```
+  ## {{Title (following Task Title Rules)}} **(Task)**
+  ```
+- **Structured Content Layout:**  
+  Organize the body into clearly defined sections, for example:
+  1. **Purpose:**  
+     - Explain why the task is performed.
+  2. **Context:**  
+     - Provide background or situational context.
+  3. **Before you begin (Optional):**  
+     - List prerequisites or preparations.
+  4. **Steps:**  
+     - Introduce with a sentence such as:  
+       _“Follow these steps to [achieve the outcome]:”_
+     - List each step as an ordered command using the Step Command Formula.
+  5. **Additional Information (Optional):**  
+     - Provide any extra clarifications, tips, or exceptions.
+  6. **Result:**  
+     - Describe the outcome after successful completion.
+  7. **Post-requisites (Optional):**  
+     - Mention any follow-up steps if applicable.
 
----
 
-#### **Step Command Formula**
-Step commands can be:
-- **Simple** (action verb + object noun or prepositional phrase)
-- **Complex**, including any of the following components in this order:
-  - If-condition
-  - Use-modifier
-  - Adverb
-  - Action verb and object noun
-  - Prepositional phrase
-  - Purpose
-  - Until-conclusion
-  - Substeps (if needed)
-  - Step result (optional)
-
----
 
 #### **Output Format (in Markdown)**
 
