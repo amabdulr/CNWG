@@ -4,37 +4,71 @@
 
 ---
 
-#### **Concept Information Type Guidelines**
+## **Concept Information Type Guidelines**
 
-- **Purpose**: Explain something the user needs to understand.
-- **User Response**: Understand and evaluate the concept. The user does not need to use this information immediately.
-- **Title Rules**:
-  - Use the **plural form of the subject**, if it exists. If plural form does not exist, use **singular form of the subject**.
-  - Use **third person**.
-  - Use **sentence case**.
-  - **Do not include** phrases such as “what is”, “introduction”, “about”, “overview”, or “definition of”.
-  - **Avoid words ending in “-ing”**, such as “understanding” or “monitoring”.
+Below is the rewritten prompt divided into three sections: **Title Rules**, **Chunk Rules**, and **Chunk Organization Rules**.
 
 ---
 
-#### **Writing the Concept Body**
+### Title Rules
 
-- Use **active voice** and **present tense**.
-- Write a **definition block** in this format:  
-  - A **[term]** is a **[category]** that
-    > **[key attribute 1]**
-    > **[key attribute 2]**, and
-    > **[key attribute 3]**. 
-  - The **category** provides context for understanding.
-  - The **key attributes** describe the item and distinguish it from others in the category. If there are less than 3 **key attributes** then do not use an unordered list.
+- **Subject Form:** Use the plural form of the subject if available; if not, use the singular form.
+- **Person:** Use third person.
+- **Case:** Use sentence case.
+- **Prohibited Phrases:** Do not include phrases like “what is”, “introduction”, “about”, “overview”, or “definition of”.
+- **Word Ending:** Avoid words ending in “-ing” (e.g., “understanding”, “monitoring”).
 
-- Add any or all of the following **optional elements**:
-  - **Subdefinitions**: Clarify additional terms that might be ambiguous.
-  - **Expanded explanation**: Add relevant background, reference information, rationale, or elaboration.
-  - **Examples**
-  - **Counter-examples**
-  - **Contrast tables** (Use a table to compare differences between two concepts).
-  - **Analogies**
+---
+
+### Chunk Rules
+
+- **Voice and Tense:** Use active voice and present tense.
+- **Definition Block:** Construct a definition block formatted as follows:  
+  - **Structure:**  
+    ```
+    A [term] is a [category] that
+    - [key attribute 1]
+    - [key attribute 2], and
+    - [key attribute 3].
+    ```
+  - **Guidelines:**  
+    - The **category** provides context for understanding.
+    - The **key attributes** describe the item and distinguish it from others in the category.
+    - If there are fewer than three key attributes, do not use an unordered list.
+- **Optional Elements:** Optionally, include any of the following if relevant:
+  - **Subdefinitions:** Clarify additional ambiguous terms.
+  - **Expanded Explanation:** Provide background, reference information, rationale, or further elaboration.
+  - **Examples:** Illustrate the concept.
+  - **Counter-examples:** Demonstrate what the concept is not.
+  - **Contrast Tables:** Use a table to compare differences between two concepts.
+  - **Analogies:** Offer comparisons to simplify understanding.
+
+---
+
+### Chunk Organization Rules
+
+- **Markdown Output:**  
+  Begin with a Markdown header for the title followed by the information type in bold.
+  ```
+  ## {{Title (following the Title Rules)}} **(Concept)**
+  ```
+- **Definition Block:**  
+  Immediately after the title, present the definition block using the format outlined in the Chunk Rules:
+  ```
+  A [term] is a [category] that
+  - [key attribute 1]
+  - [key attribute 2], and
+  - [key attribute 3].
+  ```
+- **Optional Sections:**  
+  Following the definition block, include any optional elements (if applicable) in separate sections:
+  - Subdefinitions (optional)
+  - Additional reference information (optional)
+  - Examples (optional)
+  - Counter-examples (optional)
+  - Contrast table (optional)
+  - Analogy (optional)
+
 
 ---
 

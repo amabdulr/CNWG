@@ -13,10 +13,13 @@
    - A detailed analysis explaining whether the chunk complies with the CHUNK RULES.
    - A detailed analysis explaining whether the chunk adheres to the Content Organization rules.
    - A final bold statement indicating if any action is needed: **Action Required** or **No Action Required**.
-
 # Information Types and Titling Rules
 
 ## **Concept Information Type Guidelines**
+
+Below is the rewritten prompt divided into three sections: **Title Rules**, **Chunk Rules**, and **Chunk Organization Rules**.
+
+---
 
 ### Title Rules
 
@@ -77,6 +80,7 @@
   - Contrast table (optional)
   - Analogy (optional)
 
+
 ---
 
 #### **Output Format (in Markdown)**
@@ -126,13 +130,9 @@ Policy-driven licensing is a licensing model based on a set of predefined polici
 - **Policy-based management**: The Cisco default policy, enabled by default, automates license management, streamlining operations and ensuring compliance.
 
 ----
----
 
-#### **Task Information Type Guidelines**
 
--Below is the rewritten prompt organized into three sections: **Title Rules**, **Chunk Rules**, and **Chunk Organization Rules** for the Task Information Type.
-
----
+## **Task Information Type Guidelines**
 
 ### Title Rules
 
@@ -376,115 +376,8 @@ Follow these steps to discover the devices:
 
 ---
 
----
 
-#### **Task Example with CLI**
-
-## Configure the NetFlow version 9 protocol **(Task)**
-
-**Purpose**: Monitor network traffic by configuring one or more Flow Exporters, associating them with a Flow Monitor, and enabling NetFlow on the appropriate router interface. Optionally, configure a Flow Sampler to set the sampling rate for flow samples.
-
-**Context**: Use this procedure when setting up NetFlow monitoring on a router. Consider this topology as an example configuration scenario.
-
-**Before you begin**:
-- Identify the source IP address: `2001:db8::0003`.
-- Identify the NetFlow Collector (destination IP address): `2001:db8::0002`.
-- Determine the router interface to enable NetFlow on (e.g., `HundredGigE 0/0/0/24`).
-- Confirm that NetFlow version 9 will be used.
-
-Follow these steps to configure the NetFlow version 9 protocol:
-
-1. **Configure a Flow Exporter** to specify where and how packets should be exported.
-   - **Example**:
-     ```
-     Router# configure
-     Router(config)# flow exporter-map Expo1
-     Router(config-fem)# source-address 2001:db8::0003
-     Router(config-fem)# destination 2001:db8::0002
-     Router(config-fem)# transport udp 1024
-     Router(config-fem)# version v9
-     Router(config-fem-ver)# options interface-table
-     Router(config-fem-ver)# commit
-     Router(config-fem-ver)# root
-     Router(config)# exit
-     ```
-
-2. **Create a Flow Monitor** using the `flow monitor-map` command to define the type of traffic to be monitored.
-   - *Note*: You can include one or more exporter maps in the monitor map. A single flow monitor map can support up to eight exporters. The record type specifies the type of packets sampled (e.g., MPLS, IPv4, or IPv6).
-   - **Example**:
-     ```
-     Router# configure
-     Router(config)# flow monitor-map fmm-ipv6
-     Router(config-fmm)# record ipv6
-     Router(config-fmm)# cache entries 500000
-     Router(config-fmm)# cache timeout active 60
-     Router(config-fmm)# cache timeout inactive 20
-     ```
-
-3. **Configure a Flow Sampler** using the `sampler-map` command to define the rate at which packet sampling is performed.
-   - **Example**:
-     ```
-     Router(config)# configure
-     Router(config)# sampler-map fsm1
-     Router(config-sm)# random 1 out-of 262144
-     Router(config)# exit
-     Router(config)# commit
-     Router(config)# exit
-     ```
-
-4. **Apply a Flow Monitor Map and a Flow Sampler** on a physical interface to enable NetFlow on the router.
-   - *Note*: Use the same sampler map configuration on both sub-interfaces and physical interfaces under a port.
-   - **Example**:
-     ```
-     Router# configure
-     Router(config)# interface HundredGigE 0/0/0/24
-     Router(config-if)# flow ipv6 monitor fmm-ipv6 sampler fsm1 ingress
-     Router(config-if)# commit
-     Router(config-if)# root
-     Router(config)# exit
-     ```
-
-5. **Verify the NetFlow Configuration** on the router.
-   - **a. Verify the Flow Exporter**:
-     - **Example**:
-       ```
-       Router# show flow exporter-map Expo1
-       Flow Exporter Map : Expo1
-       -------------------------------------------------
-       Id : 1
-       Packet-Length : 1468
-       DestinationIpAddr : 2001:db8::2
-       VRFName : default
-       SourceIfName :
-       SourceIpAddr : 2001:db8::3
-       DSCP : 0
-       TransportProtocol : UDP
-       TransportDestPort : 1024
-       Do Not Fragment : Not Enabled
-       ```
-   - **b. Verify the Flow Monitor**:
-     - **Example**:
-       ```
-       Router# show flow monitor-map fmm-ipv6
-       Flow Monitor Map : fmm-ipv6
-       -------------------------------------------------
-       Id: 1
-       RecordMapName: ipv6
-       ExportMapName: Expo1
-       CacheAgingMode: Normal
-       CacheMaxEntries: 500000
-       CacheActiveTout: 60 seconds
-       CacheInactiveTout: 20 seconds
-       ```
-
-**Result**: The NetFlow version 9 protocol is successfully configured on the router, enabling you to monitor network traffic and analyze the exported data using a NetFlow analyzer.
-
-**Post-requisites**: Analyze the exported data with a NetFlow analyzer to assess network performance and traffic patterns.
-
----
-
-
-#### **Process Information Type Guidelines**
+## **Process Information Type Guidelines**
 
 
 ### Title Rules
@@ -590,7 +483,7 @@ The process involves the following stages:
 The DHCP process provides automated and efficient network configuration, ensuring devices can operate seamlessly with minimal manual intervention.
 
 
-#### **Reference Information Type Guidelines**
+## **Reference Information Type Guidelines**
 
 ### Title Rules
 
@@ -657,7 +550,7 @@ The routed PON solution enhances network efficiency and lowers costs by providin
 ---
 
 
-#### **Principle Information Type Guidelines**
+## **Principle Information Type Guidelines**
 
 
 ### Title Rules
@@ -723,5 +616,4 @@ The routed PON solution enhances network efficiency and lowers costs by providin
 We recommend using the included Torx screwdriver, which is the correct length to reach the screws during this step. This makes the task easier and reduces the risk of damaging the components.
 
 ---
-
 

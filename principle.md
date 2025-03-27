@@ -5,23 +5,19 @@
 
 ---
 
-#### **Principle Information Type Guidelines**
+## **Principle Information Type Guidelines**
 
-- **Purpose**: Advise users on what to do, what not to do, and when to do it.
-- **User Response**: Recognize the principle and its level of importance or gravity.
 
----
+### Title Rules
 
-#### **Principle Title Rules**
+- **Include Gravity:** Always include the gravity (e.g., Tip, Note, Recommendation, Best practice, Requirement, Policy, Warning, Caution, Code) in the title.
+- **Case:** Use sentence case.
+- **Person:** Use second person.
+- **Format:** Use one of these title formats:
+  - **Gravity + principle** (e.g., "Tip: Use the right tool for the step")
+  - **Principle + gravity** (e.g., "Best practice for firewall configuration")
 
-- Always include the **gravity** (e.g., Tip, Note, Recommendation, Best practice, Requirement, Policy, Warning, Caution, Code) in the title.
-- Use **sentence case**.
-- Use **second person**.
-- Use one of these title formats:
-  - **Gravity + principle**  
-  - **Principle + gravity**
-
-**Examples of valid titles**:
+*Examples of valid titles:*
 - Tip: Use the right tool for the step  
 - Best practice for firewall configuration  
 - Caution: Handle components with care  
@@ -29,15 +25,32 @@
 
 ---
 
-#### **Principle Body Writing Rules**
+### Chunk Rules
 
-- Always use **active voice** and **present tense**.
-- Match your tone to the **gravity level**:
-  - **Light gravity (Tip/Note/Recommendation)**: Use encouraging, positive phrasing like _"You can..."_ or _"We recommend..."_.
-  - **Moderate gravity (Guideline/Best Practice/Requirement)**: Use stronger phrasing like _"Ensure that..."_.
-  - **Heavy gravity (Caution/Warning/Policy/Code)**: Use direct, imperative phrasing like _"Do not…"_, _"Always…"_, _"Use only…"_, etc.
+- **Voice and Tense:**  
+  - Always use active voice and present tense.
+- **Tone Matching Gravity:**  
+  - **Light gravity (Tip/Note/Recommendation):** Use encouraging, positive phrasing (e.g., "You can..." or "We recommend...").
+  - **Moderate gravity (Guideline/Best Practice/Requirement):** Use stronger phrasing (e.g., "Ensure that...").
+  - **Heavy gravity (Caution/Warning/Policy/Code):** Use direct, imperative phrasing (e.g., "Do not…", "Always…", "Use only…").
+- **Multiple Principles:**  
+  - If there are multiple related principles, present them as a bulleted list.
+  - **Avoid tables** for listing multiple principles.
 
-- If there are multiple related principles, present them as a **bulleted list**. Do not use tables.
+---
+
+### Chunk Organization Rules
+
+- **Markdown Header:**  
+  Begin with a Markdown header that includes the title (following the Title Rules) and the information type in bold:
+  ```
+  ## {{Title (following Principle Title Rules)}} **(Principle)**
+  ```
+- **Content Structure:**  
+  Follow with the principle body that:
+  - Uses active voice, present tense, and the appropriate tone based on the gravity.
+  - Clearly advises what to do, what not to do, or when to do something.
+  - If multiple principles are provided, organize them in a bulleted list.
 
 ---
 

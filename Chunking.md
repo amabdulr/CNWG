@@ -54,10 +54,13 @@
       **Warning: This list is not comprehensive. Please run the CTWG>Chunk>Find Missing Info menu option for more. Human oversight is essential for all AI outputs. Specifically look for missing tables, codeblocks, and numbers.**
 
 ---
-
 # Information Types and Titling Rules
 
 ## **Concept Information Type Guidelines**
+
+Below is the rewritten prompt divided into three sections: **Title Rules**, **Chunk Rules**, and **Chunk Organization Rules**.
+
+---
 
 ### Title Rules
 
@@ -118,6 +121,7 @@
   - Contrast table (optional)
   - Analogy (optional)
 
+
 ---
 
 #### **Output Format (in Markdown)**
@@ -169,11 +173,7 @@ Policy-driven licensing is a licensing model based on a set of predefined polici
 ----
 
 
-#### **Task Information Type Guidelines**
-
--Below is the rewritten prompt organized into three sections: **Title Rules**, **Chunk Rules**, and **Chunk Organization Rules** for the Task Information Type.
-
----
+## **Task Information Type Guidelines**
 
 ### Title Rules
 
@@ -190,26 +190,30 @@ Policy-driven licensing is a licensing model based on a set of predefined polici
 
 ### Chunk Rules
 
-- **Voice and Tense:** Always use active voice and present tense.
-- **UI Element Focus:**  
-  - **Crucial Elements Only:** Describe only those UI elements or UX processes that are essential to completing the task.  
-    - *Incorrect:* Over-detailing every transition or page.  
-    - *Correct:* "A loading icon appears for a few moments. Responses display with curl, Request URL, and a server response that you can copy or download."
-- **Positional Descriptors:** Avoid using positional terms (e.g., top, bottom, left, right) unless absolutely necessary.
-  - *Incorrect:* "Click the Filter icon from the top right corner of the table."  
-  - *Correct:* "Click the filter icon."
-- **Conciseness for Filter/Sort:** Provide concise, outcome-focused instructions instead of overly detailed UI steps.
-  - *Incorrect:* A multi-step detailed explanation for filtering.  
-  - *Correct:* "Filter or sort the sensor list by label, IP address, version, location, health, or processing status. Click the filter icon, enter a value, and click Apply."
-- **UI Control References:** Avoid unnecessarily referencing specific UI control names.
-  - *Incorrect:* "Click the drop-down arrow for the Protocol field and select a protocol from the drop-down list."  
-  - *Correct:* "From the Protocol drop-down list, choose a syslog message protocol."
-- **Over-Description:** Avoid detailing every UI element; include only what is essential for the task.
-  - *Incorrect:* "Click the copy icon to copy the Fingerprint and enroll your center with a global center."  
-  - *Correct:* "Copy the certificate fingerprint."
-- **Simplification:** Eliminate intermediary steps that add no actionable context.
-  - *Incorrect:* Listing trivial steps like "Click Next" without adding context.  
-  - *Correct:* Combine steps to focus on key actions, e.g., "From the Choose Action drop-down list, choose Launch CloudFormation; then, in the Create Stack page, click Template Is Ready and Amazon S3 URL."
+- **Voice and Tense:** Active voice and present tense.
+- **Minimal GUI Reference:** Only describe GUI elements essential for the task.
+  - ✅ Correct: "Enable service assurance."
+  - ❌ Incorrect: "Click the enable service assurance slider."
+- **Positional Descriptors:** Avoid positional descriptors unless essential.
+  - ✅ Correct: "Click the filter icon."
+  - ❌ Incorrect: "Click the filter icon at the top right."
+- **Conciseness:** Be concise, outcome-focused.
+  - ✅ Correct: "Filter by device label, IP, or status."
+  - ❌ Incorrect: Detailed multi-step explanations.  
+- **No Over-Description:** Avoid detailing non-critical UI elements. include only what is essential for the task.
+  - ✅ Correct: "Copy the certificate fingerprint."
+  - ❌ Incorrect: "Click the copy icon next to fingerprint."
+  - ✅ Correct: "From the Protocol drop-down list, choose a syslog message protocol."
+  - ❌ Incorrect: "Click the drop-down arrow for the Protocol field and select a protocol from the drop-down list."  
+- **Simplification:** Remove trivial steps that don't add context.
+  - ✅ Correct: "Choose Launch CloudFormation; select Template Is Ready and Amazon S3 URL." 
+  - ✅ Correct: Combine steps to focus on key actions, e.g., "From the Choose Action drop-down list, choose Launch CloudFormation; then, in the Create Stack page, click Template Is Ready and Amazon S3 URL."
+  - ❌ Incorrect: "Click Next; click Template Is Ready; click Amazon S3 URL."
+  - ❌ Incorrect: Listing trivial steps like "Click Next" without adding context.  
+- **User Benefit Highlighting:** Briefly state task benefits when relevant.
+- **Clear Feedback:** Provide feedback upon task completion clearly.
+- **Future-Proofing:** Avoid specifying GUI element details that frequently change.
+- **Icon Definitions:** Only define non-standard icons explicitly.
 
 - **Step Command Formula:**  
   Steps can be either:
@@ -414,7 +418,7 @@ Follow these steps to discover the devices:
 ---
 
 
-#### **Process Information Type Guidelines**
+## **Process Information Type Guidelines**
 
 
 ### Title Rules
@@ -520,7 +524,7 @@ The process involves the following stages:
 The DHCP process provides automated and efficient network configuration, ensuring devices can operate seamlessly with minimal manual intervention.
 
 
-#### **Reference Information Type Guidelines**
+## **Reference Information Type Guidelines**
 
 ### Title Rules
 
@@ -587,7 +591,7 @@ The routed PON solution enhances network efficiency and lowers costs by providin
 ---
 
 
-#### **Principle Information Type Guidelines**
+## **Principle Information Type Guidelines**
 
 
 ### Title Rules
@@ -653,5 +657,4 @@ The routed PON solution enhances network efficiency and lowers costs by providin
 We recommend using the included Torx screwdriver, which is the correct length to reach the screws during this step. This makes the task easier and reduces the risk of damaging the components.
 
 ---
-
 

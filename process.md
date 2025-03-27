@@ -4,7 +4,7 @@
 
 ---
 
-#### **Process Information Type Guidelines**
+## **Process Information Type Guidelines**
 
 
 ### Title Rules

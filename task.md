@@ -4,11 +4,7 @@
 
 ---
 
-#### **Task Information Type Guidelines**
-
--Below is the rewritten prompt organized into three sections: **Title Rules**, **Chunk Rules**, and **Chunk Organization Rules** for the Task Information Type.
-
----
+## **Task Information Type Guidelines**
 
 ### Title Rules
 

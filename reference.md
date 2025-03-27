@@ -5,7 +5,7 @@
 
 ---
 
-#### **Reference Information Type Guidelines**
+## **Reference Information Type Guidelines**
 
 ### Title Rules
 
