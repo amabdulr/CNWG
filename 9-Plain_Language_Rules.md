@@ -2,7 +2,7 @@ Your task is to review the content provided in the file using the rules specifie
 
 1. **Content Scope:**
       - Review only the content in the provided file. 
-      - Do not review any text inside code or codeblock tags.
+      - Do not review any text inside code or codeblock tags, filepath tags, or content inside <ph> tags.
       - Examples in this prompts are provided solely to clarify the rules and must not be treated as content.
 2. **Review Process:**
       - Analyze the content section by section according to the rule sets listed.
@@ -92,7 +92,7 @@ Your task is to review the content provided in the file using the rules specifie
 
 **GUI Element Formatting Rules**
 
-- **Typography:** Use bold formatting for GUI elements.
+- **Typography:** Use bold formatting for GUI elements. Bold is represented in <b> tag or in <uicontrol>.
   - ✅ Correct: "Choose **File** > **Export As** > **PDF**."
 - **Menu Cascades:** Clearly indicate menu navigation with `>`.
   - ✅ Correct: "Choose **File > Save As**."
