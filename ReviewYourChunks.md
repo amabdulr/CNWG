@@ -6,11 +6,12 @@
 3. **Evaluate the Title.** Check that the title adheres to the TITLE RULES for its specified infotype.
 4. **Evaluate the Chunk.** Verify that the chunk meets the CHUNK RULES for its corresponding infotype.
 5. **Assess the Content Organization.** Ensure the chunk follows the prescribed order and structure outlined in the Content Organization rules for that infotype.
+5. **Assess for GUI formatting and Verb Usage.** For task infor type, validate for "GUI Element Formatting Rules" and "GUI Verb Usage Rules". 
 6. **Present your analysis in the following format:**
    - A second-level Markdown heading with the Title in bold, followed by the information type in bold in parentheses.
-   - An analysis explaining whether the title complies with the TITLE RULES.
-   - An analysis explaining whether the chunk complies with the CHUNK RULES.
-   - An analysis explaining whether the chunk adheres to the Content Organization rules.
+   - A detailed analysis explaining whether the title complies with the TITLE RULES.
+   - A detailed analysis explaining whether the chunk complies with the CHUNK RULES.
+   - A detailed analysis explaining whether the chunk adheres to the Content Organization rules.
    - A final bold statement indicating if any action is needed: **Action Required** or **No Action Required**.
 
 # Information Types and Titling Rules
@@ -125,7 +126,7 @@ Policy-driven licensing is a licensing model based on a set of predefined polici
 - **Policy-based management**: The Cisco default policy, enabled by default, automates license management, streamlining operations and ensuring compliance.
 
 ----
-
+---
 
 #### **Task Information Type Guidelines**
 
@@ -148,26 +149,30 @@ Policy-driven licensing is a licensing model based on a set of predefined polici
 
 ### Chunk Rules
 
-- **Voice and Tense:** Always use active voice and present tense.
-- **UI Element Focus:**  
-  - **Crucial Elements Only:** Describe only those UI elements or UX processes that are essential to completing the task.  
-    - *Incorrect:* Over-detailing every transition or page.  
-    - *Correct:* "A loading icon appears for a few moments. Responses display with curl, Request URL, and a server response that you can copy or download."
-- **Positional Descriptors:** Avoid using positional terms (e.g., top, bottom, left, right) unless absolutely necessary.
-  - *Incorrect:* "Click the Filter icon from the top right corner of the table."  
-  - *Correct:* "Click the filter icon."
-- **Conciseness for Filter/Sort:** Provide concise, outcome-focused instructions instead of overly detailed UI steps.
-  - *Incorrect:* A multi-step detailed explanation for filtering.  
-  - *Correct:* "Filter or sort the sensor list by label, IP address, version, location, health, or processing status. Click the filter icon, enter a value, and click Apply."
-- **UI Control References:** Avoid unnecessarily referencing specific UI control names.
-  - *Incorrect:* "Click the drop-down arrow for the Protocol field and select a protocol from the drop-down list."  
-  - *Correct:* "From the Protocol drop-down list, choose a syslog message protocol."
-- **Over-Description:** Avoid detailing every UI element; include only what is essential for the task.
-  - *Incorrect:* "Click the copy icon to copy the Fingerprint and enroll your center with a global center."  
-  - *Correct:* "Copy the certificate fingerprint."
-- **Simplification:** Eliminate intermediary steps that add no actionable context.
-  - *Incorrect:* Listing trivial steps like "Click Next" without adding context.  
-  - *Correct:* Combine steps to focus on key actions, e.g., "From the Choose Action drop-down list, choose Launch CloudFormation; then, in the Create Stack page, click Template Is Ready and Amazon S3 URL."
+- **Voice and Tense:** Active voice and present tense.
+- **Minimal GUI Reference:** Only describe GUI elements essential for the task.
+  - ✅ Correct: "Enable service assurance."
+  - ❌ Incorrect: "Click the enable service assurance slider."
+- **Positional Descriptors:** Avoid positional descriptors unless essential.
+  - ✅ Correct: "Click the filter icon."
+  - ❌ Incorrect: "Click the filter icon at the top right."
+- **Conciseness:** Be concise, outcome-focused.
+  - ✅ Correct: "Filter by device label, IP, or status."
+  - ❌ Incorrect: Detailed multi-step explanations.  
+- **No Over-Description:** Avoid detailing non-critical UI elements. include only what is essential for the task.
+  - ✅ Correct: "Copy the certificate fingerprint."
+  - ❌ Incorrect: "Click the copy icon next to fingerprint."
+  - ✅ Correct: "From the Protocol drop-down list, choose a syslog message protocol."
+  - ❌ Incorrect: "Click the drop-down arrow for the Protocol field and select a protocol from the drop-down list."  
+- **Simplification:** Remove trivial steps that don't add context.
+  - ✅ Correct: "Choose Launch CloudFormation; select Template Is Ready and Amazon S3 URL." 
+  - ✅ Correct: Combine steps to focus on key actions, e.g., "From the Choose Action drop-down list, choose Launch CloudFormation; then, in the Create Stack page, click Template Is Ready and Amazon S3 URL."
+  - ❌ Incorrect: "Click Next; click Template Is Ready; click Amazon S3 URL."
+  - ❌ Incorrect: Listing trivial steps like "Click Next" without adding context.  
+- **User Benefit Highlighting:** Briefly state task benefits when relevant.
+- **Clear Feedback:** Provide feedback upon task completion clearly.
+- **Future-Proofing:** Avoid specifying GUI element details that frequently change.
+- **Icon Definitions:** Only define non-standard icons explicitly.
 
 - **Step Command Formula:**  
   Steps can be either:
@@ -368,6 +373,113 @@ Follow these steps to discover the devices:
 **Result**: The system begins the discovery process using the configured IP ranges and credentials to identify network devices.
 
 **Post-requisites**: Review discovered devices and verify correct classification and connectivity status in the device list.
+
+---
+
+---
+
+#### **Task Example with CLI**
+
+## Configure the NetFlow version 9 protocol **(Task)**
+
+**Purpose**: Monitor network traffic by configuring one or more Flow Exporters, associating them with a Flow Monitor, and enabling NetFlow on the appropriate router interface. Optionally, configure a Flow Sampler to set the sampling rate for flow samples.
+
+**Context**: Use this procedure when setting up NetFlow monitoring on a router. Consider this topology as an example configuration scenario.
+
+**Before you begin**:
+- Identify the source IP address: `2001:db8::0003`.
+- Identify the NetFlow Collector (destination IP address): `2001:db8::0002`.
+- Determine the router interface to enable NetFlow on (e.g., `HundredGigE 0/0/0/24`).
+- Confirm that NetFlow version 9 will be used.
+
+Follow these steps to configure the NetFlow version 9 protocol:
+
+1. **Configure a Flow Exporter** to specify where and how packets should be exported.
+   - **Example**:
+     ```
+     Router# configure
+     Router(config)# flow exporter-map Expo1
+     Router(config-fem)# source-address 2001:db8::0003
+     Router(config-fem)# destination 2001:db8::0002
+     Router(config-fem)# transport udp 1024
+     Router(config-fem)# version v9
+     Router(config-fem-ver)# options interface-table
+     Router(config-fem-ver)# commit
+     Router(config-fem-ver)# root
+     Router(config)# exit
+     ```
+
+2. **Create a Flow Monitor** using the `flow monitor-map` command to define the type of traffic to be monitored.
+   - *Note*: You can include one or more exporter maps in the monitor map. A single flow monitor map can support up to eight exporters. The record type specifies the type of packets sampled (e.g., MPLS, IPv4, or IPv6).
+   - **Example**:
+     ```
+     Router# configure
+     Router(config)# flow monitor-map fmm-ipv6
+     Router(config-fmm)# record ipv6
+     Router(config-fmm)# cache entries 500000
+     Router(config-fmm)# cache timeout active 60
+     Router(config-fmm)# cache timeout inactive 20
+     ```
+
+3. **Configure a Flow Sampler** using the `sampler-map` command to define the rate at which packet sampling is performed.
+   - **Example**:
+     ```
+     Router(config)# configure
+     Router(config)# sampler-map fsm1
+     Router(config-sm)# random 1 out-of 262144
+     Router(config)# exit
+     Router(config)# commit
+     Router(config)# exit
+     ```
+
+4. **Apply a Flow Monitor Map and a Flow Sampler** on a physical interface to enable NetFlow on the router.
+   - *Note*: Use the same sampler map configuration on both sub-interfaces and physical interfaces under a port.
+   - **Example**:
+     ```
+     Router# configure
+     Router(config)# interface HundredGigE 0/0/0/24
+     Router(config-if)# flow ipv6 monitor fmm-ipv6 sampler fsm1 ingress
+     Router(config-if)# commit
+     Router(config-if)# root
+     Router(config)# exit
+     ```
+
+5. **Verify the NetFlow Configuration** on the router.
+   - **a. Verify the Flow Exporter**:
+     - **Example**:
+       ```
+       Router# show flow exporter-map Expo1
+       Flow Exporter Map : Expo1
+       -------------------------------------------------
+       Id : 1
+       Packet-Length : 1468
+       DestinationIpAddr : 2001:db8::2
+       VRFName : default
+       SourceIfName :
+       SourceIpAddr : 2001:db8::3
+       DSCP : 0
+       TransportProtocol : UDP
+       TransportDestPort : 1024
+       Do Not Fragment : Not Enabled
+       ```
+   - **b. Verify the Flow Monitor**:
+     - **Example**:
+       ```
+       Router# show flow monitor-map fmm-ipv6
+       Flow Monitor Map : fmm-ipv6
+       -------------------------------------------------
+       Id: 1
+       RecordMapName: ipv6
+       ExportMapName: Expo1
+       CacheAgingMode: Normal
+       CacheMaxEntries: 500000
+       CacheActiveTout: 60 seconds
+       CacheInactiveTout: 20 seconds
+       ```
+
+**Result**: The NetFlow version 9 protocol is successfully configured on the router, enabling you to monitor network traffic and analyze the exported data using a NetFlow analyzer.
+
+**Post-requisites**: Analyze the exported data with a NetFlow analyzer to assess network performance and traffic patterns.
 
 ---
 
