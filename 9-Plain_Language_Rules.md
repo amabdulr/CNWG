@@ -83,7 +83,6 @@ Your task is to review the content provided in the file using the rules specifie
 #### Example for Clarification (Do not Analyze):**
     - **Incorrect:** "The project management tool can arguably help improve efficiency by leveraging cutting-edge technologies."
     - **Correct:** "Use the project management tool to improve efficiency with advanced technology."
-    
     - **Incorrect:** "The user should utilize the system's features according to their requirements."
     - **Correct:** "Use the system's features to meet your requirements."
 
@@ -93,9 +92,6 @@ Your task is to review the content provided in the file using the rules specifie
 
 **GUI Element Formatting Rules**
 
-- **Capitalization:** GUI elements use initial capitalization.
-  - ✅ Correct: "Open Default Properties."
-  - ❌ Incorrect: "open default properties."
 - **Typography:** Use bold formatting for GUI elements.
   - ✅ Correct: "Choose **File** > **Export As** > **PDF**."
 - **Menu Cascades:** Clearly indicate menu navigation with `>`.
@@ -105,22 +101,66 @@ Your task is to review the content provided in the file using the rules specifie
   - ✅ Correct: "Press **Ctrl+P**."
   - ✅ Correct: "Press **Alt, F, X**."
 
+**GUI Element Rules**
+- **Capitalization:** GUI elements use initial capitalization. When presenting this rule, mention that "Use initial capitalization for the proper names of graphical elements, even if they appear in lowercase in the application. If the GUI does not comply with Magnetic guidelines, reach out to the team for necessary adjustments. In cases where GUI element names (such as field names) use lowercase to align with CLI command formats, follow the existing GUI capitalization."
+  - ✅ Correct: "Open Default Properties."
+  - ❌ Incorrect: "Open default properties."
+- **Punctuation:** When documenting menu options, field names, or other graphical elements that appear with punctuation, do not include the punctuation used on the page.
+  - ✅ Correct: "Choose File > Preferences."
+  - ❌ Incorrect: "Choose File > Preferences..."
+- **Icon Definition Rule:** Do not define universally known icons (e.g., hamburger, profile, bell, or help icons). Only define icons that are not widely recognized or function differently than expected.
+  - ✅ Correct: "Tap the hamburger icon to open the navigation menu."
+  - ❌ Incorrect: "The hamburger icon, represented by three horizontal lines, is used to open the navigation menu."
+
+- **GUI Sequence Order:** Present the sequence in the order in which it occurs.
+  - ✅ Correct: "Choose File > Save As."
+  - ❌ Incorrect: "Choose Save As from the File menu."
+- **Avoid Generic Element Terms:** Avoid using generic terms like "button," "icon," or "tab" when referencing GUI elements. Instead, refer to the element solely by its name.
+  - ✅ Correct: "Click **Local network**."
+  - ❌ Incorrect: "Click the **Local network button**."
+  - ✅ Correct: "In the head-end area, specify the tunnel"
+  - ❌ Incorrect: "In the head-end panel, specify the  tunnel source"
+  - ✅ Correct: "Press Page Up."
+  - ❌ Incorrect: "Press Page Up key."
+
+- **Keystroke Formatting:** Do not use the ^ symbol to represent the Control key. 
+  - ✅ Correct: "To scroll back, press Ctrl+B or the Left Arrow key repeatedly until you scroll back to the beginning of the command entry."
+  - ❌ Incorrect: "To scroll back, press ^ +B or the Left Arrow key repeatedly until you scroll back to the beginning of the command entry."
 
 **GUI Verb Usage Rules**
+- **Select for Drop-Downs and Multi-Item Choices:** Use "select" when choosing items from drop-down lists or when selecting multiple elements.
+  - ✅ Correct: "Select Primary from the Node drop‐down list."
+  - ✅ Correct: "Click Mode and select Active."
+  - ✅ Correct: "In the Devices table, select one or more devices to update."
+  - ❌ Incorrect: "Click Primary from the Node drop‐down list."  
 
-- **Select**: For dropdown/multiple choices.
-- **Choose**: For menu navigation paths.
-- **Check/Uncheck**: For checkboxes.
-- **Click/Double-click/Right-click**: For mouse actions.
-- **Log in/Sign in & Log out/Sign out**: As two separate words for account actions.
+- **Choose for Menu Cascades:** Use "choose" exclusively to describe navigation through menu cascades.
+  - ✅ Correct: "Choose **File > Export As > PDF**."
+  - ❌ Incorrect: "Click **File > Export As > PDF**."  
 
-**Examples (For Clarification Do not Ananlyze):**
+- **Check/Uncheck for Check Box Actions:** Use "check" to select and "uncheck" to deselect check boxes.
+  - ✅ Correct: "Check the **Insert check box**."
+  - ✅ Correct: "Uncheck the **Insert check box**."
+  - ❌ Incorrect: "Click the **Insert check box**."  
 
-- ✅ Correct: "Select Primary from the Node dropdown."
-- ✅ Correct: "Choose File > Share > PDF."
-- ✅ Correct: "Check the Insert option."
-- ✅ Correct: "Double-click the entry."
-- ✅ Correct: "Log in to Cisco DNA Portal."
+- **Click, Double-click, and Right-click for Mouse Actions:** Use "click" for a single mouse action, "double-click" for two rapid clicks, and "right-click" for context menu access.
+  - ✅ Correct: "Click **Local network**."
+  - ✅ Correct: "Double-click an entry in the table."
+  - ✅ Correct: "Right-click to view options."
+  - ❌ Incorrect: "Click on **Local network**."  
+
+- **Close and Exit for Dismissing or Quitting:** Use "close" when dismissing a page or document, and "exit" when quitting an application.
+  - ✅ Correct: "Close the **Default Properties** page."
+  - ✅ Correct: "Exit the application."
+  - ❌ Incorrect: "Close the application." *(if the intent is to quit the app)*  
+
+- **Log in/Sign in for Accessing Accounts:** Use "log in" or "sign in" (as two words) when referring to accessing an account.
+  - ✅ Correct: "Log in to Cisco DNA Portal."
+  - ❌ Incorrect: "Login to Cisco DNA Portal."  
+
+- **Log out/Sign out for Leaving Accounts:** Use "log out" or "sign out" (as two words) when referring to leaving an account.
+  - ✅ Correct: "Log out of Cisco pxGrid Cloud."
+  - ❌ Incorrect: "Logout of Cisco pxGrid Cloud."  
 
 ---
  
