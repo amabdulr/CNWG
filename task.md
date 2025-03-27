@@ -1,4 +1,4 @@
- > 1. Read the user-provided content carefully.  
+  > 1. Read the user-provided content carefully.  
 > 2. Identify the **main task** the user is expected to perform.  
 > 3. Rewrite the content as a **Task Information Type**, following the detailed rules below:
 
@@ -6,122 +6,79 @@
 
 #### **Task Information Type Guidelines**
 
-- **Purpose**: Instruct users with **step commands** to perform a task.
-- **User Response**: Perform the task successfully by following the steps.
+-Below is the rewritten prompt organized into three sections: **Title Rules**, **Chunk Rules**, and **Chunk Organization Rules** for the Task Information Type.
 
 ---
----
 
-### **Task Title Rules**
+### Title Rules
 
-- **Form & Person:**  
-  Use the imperative verb form in second person.
-- **Case:**  
-  Use sentence case.
-- **Clarity:**  
-  Ensure the title clearly communicates the action being performed.
-- **Examples:**  
-  - Configure a transaction record  
-  - Create a new user group  
-  - Upload a customer document  
+- **Verb Form & Person:** Use the imperative verb form in second person.
+- **Case:** Use sentence case.
+- **Clarity:** Ensure the title clearly communicates the action to be performed.
+
+*Examples of valid titles:*
+- Configure a transaction record  
+- Create a new user group  
+- Upload a customer document  
 
 ---
 
 ### Chunk Rules
 
-1. **Describe Only Crucial UI Elements or UX Processes**  
-   - **Rule**: Only describe UI elements or UX processes that are crucial to a task.  
-   - **Incorrect Example**:  
-     > Do not call out transitionary UI elements or pages. Call out the purpose of these elements, if relevant to the task flow.
-   - **Correct Example**:  
-     > A loading icon appears for a few moments. Responses display with curl, Request URL, and the server response that you can copy or even download.  
-     >  
-     > *(Additional Correct Example)*  
-     > The API response is displayed after a few minutes, including a response body that you can edit, copy, or download.
+- **Voice and Tense:** Active voice and present tense.
+- **Minimal GUI Reference:** Only describe GUI elements essential for the task.
+  - ✅ Correct: "Enable service assurance."
+  - ❌ Incorrect: "Click the enable service assurance slider."
+- **Positional Descriptors:** Avoid positional descriptors unless essential.
+  - ✅ Correct: "Click the filter icon."
+  - ❌ Incorrect: "Click the filter icon at the top right."
+- **Conciseness:** Be concise, outcome-focused.
+  - ✅ Correct: "Filter by device label, IP, or status."
+  - ❌ Incorrect: Detailed multi-step explanations.  
+- **No Over-Description:** Avoid detailing non-critical UI elements. include only what is essential for the task.
+  - ✅ Correct: "Copy the certificate fingerprint."
+  - ❌ Incorrect: "Click the copy icon next to fingerprint."
+  - ✅ Correct: "From the Protocol drop-down list, choose a syslog message protocol."
+  - ❌ Incorrect: "Click the drop-down arrow for the Protocol field and select a protocol from the drop-down list."  
+- **Simplification:** Remove trivial steps that don't add context.
+  - ✅ Correct: "Choose Launch CloudFormation; select Template Is Ready and Amazon S3 URL." 
+  - ✅ Correct: Combine steps to focus on key actions, e.g., "From the Choose Action drop-down list, choose Launch CloudFormation; then, in the Create Stack page, click Template Is Ready and Amazon S3 URL."
+  - ❌ Incorrect: "Click Next; click Template Is Ready; click Amazon S3 URL."
+  - ❌ Incorrect: Listing trivial steps like "Click Next" without adding context.  
+- **User Benefit Highlighting:** Briefly state task benefits when relevant.
+- **Clear Feedback:** Provide feedback upon task completion clearly.
+- **Future-Proofing:** Avoid specifying GUI element details that frequently change.
+- **Icon Definitions:** Only define non-standard icons explicitly.
 
-2. **Avoid Positional Descriptors**  
-   - **Rule**: Avoid using positional descriptors (e.g., top, bottom, left, right).  
-   - **Guidance**: If positional descriptors are necessary due to a poorly designed UI page, the writer may choose to retain them as exceptions.
-   - **Incorrect Example**:  
-     > Click the Filter icon from the top right corner of the table.
-   - **Correct Example**:  
-     > Click the filter icon.
-
-3. **Filter and Sort Instructions**  
-   - **Rule**: Provide concise, outcome-focused instructions instead of overly detailed UI steps.  
-   - **Incorrect Example**:  
-     > Filter and sort the sensor list  
-     >  
-     > To filter the sensor list, follow these steps:  
-     > 1. From the main menu, choose Admin > Sensors > Sensor Explorer.  
-     > 2. Click the Filter icon from the top right corner of the table.  
-     > 3. Type in the field or select from the drop-down menu to locate the folder(s) or sensor(s).  
-     > 4. Click Apply.
-   - **Correct Example**:  
-     > Filter or sort the sensor list by label, IP address, version, location, health, or processing status.  
-     >  
-     > To filter the list of sensors in the Admin > Sensors > Sensor Explorer page:  
-     > - Click the filter icon.  
-     > - To filter by a parameter, enter a value and click Apply.  
-     > - The page displays all results containing the specified value.
-
-4. **Do Not Call Out Specific UI Controls**  
-   - **Rule**: Avoid referencing UI control names unnecessarily.  
-   - **Incorrect Example**:  
-     > Click the drop-down arrow for the Protocol field and select a protocol from the drop-down list.
-   - **Correct Example**:  
-     > From the Protocol drop-down list, choose a syslog message protocol.
-
-5. **Avoid Over-Describing UI Elements**  
-   - **Rule**: Do not detail every UI element for the sake of mentioning everything on a page. Stay true to the purpose of the content chunk or topic type.  
-   - **Incorrect Example**:  
-     > Click the copy icon to copy the Fingerprint and enroll your center with a global center.  
-     > *(This level of detail may be unnecessary in a concept topic about certificate fingerprints.)*
-   - **Correct Example**:  
-     > In a task topic where copying the certificate fingerprint is essential, include only the necessary step:  
-     > **Step x**: Copy the certificate fingerprint.
-
-6. **Simplify Steps When Possible**  
-   - **Rule**: Remove intermediary steps that offer no additional actionable context (e.g., steps that only say "Click Next").  
-   - **Incorrect Example**:  
-     > Step 1 From the Choose Action drop-down list, choose Launch CloudFormation.  
-     > Step 2 Click Launch.  
-     > Step 3 In the Create Stack page, click Template Is Ready and Amazon S3 URL.
-   - **Correct Example**:  
-     > Step 1: From the Choose Action drop-down list, choose Launch CloudFormation.  
-     > Step 2: In the Create Stack page, click Template Is Ready and Amazon S3 URL.
+- **Step Command Formula:**  
+  Steps can be either:
+  - **Simple:** Action verb + object noun or prepositional phrase.
+  - **Complex:** Optionally include, in order:
+    - If-condition
+    - Use-modifier
+    - Adverb
+    - Action verb and object noun
+    - Prepositional phrase
+    - Purpose
+    - Until-conclusion
+    - Substeps (if needed)
+    - Optional step result
 
 ---
 
 ### Chunk Organization Rules
 
-- **Overall Structure:**  
-  Organize the content as a clearly ordered list of step commands that guide the user through the task.
-- **Section Grouping:**  
-  Group related instructions together (e.g., prerequisites, main steps, additional information, and expected results).
-- **Step Order:**  
-  Ensure each step follows the Step Command Formula and that the steps are in a logical sequence.
-- **Formatting:**  
-  Present the final output with a Markdown header (see Title Rules) followed by the ordered list of step commands.
-- **Clarity & Actionability:**  
-  Each step must be clear, concise, and directly contribute to performing the task successfully. And each step follows the step command formula below. 
-
----
-
-
-#### **Step Command Formula**
-Step commands can be:
-- **Simple** (action verb + object noun or prepositional phrase)
-- **Complex**, including any of the following components in this order:
-  - If-condition
-  - Use-modifier
-  - Adverb
-  - Action verb and object noun
-  - Prepositional phrase
-  - Purpose
-  - Until-conclusion
-  - Substeps (if needed)
-  - Step result (optional)
+- **Markdown Header:**  
+  Begin with a Markdown header that includes the title (formatted per the Title Rules) followed by the information type in bold:
+  ```
+  ## {{Title (following Task Title Rules)}} **(Task)**
+  ```
+- **Ordered Steps:**  
+  Present the task instructions as a clear, ordered list of step commands. Each step should follow the Step Command Formula if applicable.
+- **Grouping:**  
+  Group related instructions together to maintain clarity without overloading each step with unnecessary details.
+- **Focus on Outcome:**  
+  Ensure that each step provides a clear, actionable command that directly contributes to the successful performance of the task.
 
 ---
 
