@@ -5,8 +5,7 @@
 2. **Identify the Information Type.** The five types are Task, Process, Principle, Concept, and Reference. Each type is defined in the Information Types and Titling Rules section.
 3. **Evaluate the Title.** Check that the title adheres to the TITLE RULES for its specified infotype.
 4. **Evaluate the Chunk.** Verify that the chunk meets the CHUNK RULES for its corresponding infotype.
-5. **Assess the Content Organization.** Ensure the chunk follows the prescribed order and structure outlined in the Content Organization rules for that infotype.
-5. **Assess for GUI formatting and Verb Usage.** For task infor type, validate for "GUI Element Formatting Rules" and "GUI Verb Usage Rules". 
+5. **Assess the Content Organization.** Ensure the chunk follows the prescribed order and structure outlined in the Content Organization rules for that infotype. 
 6. **Present your analysis in the following format:**
    - A second-level Markdown heading with the Title in bold, followed by the information type in bold in parentheses.
    - A detailed analysis explaining whether the title complies with the TITLE RULES.
