@@ -5,7 +5,6 @@ CTWG Experts:
 >
 
 
-
 For local use only
 
 1. Delete the current local CNWG
@@ -14,10 +13,12 @@ For local use only
 4. run make command.
    
 
->Navigate to the local github directory. Make your changes. Then do:
+>Navigate to the local github directory. Make your changes. Then run ./commitgit.sh which runs these commands.
 > 1. git add . 
 > 2. git commit -m "comments"
 > 3. git push origin main
+
+Then run ./unclone.sh cos i dont see things syncing. 
 
 https://chatgpt.com/share/67da6817-5148-800a-80f4-bdacd4db8800
 
