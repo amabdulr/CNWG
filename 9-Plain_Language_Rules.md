@@ -22,7 +22,7 @@ Your task is to review the content provided in the file using the rules specifie
 
    **Plain Language Rules (Chapter 9)**
    - **Section 1**: Find one or more errors in the content using the rules of the section titled **User-Focused Writing**. Present the output in the Output Format. 
-   - **Section 2**: Find one or more errors in the content using the rules of the section titled **Title Rules**. Present the output in the Output Format. 
+   - **Section 2**: Find one or more errors in the content using the rules of the section titled **GUI Formatting and Verb Usage**. Present the output in the Output Format. 
    - **Section 3**: Find one or more errors in the content using the rules of the section titled **Voice and Tense**. Present the output in the Output Format. 
    - **Section 4**: Find one or more errors in the content using the rules of the section titled **Lists and Tables** Rules. 
    - **Section 5**: Find one or more errors in the content using the rules of the section titled **Short Sections and Sentences Rules** Rules. Present the output in the Output Format.
@@ -87,37 +87,42 @@ Your task is to review the content provided in the file using the rules specifie
     - **Incorrect:** "The user should utilize the system's features according to their requirements."
     - **Correct:** "Use the system's features to meet your requirements."
 
- 
+--- 
 
-### Title Rules
-1. **Clarity and Specificity:**
-   - Does each title clearly convey the main idea of the section?
-   - Is the title specific enough to give the reader an immediate understanding of what the section entails?
-2. **Relevance:**
-   - Is the title relevant to the content it introduces?
-   - Does it accurately reflect the section's main topic or action?
-3. **Structure:**
-   - Are titles structured consistently throughout the document?
-   - Do they follow a logical hierarchy that aids in navigation?
-4. **Informative Nature:**
-   - Does the title provide enough information to stand alone?
-   - Can the reader grasp the section’s content from the title alone?
-5. **Avoidance of Ambiguity:**
-   - Is the title free from ambiguous terms that could confuse the reader?
-6. **Length and Conciseness:**
-   - Is the title concise while still being descriptive?
-7. **Action-Oriented (if applicable):**
-   - For procedural content, does the title indicate an action or outcome?
-   - Example for Clarification (Do not Analyze): Use "Configuring Network Settings" instead of just "Network Settings."
+### GUI Formatting and Verb Usage 
 
-**Examples for Clarification (Do Not Analyze):**
-- **Incorrect:** "Limitations"
-- **Correct:** "Limitations of Configuring XYZ"
-- **Incorrect:** "Overview"
-- **Correct:** "Shared L3Out Overview"
-- **Incorrect:** "Configure Microsoft NLB"
-- **Correct:** "Configure Microsoft NLB in Unicast Mode Using the NX-OS Style CLI”
+**GUI Element Formatting Rules**
 
+- **Capitalization:** GUI elements use initial capitalization.
+  - ✅ Correct: "Open Default Properties."
+  - ❌ Incorrect: "open default properties."
+- **Typography:** Use bold formatting for GUI elements.
+  - ✅ Correct: "Choose **File** > **Export As** > **PDF**."
+- **Menu Cascades:** Clearly indicate menu navigation with `>`.
+  - ✅ Correct: "Choose **File > Save As**."
+  - ❌ Incorrect: "From the File menu, choose Save As."
+- **Keystroke Instructions:** Clearly distinguish simultaneous (`+`) vs. consecutive (`,`) keystrokes.
+  - ✅ Correct: "Press **Ctrl+P**."
+  - ✅ Correct: "Press **Alt, F, X**."
+
+
+**GUI Verb Usage Rules**
+
+- **Select**: For dropdown/multiple choices.
+- **Choose**: For menu navigation paths.
+- **Check/Uncheck**: For checkboxes.
+- **Click/Double-click/Right-click**: For mouse actions.
+- **Log in/Sign in & Log out/Sign out**: As two separate words for account actions.
+
+**Examples (For Clarification Do not Ananlyze):**
+
+- ✅ Correct: "Select Primary from the Node dropdown."
+- ✅ Correct: "Choose File > Share > PDF."
+- ✅ Correct: "Check the Insert option."
+- ✅ Correct: "Double-click the entry."
+- ✅ Correct: "Log in to Cisco DNA Portal."
+
+---
  
 ### Voice and Tense Rules:
 
