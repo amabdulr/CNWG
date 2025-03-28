@@ -172,6 +172,8 @@ Policy-driven licensing is a licensing model based on a set of predefined polici
 - **Clear Feedback:** Provide feedback upon task completion clearly.
 - **Future-Proofing:** Avoid specifying GUI element details that frequently change.
 - **Icon Definitions:** Only define non-standard icons explicitly.
+- **Image Number Limitation:**  Analyze the task XML. Count the number of <image> tags. If there are more than 2 <image> tags, provide the following disclaimer: Do not add screenshots to show a user where a field or a control element is. Add screenshots when the UI is unclear or when you cannot fully explain a complex task flow or concept without a visual aid. If you wish to draw attention to multiple parts of a page in a task or concept topic, use a single screenshot with callouts.
+
 
 - **Step Command Formula:**  
   Steps can be either:
