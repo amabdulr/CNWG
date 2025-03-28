@@ -65,8 +65,8 @@
 
 ### Chunk Organization Rules
 
-- **Markdown Header:**  
-  Begin with a Markdown header that includes the title (formatted per the Title Rules) followed by the information type in bold:
+- **Header:**  
+  Begin with a title (formatted per the Title Rules) followed by the information type in bold:
   ```
   ## {{Title (following Task Title Rules)}} **(Task)**
   ```
@@ -79,7 +79,7 @@
 - **Image Limitation:**  
 ---
 
-#### **Output Format (in Markdown)**
+#### **Output Format**
 
 ```
 ## {{Title using imperative verb, second person}} **(Task)**
