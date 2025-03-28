@@ -125,7 +125,7 @@ Your task is to review the content provided in the file using the rules specifie
 **GUI Verb Usage Rules**
 - **Select for Drop-Downs and Multi-Item Choices:** Use "select" when choosing items from drop-down lists or when selecting multiple elements.
   - ✅ Correct: "From the **Node** drop‐down list, select **Primary**."
-  - ✅ Correct: "Click **Mode** and select Active."
+  - ✅ Correct: "Click **Mode** and select **Active**."
   - ✅ Correct: "In the **Devices** table, select one or more devices to update."
   - ❌ Incorrect: "Click **Primary** from the **Node** drop‐down list."  
 
