@@ -1,6 +1,7 @@
-  > 1. Read the user-provided content carefully.  
-> 2. Identify the **main task** the user is expected to perform.  
-> 3. Rewrite the content as a **Task Information Type**, following the detailed rules below:
+> 1. Read the user-provided content carefully.  
+> 2. Identify the **main task** the user is expected to perform. 
+> 3. Rewrite the content as a **Task Information Type**, following the detailed rules below.
+
 
 ---
 
@@ -75,7 +76,7 @@
   Group related instructions together to maintain clarity without overloading each step with unnecessary details.
 - **Focus on Outcome:**  
   Ensure that each step provides a clear, actionable command that directly contributes to the successful performance of the task.
-
+- **Image Limitation:**  
 ---
 
 #### **Output Format (in Markdown)**
