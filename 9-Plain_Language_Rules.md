@@ -92,11 +92,6 @@ Your task is to review the content provided in the file using the rules specifie
 
 **GUI Element Formatting Rules**
 
-- **Typography:** Use bold formatting for GUI elements. Bold is represented in <b> tag or in <uicontrol>.
-  - ✅ Correct: "Choose **File** > **Export As** > **PDF**."
-- **Menu Cascades:** Clearly indicate menu navigation with `>`.
-  - ✅ Correct: "Choose **File > Save As**."
-  - ❌ Incorrect: "From the File menu, choose Save As."
 - **Keystroke Instructions:** Clearly distinguish simultaneous (`+`) vs. consecutive (`,`) keystrokes.
   - ✅ Correct: "Press **Ctrl+P**."
   - ✅ Correct: "Press **Alt, F, X**."
@@ -129,10 +124,10 @@ Your task is to review the content provided in the file using the rules specifie
 
 **GUI Verb Usage Rules**
 - **Select for Drop-Downs and Multi-Item Choices:** Use "select" when choosing items from drop-down lists or when selecting multiple elements.
-  - ✅ Correct: "From the **Node** drop‐down list, select **Primary**."
-  - ✅ Correct: "Click **Mode** and select **Active**."
-  - ✅ Correct: "In the **Devices** table, select one or more devices to update."
-  - ❌ Incorrect: "Click **Primary** from the **Node** drop‐down list."  
+  - ✅ Correct: "Select Primary from the Node drop‐down list."
+  - ✅ Correct: "Click Mode and select Active."
+  - ✅ Correct: "In the Devices table, select one or more devices to update."
+  - ❌ Incorrect: "Click Primary from the Node drop‐down list."  
 
 - **Choose for Menu Cascades:** Use "choose" exclusively to describe navigation through menu cascades.
   - ✅ Correct: "Choose **File > Export As > PDF**."
