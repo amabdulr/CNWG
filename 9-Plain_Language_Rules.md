@@ -132,7 +132,7 @@ Your task is to review the content provided in the file using the rules specifie
   - ✅ Correct: "From the **Node** drop‐down list, select **Primary**."
   - ✅ Correct: "Click **Mode** and select **Active**."
   - ✅ Correct: "In the **Devices** table, select one or more devices to update."
-  - ❌ Incorrect: "Click Primary from the Node drop‐down list."  
+  - ❌ Incorrect: "Click **Primary** from the **Node** drop‐down list."  
 
 - **Choose for Menu Cascades:** Use "choose" exclusively to describe navigation through menu cascades.
   - ✅ Correct: "Choose **File > Export As > PDF**."
