@@ -48,8 +48,3 @@ Go rule by rule. For each error you find, respond using this exact format:
 13. **Tables**: Max 5 tables per article.  
 14. **Table Rows**: Rows must not span multiple pages. Break long rows into multiple entries if needed.
 15. **Article Titles**: Follow this title format: `<Product name> <Article title>, <Release number>`.  
-
-
----
-
-Let me know if you want a version tailored for training junior writers, non-native speakers, or even something with emoji-based callouts and warnings.
