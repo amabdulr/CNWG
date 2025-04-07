@@ -4,7 +4,7 @@
 
 ---
 
-## **Process Information Type Guidelines**
+## Process Information Type Guidelines
 
 
 ### Title Rules
@@ -47,11 +47,10 @@
 
 ### Chunk Organization Rules
 
-- **Markdown Header:**  
-  Begin with a Markdown header that includes the title (formatted according to the Title Rules) followed by the information type in bold.
-  ```
-  ## {{Title (following Process Title Rules)}} **(Process)**
-  ```
+- **Title:**  
+  Begin with a title (formatted according to the Title Rules) followed by the information type in bold.
+  
+  ## {{Title (following Process Title Rules)}} (Process)
 - **Content Structure:**  
   Present the body in the following order:
   1. **Summary:**  
@@ -65,10 +64,9 @@
 
 ---
 
-#### **Output Format (in Markdown)**
+#### Output Format
 
-```
-## {{Title based on Process titling rules}} **(Process)**
+## {{Title based on Process titling rules}} (Process)
 
 **Summary**: {{Provide the summary of the process}}
 
@@ -83,13 +81,12 @@ The process involves the following stages:
 - {{Stage n: Conclude with the final action or confirmation stage}}
 
 **Result**: {{Summarize the outcome or impact of the process}}
-```
 
 ---
 
-#### **Process Example**
+#### Process Example
 
-## How DHCP servers work **(Process)**
+## How DHCP servers work (Process)
 
 **Summary**:  
 DHCP servers automate network configuration by dynamically assigning IP addresses and other network parameters to devices, simplifying network management and ensuring efficient IP address usage. The key components that are involved in DHCP server process are

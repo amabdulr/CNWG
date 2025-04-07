@@ -25,12 +25,11 @@ Below is the rewritten prompt divided into three sections: **Title Rules**, **Ch
 - **Voice and Tense:** Use active voice and present tense.
 - **Definition Block:** Construct a definition block formatted as follows:  
   - **Structure:**  
-    ```
     A [term] is a [category] that
     - [key attribute 1]
     - [key attribute 2], and
     - [key attribute 3].
-    ```
+    
   - **Guidelines:**  
     - The **category** provides context for understanding.
     - The **key attributes** describe the item and distinguish it from others in the category.
@@ -49,17 +48,13 @@ Below is the rewritten prompt divided into three sections: **Title Rules**, **Ch
 
 - **Markdown Output:**  
   Begin with a Markdown header for the title followed by the information type in bold.
-  ```
-  ## {{Title (following the Title Rules)}} **(Concept)**
-  ```
+  ## {{Title (following the Title Rules)}} (Concept)
 - **Definition Block:**  
   Immediately after the title, present the definition block using the format outlined in the Chunk Rules:
-  ```
   A [term] is a [category] that
   - [key attribute 1]
   - [key attribute 2], and
   - [key attribute 3].
-  ```
 - **Optional Sections:**  
   Following the definition block, include any optional elements (if applicable) in separate sections:
   - Subdefinitions (optional)
@@ -72,10 +67,9 @@ Below is the rewritten prompt divided into three sections: **Title Rules**, **Ch
 
 ---
 
-#### **Output Format (in Markdown)**
+#### Output Format
 
-```
-## {{Title (follow Concept title rules)}} **(Concept)**
+## {{Title (follow Concept title rules)}} (Concept)
 
 A [term] is a [category] that
 - [key attribute 1]
@@ -93,7 +87,6 @@ A [term] is a [category] that
 {{Contrast table (optional)}}
 
 {{Analogy (optional)}}
-```
 
 ---
 
@@ -106,7 +99,7 @@ A [term] is a [category] that
 
 #### **Concept Example**
 
-## Smart licensing using policy **(Concept)**
+## Smart licensing using policy (Concept)
 
 Smart Licensing Using Policy is a policy-driven licensing model built on the existing Cisco Smart Licensing model that:
 - simplifies the licensing process for IOS XR products by offering a more adaptable and automated method,

@@ -56,6 +56,14 @@
 ---
 # Information Types and Titling Rules
 
+### Concept
+
+> 1. Read the user-provided content carefully.  
+> 2. Identify the core **term or concept** that needs to be explained. This term will be used to generate the **title**.  
+> 3. Rewrite the content as a **Concept Information Type**, following the detailed rules below:
+
+---
+
 ## **Concept Information Type Guidelines**
 
 Below is the rewritten prompt divided into three sections: **Title Rules**, **Chunk Rules**, and **Chunk Organization Rules**.
@@ -77,12 +85,11 @@ Below is the rewritten prompt divided into three sections: **Title Rules**, **Ch
 - **Voice and Tense:** Use active voice and present tense.
 - **Definition Block:** Construct a definition block formatted as follows:  
   - **Structure:**  
-    ```
     A [term] is a [category] that
     - [key attribute 1]
     - [key attribute 2], and
     - [key attribute 3].
-    ```
+    
   - **Guidelines:**  
     - The **category** provides context for understanding.
     - The **key attributes** describe the item and distinguish it from others in the category.
@@ -101,17 +108,13 @@ Below is the rewritten prompt divided into three sections: **Title Rules**, **Ch
 
 - **Markdown Output:**  
   Begin with a Markdown header for the title followed by the information type in bold.
-  ```
-  ## {{Title (following the Title Rules)}} **(Concept)**
-  ```
+  ## {{Title (following the Title Rules)}} (Concept)
 - **Definition Block:**  
   Immediately after the title, present the definition block using the format outlined in the Chunk Rules:
-  ```
   A [term] is a [category] that
   - [key attribute 1]
   - [key attribute 2], and
   - [key attribute 3].
-  ```
 - **Optional Sections:**  
   Following the definition block, include any optional elements (if applicable) in separate sections:
   - Subdefinitions (optional)
@@ -124,10 +127,9 @@ Below is the rewritten prompt divided into three sections: **Title Rules**, **Ch
 
 ---
 
-#### **Output Format (in Markdown)**
+#### Output Format
 
-```
-## {{Title (follow Concept title rules)}} **(Concept)**
+## {{Title (follow Concept title rules)}} (Concept)
 
 A [term] is a [category] that
 - [key attribute 1]
@@ -145,7 +147,6 @@ A [term] is a [category] that
 {{Contrast table (optional)}}
 
 {{Analogy (optional)}}
-```
 
 ---
 
@@ -158,7 +159,7 @@ A [term] is a [category] that
 
 #### **Concept Example**
 
-## Smart licensing using policy **(Concept)**
+## Smart licensing using policy (Concept)
 
 Smart Licensing Using Policy is a policy-driven licensing model built on the existing Cisco Smart Licensing model that:
 - simplifies the licensing process for IOS XR products by offering a more adaptable and automated method,
@@ -172,6 +173,16 @@ Policy-driven licensing is a licensing model based on a set of predefined polici
 
 ----
 
+---
+
+### Task
+
+> 1. Read the user-provided content carefully.  
+> 2. Identify the **main task** the user is expected to perform. 
+> 3. Rewrite the content as a **Task Information Type**, following the detailed rules below.
+
+
+---
 
 ## **Task Information Type Guidelines**
 
@@ -233,23 +244,20 @@ Policy-driven licensing is a licensing model based on a set of predefined polici
 
 ### Chunk Organization Rules
 
-- **Markdown Header:**  
-  Begin with a Markdown header that includes the title (formatted per the Title Rules) followed by the information type in bold:
-  ```
-  ## {{Title (following Task Title Rules)}} **(Task)**
-  ```
+- **Header:**  
+  Begin with a title (formatted per the Title Rules) followed by the information type in bold:
+  ## {{Title (following Task Title Rules)}} (Task)
 - **Ordered Steps:**  
   Present the task instructions as a clear, ordered list of step commands. Each step should follow the Step Command Formula if applicable.
 - **Grouping:**  
   Group related instructions together to maintain clarity without overloading each step with unnecessary details.
 - **Focus on Outcome:**  
   Ensure that each step provides a clear, actionable command that directly contributes to the successful performance of the task.
-
+- **Image Limitation:**  
 ---
 
-#### **Output Format (in Markdown)**
+#### **Output Format**
 
-```
 ## {{Title using imperative verb, second person}} **(Task)**
 
 **Purpose**: {{State the goal of this task}}
@@ -268,7 +276,6 @@ n. {{Final step command.}}
 **Result**: {{State what happens once task is completed successfully}}
 
 **Post-requisites**: {{Mention any follow-up actions, if required. Leave this section out if not applicable.}}
-```
 
 ---
 
@@ -312,7 +319,7 @@ Follow these steps to register the Crosswork Data Gateway with Crosswork Cloud a
 ---
 
 ---
-#### **Task Example with complex step commands**
+#### Task Example with complex step commands
 Examples of various types of complex step commands
   - Command statement with If condition 
     • <if-condition>If you’re configuring an IPv6 URL, <action>define a hostname-to address <use modifier>using the domain ipv6 host command.
@@ -417,8 +424,17 @@ Follow these steps to discover the devices:
 
 ---
 
+---
 
-## **Process Information Type Guidelines**
+### Process
+
+> 1. Read the user-provided content carefully.  
+> 2. Identify the **main process** being described and the **key actors or components** involved.  
+> 3. Rewrite the content as a **Process Information Type**, following the rules outlined below.
+
+---
+
+## Process Information Type Guidelines
 
 
 ### Title Rules
@@ -461,11 +477,10 @@ Follow these steps to discover the devices:
 
 ### Chunk Organization Rules
 
-- **Markdown Header:**  
-  Begin with a Markdown header that includes the title (formatted according to the Title Rules) followed by the information type in bold.
-  ```
-  ## {{Title (following Process Title Rules)}} **(Process)**
-  ```
+- **Title:**  
+  Begin with a title (formatted according to the Title Rules) followed by the information type in bold.
+  
+  ## {{Title (following Process Title Rules)}} (Process)
 - **Content Structure:**  
   Present the body in the following order:
   1. **Summary:**  
@@ -479,10 +494,9 @@ Follow these steps to discover the devices:
 
 ---
 
-#### **Output Format (in Markdown)**
+#### Output Format
 
-```
-## {{Title based on Process titling rules}} **(Process)**
+## {{Title based on Process titling rules}} (Process)
 
 **Summary**: {{Provide the summary of the process}}
 
@@ -497,13 +511,12 @@ The process involves the following stages:
 - {{Stage n: Conclude with the final action or confirmation stage}}
 
 **Result**: {{Summarize the outcome or impact of the process}}
-```
 
 ---
 
-#### **Process Example**
+#### Process Example
 
-## How DHCP servers work **(Process)**
+## How DHCP servers work (Process)
 
 **Summary**:  
 DHCP servers automate network configuration by dynamically assigning IP addresses and other network parameters to devices, simplifying network management and ensuring efficient IP address usage. The key components that are involved in DHCP server process are
@@ -523,6 +536,16 @@ The process involves the following stages:
 **Result**:  
 The DHCP process provides automated and efficient network configuration, ensuring devices can operate seamlessly with minimal manual intervention.
 
+---
+
+### Reference
+
+>  
+> 1. Read the user-provided content carefully.  
+> 2. Identify the **core information** the user needs to know immediately.  
+> 3. Rewrite the content as a **Reference Information Type**, following the rules outlined below.
+
+---
 
 ## **Reference Information Type Guidelines**
 
@@ -558,9 +581,7 @@ The DHCP process provides automated and efficient network configuration, ensurin
 
 - **Markdown Header:**  
   Begin with a Markdown header that includes the title (formatted according to the Title Rules) followed by the information type in bold:
-  ```
   ## {{Title (following Reference Title Rules)}} **(Reference)**
-  ```
 - **Content Structure:**  
   Organize the body using the most effective format (e.g., paragraphs, bullet lists, tables) to present the key reference information.
 - **Purpose:**  
@@ -568,13 +589,11 @@ The DHCP process provides automated and efficient network configuration, ensurin
 
 ---
 
-#### **Output Format (in Markdown)**
+#### **Output Format**
 
-```
 ## {{Title following reference title rules}} **(Reference)**
 
 {{Provide factual information in paragraphs, bullets, or tables. Choose the most appropriate format based on the content type. Keep it clear and usable.}}
-```
 
 ---
 
@@ -590,8 +609,18 @@ The routed PON solution enhances network efficiency and lowers costs by providin
 
 ---
 
+---
 
-## **Principle Information Type Guidelines**
+### Principle
+
+>  
+> 1. Read the user-provided content carefully.  
+> 2. Identify the **principle or advisory guidance** being conveyed.  
+> 3. Rewrite the content as a **Principle Information Type**, following the rules outlined below.
+
+---
+
+## Principle Information Type Guidelines
 
 
 ### Title Rules
@@ -629,9 +658,8 @@ The routed PON solution enhances network efficiency and lowers costs by providin
 
 - **Markdown Header:**  
   Begin with a Markdown header that includes the title (following the Title Rules) and the information type in bold:
-  ```
-  ## {{Title (following Principle Title Rules)}} **(Principle)**
-  ```
+  ## {{Title (following Principle Title Rules)}} (Principle)
+  
 - **Content Structure:**  
   Follow with the principle body that:
   - Uses active voice, present tense, and the appropriate tone based on the gravity.
@@ -640,21 +668,23 @@ The routed PON solution enhances network efficiency and lowers costs by providin
 
 ---
 
-#### **Output Format (in Markdown)**
+#### **Output Format
 
-```
-## {{Title following Principle title rules}} **(Principle)**
+
+## {{Title following Principle title rules}} (Principle)
 
 {{State the essence of the principle. If there are multiple related items, use a bullet list. Do not use tables. Keep the tone consistent with the gravity level.}}
-```
+
 
 ---
 
-#### **Principle Example**
+#### Principle Example
 
-## Use the included Torx screwdriver **(Principle)**
+## Use the included Torx screwdriver (Principle)
 
 We recommend using the included Torx screwdriver, which is the correct length to reach the screws during this step. This makes the task easier and reduces the risk of damaging the components.
+
+---
 
 ---
 

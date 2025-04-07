@@ -39,9 +39,7 @@
 
 - **Markdown Header:**  
   Begin with a Markdown header that includes the title (formatted according to the Title Rules) followed by the information type in bold:
-  ```
   ## {{Title (following Reference Title Rules)}} **(Reference)**
-  ```
 - **Content Structure:**  
   Organize the body using the most effective format (e.g., paragraphs, bullet lists, tables) to present the key reference information.
 - **Purpose:**  
@@ -49,13 +47,11 @@
 
 ---
 
-#### **Output Format (in Markdown)**
+#### **Output Format**
 
-```
 ## {{Title following reference title rules}} **(Reference)**
 
 {{Provide factual information in paragraphs, bullets, or tables. Choose the most appropriate format based on the content type. Keep it clear and usable.}}
-```
 
 ---
 

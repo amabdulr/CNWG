@@ -5,7 +5,7 @@
 
 ---
 
-## **Principle Information Type Guidelines**
+## Principle Information Type Guidelines
 
 
 ### Title Rules
@@ -43,9 +43,8 @@
 
 - **Markdown Header:**  
   Begin with a Markdown header that includes the title (following the Title Rules) and the information type in bold:
-  ```
-  ## {{Title (following Principle Title Rules)}} **(Principle)**
-  ```
+  ## {{Title (following Principle Title Rules)}} (Principle)
+  
 - **Content Structure:**  
   Follow with the principle body that:
   - Uses active voice, present tense, and the appropriate tone based on the gravity.
@@ -54,19 +53,19 @@
 
 ---
 
-#### **Output Format (in Markdown)**
+#### **Output Format
 
-```
-## {{Title following Principle title rules}} **(Principle)**
+
+## {{Title following Principle title rules}} (Principle)
 
 {{State the essence of the principle. If there are multiple related items, use a bullet list. Do not use tables. Keep the tone consistent with the gravity level.}}
-```
+
 
 ---
 
-#### **Principle Example**
+#### Principle Example
 
-## Use the included Torx screwdriver **(Principle)**
+## Use the included Torx screwdriver (Principle)
 
 We recommend using the included Torx screwdriver, which is the correct length to reach the screws during this step. This makes the task easier and reduces the risk of damaging the components.
 

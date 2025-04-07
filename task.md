@@ -67,9 +67,7 @@
 
 - **Header:**  
   Begin with a title (formatted per the Title Rules) followed by the information type in bold:
-  ```
-  ## {{Title (following Task Title Rules)}} **(Task)**
-  ```
+  ## {{Title (following Task Title Rules)}} (Task)
 - **Ordered Steps:**  
   Present the task instructions as a clear, ordered list of step commands. Each step should follow the Step Command Formula if applicable.
 - **Grouping:**  
@@ -81,7 +79,6 @@
 
 #### **Output Format**
 
-```
 ## {{Title using imperative verb, second person}} **(Task)**
 
 **Purpose**: {{State the goal of this task}}
@@ -100,7 +97,6 @@ n. {{Final step command.}}
 **Result**: {{State what happens once task is completed successfully}}
 
 **Post-requisites**: {{Mention any follow-up actions, if required. Leave this section out if not applicable.}}
-```
 
 ---
 
