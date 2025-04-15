@@ -1,7 +1,6 @@
 Your task is to review the content provided in the file using the rules specified below. Follow these steps:
 
 1. **Content Scope:**
-      - Review only the content in the provided file. 
       - Do not review any or change text inside code or codeblock tags, filepath tags, or content inside <ph> tags. For example <ph>Cisco Catalyst SD‐WAN Control Components</ph> should not be changed and should always be maintained as "Cisco Catalyst SD‐WAN Control Components"
       - Examples in this prompts are provided solely to clarify the rules and must not be treated as content.
       - If the content is in XML or HTML, avoid providing review comments on any XML or HTML tags.  Keep your review comments to the content. 
