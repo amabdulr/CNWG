@@ -11,6 +11,7 @@ For local use only
 2. git clone https://github.com/amabdulr/CNWG.git
 3. Make changes only to the info type files.
 4. run make command.
+5. copy content from infotypes.md to releavant chunking and review chunk prompts. 
    
 
 >Navigate to the local github directory. Make your changes. Then run ./commitgit.sh which runs these commands.

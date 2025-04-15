@@ -1,14 +1,14 @@
 Your task is to review the content provided in the file using the rules specified below. Follow these steps:
 
 1. **Content Scope:**
-      - Do not review any text inside code or codeblock tags, filepath tags, or content inside <ph> tags.
+      - Do not review any or change text inside code or codeblock tags, filepath tags, or content inside <ph> tags. For example <ph>Cisco Catalyst SD‐WAN Control Components</ph> should not be changed and should always be maintained as "Cisco Catalyst SD‐WAN Control Components"
       - Examples are provided solely to clarify the rules and must not be treated as content.
       - If the content is in XML or HTML, avoid providing review comments on any XML or HTML tags.  Keep your review comments to the content. 
       
 2. **Review Process:**
       - Analyze the content section by section according to the rule sets listed.
       - For each identified error, produce an output using the following format:
-        
+            {{Number this error}}
             **Original Content**: [Exact text from the content where the error is found]
         
             **Rule**: [Rule Title Only] 
@@ -100,14 +100,17 @@ Perspective Rule: Ensure that the perspective from which the content is presente
 
 ### Numbers 
 
-1. ****:
+1. **Spell or not**:
+ 
+   Whenever numbers are found in text (spelt or not), flash the following rule. Do not analyze it as you are not good at recognizing numbers Just mention the following rule
+   Rule
+   '''
+   "Spell out single-digit numbers (zero through nine) and use numerals for 10 or greater except in these cases
 
-   - spell out single-digit numbers (zero through nine) and use numerals for 10 or greater except in these cases
-
-   - **Example (Do not analyze. For clarification only)**: 
+   - **Example**
       Correct: "six"; Incorrect: "6"
       Correct: "60"; Incorrect: "sixty"
-
+   '''
  
 
 2. **Abbreviations**:
@@ -692,65 +695,17 @@ By adhering to these guidelines, sentences become more straightforward and engag
 
  
 
-20. **Titles of Articles, Chapters, and Books**:
-
-    - Use sentence case, capitalizing major words.
-
-    - **Example (Do not analyze. For clarification only)**: "Cisco IOS XR Smart Licensing Using Policy."
-
- 
-
 21. **Topic and Chunk Titles**:
 
-    - Use sentence case for topic and chunk titles.
+    - Use sentence case for topic and chunk titles. Sentence case means capitalizing only the first letter of the first word in a sentence (and any proper nouns), while keeping the rest lowercase.
 
-    - **Example (Do not analyze. For clarification only)**: "Benefits of smart licensing using policy."
-
-***
-
- 
-
-**List of capitalizing-exceptions in titles
-
- 
-
-1. **Articles**: 
-
-   - "a," "an," and "the" are not capitalized unless they are the first word of the title.
-
-   - **Example (Do not analyze. For clarification only)**: "The Art of Network Design"
-
- 
-
-2. **Coordinating Conjunctions**:
-
-   - Words like "and," "but," "or," "nor," "for," "so," and "yet" are not capitalized unless they start or end the title.
-
-   - **Example (Do not analyze. For clarification only)**: "Routing and Switching Essentials"
-
- 
-
-3. **Short Prepositions**:
-
-   - Prepositions with four or fewer letters such as "at," "by," "for," "in," "of," "on," "to," "up," and "with" are not capitalized unless they are the first or last word.
-
-   - **Example (Do not analyze. For clarification only)**: "Guide to Network Protocols"
-
- 
-
-4. **The Word "to" in Infinitives**:
-
-   - "To" is not capitalized when used as part of an infinitive verb form.
-
-   - **Example (Do not analyze. For clarification only)**: "How to Use Network Tools"
-
- 
-
-**Exceptions**:
-
-- If a preposition is part of a phrasal verb or compound preposition, it should be capitalized.
-
-- **Example (Do not analyze. For clarification only)**: "Set Up a Router" (where "Set Up" functions as a phrasal verb)
+    - **Example (Do not analyze. For clarification only)**: 
+        - "Benefits of smart licensing using policy.
+        - "The art of network design"
+        - "Routing and switching essentials"
+        - "Guide to network protocols"
+        - "How to use network tools"
+        - "Set up a router" (where "Set up" functions as a phrasal verb)
 
  ### Compound Modifiers, Contractions, Possessives, Prefixes
  #### Compound Modifiers

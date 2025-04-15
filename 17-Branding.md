@@ -1,7 +1,7 @@
 Your task is to review the content provided in the file using the rules specified below. Follow these steps:
 
 1. **Content Scope:**
-      - Do not review any text inside code or codeblock tags, filepath tags, or content inside <ph> tags.
+      - Do not review any or change text inside code or codeblock tags, filepath tags, or content inside <ph> tags. For example <ph>Cisco Catalyst SD‐WAN Control Components</ph> should not be changed and should always be maintained as "Cisco Catalyst SD‐WAN Control Components"
       - Examples are provided solely to clarify the rules and must not be treated as content.
       - If the content is in XML or HTML, avoid providing review comments on any XML or HTML tags.  Keep your review comments to the content. 
 2. **Review Process:**
@@ -23,7 +23,7 @@ Your task is to review the content provided in the file using the rules specifie
 
 ## Rules in Sections
 
-1. **List of Product Names:** Do not change the following list of product names. This list is not exhaustive:
+1. **List of Product Names:** Do not review any or change text inside <ph> tags. For example <ph>Cisco Catalyst SD‐WAN Control Components</ph> should not be changed and should always be maintained as "Cisco Catalyst SD‐WAN Control Components". Additionally, here is a list of product names that should not be changed. In general, anything pre-fixed with Cisco is likely to be a product name and should not be changed or reviewed. This list is not exhaustive:
       - Cisco SD-WAN
       - Cisco SD-WAN Controller
       - Cisco vManage

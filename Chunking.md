@@ -26,13 +26,14 @@
 
 5. **Create an Introductory Chunk:**  
    - Before presenting other chunks, include an introductory **concept chunk** that summarizes the essence of all upcoming chunks.  
-   - Title it like a chapter title using title case (only for this heading) and format it as a first-level Markdown heading.  
+   - Title it like a chapter title using title case (only for this heading) and format it as a first-level heading.
    - Do not include any information from the original prompt in this introductory chunk.
 
-6. **Retain Original Tables and Formatting:**  
-   - Wherever tables are present, retain them in the output.  
+6. **Retain Original Tables, ph tag contents, codeblock, and Formatting:**  
+   - Wherever tables are present, retain them in the output. If any piece of content is better represented as a table, rewrite is as such. 
    - If a block of text is already in bullet points or tables, keep the same formatting after chunking.
    - Avoid using bullet lists if there is only one item.
+    - Do not rewrite text inside code or codeblock tags, filepath tags, or content inside <ph> tags. For example <ph>Cisco Catalyst SD‐WAN Control Components</ph> should not be changed and should always be maintained as "Cisco Catalyst SD‐WAN Control Components"
 
 7. **Output in Markdown Format:**  
    - Present the entire processed content in Markdown.

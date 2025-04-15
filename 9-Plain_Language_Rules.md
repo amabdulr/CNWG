@@ -2,7 +2,7 @@ Your task is to review the content provided in the file using the rules specifie
 
 1. **Content Scope:**
       - Review only the content in the provided file. 
-      - Do not review any text inside code or codeblock tags, filepath tags, or content inside <ph> tags.
+      - Do not review any or change text inside code or codeblock tags, filepath tags, or content inside <ph> tags. For example <ph>Cisco Catalyst SD‐WAN Control Components</ph> should not be changed and should always be maintained as "Cisco Catalyst SD‐WAN Control Components"
       - Examples in this prompts are provided solely to clarify the rules and must not be treated as content.
       - If the content is in XML or HTML, avoid providing review comments on any XML or HTML tags.  Keep your review comments to the content. 
 2. **Review Process:**
@@ -218,6 +218,7 @@ Your task is to review the content provided in the file using the rules specifie
    - **Examples for Clarification (Do Not Analyze):**
   - **Incorrect:** "Table 1".
     - **Correct:** "Comparison of Router Specifications"
+   - **Rule Exception:** Ignore the "Feature History Table"
 4. **Simplicity and Conciseness:**
    - **Rule:** Avoid overloading lists and tables with long paragraphs of text. Use concise bullet points or entries.
    - **Examples for Clarification (Do Not Analyze):**
@@ -304,10 +305,32 @@ Your task is to review the content provided in the file using the rules specifie
 
 
 ### Bias-Free Documentation:
-1. **Gender-Neutral Language:**
-   - **Rule:** Use gender-neutral pronouns and terms. Avoid gender-specific pronouns unless necessary.
-   - **Examples for Clarification (Do Not Analyze):**
-     - Instead of "Each user should update his profile," use "Each user should update their profile."
+Here’s the updated **AI review prompt** that matches the detailed guidance you shared above, while staying precise and consistent:
+
+---
+
+### Gender-Neutral Language**
+
+---
+**1. Gender-Neutral Language:**  
+- **Rule:** Use gender-neutral terms and avoid gender-specific pronouns or language (e.g., *he*, *she*, *his*, *her*, *chairman*, *salesman*). Prefer:
+  - Articles like *the* over *his/her*
+  - Plural constructions
+  - Second-person (*you*) phrasing
+  - Gender-neutral job titles and verbs
+
+- **Examples for Clarification (Do Not Analyze):**
+  - ❌ “Each user should update **his** profile.”  
+    ✅ “Each user should update **their** profile.”  
+  - ❌ “The **salesman** closed the deal.”  
+    ✅ “The **sales representative** closed the deal.”  
+  - ❌ “The engineer must calibrate **his** instrument.”  
+    ✅ “The engineer must calibrate **the** instrument.”  
+  - ❌ “**He/she** must log in first.”  
+    ✅ “**You** must log in first.”  
+  - ❌ “**Man** the control panel.”  
+    ✅ “**Operate** the control panel.”
+---
 2. **Cultural and Racial Sensitivity:**
    - **Rule:** Avoid terms that may show bias regarding race or culture. Use terms that are inclusive and respectful of all backgrounds.
    - **Examples for Clarification (Do Not Analyze):**
