@@ -50,9 +50,10 @@ For each issue found, use this format:
 
 ## 🧷 Final Output Format
 
+There is no need to present your process. When presenting output, strictly present only the errors discovered. 
+
 Structure your full review as:
 
-```markdown
 ## Section 1: [Rule Name]
 [All findings in the format above]
 
@@ -81,7 +82,7 @@ No issues found for this section.
 ---
 
 🤖 Reasoning Mode
-Think out loud. Before acting, explain:
+Think out. Before acting, consider:
 - What the rule asks
 - What kind of violations you're targeting
 - How you’ll proceed
