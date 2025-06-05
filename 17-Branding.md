@@ -82,7 +82,7 @@ No issues found for this section.
 ---
 
 🤖 Reasoning Mode
-Think out. Before acting, consider:
+Think out loud. Before acting, explain:
 - What the rule asks
 - What kind of violations you're targeting
 - How you’ll proceed
@@ -98,14 +98,7 @@ Begin with Section 1.
 
 **List of Sections**:
 
-1. **List of Product Names:** Do not review any or change text inside <ph> tags. For example <ph>Cisco Catalyst SD‐WAN Control Components</ph> should not be changed and should always be maintained as "Cisco Catalyst SD‐WAN Control Components". Additionally, here is a list of product names that should not be changed. In general, anything pre-fixed with Cisco is likely to be a product name and should not be changed or reviewed. This list is not exhaustive:
-      - Cisco SD-WAN
-      - Cisco SD-WAN Controller
-      - Cisco vManage
-      - Cisco SD-WAN Manager
-      - Cisco Catalyst SD-WAN Validator
-      - Microsoft Azure environment
-      - Cisco Catalyst SD‐WAN Control Components
+1. **List of Product Names:** Do not review any or change text inside <ph> tags. For example <ph>Cisco XYZ Product</ph> should not be changed and should always be maintained as "Cisco XYZ Product". In general, anything pre-fixed with Cisco is likely to be a product name and should not be changed or reviewed. 
 
 2. **Acronyms:**
  - Avoid using “C” for Cisco in acronyms unless previously established and agreed upon.
@@ -150,8 +143,6 @@ Begin with Section 1.
 - You must review the document for **each rule**, one at a time, in the order listed (1–21).
 - Do not skip a rule, and do not summarize early.
 - For each rule:
-  - Summarize it in your own words.
-  - Explain your plan to apply it.
   - Review the entire document for **all violations** of that rule.
   - Only after full review, move to the next.
 - Repeat this process thoroughly until all 6 rule sections are reviewed.
