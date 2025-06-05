@@ -84,7 +84,7 @@ No issues found for this section.
 ---
 
 🤖 Reasoning Mode
-Think out loud. Before acting, explain:
+Think out loud. Before acting, reflect:
 - What the rule asks
 - What kind of violations you're targeting
 - How you’ll proceed
@@ -922,8 +922,6 @@ Begin with Section 1.
 - You must review the document for **each rule**, one at a time, in the order listed (1–21).
 - Do not skip a rule, and do not summarize early.
 - For each rule:
-  - Summarize it in your own words.
-  - Explain your plan to apply it.
   - Review the entire document for **all violations** of that rule.
   - Only after full review, move to the next.
 - Repeat this process thoroughly until all 21 rule sections are reviewed.
@@ -932,7 +930,7 @@ Begin with Section 1.
 - Do not alter or review content inside:
    - <code> or <codeblock> tags
    - <filepath> tags
-   - <ph> tags (e.g., <ph>Cisco Catalyst SD‐WAN Control Components</ph>) 
+   - <ph> tags (e.g., <ph>Cisco XYZ Product</ph>) 
 - Never use the words “above,” “below,” “following,” or “as follows” in your corrections.
 - Do not skip any section. All 21 must be addressed.
 
