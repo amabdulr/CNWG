@@ -1,6 +1,9 @@
 **Release Notes: CTWG Plugin 2.0**
 
 ---
+
+Video of the pverview of the Plugin: https://app.vidcast.io/share/58382e1f-6bf2-4b6a-8c65-7d128bfa3403
+
 ### How to install
 
 1. Navigate to oxygenAuther/plugins/validate-content-plugin/lib/. 
@@ -28,6 +31,30 @@
   • How to Use a FLAT XML: https://cisco.sharepoint.com/Sites/WNGTechnicalCommunications/SitePages/Instructions-to-Implement-CTWG-with-AI1.aspx#transform-ditamap-to-flat-map
 
 ---
+
+### Prompts
+
+Chunk Strategy: The prompt gives you an overall CTWG strategy at a chapter level. Run this prompt at a chapter level only by using FLAT XML or a Markdown file. 
+Chunk Review: This prompt reviews individual XML files and checks whether you have applied CTWG topic-level guidelines. These reccommendations are more at an information type level.  
+Writing Structures: Reviews your content based on Chapter 10: Core Writing Structures of CTWG.
+Branding: Reviews your content based on Chapter 10: Core Writing Structures of CTWG.
+General Writing: Reviews your content based on Chapter 17: Branding of CTWG.
+PLain Language: Reviews your content based on Chapter 9: Plain Language of CTWG.
+
+---
+
+### How to rewrite a chapter based on CTWG Guidelines
+
+1. Convert the chapter to Flat XML or Markdown and run the **Chunk Strategy** prompt on it. Have a detailed conversation (Iterate) with AI and develop your overall strategy.
+2. Start creating the new files suggested by AI.
+3. Put old files into the new format using the **CT Template** plugin. 
+4. On each file, run the **Chunk Review** prompt.
+5. One ach file, run the four prompts listed under **Validate**.
+
+YOu should now have a great document!
+
+---
+
 
 ### Specific Sections Updated in Prompt
 
