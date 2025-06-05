@@ -1,0 +1,19 @@
+Release Note, CTWG Plugin 2.0
+
+What's New
+- Model upgraded from GPT 4.0 to GPT 4.1
+- Plugin now has conversational capabilties.
+- Validation prompts are more thorough, and tend to analayze each section for more than one errors before moving forward. However, writers must remember to check if the AI has completed its job, and if not, prompt it further by saying "Yes, proceed to Section 2". This is particularly visible in Plain Language prmpt. 
+- Chunk Strategy Prompt provides CTWG strategies at a chapter level. Best practices is to iterate and ask questions until the prompt gives you ouputs.
+However, it may suggest needless chunking.  Iterative suggestions that instruct AI to avoid this behaviour helps. For example, say "no lets not break it down"
+
+
+Prompt Updates
+- Foreign Words section provided with further examples (Plain Language, Section 9)
+- Capitalization suggestions for titles moved to only Chunking Prompts. Removed from all Validation prompts
+- All references to specific products removed from examples.
+- All references to specific products removed from examples.
+
+Unresolved Issues:
+- Use See instead of Refer. And other preferred word usages. 
+- Expansion Exception.
