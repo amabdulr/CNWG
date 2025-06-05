@@ -7,7 +7,7 @@ Video that gives an overview of the CTWG Assistant: https://app.vidcast.io/playl
 
 ### How to install
 
-1. Navigate to oxygenAuther/plugins/validate-content-plugin/lib/
+1. Navigate to oxygenAuthor/plugins/validate-content-plugin/lib/
 2. Delete the existing file that ends with the .JAR extension. (For example, validate-content-plugin-1.0-SNAPSHOT-jar-with-dependencies.jar). 
 3. Replace with the JAR file from "asha add location here"
 
