@@ -6,35 +6,40 @@ Video of the overview of the Plugin: https://app.vidcast.io/share/58382e1f-6bf2-
 
 ### How to install
 
-1. Navigate to oxygenAuther/plugins/validate-content-plugin/lib/. 
+1. Navigate to oxygenAuther/plugins/validate-content-plugin/lib/
 2. Delete the existing file that ends with the .JAR extension. (For example, validate-content-plugin-1.0-SNAPSHOT-jar-with-dependencies.jar). 
 3. Replace with the JAR file from "asha add location here"
 
 
 ### What’s New
 
-* **Model Upgrade**
-  • Switched from GPT-4.0 to GPT-4.1 
+* **Model Upgrade**: Switched from GPT-4.0 to GPT-4.1 
 
-* **Conversational Capabilities Added**
-  • Plugin can now engage in back-and-forth dialogue, making interactions more natural and flexible.
+* **Conversational Capabilities Added**: Plugin can now engage in back-and-forth dialogue, making interactions more natural and flexible.
 
-* **Enhanced Prompt Behaviour**
-  • Validation prompts now dig deeper—analyzing each section for multiple errors before moving on.
-  • **Writer Reminder:** After AI validation, double-check that all sections are covered. If a section isn’t complete, prompt the AI with “Yes, proceed to Section 2.” (This is especially important in the Plain Language prompt.)
+* **Enhanced Prompt Behaviour**: Validation prompts now dig deeper—analyzing each section for multiple errors before moving on.
+  **Writer Reminder:** After AI validation, double-check that all sections are covered. If a section isn’t complete, prompt the AI with “Yes, proceed to Section 2.” (This is especially important in the Plain Language prompt.)
 
-* **Chapter-Level Chunk Strategy Prompt**
-  • Offers CTWG Chunking Guidelines at the chapter level.
-  • **Warning:** Apply this prompt only at the chapter level by using FLAT XML or Markdown file. The purpose of this prompt is to give you chapter level suggestions.
-  • **Tip:** Iterate and ask follow-up questions for each section. 
-  • **Heads-up:** The prompt may sometimes suggest unnecessary chunking. If that happens, simply say, “No, let’s not break it down” to course-correct.
-  • How to Use a FLAT XML: https://cisco.sharepoint.com/Sites/WNGTechnicalCommunications/SitePages/Instructions-to-Implement-CTWG-with-AI1.aspx#transform-ditamap-to-flat-map
+* **Chapter-Level Chunk Strategy Prompt**: Offers CTWG Chunking Guidelines at the chapter level.
+
+ **Warning:** Apply this prompt only at the chapter level by using FLAT XML or Markdown file. The purpose of this prompt is to give you chapter level suggestions.
+ **Tip:** Iterate and ask follow-up questions for each section. 
+ **Heads-up:** The prompt may sometimes suggest unnecessary chunking. If that happens, simply say, “No, let’s not break it down” to course-correct.
+
+### Introducing FLAT XML
+
+Flat XML is a format that represents your chapter map as a single XML file. It is created using a Transformation procedure, and is created right within Oxygen.  It gives the AI an opportunity to look at all the contents of the chapter and analyze chunking at this level. 
+
+You can learn how to create a FLAT XML here. 
+https://cisco.sharepoint.com/Sites/WNGTechnicalCommunications/SitePages/Instructions-to-Implement-CTWG-with-AI1.aspx#transform-ditamap-to-flat-map
+
+Once you create the FLAT XML, you can run the **Chunk Strategy** prompt. 
 
 ---
 
 ### Prompts
 
-- **Chunk Strategy**: The prompt gives you an overall CTWG strategy at a chapter level. Run this prompt at a chapter level only by using FLAT XML or a Markdown file. 
+- **Chunk Strategy**: The prompt provides an overall CTWG strategy at a chapter level. Run this prompt at a chapter level using a FLAT XML or a Markdown file. 
 
 - Chunk Review: This prompt reviews individual XML files and checks whether you have applied CTWG topic-level guidelines. These reccommendations are more at an information type level.  
 
