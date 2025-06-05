@@ -15,11 +15,13 @@ Video that gives an overview of the CTWG Assistant: https://app.vidcast.io/playl
 
 ### What’s New
 
-Enhanced AI Model: The assistant now leverages GPT-4.1 for validation and recommendations. This upgrade ensures more accurate, meaningful, and contextually relevant responses.
-Conversational Capabilities Added: Users can now engage in multi-turn conversations with the CTWG Assistant. Follow-up questions can be asked after the initial response to clarify rules and gain deeper insights.
-Improved Display Formatting: A consistent and uniform formatting style has been applied to the CTWG display pane, enhancing readability and providing a better user experience.
-Enhanced Prompt Behaviour: Validation prompts now dig deeper—analyzing each section for multiple errors before moving on.
+- Enhanced AI Model: The assistant now leverages GPT-4.1 for validation and recommendations. This upgrade ensures more accurate, meaningful, and contextually relevant responses.
+- Conversational Capabilities Added: Users can now engage in multi-turn conversations with the CTWG Assistant. Follow-up questions can be asked after the initial response to clarify rules and gain deeper insights.
+- Improved Display Formatting: A consistent and uniform formatting style has been applied to the CTWG display pane, enhancing readability and providing a better user experience.
+- Enhanced Prompt Behaviour: Validation prompts now dig deeper—analyzing each section for multiple errors before moving on.
+
   Note for Writer: After AI validation, double-check that all sections are covered.  Sometimes, the AI has paused its working waiting for your response. Prompt the AI with “Yes, proceed to Section 2.” (This is especially important in the Plain Language prompt.)
+  
 ---
 
 ### Introducing FLAT XML for Chunk Recommendations at a Chapter level
@@ -67,20 +69,20 @@ However, we strongly recommended you independently confirm responses with reliab
 
 ### Specific Sections Updated in Prompt
 
-* Foreign Words Examples Expanded
+- Foreign Words Examples Expanded
 Added more examples to Section 9 (Plain Language) for handling non-English terms.
-* Capitalization Suggestions Refined
+- Capitalization Suggestions Refined
 Moved capitalization guidance for titles into Chunking Prompts. Removed these suggestions from all Validation prompts.
-* Removed Product References
+- Removed Product References
 Removed  any brand or specific product names from example prompts to keep things generic and universally applicable.
 
 ---
 
 ### Open Issues
 
-* Preferred Word Usage: Consistently use “See” instead of “Refer” (and other preferred terms). Still working through full implementation.
-* Expansion Exception: Some edge cases around “expanding” content aren’t fully handled yet (CLI and AAA). Stay tuned for fixes in the next patch.
+- Preferred Word Usage: Consistently use “See” instead of “Refer” (and other preferred terms). Still working through full implementation.
+- Expansion Exception: Some edge cases around “expanding” content aren’t fully handled yet (CLI and AAA). Stay tuned for fixes in the next patch.
 
 ---
 
-*That’s a wrap for CTWG Assistant 2.0—get ready to chunk, validate, and iterate like a pro!*
+That’s a wrap for CTWG Assistant 2.0—get ready to chunk, validate, and iterate like a pro!
