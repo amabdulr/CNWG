@@ -34,12 +34,17 @@ Video of the overview of the Plugin: https://app.vidcast.io/share/58382e1f-6bf2-
 
 ### Prompts
 
-Chunk Strategy: The prompt gives you an overall CTWG strategy at a chapter level. Run this prompt at a chapter level only by using FLAT XML or a Markdown file. 
-Chunk Review: This prompt reviews individual XML files and checks whether you have applied CTWG topic-level guidelines. These reccommendations are more at an information type level.  
-Writing Structures: Reviews your content based on Chapter 10: Core Writing Structures of CTWG.
-Branding: Reviews your content based on Chapter 10: Core Writing Structures of CTWG.
-General Writing: Reviews your content based on Chapter 17: Branding of CTWG.
-PLain Language: Reviews your content based on Chapter 9: Plain Language of CTWG.
+- **Chunk Strategy**: The prompt gives you an overall CTWG strategy at a chapter level. Run this prompt at a chapter level only by using FLAT XML or a Markdown file. 
+
+- Chunk Review: This prompt reviews individual XML files and checks whether you have applied CTWG topic-level guidelines. These reccommendations are more at an information type level.  
+
+- Writing Structures: Reviews your content based on Chapter 10: Core Writing Structures of CTWG.
+
+- Branding: Reviews your content based on Chapter 10: Core Writing Structures of CTWG.
+
+- General Writing: Reviews your content based on Chapter 17: Branding of CTWG.
+
+- PLain Language: Reviews your content based on Chapter 9: Plain Language of CTWG.
 
 ---
 
@@ -69,13 +74,13 @@ YOu should now have a great document!
 
 ---
 
-### Unresolved Issues
+### Open Issues
 
 * **Preferred Word Usage**
   • Consistently use “See” instead of “Refer” (and other preferred terms). Still working through full implementation.
 
 * **Expansion Exception**
-  • Some edge cases around “expanding” content aren’t fully handled yet. Stay tuned for fixes in the next patch.
+  • Some edge cases around “expanding” content aren’t fully handled yet (CLI and AAA). Stay tuned for fixes in the next patch.
 
 ---
 
