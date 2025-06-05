@@ -2,7 +2,7 @@ Release Notes: CTWG Assistant 2.0
 
 ---
 
-Video that gives an overview of the CTWG Assistant: https://app.vidcast.io/playlists/e7aaead4-ba44-47fe-87d9-66be2669ed43 
+Overview Video: https://app.vidcast.io/playlists/e7aaead4-ba44-47fe-87d9-66be2669ed43 
 
 
 ### How to install
