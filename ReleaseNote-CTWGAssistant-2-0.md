@@ -15,7 +15,7 @@ Video that gives an overview of the CTWG Assistant: https://app.vidcast.io/playl
 
 ### What’s New
 
-- Enhanced AI Model: The assistant now leverages GPT-4.1 for validation and recommendations. This upgrade ensures more accurate, meaningful, and contextually relevant responses.
+- **Enhanced AI Model**: The assistant now leverages GPT-4.1 for validation and recommendations. This upgrade ensures more accurate, meaningful, and contextually relevant responses.
 - Conversational Capabilities Added: Users can now engage in multi-turn conversations with the CTWG Assistant. Follow-up questions can be asked after the initial response to clarify rules and gain deeper insights.
 - Improved Display Formatting: A consistent and uniform formatting style has been applied to the CTWG display pane, enhancing readability and providing a better user experience.
 - Enhanced Prompt Behaviour: Validation prompts now dig deeper—analyzing each section for multiple errors before moving on.
