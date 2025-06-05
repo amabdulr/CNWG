@@ -60,6 +60,12 @@ YOu should now have a great document!
 
 ---
 
+### Dealing with Hallucinations
+
+Hallucinations are when an LLM provides inaccurate or nonsensical responses. All LLM's produce hallucinations at times. If you suspect the plugin is hallucinating, you can ask it to indicate its confidence in its responses. "This text wasn't there in the content. Where did u pick this from?" However, we strongly recommended you independently confirm responses with reliable sources.
+
+---
+
 
 ### Specific Sections Updated in Prompt
 
