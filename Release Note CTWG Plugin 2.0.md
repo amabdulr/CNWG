@@ -2,7 +2,7 @@
 
 ---
 
-Video of the overview of the Plugin: https://app.vidcast.io/playlists/e7aaead4-ba44-47fe-87d9-66be2669ed43
+Video that gives an overview of the plugin: https://app.vidcast.io/playlists/e7aaead4-ba44-47fe-87d9-66be2669ed43 
 
 
 ### How to install
