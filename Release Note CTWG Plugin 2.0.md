@@ -1,8 +1,8 @@
-**Release Notes: CTWG Plugin 2.0**
+**Release Notes: CTWG Assistant 2.0**
 
 ---
 
-Video that gives an overview of the plugin: https://app.vidcast.io/playlists/e7aaead4-ba44-47fe-87d9-66be2669ed43 
+Video that gives an overview of the CTWG Assistant: https://app.vidcast.io/playlists/e7aaead4-ba44-47fe-87d9-66be2669ed43 
 
 
 ### How to install
@@ -15,19 +15,14 @@ Video that gives an overview of the plugin: https://app.vidcast.io/playlists/e7a
 
 ### What’s New
 
-* **Model Upgrade**: Switched from GPT-4.0 to GPT-4.1 
-* **Conversational Capabilities Added**: Plugin can now engage in back-and-forth dialogue, making interactions more natural and flexible.
+* **Enhanced AI Model**: The assistant now leverages GPT-4.1 for validation and recommendations. This upgrade ensures more accurate, meaningful, and contextually relevant responses.
+* **Conversational Capabilities Added**: Users can now engage in multi-turn conversations with the CTWG Assistant. Follow-up questions can be asked after the initial response to clarify rules and gain deeper insights.
+* **Improved Display Formatting**: A consistent and uniform formatting style has been applied to the CTWG display pane, enhancing readability and providing a better user experience.
 * **Enhanced Prompt Behaviour**: Validation prompts now dig deeper—analyzing each section for multiple errors before moving on.
-  **Writer Reminder:** After AI validation, double-check that all sections are covered. If a section isn’t complete, prompt the AI with “Yes, proceed to Section 2.” (This is especially important in the Plain Language prompt.)
-* **Chapter-Level Chunk Strategy Prompt**: Offers CTWG Chunking Guidelines at the chapter level.
-
- **Warning:** Apply this prompt only at the chapter level by using FLAT XML or Markdown file. The purpose of this prompt is to give you chapter level suggestions.
- **Tip:** Iterate and ask follow-up questions for each section. 
- **Heads-up:** The prompt may sometimes suggest unnecessary chunking. If that happens, simply say, “No, let’s not break it down” to course-correct.
-
+  **Note for Writer:** After AI validation, double-check that all sections are covered.  Sometimes, the AI has paused its working waiting for your response. Prompt the AI with “Yes, proceed to Section 2.” (This is especially important in the Plain Language prompt.)
 ---
 
-### Introducing FLAT XML
+### Introducing FLAT XML for Chunk Recommendations at a Chapter level
 
 Flat XML is a format that represents your chapter map as a single XML file. It is created using a Transformation procedure, and is created right within Oxygen.  It gives the AI an opportunity to look at all the contents of the chapter and analyze chunking at this level. 
 
@@ -38,7 +33,8 @@ Once you create the FLAT XML, you can run the **Chunk Strategy** prompt.
 
 ---
 
-### Prompts
+
+### Other Prompts
 - **Chunk Strategy**: The prompt provides an overall CTWG strategy at a chapter level. Run this prompt at a chapter level using a FLAT XML or a Markdown file. 
 - **Chunk Review**: This prompt reviews individual XML files and checks whether you have applied CTWG topic-level guidelines. These reccommendations are more at an information type level.  
 - **Writing Structures**: Reviews your content based on Chapter 10: Core Writing Structures of CTWG.
@@ -62,7 +58,9 @@ You should now have a great document!
 
 ### Dealing with Hallucinations
 
-Hallucinations are when an LLM provides inaccurate or nonsensical responses. All LLM's produce hallucinations at times. If you suspect the plugin is hallucinating, you can ask it to indicate its confidence in its responses. "This text wasn't there in the content. Where did you pick this from?" However, we strongly recommended you independently confirm responses with reliable sources.
+Hallucinations are when an LLM provides inaccurate or nonsensical responses. All LLM's produce hallucinations at times. If you suspect the assistant is hallucinating, you can ask it to indicate its confidence in its responses. "This text wasn't there in the content. Where did you pick this from?" 
+
+However, we strongly recommended you independently confirm responses with reliable sources.
 
 ---
 
@@ -85,4 +83,4 @@ Removed  any brand or specific product names from example prompts to keep things
 
 ---
 
-*That’s a wrap for CTWG Plugin 2.0—get ready to chunk, validate, and iterate like a pro!*
+*That’s a wrap for CTWG Assistant 2.0—get ready to chunk, validate, and iterate like a pro!*
