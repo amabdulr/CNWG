@@ -5,13 +5,13 @@
 
 1. Navigate to oxygenAuther/plugins/validate-content-plugin/lib/. 
 2. Delete the existing file that ends with the .JAR extension. (For example, validate-content-plugin-1.0-SNAPSHOT-jar-with-dependencies.jar). 
-3. Replace with the JAR file from <include onedrive location>
+3. Replace with the JAR file from "asha add location here"
 
 
 ### What’s New
 
 * **Model Upgrade**
-  • Switched from GPT-4.0 to GPT-4.1 for improved language understanding and generation.
+  • Switched from GPT-4.0 to GPT-4.1 
 
 * **Conversational Capabilities Added**
   • Plugin can now engage in back-and-forth dialogue, making interactions more natural and flexible.
