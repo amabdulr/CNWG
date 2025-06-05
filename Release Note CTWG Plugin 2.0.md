@@ -2,7 +2,7 @@
 
 ---
 
-Video of the pverview of the Plugin: https://app.vidcast.io/share/58382e1f-6bf2-4b6a-8c65-7d128bfa3403
+Video of the overview of the Plugin: https://app.vidcast.io/share/58382e1f-6bf2-4b6a-8c65-7d128bfa3403
 
 ### How to install
 
