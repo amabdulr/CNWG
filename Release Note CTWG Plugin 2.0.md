@@ -38,13 +38,12 @@ Once you create the FLAT XML, you can run the **Chunk Strategy** prompt.
 ---
 
 ### Prompts
-
 - **Chunk Strategy**: The prompt provides an overall CTWG strategy at a chapter level. Run this prompt at a chapter level using a FLAT XML or a Markdown file. 
 - **Chunk Review**: This prompt reviews individual XML files and checks whether you have applied CTWG topic-level guidelines. These reccommendations are more at an information type level.  
 - **Writing Structures**: Reviews your content based on Chapter 10: Core Writing Structures of CTWG.
 - **Branding**: Reviews your content based on Chapter 10: Core Writing Structures of CTWG.
 - **General Writing**: Reviews your content based on Chapter 17: Branding of CTWG.
-- **PLain Language**: Reviews your content based on Chapter 9: Plain Language of CTWG.
+- **Plain Language**: Reviews your content based on Chapter 9: Plain Language of CTWG.
 
 ---
 
