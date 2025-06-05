@@ -54,15 +54,15 @@ Video of the overview of the Plugin: https://app.vidcast.io/share/58382e1f-6bf2-
 2. Start creating the new files suggested by AI.
 3. Put old files into the new format using the **CT Template** plugin. 
 4. On each file, run the **Chunk Review** prompt.
-5. One ach file, run the four prompts listed under **Validate**.
+5. On each file, run the four prompts listed under **Validate**.
 
-YOu should now have a great document!
+You should now have a great document!
 
 ---
 
 ### Dealing with Hallucinations
 
-Hallucinations are when an LLM provides inaccurate or nonsensical responses. All LLM's produce hallucinations at times. If you suspect the plugin is hallucinating, you can ask it to indicate its confidence in its responses. "This text wasn't there in the content. Where did u pick this from?" However, we strongly recommended you independently confirm responses with reliable sources.
+Hallucinations are when an LLM provides inaccurate or nonsensical responses. All LLM's produce hallucinations at times. If you suspect the plugin is hallucinating, you can ask it to indicate its confidence in its responses. "This text wasn't there in the content. Where did you pick this from?" However, we strongly recommended you independently confirm responses with reliable sources.
 
 ---
 
