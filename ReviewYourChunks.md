@@ -220,6 +220,8 @@ Policy-driven licensing is a licensing model based on a set of predefined polici
 
 ## {{Title using imperative verb, second person}} **(Task)**
 
+Note: You may have recommendations to include certain elements to your Info Type. However, the labels are merely to assist you in adding the content to the req, and you do not need to label them explicitly. For example, you don’t have to write "Purpose:" or "Context:" before those sections—just state them directly. The CT-Template will give you further guidance on which of these elements are mandatory.
+
 **Purpose**: {{State the goal of this task}}
 
 **Context**: {{Explain the background or when to perform this task}}
