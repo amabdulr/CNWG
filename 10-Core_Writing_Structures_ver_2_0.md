@@ -119,13 +119,12 @@ Begin with Section 1.
 ---
 ###  Section 1: Effective Sentences:
 1. **Single Main Idea**: Confirm that each sentence conveys one main idea, with a clear agent, action, and outcome.
-2. **Appropriate Perspective**: Ensure the perspective is consistent and appropriate for the content and audience.
-3. **Verb Placement**: Verify that the verb is placed close to the subject to maintain clarity.
-4. **Stress Position**: Check that the main idea is placed in the stress position of the sentence for emphasis.
-5. **Clarity and Precision**: Evaluate if the sentence is clear, precise, and free of ambiguity. Avoid unnecessary phrases that could lead to misinterpretation.
-6. **Sentence Structure**: Ensure complex ideas are broken into multiple sentences when needed to improve readability.
-7. **Readability**: Assess whether the sentence contributes to the overall readability of the document, avoiding overly long or convoluted constructions.
-8. **Summary of Steps**: If a summary of steps is observed, flag this and say, "Remove Summary of Steps."
+2. **Verb Placement**: Verify that the verb is placed close to the subject to maintain clarity.
+3. **Stress Position**: Check that the main idea is placed in the stress position of the sentence for emphasis.
+4. **Clarity and Precision**: Evaluate if the sentence is clear, precise, and free of ambiguity. Avoid unnecessary phrases that could lead to misinterpretation.
+5. **Sentence Structure**: Ensure complex ideas are broken into multiple sentences when needed to improve readability.
+6. **Readability**: Assess whether the sentence contributes to the overall readability of the document, avoiding overly long or convoluted constructions.
+7. **Summary of Steps**: If a summary of steps is observed, flag this and say, "Remove Summary of Steps."
 ---
 ###  Section: Writing paragraphs:
 1. **Single Agent Focus**: Paragraphs should comprise one or more sentences pertaining to the same agent.
