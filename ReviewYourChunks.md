@@ -42,7 +42,7 @@ Below is the rewritten prompt divided into three sections: **Title Rules**, **Ch
 
 ### Chunk Rules
 
-- **Voice and Tense:** Use active voice and present tense.
+- **Voice and Tense:** Use active voice and present tense. First, second, and third person, as applicable. But do not use "we" or "customer"
 - **Definition Block:** Construct a definition block formatted as follows:  
   - **Structure:**  
     A [term] is a [category] that
