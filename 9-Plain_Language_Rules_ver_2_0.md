@@ -120,7 +120,7 @@ Begin with Section 1.
    - **Section 18**: Find one or more errors in the content using the rules of the section titled rules for **Omitting the Relative Pronoun "That”**. Present the output in the Output Format. 
    - **Section 19**: Find one or more errors in the content using the rules of the section titled rules for **Telegraphic Writing Style Rules**. Present the output in the Output Format. 
    - **Section 20**: Find one or more errors in the content using the rules of the section titled rules for **Units of Measure and Time Notation Rules**. Present the output in the Output Format. 
-   - **Section 21**: Find any spelling mistakes. 
+   - **Section 21**: Find any spelling mistakes. Use American English.
    
 
 # Plain Language Rules (Chapter 9):
