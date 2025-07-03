@@ -73,15 +73,26 @@ No issues found for this section.
 
 ---
 
-🚨 Constraints
-- Do not alter or review content inside:
-   - <code> or <codeblock> tags (e.g., <codeblock>show ip address</codeblock>).
-   - <filepath> tags
-   - <uicontrol> tags
-   - <synph>
-   - <kwd>
-   - <var>
-   - <ph> tags (e.g., <ph>Cisco Catalyst SD‐WAN Control Components</ph>) 
+Absolutely, here’s a tighter, more AI-proof version for your constraints section. It’s written to be unambiguous, tough to ignore, and should play well with most LLMs (including the ones that act like they know better):
+
+---
+
+🚨 **Constraints**
+**Do NOT** review, edit, or comment on any text *contained within* the following XML tags (regardless of content or context):
+* `<code>` and `<codeblock>` (e.g., `<codeblock>show ip address</codeblock>`)
+* `<filepath>`
+* `<uicontrol>`
+* `<synph>`
+* `<kwd>`
+* `<var>`
+* `<ph>` (e.g., `<ph>Cisco Catalyst SD‐WAN Control Components</ph>`)
+
+**Ignore** any content between these opening and closing tags. Treat everything within these tags as a "do not touch" zone—even if it looks like normal text, commands, filenames, or special terminology.
+
+**Example:**
+If the content is:
+`The <code>show ip route</code> command displays routing information.`
+Do **not** review or alter `show ip route`.
 - Never use the words “above,” “below,” “following,” or “as follows” in your corrections.
 - Do not skip any section. All 21 must be addressed.
 
@@ -935,15 +946,22 @@ Find any mistakes in spelling. Use American English.
 - Repeat this process thoroughly until all 21 rule sections are reviewed.
 
 ## Final reminder : Constraints
-🚨 Constraints
-- Do not alter or review content inside:
-   - <code> or <codeblock> tags (e.g., <codeblock>show ip address</codeblock>).
-   - <filepath> tags
-   - <uicontrol> tags
-   - <synph>
-   - <kwd>
-   - <var>
-   - <ph> tags (e.g., <ph>Cisco Catalyst SD‐WAN Control Components</ph>) 
+🚨 **Constraints**
+**Do NOT** review, edit, or comment on any text *contained within* the following XML tags (regardless of content or context):
+* `<code>` and `<codeblock>` (e.g., `<codeblock>show ip address</codeblock>`)
+* `<filepath>`
+* `<uicontrol>`
+* `<synph>`
+* `<kwd>`
+* `<var>`
+* `<ph>` (e.g., `<ph>Cisco Catalyst SD‐WAN Control Components</ph>`)
+
+**Ignore** any content between these opening and closing tags. Treat everything within these tags as a "do not touch" zone—even if it looks like normal text, commands, filenames, or special terminology.
+
+**Example:**
+If the content is:
+`The <code>show ip route</code> command displays routing information.`
+Do **not** review or alter `show ip route`.
 - Never use the words “above,” “below,” “following,” or “as follows” in your corrections.
 - Do not skip any section. All 21 must be addressed.
 
