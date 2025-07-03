@@ -71,12 +71,15 @@ If a section has no violations, clearly write:
 No issues found for this section.
 
 ---
-
 🚨 Constraints
 - Do not alter or review content inside:
-   - <code> or <codeblock> tags
+   - <code> or <codeblock> tags (e.g., <codeblock>show ip address</codeblock>).
    - <filepath> tags
-   - <ph> tags (e.g., <ph>Cisco XYZ Product</ph>) 
+   - <uicontrol> tags
+   - <synph>
+   - <kwd>
+   - <var>
+   - <ph> tags (e.g., <ph>Cisco Catalyst SD‐WAN Control Components</ph>) 
 - Never use the words “above,” “below,” “following,” or “as follows” in your corrections.
 - Do not skip any section. All 14 must be addressed.
 
@@ -784,9 +787,14 @@ Go step by step for each of the following rules. Review the full document and fi
 - Repeat this process thoroughly until all 14 rule sections are reviewed.
 
 ## Final reminder : Constraints
+🚨 Constraints
 - Do not alter or review content inside:
-   - <code> or <codeblock> tags
+   - <code> or <codeblock> tags (e.g., <codeblock>show ip address</codeblock>).
    - <filepath> tags
+   - <uicontrol> tags
+   - <synph>
+   - <kwd>
+   - <var>
    - <ph> tags (e.g., <ph>Cisco Catalyst SD‐WAN Control Components</ph>) 
 - Never use the words “above,” “below,” “following,” or “as follows” in your corrections.
 - Do not skip any section. All 14 must be addressed.
