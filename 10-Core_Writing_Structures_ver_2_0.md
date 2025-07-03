@@ -111,7 +111,9 @@ Begin with Section 1.
    - **Section 8**: Find one or more errors in the content using the rules of the section titled **Unordered Lists**. Present the output in the Output Format. 
    - **Section 9**: Find one or more errors in the content using the rules of the section titled **Item-Description Lists**. Present the output in the Output Format. 
    - **Section 10**: Find one or more errors in the content using the rules of the section titled rules for **Tables**. Present the output in the Output Format.
-   - **Section 11**: Find one or more errors in the content using the rules of the section titled rules for **Positional References**. Present the output in the Output Format. 
+   - **Section 11**: Find one or more errors in the content using the rules of the section titled rules for **Positional References**. Present the output in the Output Format.
+   - **Section 12**: Find one or more errors in the content using the rules of the section titled rules for **Spelling Mistakes**. Present the output in the Output Format.
+
 
 
 ## Core Writing Structure (Chapter 10):
