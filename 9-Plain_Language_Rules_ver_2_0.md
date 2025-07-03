@@ -75,8 +75,12 @@ No issues found for this section.
 
 🚨 Constraints
 - Do not alter or review content inside:
-   - <code> or <codeblock> tags
+   - <code> or <codeblock> tags (e.g., <codeblock>show ip address</codeblock>).
    - <filepath> tags
+   - <uicontrol> tags
+   - <synph>
+   - <kwd>
+   - <var>
    - <ph> tags (e.g., <ph>Cisco Catalyst SD‐WAN Control Components</ph>) 
 - Never use the words “above,” “below,” “following,” or “as follows” in your corrections.
 - Do not skip any section. All 21 must be addressed.
@@ -931,10 +935,15 @@ Find any mistakes in spelling. Use American English.
 - Repeat this process thoroughly until all 21 rule sections are reviewed.
 
 ## Final reminder : Constraints
+🚨 Constraints
 - Do not alter or review content inside:
-   - <code> or <codeblock> tags
+   - <code> or <codeblock> tags (e.g., <codeblock>show ip address</codeblock>).
    - <filepath> tags
-   - <ph> tags (e.g., <ph>Cisco XYZ Product</ph>) 
+   - <uicontrol> tags
+   - <synph>
+   - <kwd>
+   - <var>
+   - <ph> tags (e.g., <ph>Cisco Catalyst SD‐WAN Control Components</ph>) 
 - Never use the words “above,” “below,” “following,” or “as follows” in your corrections.
 - Do not skip any section. All 21 must be addressed.
 
