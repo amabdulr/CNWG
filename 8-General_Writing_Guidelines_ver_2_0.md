@@ -180,6 +180,9 @@ Go step by step for each of the following rules. Review the full document and fi
     - **Rule:** Use full, descriptive verbs for clarity and tone.
     - **Examples for Clarification (Do Not Analyze):**
       - ❌ "FTP the RFC." → ✅ "Use the FTP facility to copy the RFC."
+     
+13. **Check Spelling Mistake**  
+    - **Rule:** Look for mistakes in spelling. Use American English. 
 
 <!-- START: Section X – NUMBERS -->
 
