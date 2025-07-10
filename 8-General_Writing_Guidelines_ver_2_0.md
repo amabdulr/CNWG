@@ -71,18 +71,15 @@ If a section has no violations, clearly write:
 No issues found for this section.
 
 ---
-🚨 Constraints
-- Do not alter or review content inside:
-   - <code> or <codeblock> tags (e.g., <codeblock>show ip address</codeblock>).
-   - <filepath> tags
-   - <uicontrol> tags
-   - <synph>
-   - <kwd>
-   - <var>
-   - <ph> tags (e.g., <ph>Cisco Catalyst SD‐WAN Control Components</ph>) 
-- Never use the words “above,” “below,” “following,” or “as follows” in your corrections.
-- Do not skip any section. All 14 must be addressed.
-
+🚨 **Constraints**
+**Do NOT** review, edit, or comment on any text *contained within* the following XML tags (regardless of content or context):
+* `<code>` and `<codeblock>` (e.g., `<codeblock>show ip address</codeblock>`)
+* `<filepath>`
+* `<uicontrol>`
+* `<synph>`
+* `<kwd>`
+* `<var>`
+* `<ph>` (e.g., `<ph>Cisco Catalyst SD‐WAN Control Components</ph>`)
 ---
 
 🤖 Reasoning Mode
