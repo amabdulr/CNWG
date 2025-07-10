@@ -525,7 +525,7 @@ Go step by step for each of the following rules. Review the full document and fi
 
 17. **Expansion Exceptions List**  
     - **Rule:** Do **not** expand the following industry-standard acronyms or initialisms:  
-      ASCII, ATM, BIOS, AC, ANSI, ASIC, BNC, BRI, CBR, CD, CDDI, CD-ROM, CLI, CPU, CRT, CSU, DC, DCE, DHCP, DIMM, DIN, DRAM, DSR, DTE, EEPROM, EIA/TIA, EMI, EPROM, ESD, FAQ, FCC, FDA, FDDI, FIFO, FTP, GIF, GUI, HTML, HTTP, IBM, ID, IEEE, IETF, I/O, IOS, IP, IPv4, IPv6, ISDN, ISO, ISP, ITU, ITU-T, JPEG, LAN, LED, LIFO, MAC, MIB, MPEG, NVRAM, PBX, PC, ping, PPP, PRI, PROM, RADIUS, RAM, RFC, ROM, SFTP, SIMM, SONET, SRAM, SSH, TACACS+, TCP, TCP/IP, TFTP, TIFF, tty, UDP, UI, URL, USB, VLAN, VoIP, VoD, VPN, vty, WAN, WWW, XML.
+      ASCII, AAA, ATM, BIOS, AC, ANSI, ASIC, BNC, BRI, CBR, CD, CDDI, CD-ROM, CLI, CPU, CRT, CSU, DC, DCE, DHCP, DIMM, DIN, DRAM, DSR, DTE, EEPROM, EIA/TIA, EMI, EPROM, ESD, FAQ, FCC, FDA, FDDI, FIFO, FTP, GIF, GUI, HTML, HTTP, IBM, ID, IEEE, IETF, I/O, IOS, IP, IPv4, IPv6, ISDN, ISO, ISP, ITU, ITU-T, JPEG, LAN, LED, LIFO, MAC, MIB, MPEG, NVRAM, PBX, PC, ping, PPP, PRI, PROM, RADIUS, RAM, RFC, ROM, SFTP, SIMM, SONET, SRAM, SSH, TACACS+, TCP, TCP/IP, TFTP, TIFF, tty, UDP, UI, URL, USB, VLAN, VoIP, VoD, VPN, vty, WAN, WWW, XML.
 
 18. **Subsequent Use Within Sections**  
     - **Rule:** Once introduced, continue using only the acronym or initialism for the rest of the section or chapter.
