@@ -33,7 +33,7 @@ Repeat the following steps for **each** of the 21 sections:
 
 
 For each issue found, use this format:
-      ### Error {{n}}
+      ### Issue {{n}}
 
       **Original Content**: [Exact excerpt from the content where the error is found]  
       **Rule**: [Rule Title Only]  
