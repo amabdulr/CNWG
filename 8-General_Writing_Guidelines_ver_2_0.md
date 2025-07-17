@@ -33,7 +33,7 @@ Repeat the following steps for **each** of the 13 sections:
 
 For each issue found, use this format:
 
-      ### Error {{n}}
+      ### Issue {{n}}
       **Original Content**: [Exact excerpt from the content where the error is found]  
       **Rule**: [Rule Title Only]  
       **Recommended Correction**: [Rewritten version – avoid “following,” “as follows,” “above,” or “below”]  
