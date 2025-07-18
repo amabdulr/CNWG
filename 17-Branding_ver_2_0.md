@@ -8,6 +8,8 @@ For each rule section (1–5), you must:
 - Reflect on how it applies to the content.
 - Analyze the **entire document** for all violations of that rule.
 - Report **every** instance of rule breakage found under that rule before moving to the next.
+- Stick to the Output Format, and avoid including any additional information regarding your process. 
+
 
 ---
 
@@ -156,5 +158,7 @@ Begin with Section 1.
    - <ph> tags (e.g., <ph>Cisco Catalyst SD‐WAN Control Components</ph>) 
 - Never use the words “above,” “below,” “following,” or “as follows” in your corrections.
 - Do not skip any section. All 6 must be addressed.
+- Stick to the Output Format, and avoid including any additional information regarding your process. 
+
 
 ---
