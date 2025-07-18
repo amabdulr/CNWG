@@ -125,32 +125,32 @@ Go step by step for each of the following rules. Review the full document and fi
 
 2. **Agency and Perspective**  
    - **Rule:** Keep the grammatical agent (subject) and point of view consistent within each paragraph. If there is a change in perspective or subject, start a new paragraph.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - ❌ "When a policy rule is violated, an alarm appears... However, you may want Crosswork Cloud to also notify you..."
      - ✅ "If a policy rule is broken, an alarm appears... You can also set up Crosswork Cloud to notify you..."
 
 3. **Perspective Rule — Clarity and Consistency**  
    - **Rule:** The noun or pronoun that appears first in a sentence typically sets the perspective. Maintain this perspective throughout the paragraph to improve clarity.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - ❌ "The system allows you to monitor data. Crosswork Data Gateway collects telemetry data efficiently."
      - ✅ "You can monitor data through the system. The Crosswork Data Gateway efficiently collects telemetry data."
 
 4. **Dates and Numbers**  
    - **Rule:** Use the international date format: `YYYY-MM-DD`.  
    - Use commas for numbers of five or more digits, but **do not** use commas in user-entered values.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - ✅ `1,000,000`  
      - ❌ `10,00,000`
 
 5. **Units of Measure**  
    - **Rule:** Use **British units first**, followed by metric units in parentheses. Spell out units when needed in regular text.
-   - **Example for Clarification (Do Not Analyze):**
+   - **Example for Clarification (Do Not Review or Include in Output):**
      - ✅ "Width between the two rack-mount posts: 17 in. (43.18 cm)"
 
 6. **Punctuation and Symbols**  
    - **Rule:** Use serial (Oxford) commas in lists. Avoid symbols like **&**, **/**, or **@** unless necessary for technical clarity.
    - Use en dashes (–) for ranges in tables, and em dashes (—) for emphasis in text.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - ❌ "Support & Downloads" → ✅ "Access Cisco Support and Software Downloads"
      - ❌ "Select HTTPS and/or SSH" → ✅ "Select HTTPS or SSH, or both"
 
@@ -167,13 +167,13 @@ Go step by step for each of the following rules. Review the full document and fi
     - **Rule:**  
       - Format US/Canada numbers as: `1 408 526 4000`  
       - Format international numbers using the `+` symbol and spaces.  
-    - **Example for Clarification (Do Not Analyze):**
+    - **Example for Clarification (Do Not Review or Include in Output):**
       - ✅ `+44 20 7946 0958` (International)
       - ✅ `1 408 526 4000` (US/Canada)
 
 11. **Avoid Abbreviated Verbs**  
     - **Rule:** Use full, descriptive verbs for clarity and tone.
-    - **Examples for Clarification (Do Not Analyze):**
+    - **Examples for Clarification (Do Not Review or Include in Output):**
       - ❌ "FTP the RFC." → ✅ "Use the FTP facility to copy the RFC."
      
 12. **Check Spelling Mistake**  
@@ -198,12 +198,12 @@ Go step by step for each of the following rules. Review the full document and fi
 
 3. **Decimal Fractions**  
    - **Rule:** Always place a zero before the decimal point for values between zero and one.  
-   - **Example for Clarification (Do Not Analyze):** `0.75`
+   - **Example for Clarification (Do Not Review or Include in Output):** `0.75`
 
 4. **Dimensions and Measurements**  
    - **Rule:** Use the format **height × width × depth (H × W × D)** for dimensions.  
      Include **British units first**, followed by **metric units in parentheses**.  
-   - **Example for Clarification (Do Not Analyze):** `17 in. (43.18 cm)`
+   - **Example for Clarification (Do Not Review or Include in Output):** `17 in. (43.18 cm)`
 
 5. **Fractions**  
    - **Rule:**  
@@ -213,7 +213,7 @@ Go step by step for each of the following rules. Review the full document and fi
 6. **Ordinal Numbers**  
    - **Rule:** Spell out ordinal numbers such as “first,” “second,” “third,” etc.  
      Do not use numeric suffixes like “1st,” “2nd,” “3rd.”  
-   - **Example for Clarification (Do Not Analyze):**  
+   - **Example for Clarification (Do Not Review or Include in Output):**  
      ✅ “Note the data in row 1414”  
      ❌ “1414st row”
 
@@ -221,17 +221,17 @@ Go step by step for each of the following rules. Review the full document and fi
    - **Rule:**  
      - Use an en dash (–) **with no spaces** for negative numbers (e.g., `–64`).  
      - Use an en dash **with spaces** for subtraction or operations (e.g., `10 – 9 = 1`).  
-   - **Example for Clarification (Do Not Analyze):**  
+   - **Example for Clarification (Do Not Review or Include in Output):**  
      - Negative number: `–64`  
      - Equation: `10 – 9 = 1`
 
 8. **Estimated Numbers**  
    - **Rule:** Spell out **rounded or estimated numbers**, especially when referring to values in the millions or higher.  
-   - **Example for Clarification (Do Not Analyze):** “Twenty million routes”
+   - **Example for Clarification (Do Not Review or Include in Output):** “Twenty million routes”
 
 9. **Adjacent Numbers**  
    - **Rule:** When two numbers appear side by side, **spell out one** for clarity.  
-   - **Example for Clarification (Do Not Analyze):** “Six 1/2-inch cables”
+   - **Example for Clarification (Do Not Review or Include in Output):** “Six 1/2-inch cables”
 
 <!-- END: Section X – NUMBERS -->
 ---
@@ -241,14 +241,14 @@ Go step by step for each of the following rules. Review the full document and fi
 
 1. **Ranges in Text**  
    - **Rule:** Use the word **“to”** for number ranges in running text or prose.  
-   - **Examples for Clarification (Do Not Analyze):**  
+   - **Examples for Clarification (Do Not Review or Include in Output):**  
      ✅ “The temperature ranges from 10 to 40 degrees Celsius.”  
      ❌ “The temperature ranges from 10–40 degrees Celsius.”
 
 2. **Ranges in Tables**  
    - **Rule:** Use an **en dash (–)** with **no spaces** for numeric ranges in tables.  
      If the table cell contains additional text, use the word “to” instead.  
-   - **Examples for Clarification (Do Not Analyze):**  
+   - **Examples for Clarification (Do Not Review or Include in Output):**  
      ✅ `10–20`  
      ✅ `Range is 0 to 232`  
      ❌ `10 - 20`  
@@ -256,7 +256,7 @@ Go step by step for each of the following rules. Review the full document and fi
 
 3. **Ranges in Job Aids**  
    - **Rule:** Use **en dashes (–)** for number ranges in job aids to save space.  
-   - **Example for Clarification (Do Not Analyze):** `25–50 users`
+   - **Example for Clarification (Do Not Review or Include in Output):** `25–50 users`
 
 4. **Spacing Around Dashes**  
    - **Rule:** Do **not** insert spaces before or after an en dash in numeric ranges.  
@@ -265,7 +265,7 @@ Go step by step for each of the following rules. Review the full document and fi
 
 5. **Unit Placement in Ranges**  
    - **Rule:** Place the **unit of measure only after the second number**.  
-   - **Examples for Clarification (Do Not Analyze):**  
+   - **Examples for Clarification (Do Not Review or Include in Output):**  
      ✅ `50 to 100 kg`  
      ❌ `50 kg to 100 kg`
 
@@ -279,18 +279,18 @@ Go step by step for each of the following rules. Review the full document and fi
 
 **1. In Text (Prose)**  
 - Format: `x to y`  
-- Example (Do not analyze): “The operating temperature ranges from 10 to 40 degrees Celsius.”
+- Example (Do Not Review or Include in Output): “The operating temperature ranges from 10 to 40 degrees Celsius.”
 
 **2. In Tables**  
 - Format: `x–y`  
 - Use `"to"` only if the cell includes text.  
-- Examples (Do not analyze):  
+- Examples (Do Not Review or Include in Output):  
   - `10–20`  
   - `"Range is 0 to 232"` (text present)
 
 **3. In Job Aids**  
 - Use an en dash for ranges due to space constraints.  
-- Example (Do not analyze): `25–50 users`
+- Example (Do Not Review or Include in Output): `25–50 users`
 
 **4. Spacing Around Dashes**  
 - En dashes should **not have spaces** on either side.  
@@ -310,7 +310,7 @@ Go step by step for each of the following rules. Review the full document and fi
 
 1. **Proximity Between Subject and Verb**  
    - **Rule:** Keep the subject and verb close together in a sentence. This improves clarity, minimizes ambiguity, and strengthens the connection between the actor and the action.  
-   - **Examples for Clarification (Do Not Analyze):**  
+   - **Examples for Clarification (Do Not Review or Include in Output):**  
      ❌ "Download the OVA and the sample script files from cisco.com. For these instructions, we use the file name as signed-cw-na-dg-6.0.0-114-release-20231211.uefi.ova."  
      ✅ "Download the OVA and the sample script files from cisco.com. Use the file names signed-cw-na-dg-6.0.0-114-release-20231211.uefi.ova for these instructions."
 
@@ -345,7 +345,7 @@ Go step by step for each of the following rules. Review the full document and fi
 5. **Multiple Stress Points**  
    - **Rule:** When a sentence contains multiple important elements, consider converting it into an **unordered list** for better readability and impact.
 
-6. **Examples for Clarification (Do Not Analyze):**  
+6. **Examples for Clarification (Do Not Review or Include in Output):**  
    - ❌ “You can start the data collection by configuring the jobs.”  
    - ✅ “Configure the jobs to start the data collection.”
 
@@ -384,7 +384,7 @@ Go step by step for each of the following rules. Review the full document and fi
 4. **Replace with Words Where Possible**  
    - **Rule:** Replace ambiguous characters with full words for greater clarity, especially in regular narrative or instructional text.
 
-   - **Examples for Clarification (Do Not Analyze):**  
+   - **Examples for Clarification (Do Not Review or Include in Output):**  
      ❌ "Select HTTPS and/or SSH"  
      ✅ "Select HTTPS or SSH, or both."
 
@@ -450,7 +450,7 @@ Go step by step for each of the following rules. Review the full document and fi
 1. **Introduction and Expansion**  
    - **Rule:** Spell out the full form of an acronym or initialism the first time it appears, followed by the abbreviated form in parentheses.  
      Skip this if the acronym is a well-known industry term.  
-   - **Example (Do not analyze):** Interior Gateway Routing Protocol (IGRP)
+   - **Example (Do Not Review or Include in Output):** Interior Gateway Routing Protocol (IGRP)
 
 2. **Consistency**  
    - **Rule:** After initial expansion, use the acronym or initialism consistently.  
@@ -461,33 +461,33 @@ Go step by step for each of the following rules. Review the full document and fi
 
 4. **Avoid Abbreviations as Verbs**  
    - **Rule:** Do not turn abbreviations or acronyms into verbs.  
-   - **Example (Do not analyze):**  
+   - **Example (Do Not Review or Include in Output):**  
      ❌ "FTP the file."  
      ✅ "Use FTP to transfer the file."
 
 5. **Capitalization**  
    - **Rule:** Capitalize the full form of an acronym only if it's normally capitalized.  
-   - **Example (Do not analyze):** American National Standards Institute (ANSI)
+   - **Example (Do Not Review or Include in Output):** American National Standards Institute (ANSI)
 
 6. **First Use in Tables**  
    - **Rule:** If an acronym is first introduced in a table, use a footnote to provide its full form.  
-   - **Example (Do not analyze):** ¹ NMP = network management processor.
+   - **Example (Do Not Review or Include in Output):** ¹ NMP = network management processor.
 
 7. **Spelling Out Based on Audience**  
    - **Rule:** If your audience may be unfamiliar with an acronym, or if it's used both expanded and abbreviated, always spell it out the first time.  
-   - **Example (Do not analyze):** Wide Area Network (WAN)
+   - **Example (Do Not Review or Include in Output):** Wide Area Network (WAN)
 
 8. **Trademark Exceptions**  
    - **Rule:** Do not expand acronyms that are trademarks or service marks.  
-   - **Example (Do not analyze):** Cisco IOS, IBM
+   - **Example (Do Not Review or Include in Output):** Cisco IOS, IBM
 
 9. **Pluralization**  
    - **Rule:** Form plurals of acronyms by adding a lowercase "s" without an apostrophe.  
-   - **Example (Do not analyze):** LANs, CPUs
+   - **Example (Do Not Review or Include in Output):** LANs, CPUs
 
 10. **Use of Indefinite Articles ("a" or "an")**  
     - **Rule:** Choose “a” or “an” based on the pronunciation of the acronym’s first letter.  
-    - **Examples (Do not analyze):**  
+    - **Examples (Do Not Review or Include in Output):**  
       ✅ "a CPU"  
       ✅ "an LED"  
       ✅ "an XML document"  
@@ -495,7 +495,7 @@ Go step by step for each of the following rules. Review the full document and fi
 
 11. **Avoid Combining Acronyms**  
     - **Rule:** Do not create new acronyms by attaching existing ones to other terms.  
-    - **Example (Do not analyze):**  
+    - **Example (Do Not Review or Include in Output):**  
       ❌ "SPA interface processor (SIP)"  
       ✅ "SPA interface processor"
 
@@ -514,7 +514,7 @@ Go step by step for each of the following rules. Review the full document and fi
 
 16. **Pronunciation-Based Article Usage (Repeat for Emphasis)**  
     - **Rule:** Choose “a” or “an” based on how the acronym is pronounced, not spelled.  
-    - **Example (Do not analyze):**  
+    - **Example (Do Not Review or Include in Output):**  
       ✅ "an XML document"  
       ✅ "a URL"
 
@@ -533,54 +533,54 @@ Go step by step for each of the following rules. Review the full document and fi
 
 1. **General Sentence Start**  
    - **Rule:** Always capitalize the first word of a sentence.  
-   - **Example (Do not analyze):** “This document outlines the rules.”
+   - **Example (Do Not Review or Include in Output):** “This document outlines the rules.”
 
 2. **Acronyms and Initialisms**  
    - **Rule:** Do not capitalize the spelled-out form of an acronym unless it is normally capitalized.  
-   - **Example (Do not analyze):** American National Standards Institute (ANSI)
+   - **Example (Do Not Review or Include in Output):** American National Standards Institute (ANSI)
 
 3. **Appendixes, Chapters, Figures, Parts, Tables, and Volumes**  
    - **Rule:** Capitalize these terms when followed by a number.  
-   - **Example (Do not analyze):** “See Table 3 for details.”
+   - **Example (Do Not Review or Include in Output):** “See Table 3 for details.”
 
 4. **Application and Configuration References**  
    - **Rule:** Capitalize terms such as Application Notes, Configuration Notes, or Hardware Releases when they precede a number.  
-   - **Example (Do not analyze):** “Software Release 9.1”
+   - **Example (Do Not Review or Include in Output):** “Software Release 9.1”
 
 5. **Beginning Sentences**  
    - **Rule:** Do not begin a sentence with a lowercase word unless it is a brand or product that officially uses lowercase.
 
 6. **Callouts and Labels**  
    - **Rule:** In callouts and interface labels, capitalize **only the first word**, unless proper nouns are used.  
-   - **Example (Do not analyze):** “See the figure on the right.”
+   - **Example (Do Not Review or Include in Output):** “See the figure on the right.”
 
 7. **Columns, Lines, Levels, Options, and Slots**  
    - **Rule:** Use lowercase for these terms, even when followed by numbers.  
-   - **Example (Do not analyze):** “Enter the value in column 1.”
+   - **Example (Do Not Review or Include in Output):** “Enter the value in column 1.”
 
 8. **Company Names**  
    - **Rule:** Capitalize the first letter of company names.  
-   - **Example (Do not analyze):** “Cisco”
+   - **Example (Do Not Review or Include in Output):** “Cisco”
 
 9. **Department Names**  
    - **Rule:** Use lowercase for general department names; use initial caps for official titles.  
-   - **Example (Do not analyze):** “Contact the finance department for details.”
+   - **Example (Do Not Review or Include in Output):** “Contact the finance department for details.”
 
 10. **Glossary Terms**  
     - **Rule:** Capitalize glossary terms only if they are capitalized in the main text.  
-    - **Example (Do not analyze):** “Local Area Network (LAN)”
+    - **Example (Do Not Review or Include in Output):** “Local Area Network (LAN)”
 
 11. **Key Names**  
     - **Rule:** Capitalize the names of keys on a keyboard.  
-    - **Example (Do not analyze):** “Press the Enter key.”
+    - **Example (Do Not Review or Include in Output):** “Press the Enter key.”
 
 12. **Hardware or Screen Labels**  
     - **Rule:** Reproduce the label exactly as it appears on the device or screen.  
-    - **Example (Do not analyze):** “The LED labeled STATUS is on the front panel.”
+    - **Example (Do Not Review or Include in Output):** “The LED labeled STATUS is on the front panel.”
 
 13. **List Items**  
     - **Rule:** Capitalize the first word of each list item.  
-    - **Examples (Do not analyze):**  
+    - **Examples (Do Not Review or Include in Output):**  
       - “Install the software.”  
       - “Configure the network.”
 
@@ -588,26 +588,26 @@ Go step by step for each of the following rules. Review the full document and fi
     - **Rule:**  
       - Use **uppercase** for ASCII signals.  
       - Use **initial capitalization** for other signals.  
-    - **Example (Do not analyze):** “The BREAK signal was sent.”
+    - **Example (Do Not Review or Include in Output):** “The BREAK signal was sent.”
 
 15. **Software, Hardware, and Manuals**  
     - **Rule:** Use initial caps for the names of specific software, hardware, and documentation titles.  
-    - **Example (Do not analyze):** “Cisco IOS Software Configuration Guide”
+    - **Example (Do Not Review or Include in Output):** “Cisco IOS Software Configuration Guide”
 
 16. **Steps and References**  
     - **Rule:** Capitalize the word “Step” when referring to a specific numbered step.  
-    - **Example (Do not analyze):** “Repeat Step 2 as necessary.”
+    - **Example (Do Not Review or Include in Output):** “Repeat Step 2 as necessary.”
 
 17. **Table Column Titles**  
     - **Rule:** Use initial capitalization for column titles in tables.  
-    - **Example (Do not analyze):** “Network Configuration”
+    - **Example (Do Not Review or Include in Output):** “Network Configuration”
 
 18. **Terminal Displays and Commands**  
     - **Rule:** Use lowercase for command-line entries unless they appear at the start of a sentence.
 
 19. **Topic and Chunk Titles**  
     - **Rule:** Use **sentence case** for topic and chunk titles. Only capitalize the first word and proper nouns.  
-    - **Examples (Do not analyze):**  
+    - **Examples (Do Not Review or Include in Output):**  
       - “Benefits of smart licensing using policy”  
       - “The art of network design”  
       - “Routing and switching essentials”  
@@ -625,31 +625,31 @@ Go step by step for each of the following rules. Review the full document and fi
 
 1. **Definition**  
    - **Rule:** A compound modifier is a group of two or more words that work together to modify a noun. They typically act as a single adjective.  
-   - **Example (Do not analyze):** “high-speed internet”
+   - **Example (Do Not Review or Include in Output):** “high-speed internet”
 
 2. **Hyphenation for Clarity**  
    - **Rule:** Use hyphens to join compound modifiers when they appear before the noun to prevent misreading.  
-   - **Example (Do not analyze):** “high-speed internet” ensures clarity in meaning.
+   - **Example (Do Not Review or Include in Output):** “high-speed internet” ensures clarity in meaning.
 
 3. **Hyphenation Exceptions – Adverbs Ending in -ly**  
    - **Rule:** Do not hyphenate compound modifiers when the first word is an adverb ending in “-ly.”  
-   - **Example (Do not analyze):** “highly skilled technician”
+   - **Example (Do Not Review or Include in Output):** “highly skilled technician”
 
 4. **Position in Sentence**  
    - **Rule:**  
      - Hyphenate compound modifiers **when they appear before the noun** they modify.  
      - Do **not** hyphenate them **when they appear after the noun**.  
-   - **Examples (Do not analyze):**  
+   - **Examples (Do Not Review or Include in Output):**  
      - ✅ “state-of-the-art equipment”  
      - ✅ “The equipment is state of the art.”
 
 5. **Commonly Accepted Terms**  
    - **Rule:** Do not hyphenate compound modifiers that are widely recognized as single terms.  
-   - **Example (Do not analyze):** “real estate agent”
+   - **Example (Do Not Review or Include in Output):** “real estate agent”
 
 6. **Avoid Redundant Modifiers**  
    - **Rule:** Only use compound modifiers when they improve clarity. Avoid unnecessary or repetitive combinations.  
-   - **Example (Do not analyze):** “newly renovated” is appropriate; avoid over-explaining with “recently newly renovated”
+   - **Example (Do Not Review or Include in Output):** “newly renovated” is appropriate; avoid over-explaining with “recently newly renovated”
 
 <!-- END: Section X – COMPOUND MODIFIERS -->
 <!-- START: Section X – CONTRACTIONS -->
@@ -658,15 +658,15 @@ Go step by step for each of the following rules. Review the full document and fi
 
 1. **Use for Natural Tone**  
    - **Rule:** Use contractions to make writing sound conversational and user-friendly, especially in instructional content. Use them **sparingly** to maintain clarity.  
-   - **Example (Do not analyze):** “You'll find the instructions easy to follow.”
+   - **Example (Do Not Review or Include in Output):** “You'll find the instructions easy to follow.”
 
 2. **Avoid Uncommon or Awkward Contractions**  
    - **Rule:** Do not use rare or awkward contractions that could confuse readers or sound unnatural.  
-   - **Example (Do not analyze):** Avoid “he’d’ve” (short for “he would have”).
+   - **Example (Do Not Review or Include in Output):** Avoid “he’d’ve” (short for “he would have”).
 
 3. **Contextual Appropriateness**  
    - **Rule:** In more formal or technical documents, avoid contractions to maintain professionalism. Choose based on the audience and tone of the content.  
-   - **Example (Do not analyze):** Use “cannot” instead of “can’t” in a formal report.
+   - **Example (Do Not Review or Include in Output):** Use “cannot” instead of “can’t” in a formal report.
 
 <!-- END: Section X – CONTRACTIONS -->
 <!-- START: Section X – POSSESSIVES -->
@@ -675,19 +675,19 @@ Go step by step for each of the following rules. Review the full document and fi
 
 1. **Basic Formation**  
    - **Rule:** Form the possessive of singular nouns by adding **’s**.  
-   - **Example (Do not analyze):** “The company’s policy.”
+   - **Example (Do Not Review or Include in Output):** “The company’s policy.”
 
 2. **Plural Nouns Ending in -s**  
    - **Rule:** For plural nouns that already end in **-s**, add only an **apostrophe** (’).  
-   - **Example (Do not analyze):** “The managers’ meeting.”
+   - **Example (Do Not Review or Include in Output):** “The managers’ meeting.”
 
 3. **Irregular Plural Nouns**  
    - **Rule:** For irregular plural nouns that do **not** end in **-s**, add **’s**.  
-   - **Example (Do not analyze):** “The children’s playground.”
+   - **Example (Do Not Review or Include in Output):** “The children’s playground.”
 
 4. **Avoid Possessives for Clarity**  
    - **Rule:** Rephrase sentences to avoid possessive constructions that may cause confusion, ambiguity, or translation issues.  
-   - **Examples (Do not analyze):**  
+   - **Examples (Do Not Review or Include in Output):**  
      - ✅ “Connect the cable to the router port.”  
      - ❌ “Connect the cable to the router’s port.”
 
@@ -699,19 +699,19 @@ Go step by step for each of the following rules. Review the full document and fi
 
 1. **General Hyphenation Rule**  
    - **Rule:** Do **not** hyphenate prefix-based words unless necessary to avoid confusion.  
-   - **Examples (Do not analyze):** “nonspecific,” “reenter”
+   - **Examples (Do Not Review or Include in Output):** “nonspecific,” “reenter”
 
 2. **Prefixes That Require Hyphens**  
    - **Rule:** Always hyphenate words that begin with the prefixes **all-**, **ex-** (meaning former), **half-**, **quasi-**, and **self-**.  
-   - **Examples (Do not analyze):** “self-aware,” “ex-president”
+   - **Examples (Do Not Review or Include in Output):** “self-aware,” “ex-president”
 
 3. **Before Proper Nouns**  
    - **Rule:** Hyphenate prefixes when they come before a **proper noun** or an **adjective derived from a proper noun**.  
-   - **Example (Do not analyze):** “non-American policies”
+   - **Example (Do Not Review or Include in Output):** “non-American policies”
 
 4. **Avoiding Ambiguity or Misreading**  
    - **Rule:** Use a hyphen if the resulting word could be misread or contains **double vowels** that cause confusion.  
-   - **Examples (Do not analyze):**  
+   - **Examples (Do Not Review or Include in Output):**  
      - “re-cover” (to cover again)  
      - “reenter” (acceptable, no hyphen needed)
 
@@ -724,47 +724,47 @@ Go step by step for each of the following rules. Review the full document and fi
 
 1. **Abbreviation Usage**  
    - **Rule:** Use abbreviations for units of measure in **figures and tables**. In running text, **spell out the unit** unless the abbreviation is widely recognized.  
-   - **Example (Do not analyze):**  
+   - **Example (Do Not Review or Include in Output):**  
      - Text: “6 inches”  
      - Table: “6 in.”
 
 2. **Plural Form of Abbreviations**  
    - **Rule:** Use the **singular form** for unit-of-measure abbreviations, even for quantities greater than one.  
-   - **Example (Do not analyze):** “5 lb” (not “5 lbs”)
+   - **Example (Do Not Review or Include in Output):** “5 lb” (not “5 lbs”)
 
 3. **First Use Formatting**  
    - **Rule:** On first mention of a less-common unit, **spell it out** followed by the abbreviation in parentheses. Use only the abbreviation thereafter.  
-   - **Example (Do not analyze):** “The signal is measured in volts (V). The device requires 5 V.”
+   - **Example (Do Not Review or Include in Output):** “The signal is measured in volts (V). The device requires 5 V.”
 
 4. **Avoid Periods in Abbreviations**  
    - **Rule:** Do **not** use periods with unit abbreviations **unless** the abbreviation could be mistaken for a common word.  
-   - **Example (Do not analyze):**  
+   - **Example (Do Not Review or Include in Output):**  
      - “m” for meters (no period)  
      - “in.” for inches (to avoid confusion with the word “in”)
 
 5. **Consistency Across Quantities**  
    - **Rule:** Use the same abbreviation regardless of whether the quantity is **less than one, one, or more than one**.  
-   - **Example (Do not analyze):** “0.5 V, 1 V, 5 V”
+   - **Example (Do Not Review or Include in Output):** “0.5 V, 1 V, 5 V”
 
 6. **Hyphenation with Modifiers**  
    - **Rule:** Hyphenate the unit of measure when it **modifies a noun and comes before it**.  
-   - **Example (Do not analyze):** “a 10-meter cable”
+   - **Example (Do Not Review or Include in Output):** “a 10-meter cable”
 
 7. **Range Formatting**  
    - **Rule:** When expressing a numeric range, **place the unit only after the final number**.  
-   - **Example (Do not analyze):** “50 to 100 kg” (not “50 kg to 100 kg”)
+   - **Example (Do Not Review or Include in Output):** “50 to 100 kg” (not “50 kg to 100 kg”)
 
 8. **Spacing Between Number and Unit**  
    - **Rule:** Use a **nonbreaking space** between the number and the unit to ensure they stay together in formatting.  
-   - **Examples (Do not analyze):** “64 Gbps,” “200 Hz”
+   - **Examples (Do Not Review or Include in Output):** “64 Gbps,” “200 Hz”
 
 9. **British and Metric Units**  
    - **Rule:** When appropriate, present **British (Imperial) units first**, followed by **metric units in parentheses**.  
-   - **Example (Do not analyze):** “32 to 104°F (0 to 40°C)”
+   - **Example (Do Not Review or Include in Output):** “32 to 104°F (0 to 40°C)”
 
 10. **Numerical Style in Text**  
     - **Rule:** Always use **Arabic numerals** for numbers with units of measure, even if the number is less than ten.  
-    - **Example (Do not analyze):** “The device weighs 3 kilograms.”
+    - **Example (Do Not Review or Include in Output):** “The device weighs 3 kilograms.”
 
 <!-- END: Section X – UNITS OF MEASURE -->
 ---
