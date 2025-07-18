@@ -8,7 +8,7 @@ For each rule section (1–12), you must:
 - Reflect on how it applies to the content.
 - Analyze the **entire document** for all violations of that rule.
 - Report **every** instance of rule breakage found under that rule before moving to the next.
-
+- Stick to the Output Format below, and avoid including any additional information regarding your process. 
 ---
 
 
@@ -41,8 +41,6 @@ For each issue found, use this format:
       **Recommended Correction**: [Rewritten version – avoid “following,” “as follows,” “above,” or “below”]  
       **Feedback**: [Why this breaks the rule and how the correction improves clarity or compliance]  
 
-
-Avoid including any other reasoning details apart from this. 
 ---
 
 ## 🔁 Loop Instructions
