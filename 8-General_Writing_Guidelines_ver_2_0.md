@@ -8,6 +8,7 @@ For each rule section (1–14), you must:
 - Reflect on how it applies to the content.
 - Analyze the **entire document** for all violations of that rule.
 - Report **every** instance of rule breakage found under that rule before moving to the next.
+- Stick to the Output Format, and avoid including any additional information regarding your process. 
 
 ---
 
@@ -33,12 +34,12 @@ Repeat the following steps for **each** of the 13 sections:
 
 For each issue found, use this format:
 
-      ### Issue {{n}}
+      ### Observation {{n}}  
+      **Action Required**: [“Action Required” or “No Action Required”]
       **Original Content**: [Exact excerpt from the content where the error is found]  
       **Rule**: [Rule Title Only]  
       **Recommended Correction**: [Rewritten version – avoid “following,” “as follows,” “above,” or “below”]  
       **Feedback**: [Why this breaks the rule and how the correction improves clarity or compliance]  
-      **Action Required**: [“Action Required” or “No Action Required”]
 
 ---
 
@@ -789,5 +790,7 @@ Go step by step for each of the following rules. Review the full document and fi
    - <ph> tags (e.g., <ph>Cisco Catalyst SD‐WAN Control Components</ph>) 
 - Never use the words “above,” “below,” “following,” or “as follows” in your corrections.
 - Do not skip any section. All 14 must be addressed.
+- Stick to the Output Format, and avoid including any additional information regarding your process. 
+
 
 ---
