@@ -8,7 +8,7 @@ For each rule section (1–21), you must:
 - Reflect on how it applies to the content.
 - Analyze the **entire document** for all violations of that rule.
 - Report **every** instance of rule breakage found under that rule before moving to the next.
-
+- Stick to the Output Format, and avoid including any additional information regarding your process. 
 ---
 
 
@@ -33,13 +33,12 @@ Repeat the following steps for **each** of the 21 sections:
 
 
 For each issue found, use this format:
-      ### Issue {{n}}
-
+      ### Observation {{n}}
+      **Action Required**: [“Action Required” or “No Action Required”]
       **Original Content**: [Exact excerpt from the content where the error is found]  
       **Rule**: [Rule Title Only]  
       **Recommended Correction**: [Rewritten version – avoid “following,” “as follows,” “above,” or “below”]  
       **Feedback**: [Why this breaks the rule and how the correction improves clarity or compliance]  
-      **Action Required**: [“Action Required” or “No Action Required”]
 
 ---
 
@@ -152,19 +151,19 @@ Begin with Section 1.
    - Is there a clear purpose that guides the user on what actions to take?
 3. **Clarity and Directness:**
    - Are sentences directed to the user using the second person? 
-   - Example for Clarification (Do not Analyze): Instead of "All agents must complete the form," use "You must complete the form."
+   - Example for Clarification (Do Not Review or Include in Output): Instead of "All agents must complete the form," use "You must complete the form."
 4. **Positive Language:**
    - Does the document focus on what the user should do rather than what they should not do?
-   - Example for Clarification (Do not Analyze): Instead of "Do not press the red button," use "Press the green button to proceed."
+   - Example for Clarification (Do Not Review or Include in Output): Instead of "Do not press the red button," use "Press the green button to proceed."
 5. **Structure and Organization:**
    - Is the content broken into manageable chunks with clear, useful titles?
    - Does the structure follow a logical hierarchy that aids in user navigation?
 6. **Gender-Neutral Language:**
    - Are gender-neutral pronouns like "they" used instead of "he/she"?
-   - Example for Clarification (Do not Analyze): Instead of "based on the SLA he has signed," use "based on the customer's SLA."
+   - Example for Clarification (Do Not Review or Include in Output): Instead of "based on the SLA he has signed," use "based on the customer's SLA."
 7. **Active Voice:**
    - Are active voice constructions used to make actions clear?
-   - Example for Clarification (Do not Analyze): Instead of "The system is upgraded by the user," use "You upgrade the system."
+   - Example for Clarification (Do Not Review or Include in Output): Instead of "The system is upgraded by the user," use "You upgrade the system."
 8. **Simplicity and Conciseness:**
    - Are sentences kept to 20 words or fewer?
    - Is unnecessary content eliminated to maintain focus?
@@ -174,7 +173,7 @@ Begin with Section 1.
     - Are accessibility features described, and is the content accessible to users with disabilities?
 11. **Bias-Free Language:**
     - Is the language free of bias regarding race, gender, age, etc.?
-#### Example for Clarification (Do not Analyze):**
+#### Example for Clarification (Do Not Review or Include in Output):**
     - **Incorrect:** "The project management tool can arguably help improve efficiency by leveraging cutting-edge technologies."
     - **Correct:** "Use the project management tool to improve efficiency with advanced technology."
     
@@ -239,7 +238,7 @@ Begin with Section 1.
 
 5. **Imperative Mood for Instructions:**
    - Are instructions written in the imperative mood to directly address the user?
-   - Example for Clarification (Do not Analyze): Use "Complete the form" instead of "You should complete the form."
+   - Example for Clarification (Do Not Review or Include in Output): Use "Complete the form" instead of "You should complete the form."
 
 
 6. **Avoidance of Unnecessary Complexity:**
@@ -268,22 +267,22 @@ Begin with Section 1.
     - **Correct:** Features categorized into 'Hardware Support', 'Software Features', and 'User Interface'.
 2. **Clarity and Purpose:**
    - Ensure each list, table, or visual has a clear purpose and contributes to understanding the content.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - **List Purpose:** "Components required for installation."
      - **Table Purpose:** "Comparison of product specifications."
 3. **Useful Titles:**
    - **Rule:** Provide a descriptive and useful title for every list, table, and visual.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
   - **Incorrect:** "Table 1".
     - **Correct:** "Comparison of Router Specifications"
 4. **Simplicity and Conciseness:**
    - **Rule:** Avoid overloading lists and tables with long paragraphs of text. Use concise bullet points or entries.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - **Incorrect**: "The list of features includes a variety of different options that allow for enhanced performance, increased reliability, and better user experience."
      - **Correct:** "- Enhanced performance\n- Increased reliability\n- Improved user experience"
 6. **Consistency:**
    - **Rule:** Maintain consistent formatting and style across all lists, tables, and visuals to ensure a professional appearance.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - **Correct**: All tables use the same column headings style and font size.
  
 ---
@@ -292,27 +291,27 @@ Begin with Section 1.
 
 1. **Sentence Length:**
    - **Rule:** Keep sentences to 20 words or fewer to ensure they are easy to read and understand.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Long (incorrect): "The new software update, which includes several important features designed to improve system performance and user experience, should be installed by all users at the earliest convenience."
      - Short (correct): "Install the new software update to improve system performance and user experience."
 2. **Direct Verbs and Action:**
    - **Rule:** Use direct verbs to emphasize the action and focus on one main idea per sentence.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Indirect (incorrect): "To address this issue the recommendation is to deploy MACsec in should secure mode and once all the links are up then change the security mode to must secure."
      - Short (correct): "Deploy MACsec in should secure mode. Change to must secure once all links are up."
 3. **Section Length:**
    - **Rule:** Break content into short sections, each covering a single topic or idea, to improve focus and readability.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Long Section (incorrect): A single section covering installation, configuration, and troubleshooting.
      - Short Sections (correct): Separate sections for "Installation Steps," "Configuration Guidelines," and "Troubleshooting Tips."
 4. **Avoid Roundabout Construction:**
    - **Rule:** Use straightforward language and structure to avoid complex, roundabout constructions. Place words in the format [subject] [verb] [object] with as little between them as possible. Intervening modifiers, phrases, and clauses confuse the message and increase reading time while lowering comprehension. The intervening phrases may be a single word or numerous words. Examples include items such as Only, Just, As requested by Including, but not limited to.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Roundabout (incorrect): "In order to be able to complete the task, it is necessary to first gather all the required materials."
      - Straightforward (correct): "Gather all required materials to complete the task."
 5. **Focus on User Needs:**
    - **Rule:** Write only what the user needs, removing any unnecessary information that could distract or overwhelm.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Unnecessary: "This feature, which was first introduced in the 2020 update, allows users to..."
      - Necessary: "This feature allows users to..."
 
@@ -322,27 +321,27 @@ Begin with Section 1.
 
 1. **Eliminate Redundancy:**
    - **Rule:** Remove redundant phrases and words that do not add value to the content.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Redundant: "The software update is absolutely essential and necessary for optimal performance."
      - Concise: "The software update is essential for optimal performance."
 2. **Use Direct Verbs:**
    - **Rule:** Replace roundabout verbs and phrases with direct verbs to simplify sentences.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Indirect: "The process of changing the settings can be facilitated by accessing the control panel."
      - Direct: "Change the settings through the control panel."
 3. **Avoid Filler Words:**
    - **Rule:** Remove filler words that do not contribute to the sentence’s meaning.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - With Fillers: "In order to successfully complete the installation, you will need to follow the instructions carefully."
      - Without Fillers: "Follow the instructions to complete the installation."
 4. **Simplify Phrases:**
    - **Rule:** Use simpler alternatives for complex phrases where possible.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Complex: "Utilize the application to facilitate data entry and management processes."
      - Simple: "Use the application for data entry and management."
 5. **Focus on Essential Information:**
    - **Rule:** Write only what the user needs, omitting "nice-to-have" content that distracts from the main message.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Non-Essential: "It's important to note that the previous versions of the software lacked this feature, which has now been added."
      - Essential: "The new version includes this feature."
 
@@ -355,11 +354,11 @@ Begin with Section 1.
 
 1. **Avoidance of Directional Language:**
    - **Rule:** Avoid using directional terms (like left, right, up, down, following, preceding) as the sole indicator of location to ensure clarity for all users.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Instead of "Click the button on the right," use "Click the 'Submit' button."
 2. **Alternative Text for Graphics:**
    - **Rule:** Provide alternative text for all graphics to ensure users who cannot see them still understand the content.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - For an image of a network diagram, include alt text such as "Diagram of network topology showing connections between routers and servers."
 
 ---
@@ -367,48 +366,48 @@ Begin with Section 1.
 ### SECTION: Bias-Free Documentation:
 1. **Gender-Neutral Language:**
    - **Rule:** Use gender-neutral pronouns and terms. Avoid gender-specific pronouns unless necessary.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Instead of "Each user should update his profile," use "Each user should update their profile."
 2. **Cultural and Racial Sensitivity:**
    - **Rule:** Avoid terms that may show bias regarding race or culture. Use terms that are inclusive and respectful of all backgrounds.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Instead of "Blacklist," use "Blocked list."
      - Instead of "Whitelist," use "Allowed list."
      - Instead of “master” use “active,” or “primary”. 
      - Instead of “slave,” use "Secondary”, “standby”, “subordinate”, “subsidiary."
 3. **Avoiding Stereotypes:**
    - **Rule:** Do not include stereotypes or assumptions about abilities, interests, or roles based on identity or background.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Avoid: "As a developer, he naturally enjoys solving puzzles."
      - Use: "Developers often enjoy solving puzzles."
 4. **Disability Awareness:**
    - **Rule:** Use language that acknowledges people with disabilities respectfully and accurately.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Instead of "blind customers," use "customers who are blind."
 5. **Inclusive Language for Sexual Orientation and Gender Identity:**
    - **Rule:** Use language that respects different sexual orientations and gender identities.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Instead of "husband/wife," use "spouse" or "partner."
 6. **Use of Diverse Examples:**
    - **Rule:** Use diverse names and scenarios in examples to reflect different cultural backgrounds.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Use names like "Yuvika calls Brett using Webex" to reflect diversity.
 7. **Avoidance of Offensive Terms:**
    - **Rule:** Ensure no language or imagery is offensive or suggestive.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Avoid terms like "master/slave" in technical contexts, use "primary/secondary" instead.
 
 ---
 ### SECTION: Foreign Words:
 1. **Identification of Foreign Words:**
    - **Rule:** Identify foreign words and phrases that may not be universally understood by the document's audience.
-   - **Example Foreign Words for clarification (Do not Analyze):**
+   - **Example Foreign Words for clarification (Do Not Review or Include in Output):**
      - "Etc."
      - "E.g."
      - "I.e."
 2. **Provide English Equivalents:**
    - **Rule:** Replace foreign words with their English equivalents to enhance understanding.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Foreign: "e.g."
      - English: "for example"
      - Foreign: "i.e."
@@ -416,16 +415,16 @@ Begin with Section 1.
 
 3. **Avoid Abbreviations of Foreign Phrases:**
    - **Rule:** Avoid using abbreviations of foreign phrases as they may be confusing, especially for non-native English speakers.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Instead of "etc.," use "and so on."
 4. **Consider Audience Understanding:**
    - **Rule:** Ensure that any necessary use of foreign words is accompanied by an explanation or definition, considering the audience's potential familiarity with the terms.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - If using a term like "bona fide," provide context or a definition like "genuine or real."
 
 5. **Focus on Clarity:**
    - **Rule:** Use language that enhances clarity and avoids potential misunderstandings due to unfamiliarity with foreign terminology.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Foreign: "per annum"
      - Clear: "per year"
 
@@ -438,7 +437,7 @@ Begin with Section 1.
 
    - **Rule:** Identify instances where human traits, motivations, or emotions are attributed to technology or inanimate objects.
 
-   - **Examples of Anthropomorphisms for clarification (Do not analyze):**
+   - **Examples of Anthropomorphisms for clarification (Do Not Review or Include in Output):**
 
      - "The system wants to update."
 
@@ -447,22 +446,22 @@ Begin with Section 1.
      - "The server refuses the connection."
 2. **Use Accurate Descriptions:**
    - **Rule:** Replace anthropomorphic language with precise technical descriptions of the system’s actions.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Anthropomorphic: "The software is interested in your location."
      - Accurate: "The software requests access to your location data."
 3. **Clarify Functionality:**
    - **Rule:** Clearly describe what the technology does using objective language that specifies actions and processes.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Anthropomorphic: "The device remembers your settings."
      - Clear: "The device stores your settings."
 4. **Focus on User Actions and System Functions:**
    - **Rule:** Describe actions from the perspective of user interaction and system functionality rather than implied intentions or desires.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Anthropomorphic: "The printer is thinking about the task."
      - Functional: "The printer is processing the task."
 5. **Maintain Technical Accuracy:**
    - **Rule:** Ensure descriptions are technically accurate and convey the correct operation or feature of the technology.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Anthropomorphic: "The algorithm wants to learn from the data."
      - Accurate: "The algorithm analyzes data to improve accuracy."
 ---
@@ -470,33 +469,33 @@ Begin with Section 1.
 ### SECTION: URL References:
 1. **Include Protocol in URLs:**
    - **Rule:** Always include the protocol (e.g., "http://", "https://") at the beginning of a URL.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Correct: "https://www.example.com"
      - Incorrect: "www.example.com"
 2. **Live Link Verification:**
    - **Rule:** Verify that all URLs are live and direct users to the intended web pages. Ensure they are up-to-date and functioning correctly.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Before inclusion, check that "https://www.example.com" leads to the correct page
 3. **URL Placement:**
    - **Rule:** Include URLs in running text or place them on a separate line with an introductory phrase.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - In-text: "Visit our website at https://www.example.com for more information."
      - Separate line: "For more information, visit: https://www.example.com."
 4. **Breaking Long URLs:**
    - **Rule:** Break long URLs into smaller parts if necessary, following specific guidelines, without inserting hyphens.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Break after a slash or before a period, but not after a hyphen.
 5. **Avoid Unnecessary URLs:**
    - **Rule:** Do not include URLs to internal or non-relevant external sites that may imply endorsement.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Avoid linking to internal corporate sites like "wwwin.cisco.com" or external sites unrelated to the content.
 6. **Use of Descriptive Text:**
    - **Rule:** Where possible, use descriptive text or anchor text instead of displaying the raw URL.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Anchor text: "For more details, visit our [product page](https://www.example.com)."
 7. **Permission for External Links:**
    - **Rule:** Obtain permission from the legal department if linking to external sites other than for software downloads required for using a Cisco product.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Allowed: Linking to an open-source software page for necessary downloads.
 ---
 
@@ -504,53 +503,53 @@ Begin with Section 1.
 
 1. **Verify Website Accuracy:**
    - **Rule:** Ensure all website references direct users to accurate and current web pages. Verify the URLs for correctness and accessibility.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Check that "https://www.example.com" is accurate and leads to the intended information
 2. **Avoid Internal URLs:**
    - **Rule:** Do not include references to internal intranet sites or resources that are inaccessible to the general public.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Incorrect: Including "wwwin.cisco.com" as a resource.
 3. **Avoid Unwarranted External Links:**
    - **Rule:** Do not link to external websites that may imply endorsement or affiliation unless necessary.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Avoid: Linking to unrelated third-party commercial sites.
 4. **Cite External Resources Appropriately:**
    - **Rule:** When referencing an external resource, describe it without providing a direct link unless it is essential for the user.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Correct: "Refer to the VMware Hardware Compatibility Guide on the VMware website."
      - Incorrect: Providing a direct link to the guide.
 5. **Permission for External Links:**
    - **Rule:** Obtain permission from the legal department if linking to external sites outside of necessary software downloads.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Permissible: Including a link to a required open-source download page after obtaining permissions.
 6. **Descriptive Text for Links:**
    - **Rule:** Use descriptive text for website references to provide context and clarity.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - "For installation guidelines, visit the [Cisco Support Page](https://www.cisco.com/support)."
 7. **Avoid Ambiguity:**
    - **Rule:** Clearly state the purpose of the website reference and what the reader can expect to find there.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - "Visit the Cisco documentation site for comprehensive setup instructions."
 ---
 ### SECTION: Ambiguous Modifiers Rules:
 1. **Identify Ambiguous Modifiers:**
    - **Rule:** Look for phrases where it is unclear which noun a modifier is describing. These can lead to misunderstandings.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Ambiguous: "He gave the book to the student with a smile."
      - Clear: "With a smile, he gave the book to the student."
 2. **Use Clear Modifier Placement:**
    - **Rule:** Place modifiers next to the word or phrase they are intended to modify to eliminate ambiguity.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Ambiguous: "The manager approved the new policy quickly."
      - Clear: "The manager quickly approved the new policy."
 3. **Clarify Modifier Strings:**
    - **Rule:** Break down complex modifier strings into simpler phrases to improve clarity.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Ambiguous: "New Cisco virtual private network session counting software."
      - Clear: "New software for counting virtual private network sessions."
 4. **Limit Multiple Modifiers:**
    - **Rule:** Avoid using too many modifiers for a single noun, which can create confusion.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Ambiguous: "Fast accurate data processing system."
      - Clear: "A system for processing data quickly and accurately."
 5. **Use Hyphens for Compound Modifiers:**
@@ -560,54 +559,54 @@ Begin with Section 1.
 ### SECTION: Multiple Meanings Rules: 
 1. **Identify Words with Multiple Meanings:**
    - **Rule:** Look for words that can serve as different parts of speech or have various definitions. Ensure their meaning is clear in context.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Ambiguous: "The bark was loud."
      - Clear: "The dog's bark was loud."
 2. **Clarify Context:**
    - **Rule:** Provide sufficient context to make the intended meaning of the word clear.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Ambiguous: "Set the table."
      - Clear: "Arrange the dishes and cutlery on the table."
 3. **Consistent Usage Within Context:**
    - **Rule:** Use a word consistently for one meaning within a particular context or section to avoid confusion.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Ambiguous: "The bank was steep."
      - Clear: "The river bank was steep."
 4. **Avoid Overloading Sentences:**
    - **Rule:** Avoid using words with multiple meanings in complex sentences where their role might become unclear.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Ambiguous: "He left the leaves on the table."
      - Clear: "He left the papers on the table."
 5. **Provide Definitions if Necessary:**
    - **Rule:** If a word with multiple meanings might confuse readers, provide a brief definition or explanation.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Clarified: "The seal, a marine mammal, was spotted near the shore."
 ---
 
 ### SECTION: Ambiguous Conjunctions Rules:
 1. **Identify Ambiguous Conjunctions:**
    - **Rule:** Look for instances where conjunctions like "and" or "or" create ambiguity regarding which elements they are connecting.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Ambiguous: "The package includes a manual and software updates and support."
      - Clear: "The package includes a manual, software updates, and support."
 2. **Use Parallel Construction:**
    - **Rule:** Ensure elements joined by conjunctions are parallel in structure to clarify their relationship.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Ambiguous: "She likes reading, movies, and to jog."
      - Clear: "She likes reading, watching movies, and jogging."
 3. **Clarify Grouping with Punctuation:**
    - **Rule:** Use commas or semicolons to clarify which items are grouped together, especially in lists.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Ambiguous: "He will invite John, a friend, and a teacher."
      - Clear: "He will invite John (a friend) and a teacher."
 4. **Disambiguate with Additional Words:**
    - **Rule:** Add words to clarify the meaning of conjunctions when multiple interpretations are possible.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Ambiguous: "Choose the red or blue shirt and pants."
      - Clear: "Choose the red shirt or the blue shirt, and pants."
 5. **Clarify Complex Sentences:**
    - **Rule:** Break down complex sentences with multiple conjunctions into simpler sentences to enhance clarity.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Ambiguous: "He said he would call, and he didn't."
      - Clear: "He said he would call, but he didn't."
 ---
@@ -615,7 +614,7 @@ Begin with Section 1.
 ### SECTION: Invisible Plurals Rules:
 1. **Identify Invisible Plurals:**
    - **Rule:** Look for nouns used as adjectives that could imply either a singular or plural form, causing potential confusion.
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
      - Ambiguous: "The switch and router settings."
 
      - Clear: "The settings for the switch and the router."
@@ -623,7 +622,7 @@ Begin with Section 1.
 
    - **Rule:** Specify whether nouns are singular or plural to provide clarity to the reader.
 
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
 
      - Ambiguous: "The engineer and manager approval."
 
@@ -635,7 +634,7 @@ Begin with Section 1.
 
    - **Rule:** Use plural forms consistently when referring to multiple items to avoid misunderstanding.
 
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
 
      - Ambiguous: "Server and database connections."
 
@@ -647,7 +646,7 @@ Begin with Section 1.
 
    - **Rule:** Ensure that compound nouns are clearly separated to indicate singular or plural forms.
 
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
 
      - Ambiguous: "Network and security configuration."
 
@@ -659,7 +658,7 @@ Begin with Section 1.
 
    - **Rule:** Offer additional context if necessary to clarify whether singular or plural is intended.
 
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
 
      - Ambiguous: "Student and teacher interaction."
 
@@ -679,7 +678,7 @@ Begin with Section 1.
 
    - **Rule:** Look for introductory phrases or clauses that do not clearly and logically modify a specific noun or subject in the main clause.
 
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
 
      - Dangling: "After reading the manual, the software was easy to install."
 
@@ -691,7 +690,7 @@ Begin with Section 1.
 
    - **Rule:** Ensure that the subject of the main clause is what the modifier is intended to describe.
 
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
 
      - Dangling: "Walking through the park, the flowers were beautiful."
 
@@ -703,7 +702,7 @@ Begin with Section 1.
 
    - **Rule:** Rephrase sentences to clearly indicate the subject that the modifier is intended to modify.
 
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
 
      - Dangling: "To improve efficiency, the report was revised."
 
@@ -715,7 +714,7 @@ Begin with Section 1.
 
    - **Rule:** Ensure that the introductory phrase or clause has a clear, explicit subject in the main clause.
 
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
 
      - Dangling: "While driving to work, the traffic was heavy."
 
@@ -727,7 +726,7 @@ Begin with Section 1.
 
    - **Rule:** Place the modifier close to the word it is intended to modify to avoid confusion.
 
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
 
      - Dangling: "Covered in chocolate, the children ate the strawberries."
 
@@ -743,7 +742,7 @@ Begin with Section 1.
 
    - **Rule:** Look for sentences where "that" is omitted, potentially leading to confusion or misinterpretation. Do not omit that, especially in a sentence with a past-participle or present-participle construction.
 
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
 
      - Omitted: "The report you submitted was incomplete."
 
@@ -755,7 +754,7 @@ Begin with Section 1.
 
    - **Rule:** Include "that" where its omission may create ambiguity or disrupt the flow of the sentence.
 
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
 
      - Omitted: "She said the meeting was canceled."
 
@@ -767,7 +766,7 @@ Begin with Section 1.
 
    - **Rule:** Ensure that the sentence structure remains clear and understandable with the inclusion of "that."
 
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
 
      - Omitted: "The software we use is outdated."
 
@@ -779,7 +778,7 @@ Begin with Section 1.
 
    - **Rule:** Prevent misleading constructions by using "that" to clarify which clause is being modified.
 
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
 
      - Omitted: "He announced the updates would be delayed."
 
@@ -791,7 +790,7 @@ Begin with Section 1.
 
    - **Rule:** Consistently use "that" in similar sentence constructions to maintain uniformity and clarity.
 
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
 
      - Omitted: "The book she borrowed was interesting."
 
@@ -807,7 +806,7 @@ Begin with Section 1.
 
    - **Rule:** Look for sentences that omit articles, conjunctions, or other essential words, making the text terse or unclear.
 
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
 
      - Telegraphic: "No translation attempted between protocols."
 
@@ -819,7 +818,7 @@ Begin with Section 1.
 
    - **Rule:** Rewrite sentences to include necessary articles (a, an, the) and verbs to form complete thoughts.
 
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
 
      - Telegraphic: "Update required immediately."
 
@@ -831,7 +830,7 @@ Begin with Section 1.
 
    - **Rule:** Ensure each sentence has a subject, verb, and object where applicable to provide clear communication.
 
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
 
      - Telegraphic: "User guide attached."
 
@@ -843,7 +842,7 @@ Begin with Section 1.
 
    - **Rule:** Include all necessary details to ensure the reader fully understands the message.
 
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
 
      - Telegraphic: "Meeting 10 a.m. Monday."
 
@@ -855,7 +854,7 @@ Begin with Section 1.
 
    - **Rule:** Use complete sentences to convey intent and action clearly, avoiding ambiguity.
 
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
 
      - Telegraphic: "Submit form before deadline."
 
@@ -873,7 +872,7 @@ Begin with Section 1.
 
    - **Rule:** Include both metric and imperial units for measurements to accommodate international readers.
 
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
 
      - Length: "1 mile (1.6 kilometers)"
 
@@ -885,7 +884,7 @@ Begin with Section 1.
 
    - **Rule:** Use consistent units throughout the document to avoid confusion.
 
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
 
      - Consistent: "The package weighs 5 pounds (2.27 kilograms) and measures 12 inches (30.48 centimeters) in length."
 
@@ -895,7 +894,7 @@ Begin with Section 1.
 
    - **Rule:** Express time using both 12-hour and 24-hour notations to ensure clarity for all audiences.
 
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
 
      - Time: "8:00 a.m. to 5:00 p.m. (0800 to 1700)"
 
@@ -905,7 +904,7 @@ Begin with Section 1.
 
    - **Rule:** Avoid abbreviations that may not be universally recognized or understood.
 
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
 
      - Use "kilometers" instead of "km" if abbreviation clarity is in question.
 
@@ -915,7 +914,7 @@ Begin with Section 1.
 
    - **Rule:** Present numerical values clearly and accurately, ensuring that decimal and thousand separators follow regional standards if applicable.
 
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
 
      - Clear: "The distance is 1,500 meters (1.5 kilometers)."
 
@@ -925,7 +924,7 @@ Begin with Section 1.
 
    - **Rule:** Use proper punctuation for time notation, ensuring no confusion in international contexts.
 
-   - **Examples for Clarification (Do Not Analyze):**
+   - **Examples for Clarification (Do Not Review or Include in Output):**
 
      - Correct: "The meeting starts at 14:30 (2:30 p.m.)."
      
@@ -964,5 +963,6 @@ If the content is:
 Do **not** review or alter `show ip route`.
 - Never use the words “above,” “below,” “following,” or “as follows” in your corrections.
 - Do not skip any section. All 21 must be addressed.
+- Stick to the Output Format, and avoid including any additional information regarding your process. 
 
 ---
