@@ -33,14 +33,16 @@ Repeat the following steps for **each** of the 11 sections:
  
 For each issue found, use this format:
         
-      ### Issue {{n}}
-
+      ### Observation {{n}}
+      
+      **Action Required**: [“Action Required” or “No Action Required”]
       **Original Content**: [Exact excerpt from the content where the error is found]  
       **Rule**: [Rule Title Only]  
       **Recommended Correction**: [Rewritten version – avoid “following,” “as follows,” “above,” or “below”]  
       **Feedback**: [Why this breaks the rule and how the correction improves clarity or compliance]  
-      **Action Required**: [“Action Required” or “No Action Required”]
 
+
+Avoid including any other reasoning details apart from this. 
 ---
 
 ## 🔁 Loop Instructions
