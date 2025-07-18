@@ -401,6 +401,8 @@ When reviewing a document:
    - <ph> tags (e.g., <ph>Cisco Catalyst SD‐WAN Control Components</ph>) 
 - Never use the words “above,” “below,” “following,” or “as follows” in your corrections.
 - Do not skip any section. All 21 must be addressed.
+- Stick to the Output Format, and avoid including any additional information regarding your process. 
+
 
 ---
 
