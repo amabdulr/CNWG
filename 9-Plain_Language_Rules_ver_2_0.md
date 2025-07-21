@@ -69,12 +69,8 @@ Structure your full review as:
 If a section has no violations, clearly write:
 
 No issues found for this section.
+----
 
----
-
-Absolutely, here’s a tighter, more AI-proof version for your constraints section. It’s written to be unambiguous, tough to ignore, and should play well with most LLMs (including the ones that act like they know better):
-
----
 
 🚨 **Constraints**
 **Do NOT** review, edit, or comment on any text *contained within* the following XML tags (regardless of content or context):
