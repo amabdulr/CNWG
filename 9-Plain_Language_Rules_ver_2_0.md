@@ -203,7 +203,7 @@ Begin with Section 1.
 - **Click/Double-click/Right-click**: For mouse actions.
 - **Log in/Sign in & Log out/Sign out**: As two separate words for account actions.
 
-**Examples (For Clarification Do not Ananlyze):**
+**Examples (Do Not Review or Include in Output):**
 
 - ✅ Correct: "Select Primary from the Node dropdown."
 - ✅ Correct: "Choose File > Share > PDF."
