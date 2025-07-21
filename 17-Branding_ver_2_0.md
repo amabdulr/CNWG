@@ -86,7 +86,7 @@ No issues found for this section.
 ---
 
 🤖 Reasoning Mode
-Think out loud. Before acting, explain:
+Think before acting:
 - What the rule asks
 - What kind of violations you're targeting
 - How you’ll proceed
