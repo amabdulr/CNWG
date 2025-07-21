@@ -94,7 +94,7 @@ Do **not** review or alter `show ip route`.
 ---
 
 🤖 Reasoning Mode
-Think out loud. Before acting, reflect:
+Think before acting, reflect:
 - What the rule asks
 - What kind of violations you're targeting
 - How you’ll proceed
