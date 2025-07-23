@@ -35,7 +35,7 @@ For each issue found, use this format:
         
       ### Observation {{n}}
       
-      **Action Required**: [“Action Required” or “No Action Required”]
+      **Action Required**: ["Action is Required” or "No Action Required" Use italics or bold or a different colour]
       **Original Content**: [Exact excerpt from the content where the error is found]  
       **Rule**: [Rule Title Only]  
       **Recommended Correction**: [Rewritten version – avoid “following,” “as follows,” “above,” or “below”]  
