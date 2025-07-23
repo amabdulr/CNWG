@@ -104,7 +104,7 @@ Follow these instructions.
 7. **Identify Missing Content:**  
     - Compare the chunked content with the original document.  
     - If any information is missing, present it under a heading titled **"Content Not Used for Chunking"** and include the warning:  
-      **Warning: This list is not comprehensive. Please run the CTWG>Chunk>Find Missing Info menu option for more. Human oversight is essential for all AI outputs. Specifically look for missing tables, codeblocks, and numbers.**
+      **Warning: This list is not comprehensive. Human oversight is essential for all AI outputs. Specifically look for missing tables, codeblocks, and numbers.**
 
 13. **Post-processing**
 After all chunks:
