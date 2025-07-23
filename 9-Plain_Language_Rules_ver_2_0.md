@@ -34,7 +34,7 @@ Repeat the following steps for **each** of the 21 sections:
 
 For each issue found, use this format:
       ### Observation {{n}}
-      **Action Required**: [“Action Required” or “No Action Required”]
+      **Action Required**: ["Yes” or "No"]
       **Original Content**: [Exact excerpt from the content where the error is found]  
       **Rule**: [Rule Title Only]  
       **Recommended Correction**: [Rewritten version – avoid “following,” “as follows,” “above,” or “below”]  
