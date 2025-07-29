@@ -605,15 +605,6 @@ Go step by step for each of the following rules. Review the full document and fi
 18. **Terminal Displays and Commands**  
     - **Rule:** Use lowercase for command-line entries unless they appear at the start of a sentence.
 
-19. **Topic and Chunk Titles**  
-    - **Rule:** Use **sentence case** for topic and chunk titles. Only capitalize the first word and proper nouns.  
-    - **Examples (Do Not Review or Include in Output):**  
-      - “Benefits of smart licensing using policy”  
-      - “The art of network design”  
-      - “Routing and switching essentials”  
-      - “Guide to network protocols”  
-      - “How to use network tools”  
-      - “Set up a router”
 
 <!-- END: Section X – CAPITALIZATION RULES -->
 
