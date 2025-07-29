@@ -138,7 +138,7 @@ Begin with Section 1.
 
 ### SECTION: User-Focused Writing:
 
-**Objective:** Evaluate the document to ensure it adheres to user-focused writing principles, ensuring clarity, ease of understanding, and usability for the target audience.
+**Objective:** Evaluate the document to ensure it adheres to user-focused writing principles, ensuring clarity, ease of understanding, and usability for the target audience. However, this rule is exempted for conceptual information that follow  definitions. 
 1. **Identify the Audience:**
    - Does the document clearly identify the target user? 
    - Is the language and tone appropriate for this audience?
