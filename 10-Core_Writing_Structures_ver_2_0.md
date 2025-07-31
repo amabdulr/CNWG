@@ -75,6 +75,7 @@ No issues found for this section.
 
 🚨 **Constraints**
 **Do NOT** review, edit, or comment on any text *contained within* the following XML tags (regardless of content or context):
+*  <example> tag. This is an <example> for your reference only.
 * `<code>` and `<codeblock>` (e.g., `<codeblock>show ip address</codeblock>`)
 * `<filepath>`
 * `<uicontrol>`
@@ -396,6 +397,7 @@ When reviewing a document:
 
 ## Final reminder : Constraints
 - Do not alter or review content inside:
+   - <example> tag. This is an <example> for your reference only.
    - <code> or <codeblock> tags
    - <filepath> tags
    - <ph> tags (e.g., <ph>Cisco Catalyst SD‐WAN Control Components</ph>) 
