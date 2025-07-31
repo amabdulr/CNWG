@@ -74,6 +74,7 @@ No issues found for this section.
 ---
 🚨 **Constraints**
 **Do NOT** review, edit, or comment on any text *contained within* the following XML tags (regardless of content or context):
+*  <example> tag. This is an <example> for your reference only.
 * `<code>` and `<codeblock>` (e.g., `<codeblock>show ip address</codeblock>`)
 * `<filepath>`
 * `<uicontrol>`
@@ -779,6 +780,7 @@ Go step by step for each of the following rules. Review the full document and fi
 🚨 Constraints
 - Do not alter or review content inside:
    - <code> or <codeblock> tags (e.g., <codeblock>show ip address</codeblock>).
+   - <example> tag. This is an <example> for your reference only.
    - <filepath> tags
    - <uicontrol> tags
    - <synph>
