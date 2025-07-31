@@ -75,6 +75,7 @@ No issues found for this section.
 
 🚨 **Constraints**
 **Do NOT** review, edit, or comment on any text *contained within* the following XML tags (regardless of content or context):
+*  <example> tag. This is an <example> for your reference only.
 * `<code>` and `<codeblock>` (e.g., `<codeblock>show ip address</codeblock>`)
 * `<filepath>`
 * `<uicontrol>`
@@ -106,7 +107,7 @@ Begin with Section 1.
 
 2. **Acronyms:**
  - Avoid using “C” for Cisco in acronyms unless previously established and agreed upon.
-    - Example: Avoid saying Cisco Access Points. Instead use 'Access Points' or APs. 
+    - Example: Avoid saying Cisco Access Points. Instead use APs. 
 
 3. **Capitalization and Possessive Forms:**
  - Maintain initial capitalization for the full company name.
@@ -153,6 +154,7 @@ Begin with Section 1.
 
 ## Final reminder : Constraints
 - Do not alter or review content inside:
+   - <example> tag. This is an <example> for your reference only.
    - <code> or <codeblock> tags
    - <filepath> tags
    - <ph> tags (e.g., <ph>Cisco Catalyst SD‐WAN Control Components</ph>) 
