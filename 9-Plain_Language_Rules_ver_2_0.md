@@ -436,33 +436,33 @@ CAUTION:
      - Avoid terms like "master/slave" in technical contexts, use "primary/secondary" instead.</example>
 
 ---
-### SECTION: Foreign Words:
-1. **Identification of Foreign Words:**
-   - **Rule:** Identify foreign words and phrases that may not be universally understood by the document's audience.
-   - <example> Foreign Words :**
+### SECTION: Latin Words:
+1. **Identification of Latin Words:**
+   - **Rule:** Identify Latin words and phrases that may not be universally understood by the document's audience.
+   - <example> Latin Words :**
      - "Etc."
      - "E.g."
      - "I.e."</example>
 2. **Provide English Equivalents:**
-   - **Rule:** Replace foreign words with their English equivalents to enhance understanding.
-   - <<example>> - Foreign: "e.g."
+   - **Rule:** Replace Latin words with their English equivalents to enhance understanding.
+   - <<example>> - Latin: "e.g."
      - English: "for <example>"
-     - Foreign: "i.e."
+     - Latin: "i.e."
      - English: "in other words" </<example>>
 
-3. **Avoid Abbreviations of Foreign Phrases:**
-   - **Rule:** Avoid using abbreviations of foreign phrases as they may be confusing, especially for non-native English speakers.
+3. **Avoid Abbreviations of Latin Phrases:**
+   - **Rule:** Avoid using abbreviations of Latin phrases as they may be confusing, especially for non-native English speakers.
    - <example>
      - Instead of "etc.," use "and so on."</example>
 4. **Consider Audience Understanding:**
-   - **Rule:** Ensure that any necessary use of foreign words is accompanied by an explanation or definition, considering the audience's potential familiarity with the terms.
+   - **Rule:** Ensure that any necessary use of Latin words is accompanied by an explanation or definition, considering the audience's potential familiarity with the terms.
    - <example>
      - If using a term like "bona fide," provide context or a definition like "genuine or real."</example>
 
 5. **Focus on Clarity:**
-   - **Rule:** Use language that enhances clarity and avoids potential misunderstandings due to unfamiliarity with foreign terminology.
+   - **Rule:** Use language that enhances clarity and avoids potential misunderstandings due to unfamiliarity with Latin terminology.
    - <example>
-     - Foreign: "per annum"
+     - Latin: "per annum"
      - Clear: "per year"</example>
 
 ---
