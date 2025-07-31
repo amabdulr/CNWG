@@ -74,7 +74,7 @@ No issues found for this section.
 
 🚨 **Constraints**
 **Do NOT** review, edit, or comment on any text *contained within* the following XML tags (regardless of content or context):
-*  <<example>></<example>> This is an <example> for your reference only.
+*  <example> tag. This is an <example> for your reference only.
 * `<code>` and `<codeblock>` (e.g., `<codeblock>show ip address</codeblock>`)
 * `<filepath>`
 * `<uicontrol>`
@@ -983,7 +983,7 @@ Find any mistakes in spelling. Use American English.
 🚨 **Constraints**
 **Do NOT** review, edit, or comment on any text *contained within* the following XML tags (regardless of content or context):
 * `<code>` and `<codeblock>` (e.g., `<codeblock>show ip address</codeblock>`)
-*  <example></example>
+*  <example> tag. This is an <example> for your reference only.
 * `<filepath>`
 * `<uicontrol>`
 * `<synph>`
