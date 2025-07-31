@@ -142,47 +142,47 @@ Begin with Section 1.
 
 The following four rules are for Lists. If the content is in XML, you can recognize a numbered list using the <ol> tag, and a unordered or bullted list by the <li> tag. Apply these rules on XML only if this is the case. 
 1. **Choose the Appropriate Structure**: 
-   - Select the writing structure that best fits the information being presented. For example, do not use an bulleted or unordered list for items where sequence is not important.
+   - Select the writing structure that best fits the information being presented. Do not use an bulleted or unordered list for items where sequence is not important.
 2. **Create Lists According to Rules**:
    - Ensure each list is constructed according to its specific rules (unordered, ordered, item-description).
-   - **Example (Ordered List) for clarification (Do Not Review or Include in Output)**:
+   - <Example> (Ordered List) ):
             Steps to reset your password:
             1. Go to the login page.
             2. Click on 'Forgot Password'.
             3. Enter your email address.
-            4. Check your email for a reset link.
+            4. Check your email for a reset link.</Example> 
 3. **Avoid Overloading with Text**:
    - Do not fill lists with paragraphs of text; keep them concise.
-   - **Examples for Clarification (Do Not Review or Include in Output):**: 
+   - <Example> 
       Instead of: 
      - "Apples are red or green and sweet or tart, depending on the variety. Bananas are yellow when ripe and are a good source of potassium."
       Use: 
      - "Apples: red or green, sweet or tart."
-     - "Bananas: yellow when ripe, source of potassium."
+     - "Bananas: yellow when ripe, source of potassium." </Example> 
 4. **Chunk Large Lists**:
    - Break large lists into smaller, simpler units to enhance accessibility.
-   - **Examples for Clarification (Do Not Review or Include in Output):**: 
+   - <Example>: 
      - Instead of: 
          "Items in the store include apples, bananas, cherries, dates, eggs, flour, grapes, honey, ice cream, jam."
      - Use: 
        - **Fruits**: apples, bananas, cherries, grapes.
-       - **Other Items**: dates, eggs, flour, honey, ice cream, jam.
+       - **Other Items**: dates, eggs, flour, honey, ice cream, jam.</Example> 
 
 The following four rules are for Lists. In an XML file, tables are usually defined by a <table> tag. Apply these rules only if they are within such a tag:
 1. **Use Stem Sentences**:
    - Provide a context-setting sentence before the table.
-   - **Examples for Clarification (Do Not Review or Include in Output):**: 
+   - <Example>: 
    "Table 1 shows the nutritional content of fruits."
          - Table 1: Nutritional Content of Fruits
          | Fruit    | Calories | Vitamins  |
          |----------|----------|-----------|
          | Apple    | 52       | C, K      |
-         | Banana   | 89       | B6, C     |
+         | Banana   | 89       | B6, C     | </Example> 
 
 2. **Avoid Positional References**:
    - Do not use references like "below" or "as follows." or "following"
    - Do not use any occurrences of directional words such as "following", "follows", "preceding", "precedes", "below", "above". However, do not confuse or flag usage of the word follow (as in follow these steps) which is acceptable.
-   - **Examples for Clarification (Do Not Review or Include in Output):**: Instead of "The table below shows...", use "Table 1 shows..."
+   - <Example>: Instead of "The table below shows...", use "Table 1 shows..." </Example> 
 3. **Complete Sentences for Standalone Content**:
    - Ensure that the stem sentence and any standalone content are complete sentences.
 
@@ -194,12 +194,12 @@ The following four rules are for Lists. In an XML file, tables are usually defin
      - **Complete Sentence**: Use sentence case and end with a period.
      - **Standalone Phrase**: Use sentence case without punctuation.
      - **Phrase with Header**: Use lower case, and the final column may end with a period if it completes a sentence.
-   - **Examples for Clarification (Do Not Review or Include in Output):**:
+   - <Example>:
      - Complete Sentence: "The system is fully operational."
-     - Standalone Phrase: "Maximum capacity"
-     - Phrase with Header: "operates continuously"
-6. Example of a Table (Do Not Review or Include in Output. For clarification only):
-         - Example Table: Product Specifications**
+     - Standalone Phrase: "Maximum capacity"</Example> 
+     - Phrase with Header: "operates continuously"</Example> 
+6. <Example> of a Table :
+         Product Specifications**
          "Table 4 details the specifications of the new smartphone model."
          | Feature          | Specification                   |
          |------------------|---------------------------------|
@@ -210,7 +210,7 @@ The following four rules are for Lists. In an XML file, tables are usually defin
 
          | Processor        | A14 Bionic chip                  |
 
-         | Storage Options  | 64GB, 128GB, 256GB               |
+         | Storage Options  | 64GB, 128GB, 256GB               | </Example>
 ---
 
 ### Section : Stem Sentences
@@ -218,43 +218,43 @@ The following four rules are for Lists. In an XML file, tables are usually defin
    - A stem sentence should introduce the list, table, or visual, providing context and helping the user understand what follows. However, do not use directional words such as follows, following, or below.
 2. **Use Proper Punctuation**:
    - The punctuation of a stem sentence depends on its structure and what it introduces. It may end with a period, colon, or no punctuation, following English grammar rules.
-   - **Examples for Clarification (Do Not Review or Include in Output):**: "Table 1 displays the supported software versions."
+   - <Example>: "Table 1 displays the supported software versions."</Example>
 3. **Avoid Positional References**:
    - Avoid using terms like "below" or "as follows" or "following" which can become confusing if the content layout changes.
-   - **Examples for Clarification (Do Not Review or Include in Output):**: Instead of "The table below shows...", use "Table 2 shows the annual sales data."
+   - <Example>: Instead of "The table below shows...", use "Table 2 shows the annual sales data."</Example>
 4. **Complete Sentences**:
    - Stem sentences should be complete sentences to ensure clarity, especially if they appear alone without immediate context.
-   - **Examples for Clarification (Do Not Review or Include in Output):**: "Figure 4 illustrates the workflow of the new system."
+   - <Example>: "Figure 4 illustrates the workflow of the new system."</Example>
 5. **Parallel Construction**:
    - When introducing lists, ensure that the stem sentence and list items form a complete, parallel construction.
-   - **Examples for Clarification (Do Not Review or Include in Output):**: "A good diet includes fruits, vegetables, and whole grains."
-6. Examples of Stem Sentences
+   - <Example>: "A good diet includes fruits, vegetables, and whole grains."</Example>
+6. <Example>s of Stem Sentences
       **For Lists**:
       - "Consider these factors when choosing a location: proximity to transportation, availability of amenities, and safety of the neighborhood."
       - **For Tables**:
-      - "Table 3 lists the features of the latest software release."
+      - "Table 3 lists the features of the latest software release." </Example>
 ---
 
 ### Section: Parallel Construction:
 1. **Consistent Grammatical Structure**:
    - Use the same grammatical structure for similar ideas or elements within a sentence or list to maintain consistency and clarity.
-   - **Examples for Clarification (Do Not Review or Include in Output):**: Ensure that verbs, nouns, or phrases are in the same form. 
+   - <Example>: Ensure that verbs, nouns, or phrases are in the same form. </Example>
 2. **Balanced Clauses or Phrases**:
    - Clauses or phrases should be balanced in terms of their structure and importance, giving them equal weight.
-   - **Examples for Clarification (Do Not Review or Include in Output):**: Use balanced lists or pairs to convey ideas effectively.
+   - <Example>: Use balanced lists or pairs to convey ideas effectively.</Example>
 3. **Use Conjunctions Appropriately**:
    - Use conjunctions such as "and" or "or" to join parallel elements. They should be able to interchange positions without affecting the sentence's meaning.
-   - **Examples for Clarification (Do Not Review or Include in Output):**: Join parallel elements with conjunctions for smooth flow.
+   - <Example>: Join parallel elements with conjunctions for smooth flow.</Example>
 4. **Improves Readability and Comprehension**:
    - Parallel construction enhances readability and helps the reader follow the logic of the content more easily.
-   - **Examples for Clarification (Do Not Review or Include in Output):**: Use parallel structure to guide the reader through complex ideas.
+   - <Example>: Use parallel structure to guide the reader through complex ideas.</Example>
 
-5. Example of Parallel Construction (Do Not Review or Include in Output. For clarification only)
+5. <Example> of Parallel Construction 
       - **Non-Parallel**:
       - "The project aims to improve efficiency, reducing costs, and to increase customer satisfaction."
       - **Analysis**: This sentence is not parallel because "improve," "reducing," and "to increase" are not in the same form.
       - **Parallel**:
-      - "The project aims to improve efficiency, reduce costs, and increase customer satisfaction."
+      - "The project aims to improve efficiency, reduce costs, and increase customer satisfaction."</Example>
       - **Explanation**: In the parallel version, each verb ("improve," "reduce," "increase") is in the same form, creating a balanced and clear sentence
 ---
 ### Section: Ordered Lists:
@@ -293,7 +293,7 @@ A **stem sentence** provides context to the list:
 
 **When to Apply:**  
 Use this rule when the list is introduced by a **phrase** (not a full sentence).  
-_Example: “A SAN port channel…”_
+_<Example>: “A SAN port channel…”_</Example>
 
 **Checklist for Each List Item:**
 - ✅ Each item **starts with a lowercase letter**.
@@ -315,7 +315,7 @@ _Example: “A SAN port channel…”_
 
 **When to Apply:**  
 Use this rule when the list is introduced by a **complete sentence**, usually ending in a **colon**.  
-_Example: “Follow these guidelines to write…”_
+_<Example>: “Follow these guidelines to write…”_</Example>
 
 **Checklist for Each List Item:**
 - ✅ Each item **starts in sentence case** (first word capitalized).
@@ -359,20 +359,20 @@ When reviewing a document:
 5. **Period Usage**:
    - Always use a period at the end of the stem sentence.
    - Ensure the stem sentence is a standalone complete sentence.
-- **Example 1: (Do Not Review or Include in Output. For clarification only)**
+- **<Example> 1: **
   - "These terms are used throughout this document."
     - **Bandwidth**: the amount of data that can be transmitted in a fixed amount of time.
-    - **Throughput**: the amount of data moved successfully from one place to another in a given time period.
-- **Example 2 (Do Not Review or Include in Output. For clarification only):**
+    - **Throughput**: the amount of data moved successfully from one place to another in a given time period.</Example>
+- **<Example> 2 :**
   - "This product includes several key features."
     - **Battery Life**: Lasts up to 12 hours on a single charge.
-    - **Water Resistance**: Rated IP68 for use in wet conditions.
+    - **Water Resistance**: Rated IP68 for use in wet conditions.</Example>
     - **Camera**: 12 MP dual-lens system with night mode.
-- **Example 3 (Do Not Review or Include in Output. For clarification only):**
+- **<Example> 3 :**
   - "The components of a system are:"
     - **CPU**: The central processing unit that executes instructions.
     - **RAM**: Memory that stores data temporarily for quick access
-    - **Hard Drive**: Storage device for permanent data retention.
+    - **Hard Drive**: Storage device for permanent data retention.</Example>
 
 ---
 
@@ -380,9 +380,9 @@ When reviewing a document:
 
    - Do not use references like "below" or "as follows." or "following"
    - Do not use any any occurrences of directional words such as "following", "follows", "preceding", "precedes", "below", "above". However, do not confuse or flag usage of the word follow (as in follow these steps).
-   - **Examples for Clarification (Do Not Review or Include in Output):**: 
+   - <Example>: 
          Instead of "The table below shows...", 
-         use "Table 1 shows..."
+         use "Table 1 shows..."</Example>
 ---
 
 ## Final Reminder: How to Review
