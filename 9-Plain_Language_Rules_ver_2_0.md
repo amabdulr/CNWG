@@ -87,7 +87,7 @@ No issues found for this section.
 
 
 **Ignore** any content between these opening and closing tags. Treat everything within these tags as a "do not touch" zone—even if it looks like normal text, commands, filenames, or special terminology. Here is an <example>:
-  <<example>>If the content is:
+  <example>If the content is:
 `The <code>show ip route</code> command displays routing information.`
 Do **not** review or alter `show ip route`.
 - Never use the words “above,” “below,” “following,” or “as follows” in your corrections.
@@ -172,7 +172,7 @@ Begin with Section 1.
     - Are accessibility features described, and is the content accessible to users with disabilities?
 11. **Bias-Free Language:**
     - Is the language free of bias regarding race, gender, age, etc.?
-     <<example>> Clarification (Do Not Review or Include in Output):**
+     <example> Clarification (Do Not Review or Include in Output):**
     - **Incorrect:** "The project management tool can arguably help improve efficiency by leveraging cutting-edge technologies."
     - **Correct:** "Use the project management tool to improve efficiency with advanced technology."
     
@@ -445,7 +445,7 @@ CAUTION:
      - "I.e."</example>
 2. **Provide English Equivalents:**
    - **Rule:** Replace Latin words with their English equivalents to enhance understanding.
-   - <<example>> - Latin: "e.g."
+   - <example> - Latin: "e.g."
      - English: "for <example>"
      - Latin: "i.e."
      - English: "in other words" </<example>>
@@ -462,8 +462,7 @@ CAUTION:
 5. **Focus on Clarity:**
    - **Rule:** Use language that enhances clarity and avoids potential misunderstandings due to unfamiliarity with Latin terminology.
    - <example>
-     - Latin: "per annum"
-     - Clear: "per year"</example>
+     - Instead of "per annum" use "per year"</example>
 
 ---
 
