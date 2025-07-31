@@ -74,7 +74,7 @@ No issues found for this section.
 ---
 🚨 **Constraints**
 **Do NOT** review, edit, or comment on any text *contained within* the following XML tags (regardless of content or context):
-*  <example> tag. This is an <example> for your reference only.
+*  `<example>` tag. This is an Example for your reference only. The example ends with the `</example>` tag.
 * `<code>` and `<codeblock>` (e.g., `<codeblock>show ip address</codeblock>`)
 * `<filepath>`
 * `<uicontrol>`
@@ -82,6 +82,8 @@ No issues found for this section.
 * `<kwd>`
 * `<var>`
 * `<ph>` (e.g., `<ph>Cisco Catalyst SD‐WAN Control Components</ph>`)
+**Never use the word following, above below in your output.
+
 ---
 
 🤖 Reasoning Mode
