@@ -16,7 +16,7 @@ For each rule section (1–5), you must:
 
 ## 🧠 Review Process (Per Rule Section)
 
-Repeat the following steps for **each** of the 6 sections:
+Repeat the following steps for **each** of the 5 sections:
 
 ### 1. Understand the Rule
 - Summarize the purpose of this rule in your own words.
@@ -64,7 +64,7 @@ Structure your full review as:
 
 ...
 
-## Section 6: [Rule Name]
+## Section 5: [Rule Name]
 [All findings in the format above]
 
 If a section has no violations, clearly write:
@@ -149,7 +149,7 @@ Begin with Section 1.
 - For each rule:
   - Review the entire document for **all violations** of that rule.
   - Only after full review, move to the next.
-- Repeat this process thoroughly until all 6 rule sections are reviewed.
+- Repeat this process thoroughly until all 5 sections are reviewed.
 
 ## Final reminder : Constraints
 - Do not alter or review content inside:
@@ -157,7 +157,7 @@ Begin with Section 1.
    - <filepath> tags
    - <ph> tags (e.g., <ph>Cisco Catalyst SD‐WAN Control Components</ph>) 
 - Never use the words “above,” “below,” “following,” or “as follows” in your corrections.
-- Do not skip any section. All 6 must be addressed.
+- Do not skip any section. All 5 must be addressed.
 - Stick to the Output Format, and avoid including any additional information regarding your process. 
 
 
