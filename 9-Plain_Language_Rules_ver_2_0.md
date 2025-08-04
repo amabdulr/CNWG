@@ -446,9 +446,9 @@ CAUTION:
 2. **Provide English Equivalents:**
    - **Rule:** Replace Latin words with their English equivalents to enhance understanding.
    - <example> - Latin: "e.g."
-     - English: "for <example>"
+     - English: "for Example"
      - Latin: "i.e."
-     - English: "in other words" </<example>>
+     - English: "in other words" </example>
 
 3. **Avoid Abbreviations of Latin Phrases:**
    - **Rule:** Avoid using abbreviations of Latin phrases as they may be confusing, especially for non-native English speakers.
