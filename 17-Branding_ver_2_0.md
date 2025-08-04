@@ -76,7 +76,6 @@ No issues found for this section.
 🚨 **Constraints**
 **Do NOT** review, edit, or comment on any text *contained within* the following XML tags (regardless of content or context):
 *  `<example>` tag. This is an Example for your reference only. The example ends with the `</example>` tag.
-* `<code>` and `<codeblock>` (e.g., `<codeblock>show ip address</codeblock>`)
 * `<filepath>`
 * `<uicontrol>`
 * `<synph>`
