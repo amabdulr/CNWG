@@ -157,16 +157,13 @@ Go step by step for each of the following rules. Review the full document and fi
      - ❌ "Support & Downloads" → ✅ "Access Cisco Support and Software Downloads"
      - ❌ "Select HTTPS and/or SSH" → ✅ "Select HTTPS or SSH, or both" </Example>
 
-7. **Abbreviations and Acronyms**  
-   - **Rule:** Avoid introducing new acronyms. Expand acronyms on first use unless they are universally recognized.
-
-8. **Sentence Structure**  
+7. **Sentence Structure**  
    - **Rule:** Sentences should express a **single main idea**. Position the most important information at the **end** of the sentence (stress position).
 
-9. **Paragraph Construction**  
+8. **Paragraph Construction**  
     - **Rule:** Each paragraph should begin with a clear topic sentence, focus on a single idea, and maintain logical progression.
 
-10. **Phone Number Formatting**  
+9. **Phone Number Formatting**  
     - **Rule:**  
       - Format US/Canada numbers as: `1 408 526 4000`  
       - Format international numbers using the `+` symbol and spaces.  
@@ -523,12 +520,13 @@ Go step by step for each of the following rules. Review the full document and fi
       ✅ "an XML document"  
       ✅ "a URL"</Example>
 
-17. **Expansion Exceptions List**  
-    - **Rule:** Do **not** expand the following industry-standard acronyms or initialisms:  
+17. **Expansion**
+      Expand acronyms on their first occurance. However refer to the expansions exceptions first. 
+    - <Expansion excepton list> HoweverDo **not** expand the following industry-standard acronyms or initialisms:  
       ASCII, AAA, ATM, BIOS, AC, ANSI, ASIC, BNC, BRI, CBR, CD, CDDI, CD-ROM, CLI, CPU, CRT, CSU, DC, DCE, DHCP, DIMM, DIN, DRAM, DSR, DTE, EEPROM, EIA/TIA, EMI, EPROM, ESD, FAQ, FCC, FDA, FDDI, FIFO, FTP, GIF, GUI, HTML, HTTP, IBM, ID, IEEE, IETF, I/O, IOS, IP, IPv4, IPv6, ISDN, ISO, ISP, ITU, ITU-T, JPEG, LAN, LED, LIFO, MAC, MIB, MPEG, NVRAM, PBX, PC, ping, PPP, PRI, PROM, RADIUS, RAM, RFC, ROM, SFTP, SIMM, SONET, SRAM, SSH, TACACS+, TCP, TCP/IP, TFTP, TIFF, tty, UDP, UI, URL, USB, VLAN, VoIP, VoD, VPN, vty, WAN, WWW, XML.
-   - **Rule:** Do **not** expand AP.
+   - **Rule:** Do **not** expand AP. Do not say access point.  
      **Rule:** Do **not** expand AAA.
-     **Rule:** Do **not** expand URL, DHCP, MAC, RFC, SSH, TCP, UDP, XML.  
+     **Rule:** Do **not** expand URL, DHCP, MAC, RFC, SSH, TCP, UDP, XML.  </Expansion excepton list>
 
  
 
