@@ -35,9 +35,9 @@ For each issue found, use this format:
         
       ### Observation {{n}}
       
-      **Action Required**: ["Action is Required” or "No Action Required" Use italics or bold or a different colour]
       **Original Content**: [Exact excerpt from the content where the error is found]  
       **Rule**: [Rule Title Only]  
+      **Section Title**: ["Include the title of the section this was found or some location information or page number.]
       **Recommended Correction**: [Rewritten version – avoid “following,” “as follows,” “above,” or “below”]  
       **Feedback**: [Why this breaks the rule and how the correction improves clarity or compliance]  
 
