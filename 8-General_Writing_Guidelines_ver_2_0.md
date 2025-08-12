@@ -148,7 +148,7 @@ Go step by step for each of the following rules. Review the full document and fi
 5. **Units of Measure**  
    - **Rule:** Use **British units first**, followed by metric units in parentheses. Spell out units when needed in regular text.
    - <Example>
-     - ✅ "Width between the two rack-mount posts: 17 in. (43.18 cm)"
+     - ✅ "Width between the two rack-mount posts: 17 in. (43.18 cm)" </Example>
 
 6. **Punctuation and Symbols**  
    - **Rule:** Use serial (Oxford) commas in lists. Avoid symbols like **&**, **/**, or **@** unless necessary for technical clarity.
