@@ -82,7 +82,7 @@ No issues found for this section.
 * `<kwd>`
 * `<var>`
 * `<ph>` (e.g., `<ph>Cisco Catalyst SD‐WAN Control Components</ph>`)
-**Never use the word following, above below in your output:
+Never use the word following, above below in your output.
 
 
 
