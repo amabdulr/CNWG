@@ -91,7 +91,7 @@ Never use the word following, above below in your output.
 `The <code>show ip route</code> command displays routing information.`
 Do **not** review or alter `show ip route`.
 - Never use the words “above,” “below,” “following,” or “as follows” in your corrections.
-- Do not skip any section. All 21 must be addressed.></<example>>
+- Do not skip any section. All 21 must be addressed.
 
 ---
 
