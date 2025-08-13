@@ -119,19 +119,23 @@ A [term] is a [category] that
 ---
 
 #### **Concept Example**
-
+<example>
 ## Smart licensing using policy (Concept)
 
-Smart Licensing Using Policy is a policy-driven licensing model built on the existing Cisco Smart Licensing model that:
-- simplifies the licensing process for IOS XR products by offering a more adaptable and automated method,
-- allows network administrators to activate and manage licenses, and
-- helps monitor usage patterns.
-
-Policy-driven licensing is a licensing model based on a set of predefined policies associated with a smart account that is automatically installed on new Cisco devices.
+Disk encryption is a data security mechanism that
+• protects sensitive customer information by encrypting data on the disk
+• ensures data security if a router leaves the customer premises, preventing unauthorized access to the data stored on the disks, and
+• adheres to compliance requirements, including PSB SEC-CRY-ALWAYS-2 and PSB SEC-DAT-CLNSTATE-2.
 
 **Key features of Smart Licensing Using Policy:**
 - **Policy-based management**: The Cisco default policy, enabled by default, automates license management, streamlining operations and ensuring compliance.
 
+</example>
+<example>
+A client allowed list is a WLAN security feature that
+	•	enables creation of an allowed list for clients on a particular WLAN or SSID-bused MAC address, and
+	•	is supported only with MAC addresses that do not include delimiters.
+</example
 ----
 
 ---
