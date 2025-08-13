@@ -1,4 +1,4 @@
-# Prompt: Create UI Field Descriptions for Online Help
+# Create UI Field Descriptions for Online Help
 
 You are a technical writer tasked with creating field descriptions for an Online Help page. Use the provided resources:  
 - SFS document  
