@@ -398,15 +398,27 @@ When reviewing a document:
 - Repeat this process thoroughly until all 21 rule sections are reviewed.
 
 ## Final reminder : Constraints
-- Do not alter or review content inside:
-   - <example> tag. This is an <example> for your reference only.
-   - <code> or <codeblock> tags
-   - <filepath> tags
-   - <ph> tags (e.g., <ph>Cisco Catalyst SD‐WAN Control Components</ph>) 
+
+**Ignore** any content between these opening and closing tags. Treat everything within these XML tags as a "do not touch" zone—even if it looks like normal text, commands, filenames, or special terminology.
+*  `<example>` tag. This is an Example for your reference only. The example ends with the `</example>` tag.
+* `<code>` and `<codeblock>` (e.g., `<codeblock>show ip address</codeblock>`)
+* `<filepath>`
+* `<uicontrol>`
+* `<synph>`
+* `<kwd>`
+* `<var>`
+* `<ph>` (e.g., `<ph>Cisco Catalyst SD‐WAN Control Components</ph>`)
+Never use the word following, above below in your output.
+
+<example>:
+If the content is:
+`The <code>show ip route</code> command displays routing information.`
+Do **not** review or alter `show ip route`. </example>
 - Never use the words “above,” “below,” “following,” or “as follows” in your corrections.
 - Do not skip any section. All 21 must be addressed.
 - Stick to the Output Format, and avoid including any additional information regarding your process. 
 
+---
 
 ---
 
