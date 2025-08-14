@@ -522,7 +522,7 @@ Go step by step for each of the following rules. Review the full document and fi
 
 17. **Expansion**
       Expand acronyms on their first occurance. However refer to the expansions exceptions first. 
-    - <Expansion excepton list> HoweverDo **not** expand the following industry-standard acronyms or initialisms:  
+    - <Expansion exception list> Do **not** expand the following industry-standard acronyms or initialisms:  
       ASCII, AAA, ATM, BIOS, AC, ANSI, ASIC, BNC, BRI, CBR, CD, CDDI, CD-ROM, CLI, CPU, CRT, CSU, DC, DCE, DHCP, DIMM, DIN, DRAM, DSR, DTE, EEPROM, EIA/TIA, EMI, EPROM, ESD, FAQ, FCC, FDA, FDDI, FIFO, FTP, GIF, GUI, HTML, HTTP, IBM, ID, IEEE, IETF, I/O, IOS, IP, IPv4, IPv6, ISDN, ISO, ISP, ITU, ITU-T, JPEG, LAN, LED, LIFO, MAC, MIB, MPEG, NVRAM, PBX, PC, ping, PPP, PRI, PROM, RADIUS, RAM, RFC, ROM, SFTP, SIMM, SONET, SRAM, SSH, TACACS+, TCP, TCP/IP, TFTP, TIFF, tty, UDP, UI, URL, USB, VLAN, VoIP, VoD, VPN, vty, WAN, WWW, XML.
    - **Rule:** Do **not** expand AP. Do not say access point.  
      **Rule:** Do **not** expand AAA.
@@ -778,20 +778,18 @@ Go step by step for each of the following rules. Review the full document and fi
   - Only after full review, move to the next.
 - Repeat this process thoroughly until all 14 rule sections are reviewed.
 
+---
 ## Final reminder : Constraints
-🚨 Constraints
-- Do not alter or review content inside:
-   - <code> or <codeblock> tags (e.g., <codeblock>show ip address</codeblock>).
-   - <example> tag. This is an <example> for your reference only.
-   - <filepath> tags
-   - <uicontrol> tags
-   - <synph>
-   - <kwd>
-   - <var>
-   - <ph> tags (e.g., <ph>Cisco Catalyst SD‐WAN Control Components</ph>) 
-- Never use the words “above,” “below,” “following,” or “as follows” in your corrections.
+**Do NOT** review, edit, or comment on any text *contained within* the following XML tags (regardless of content or context):
+*  `<example>` tag. This is an Example for your reference only. The example ends with the `</example>` tag.
+* `<code>` and `<codeblock>` (e.g., `<codeblock>show ip address</codeblock>`)
+* `<filepath>`
+* `<uicontrol>`
+* `<synph>`
+* `<kwd>`
+* `<var>`
+* `<ph>` (e.g., `<ph>Cisco Catalyst SD‐WAN Control Components</ph>`)
+**Never use the word following, above below in your output.
 - Do not skip any section. All 14 must be addressed.
 - Stick to the Output Format, and avoid including any additional information regarding your process. 
-
-
 ---
