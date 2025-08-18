@@ -173,11 +173,11 @@ Begin with Section 1.
 11. **Bias-Free Language:**
     - Is the language free of bias regarding race, gender, age, etc.?
      <example> Clarification (Do Not Review or Include in Output):**
-    - **Incorrect:** "The project management tool can arguably help improve efficiency by leveraging cutting-edge technologies."
-    - **Correct:** "Use the project management tool to improve efficiency with advanced technology."
+    - <example> **Incorrect:** "The project management tool can arguably help improve efficiency by leveraging cutting-edge technologies."
+    - <example> **Correct:** "Use the project management tool to improve efficiency with advanced technology."
     
-    - **Incorrect:** "The user should utilize the system's features according to their requirements."
-    - **Correct:** "Use the system's features to meet your requirements."</<example>
+    - <example> **Incorrect:** "The user should utilize the system's features according to their requirements."
+    - <example> **Correct:** "Use the system's features to meet your requirements."</<example>
 
 --- 
 
@@ -259,8 +259,10 @@ CAUTION:
 
 1. **Active vs. Passive Voice:**
    - Are sentences primarily written in active voice to clearly identify the subject and action?
-- **Incorrect:** "The system updates the software"
-- **Correct:** "The software is updated by the system"
+  
+   - 
+- <example> **Incorrect:** "The system updates the software"</example>
+- <example> **Correct:** "The software is updated by the system" </example>
  
 2. **Clarity of Subject and Action:**
    - Does the sentence clearly indicate who or what is performing the action?
@@ -271,38 +273,38 @@ CAUTION:
 
 4. **Appropriate Use of Tense:**
    - Are the present, past, and future tenses used appropriately based on the context?
-   - **Incorrect:** "We will implement the changes" for future actions
-   - **Correct:** "We will be implementing."
+   - <example> **Incorrect:** "We will implement the changes" for future actions </example>
+   - <example> **Correct:** "We will be implementing."</example>
 
 5. **Imperative Mood for Instructions:**
    - Are instructions written in the imperative mood to directly address the user?
-   - <example> : Use "Complete the form" instead of "You should complete the form."
+   - <example> : Use "Complete the form" instead of "You should complete the form."</example>
 
 
 6. **Avoidance of Unnecessary Complexity:**
    - Are complex verb forms simplified for ease of understanding?
-    - **Incorrect:** "We had been implementing..." for future actions
-    - **Correct:** "While implementing...."
+    - <example> **Incorrect:** "We had been implementing..." for future actions</example>
+    - <example> **Correct:** "While implementing...."</example>
 
 7. **Clarify Demonstrative Nouns:**
 
    - Do not use demonstrative nouns like "this," "that," "these," or "those" without specifying what they refer to. Always clarify the noun or concept you are referring to.
-    - **Incorrect:** "This is important for the process."
-    - **Correct:** "This step is important for the process."
-    - **Incorrect:** "This is important for the process."
-    - **Correct:** "This step is important for the process."
-    - **Incorrect:** "A decision will be made by the committee next week."
-    - **Correct:** "The committee will make a decision next week."
-    - **Incorrect:** "The report had been reviewed by the manager."
-    - **Correct:** "The manager reviewed the report."
-    - **Incorrect:** "You shall complete the online form."
-    - **Correct:** "Complete the online form."
+    - <example> **Incorrect:** "This is important for the process."</example>
+    - <example> **Correct:** "This step is important for the process."</example>
+    - <example> **Incorrect:** "This is important for the process."</example>
+    - <example> **Correct:** "This step is important for the process."</example>
+    - <example> **Incorrect:** "A decision will be made by the committee next week."</example>
+    - <example> **Correct:** "The committee will make a decision next week."</example>
+    - <example> **Incorrect:** "The report had been reviewed by the manager."</example>
+    - <example> **Correct:** "The manager reviewed the report."</example>
+    - <example> **Incorrect:** "You shall complete the online form."</example>
+    - <example> **Correct:** "Complete the online form."</example>
 
 ### Lists and Tables:
 1. **Chunking and Organization:**
    - **Rule:** Break large lists, tables, and visuals into smaller, manageable chunks to improve readability and accessibility.
-    - **Incorrect:** A single lengthy list of features without categorization.
-    - **Correct:** Features categorized into 'Hardware Support', 'Software Features', and 'User Interface'.
+    - <example> **Incorrect:** A single lengthy list of features without categorization.</example>
+    - <example> **Correct:** Features categorized into 'Hardware Support', 'Software Features', and 'User Interface'.</example>
 2. **Clarity and Purpose:**
    - Ensure each list, table, or visual has a clear purpose and contributes to understanding the content.
    - <example>
@@ -310,18 +312,16 @@ CAUTION:
      - **Table Purpose:** "Comparison of product specifications." </example>
 3. **Useful Titles:**
    - **Rule:** Provide a descriptive and useful title for every list, table, and visual.
-   - <example>
-  - **Incorrect:** "Table 1".
-    - **Correct:** "Comparison of Router Specifications" </example>
+  - <example> **Incorrect:** "Table 1".</example>
+    - <example> **Correct:** "Comparison of Router Specifications" </example>
 4. **Simplicity and Conciseness:**
    - **Rule:** Avoid overloading lists and tables with long paragraphs of text. Use concise bullet points or entries.
    - <example>
-     - **Incorrect**: "The list of features includes a variety of different options that allow for enhanced performance, increased reliability, and better user experience." 
-     - **Correct:** "- Enhanced performance\n- Increased reliability\n- Improved user experience"</example>
+     - **Incorrect**: "The list of features includes a variety of different options that allow for enhanced performance, increased reliability, and better user experience." </example>
+     - <example> **Correct:** "- Enhanced performance\n- Increased reliability\n- Improved user experience"</example>
 6. **Consistency:**
    - **Rule:** Maintain consistent formatting and style across all lists, tables, and visuals to ensure a professional appearance.
-   - <example>
-     - **Correct**: All tables use the same column headings style and font size.</example>
+   - <example> **Correct**: All tables use the same column headings style and font size.</example>
  
 ---
 
@@ -343,15 +343,15 @@ CAUTION:
      - Long Section (incorrect): A single section covering installation, configuration, and troubleshooting.
      - Short Sections (correct): Separate sections for "Installation Steps," "Configuration Guidelines," and "Troubleshooting Tips."</example>
 4. **Avoid Roundabout Construction:**
-   - **Rule:** Use straightforward language and structure to avoid complex, roundabout constructions. Place words in the format [subject] [verb] [object] with as little between them as possible. Intervening modifiers, phrases, and clauses confuse the message and increase reading time while lowering comprehension. The intervening phrases may be a single word or numerous words. <example> include items such as Only, Just, As requested by Including, but not limited to.
+   - **Rule:** Use straightforward language and structure to avoid complex, roundabout constructions. Place words in the format [subject] [verb] [object] with as little between them as possible. Intervening modifiers, phrases, and clauses confuse the message and increase reading time while lowering comprehension. The intervening phrases may be a single word or numerous words. Include items such as Only, Just, As requested by Including, but not limited to.
    - <example>
      - Roundabout (incorrect): "In order to be able to complete the task, it is necessary to first gather all the required materials."
-     - Straightforward (correct): "Gather all required materials to complete the task."
+     - Straightforward (correct): "Gather all required materials to complete the task."</example>
 5. **Focus on User Needs:**
    - **Rule:** Write only what the user needs, removing any unnecessary information that could distract or overwhelm.
    - <example>
      - Unnecessary: "This feature, which was first introduced in the 2020 update, allows users to..."
-     - Necessary: "This feature allows users to..."
+     - Necessary: "This feature allows users to..."</example>
 
  ---
 
@@ -511,12 +511,12 @@ CAUTION:
 2. **Live Link Verification:**
    - **Rule:** Verify that all URLs are live and direct users to the intended web pages. Ensure they are up-to-date and functioning correctly.
    - <example>
-     - Before inclusion, check that "https://www.<example>.com" leads to the correct page. </example>
+     - Before inclusion, check that "https://www.example.com" leads to the correct page. </example>
 3. **URL Placement:**
    - **Rule:** Include URLs in running text or place them on a separate line with an introductory phrase.
    - <example>
-     - In-text: "Visit our website at https://www.<example>.com for more information."
-     - Separate line: "For more information, visit: https://www.<example>.com."</example>
+     - In-text: "Visit our website at https://www.example.com for more information."
+     - Separate line: "For more information, visit: https://www.example.com."</example>
 4. **Breaking Long URLs:**
    - **Rule:** Break long URLs into smaller parts if necessary, following specific guidelines, without inserting hyphens.
    - <example>
@@ -528,7 +528,7 @@ CAUTION:
 6. **Use of Descriptive Text:**
    - **Rule:** Where possible, use descriptive text or anchor text instead of displaying the raw URL.
    - <example>
-     - Anchor text: "For more details, visit our [product page](https://www.<example>.com)." </example>
+     - Anchor text: "For more details, visit our [product page](https://www.example.com)." </example>
 7. **Permission for External Links:**
    - **Rule:** Obtain permission from the legal department if linking to external sites other than for software downloads required for using a Cisco product.
    - <example>
