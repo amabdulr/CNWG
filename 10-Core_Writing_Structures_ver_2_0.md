@@ -412,58 +412,44 @@ Before reviewing an Item-Description list, understand the following terms:
 ___
 
 ### Section: Tables:
-The following four rules are for Tables. In an XML file, tables are usually defined by a <table> tag. Apply these rules only if they are within such a tag:
+The following rules are for Tables. In an XML file, tables are usually defined by a <table> tag. Apply these rules only if they are within such a tag. Here is an example. 
+     <Example> 
+   <p>The table shows the nutritional content of fruits.</p>
+<table id="Nutritional Content of Fruits">
+  <row type="header">
+    <entry><p>Fruit</p></entry>
+    <entry><p>Calories</p></entry>
+    <entry><p>Vitamins</p></entry>
+  </row>
+  <row>
+    <entry><p>Apple</p></entry>
+    <entry><p>52</p></entry>
+    <entry><p>C, K</p></entry>
+  </row>
+  <row>
+    <entry><p>Banana</p></entry>
+    <entry><p>89</p></entry>
+    <entry><p>B6, C</p></entry>
+  </row>
+</table> </Example> 
 1. **Use Stem Sentences**:
-   - Provide a context-setting sentence before the table.
-   - <Example>: 
-   "Table 1 shows the nutritional content of fruits."
-         - Table 1: Nutritional Content of Fruits
-         | Fruit    | Calories | Vitamins  |
-         |----------|----------|-----------|
-         | Apple    | 52       | C, K      |
-         | Banana   | 89       | B6, C     | </Example> 
-
-2. **Avoid Positional References**:
-   - Do not use references like "below" or "as follows." or "following"
-   - Do not use any occurrences of directional words such as "following", "follows", "preceding", "precedes", "below", "above". However, do not confuse or flag usage of the word follow (as in follow these steps) which is acceptable.
+   - The stem sentence in a table is a context-setting sentence before the table. Ensure it is a complete sentence. Avoid Positional References such as "follows", "below", "following."
    - <Example>: Instead of "The table below shows...", use "The table  shows..." </Example> 
-3. **Complete Sentences for Standalone Content**:
-   - Ensure that the stem sentence and any standalone content are complete sentences.
-4. **Table Structure**:
+2. **Table Structure**:
    - Organize information in a way that makes it easy to access and understand, with rows and columns clearly labeled.
    - Use headers for each column to clarify the type of data being presented.
 5. **Capitalization and Punctuation**:
-   - Follow specific rules for capitalization and punctuation depending on the content of the table cells:
-     - **Complete Sentence**: Use sentence case and end with a period.
-     - **Standalone Phrase**: Use sentence case without punctuation.
-     - **Phrase with Header**: Use lower case, and the final column may end with a period if it completes a sentence.
-   - <Example>:
-     - Complete Sentence: "The system is fully operational."
-     - Standalone Phrase: "Maximum capacity"</Example> 
-     - Phrase with Header: "operates continuously"</Example> 
-6. <Example> of a Table :
-         Product Specifications**
-         "Table 4 details the specifications of the new smartphone model."
-         | Feature          | Specification                   |
-         |------------------|---------------------------------|
+   - Check the following capitalization and punctuation rules for the content of the table cells:
+     - **Complete Sentence**: Use sentence case and end with a period. <example>"The system is fully operational."</example> 
+     - **Standalone Phrase or incomplete sentences**: Use sentence case without punctuation. <example>Standalone Phrase: "Maximum capacity"</example>
+     - **Phrase with Header**: Use lower case, and the final column may end with a period if it completes a sentence. <example>"operates continuously"</example>
 
-         | Display          | 6.1-inch OLED                    |
 
-         | Battery Life     | Up to 18 hours                   |
-
-         | Processor        | A14 Bionic chip                  |
-
-         | Storage Options  | 64GB, 128GB, 256GB               | </Example>
----
-
+___
 
 ### Section: Positional References:
 
-   - Do not use references like "below" or "as follows." or "following"
-   - Do not use any any occurrences of directional words such as "following", "follows", "preceding", "precedes", "below", "above". However, do not confuse or flag usage of the word follow (as in follow these steps).
-   - <Example>: 
-         Instead of "The table below shows...", 
-         use "Table 1 shows..."</Example>
+   - Flag all positional references such as "below" or "as follows." or "following", "preceding", "precedes", "below", "above".  Other than these, do not flag any other positional reference. However, content can use the word follow in a particular context "Follow these steps to".
 ---
 
 ## Final Reminder: How to Review
