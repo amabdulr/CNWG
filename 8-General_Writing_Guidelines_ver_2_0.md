@@ -81,6 +81,7 @@ No issues found for this section.
 * `<synph>`
 * `<kwd>`
 * `<var>`
+* `<definition>`
 * `<ph>` (e.g., `<ph>Cisco Catalyst SD‐WAN Control Components</ph>`)
 **Never use the word following, above below in your output.
 
@@ -788,6 +789,7 @@ Go step by step for each of the following rules. Review the full document and fi
 * `<synph>`
 * `<kwd>`
 * `<var>`
+* `<definition>`
 * `<ph>` (e.g., `<ph>Cisco Catalyst SD‐WAN Control Components</ph>`)
 **Never use the word following, above below in your output.
 - Do not skip any section. All 14 must be addressed.
