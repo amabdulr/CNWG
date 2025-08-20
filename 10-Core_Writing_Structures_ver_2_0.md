@@ -108,15 +108,14 @@ Begin with Section 1.
    **Core Writing Structures (Chapter 10)**
    - **Section 1**: Find one or more errors in the content using the rules of the section titled **Effective Sentences**. Present the output in the Output Format. 
    - **Section 2**: Find one or more errors in the content using the rules of the section titled **Writing Paragraphs**. Present the output in the Output Format.
-   - **Section 3**: Find one or more errors in the content using the rules of the section titled **Unordered Lists Type A**. Present the output in the Output Format. 
-   - **Section 4**: Find one or more errors in the content using the rules of the section titled **Unordered Lists Type B**. Present the output in the Output Format.      
-   - **Section 5**: Find one or more errors in the content using the rules of the section titled **Ordered Lists**. Present the output in the Output Format.
-   - **Section 6**: Find one or more errors in the content using the rules of the section titled **Item-Description Lists**. Present the output in the Output Format. 
+   - **Section 3**: Find one or more errors in the content using the rules of the section titled **Unordered Lists Type **. Present the output in the Output Format.     
+   - **Section 4**: Find one or more errors in the content using the rules of the section titled **Ordered Lists**. Present the output in the Output Format.
+   - **Section 5**: Find one or more errors in the content using the rules of the section titled **Item-Description Lists**. Present the output in the Output Format. 
 
-   - **Section 7**: Find one or more errors in the content using the rules of the section titled **Tables**. Present the output in the Output Format. 
-   - **Section 8**: Find one or more errors in the content using the rules of the section titled **Parallel Construction**. Present the output in the Output Format.  
-   - **Section 9**: Find one or more errors in the content using the rules of the section titled rules for **Positional References**. Present the output in the Output Format.
-   - **Section 10**: Find errors in spelling.  Use Americal English.
+   - **Section 6**: Find one or more errors in the content using the rules of the section titled **Tables**. Present the output in the Output Format. 
+   - **Section 7**: Find one or more errors in the content using the rules of the section titled **Parallel Construction**. Present the output in the Output Format.  
+   - **Section 8**: Find one or more errors in the content using the rules of the section titled rules for **Positional References**. Present the output in the Output Format.
+   - **Section 9**: Find errors in spelling.  Use Americal English.
 
 
 
