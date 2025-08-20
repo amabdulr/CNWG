@@ -14,7 +14,7 @@ For each rule section (1–8), you must:
 
 ## 🧠 Review Process (Per Rule Section)
 
-Repeat the following steps for **each** of the 11 sections:
+Repeat the following steps for **each** of the 8 sections:
 
 ### 1. Understand the Rule
 - Summarize the purpose of this rule in your own words.
@@ -298,10 +298,10 @@ If a list item contains industry-standard acronyms or terms (e.g., **OID**, **SN
 
 #### 🔍 Step 1: Understand Key Concepts
 
-Before reviewing any ordered list, understand the following terms:
+Before reviewing any ordered list, understand terms such as stem sentence and list item:
 
 * **Ordered List:**
-  A numbered list that is not a task (does not have steps). In XML, it is structured as:
+  An ordered list is a numbered list that is not a task (does not have steps). In XML, it is structured as:
 
   ```xml
   <p>A introductory sentence known as stem sentence<p>
@@ -310,7 +310,6 @@ Before reviewing any ordered list, understand the following terms:
     ...
   </ol>
   ```
-
 * **Stem Sentence:**
   A stem sentence introduces the list.
   ✅ It **must not** include positional references like “following” or “below.”
@@ -322,11 +321,16 @@ Before reviewing any ordered list, understand the following terms:
   ```xml
   <li><p>Item text</p></li>
   ```
+  A valid ordered list must contain **two or more list items**. If it contains only one item, flag it as problem.
 
-  A valid ordered list must contain **two or more list items**. If it contains only one item, flag it as problem. 
 
-##### 📘 Example: Identify Stem and List Items
+#### 📋 Step 2: Review these Rules for Ordered List
+* If the list item is full sentence, beginning with a capital letter and ending with a period
+* The stem sentece must be a full sentence ending with a colon. 
+* Single word list items should not have a punctuation at the end.
 
+Here are two examples
+<example> 
 ```xml
 <p>These are the severity keywords for syslog messages, listed from the highest to the lowest severity level:</p>
 <ol>
@@ -334,21 +338,28 @@ Before reviewing any ordered list, understand the following terms:
   <li><p>alert</p></li>
   <li><p>critical</p></li>
   <li><p>warnings</p></li>
-
-</l>
+</ol>
 ```
-
-In this example:
-
-* The **stem sentence** is: <p>These are the severity keywords for syslog messages, listed from the highest to the lowest severity level:</p>`
-* The list contains **four items**
-
----
-
-#### 📋 Step 2: Review for the following Rules
-* ❌ Do not capitalize the first word of list items.
-* ✅ A colon must exist at the end of the stem sentence 
-* ✅ Single word list items should not have a punctuation at the end. 
+</example>
+<example>
+```xml
+  <p>APIC support for user-defined annotation information has changed overtime, indicated here starting with the earliest change to the latest:</p>
+  <ol>
+    <li>
+      <p>From Cisco APIC Release 3.2(1), support for directly attaching annotations as a property on configurable objects.</p>
+    </li>
+    <li>
+      <p>Prior to Cisco APIC Release 4.2(4), APIC supported tag instances (taglnst), which stored a simple string. In APIC GUI menus, these were labeled as <uicontrol>Tags</uicontrol>.</p>
+    </li>
+    <li>
+      <p>In Cisco APIC Release 4.2(4), because many modern systems use a key and value pair as a label, changes were made to move to key:value annotations (tagAnnotation) as the main label option for API. The shortcut API to query objects via tag instances (<uicontrol>/api/tag/your_tag.json</uicontrol> ) was deprecated. The APIC GUI continued to use the simple string tag instances (taglnst), labeled as <uicontrol>Tags</uicontrol>.</p>
+    </li>
+    <li>
+      <p>In Cisco APIC Release 5.1(1), tag instances (taglnst) were deprecated in the GUI. GUI menus still</p>
+    </li>
+  </ol>
+```
+<example>
 ____
 
 ### Section: Item-Description Lists:
