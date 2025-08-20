@@ -170,6 +170,7 @@ Before reviewing any unordered list, understand the following terms:
   A valid unordered list must contain **two or more list items**. If it contains only one item, flag it as problem. 
 
 ##### 📘 Example: Identify Stem and List Items
+
 <example>
 ```xml
 <p>A SAN port channel</p>
@@ -179,6 +180,7 @@ Before reviewing any unordered list, understand the following terms:
   <li><p>connects to Fibre Channel core switches from Cisco ACI switches and provides optimal bandwidth utilization and transparent failover between the uplinks of a VSAN.</p></li>
 </ul>
 ```
+ 
 </example>
 In this example:
 
@@ -217,6 +219,7 @@ If you identified a Type A list, review for the following rules:
 
 ##### ✅ Correct Type A Example:
 
+<example>
 ```xml
 <p>A SAN port channel</p>
 <ul>
@@ -225,7 +228,8 @@ If you identified a Type A list, review for the following rules:
   <li><p>connects to Fibre Channel core switches from Cisco ACI switches and provides optimal bandwidth utilization and transparent failover between the uplinks of a VSAN.</p></li>
 </ul>
 ```
-
+ 
+</example>
 ---
 
 #### 🧾 Step 4: Rules for Type B Unordered List
