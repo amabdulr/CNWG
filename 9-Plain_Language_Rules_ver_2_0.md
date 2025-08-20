@@ -80,6 +80,7 @@ No issues found for this section.
 * `<uicontrol>`
 * `<synph>`
 * `<kwd>`
+* `<definition>`
 * `<var>`
 * `<ph>` (e.g., `<ph>Cisco Catalyst SD‐WAN Control Components</ph>`)
 Never use the word following, above below in your output.
@@ -990,6 +991,7 @@ Find any mistakes in spelling. Use American English.
 * `<synph>`
 * `<kwd>`
 * `<var>`
+* `<definition>`
 * `<ph>` (e.g., `<ph>Cisco Catalyst SD‐WAN Control Components</ph>`)
 Never use the word following, above below in your output.
 
