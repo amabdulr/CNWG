@@ -179,9 +179,9 @@ Before reviewing any unordered list, understand the following terms:
   <li><p>supports bandwidth utilization and availability, and</p></li>
   <li><p>connects to Fibre Channel core switches from Cisco ACI switches and provides optimal bandwidth utilization and transparent failover between the uplinks of a VSAN.</p></li>
 </ul>
-```
- 
+``` 
 </example>
+
 In this example:
 
 * The **stem sentence** is: `<p>A SAN port channel</p>`
@@ -228,7 +228,6 @@ If you identified a Type A list, review for the following rules:
   <li><p>connects to Fibre Channel core switches from Cisco ACI switches and provides optimal bandwidth utilization and transparent failover between the uplinks of a VSAN.</p></li>
 </ul>
 ```
- 
 </example>
 ---
 
@@ -242,7 +241,7 @@ If you identified a Type B list, review for the frules below based on the stem f
 * ✅ All list items must be complete sentences, ending in periods.
 
 **Example:**
-
+<example>
 ```xml
 <p>The workshop was beneficial for several reasons.</p>
 <ul>
@@ -251,6 +250,7 @@ If you identified a Type B list, review for the frules below based on the stem f
   <li><p>It gave access to valuable resources for continued learning.</p></li>
 </ul>
 ```
+</example>
 
 ---
 
@@ -261,7 +261,7 @@ If you identified a Type B list, review for the frules below based on the stem f
 * 📝 If list items are single words → no punctuation needed.
 
 **Examples:**
-
+<example>
 ```xml
 <p>List items:</p>
 <ul>
@@ -270,7 +270,8 @@ If you identified a Type B list, review for the frules below based on the stem f
   <li><p>This is list item number 3.</p></li>
 </ul>
 ```
-
+</example>
+<example>
 ```xml
 <p>The primary colors are:</p>
 <ul>
@@ -279,7 +280,7 @@ If you identified a Type B list, review for the frules below based on the stem f
   <li><p>Green</p></li>
 </ul>
 ```
-
+</example>
 ---
 
 ##### 📌 Rule 3: Capitalization Exceptions
@@ -287,7 +288,7 @@ If you identified a Type B list, review for the frules below based on the stem f
 If a list item contains industry-standard acronyms or terms (e.g., **OID**, **SNMP**), preserve their original capitalization.
 
 **Example:**
-
+<example>
 ```xml
 <p>The system monitors these network elements:</p>
 <ul>
@@ -296,7 +297,7 @@ If a list item contains industry-standard acronyms or terms (e.g., **OID**, **SN
   <li><p>SNMP traps are generated for fault detection.</p></li>
 </ul>
 ```
-
+</example>
 ---
 ### 🧾 Section: Ordered List
 
