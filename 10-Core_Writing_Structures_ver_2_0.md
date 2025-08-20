@@ -150,8 +150,11 @@ Before reviewing any unordered list, understand the following terms:
   A bulleted list without numbering. In XML, it is structured as:
 
   ```xml
+  <p>A introductory sentence known as stem sentence<p>
   <ul>
-    <li><p>Item text</p></li>
+    <li><p>Item text 1</p></li>
+    <li><p>Item text 2</p></li>
+    <li><p>Item text 3</p></li>
     ...
   </ul>
   ```
@@ -305,6 +308,7 @@ Before reviewing any ordered list, understand the following terms:
   A numbered list that is not a task (does not have steps). In XML, it is structured as:
 
   ```xml
+  <p>A introductory sentence known as stem sentence<p>
   <ol>
     <li><p>Item text</p></li>
     ...
@@ -352,37 +356,61 @@ In this example:
 ____
 
 ### Section: Item-Description Lists:
-1. **Identify an Item Description List**:
-   - An item description list is an unordered list.  However, 
-   - Each item in the list should have two parts: the item itself and its corresponding description.
-   - Clearly separate the item from its description for clarity.
-2. **When to Use**:
-   - Use an item-description list when detailing parts and their descriptions, or when items in a list have associated values or features.
-   - Ideal for glossary entries or feature lists.
-3. **Description Formatting**:
-   - If the description is a sentence fragment, start it with a lowercase letter. If it's a complete sentence, start with an uppercase letter.
-   - Ensure consistency in formatting based on the description type.
-4. **No Positional References**:
-   - Avoid using positional references like "below" or "as follows" in the stem sentence introducing the list.
-   - Use a complete sentence without relying on the document's layout.
-5. **Period Usage**:
-   - Always use a period at the end of the stem sentence.
-   - Ensure the stem sentence is a standalone complete sentence.
-- **<Example> 1: **
-  - "These terms are used throughout this document."
-    - **Bandwidth**: the amount of data that can be transmitted in a fixed amount of time.
-    - **Throughput**: the amount of data moved successfully from one place to another in a given time period.</Example>
-- **<Example> 2 :**
-  - "This product includes several key features."
-    - **Battery Life**: Lasts up to 12 hours on a single charge.
-    - **Water Resistance**: Rated IP68 for use in wet conditions.</Example>
-    - **Camera**: 12 MP dual-lens system with night mode.
-- **<Example> 3 :**
-  - "The components of a system are:"
-    - **CPU**: The central processing unit that executes instructions.
-    - **RAM**: Memory that stores data temporarily for quick access
-    - **Hard Drive**: Storage device for permanent data retention.</Example>
+
+#### 🔍 Step 1: Understand Key Concepts
+
+Before reviewing an Item-Description list, understand the following terms:
+
+* **Item-Description List:**
+    An item description list is also an unordered list.  However, 
+   - Each item in the list should have two parts: the "List Item text" itself and the "List Item Description". The two are separated by a colon. 
+    In XML, it is structured as shown below. The list item text can sometimes also be in a uicontrol XML tag. 
+
+  ```xml
+  <p>A introductory sentence known as stem sentence<p>
+  <ul>
+    <li><p>List Item text: Item Description</p></li>
+    <li><p><uicontrol>List Item:</uicontrol> Item Description</p></li>
+    ...
+  </ul>
+  ```
+
+---
+
+#### 🧾 Step 2: Rules for Item-Description Lists:
+
+1. **Stem Sentence**:
+   - Avoid using positional references like "below" or "as follows" or "following: in the stem sentence. You can use the word "these".
+   - If the stem sentence is a complete sentence, end the sentence with a full stop (period).
+   - If the stem sentence is a phrase, end the stem sentence with a colon. See this example:
+      <example>
+      <p>The components of a system are:</p>
+        <li><p><uicontrol>CPU:</uicontrol>The central processing unit that executes instructions.</p></li>
+        <li><p><uicontrol>>RAM:</uicontrol>Memory that stores data temporarily for quick access.</p></li>
+        <li><p><uicontrol>>Hard Drive:</uicontrol>Storage device for permanent data retention.</p</li>
+        </example>
+2. **List Item text**:
+   - The list item text must begin with a capital letter.
+3. **Item Description**:
+   - If the item description consists of one sentence fragment, the sentence fragment must begin with a lower case. Here is an example. 
+      <example>
+      <p>The TWAMP system consists of four logical entities.</p>
+        <li><p><uicontrol>Server:</uicontrol> manages one or more TWAMP sessions and also configures per-session ports in the endpoints </p></li>
+        <li><p><uicontrol>>Session-reflector:</uicontrol>reflects a measurement packet as soon as it receives a TWAMP test packet.</p></li>
+        <li><p><uicontrol>>Control-client:</uicontrol>initiates the start and stop of TWAMP test sessions.</p></li>
+        <li><p><uicontrol>>Session-sender:</uicontrol>instantiates the TWAMP test packets sent to the session reflector.</p></li>
+        </example>
+   - If the item description contains one or more complete sentences, the first sentence  must begin with an upper case. 
+      <example>
+      <p>The system resources exhibit one of these states.</p>
+        <li><p><uicontrol>Normal:</uicontrol>  The resource usage is less than the threshold value. </p></li>
+        <li><p><uicontrol>>Minor:</uicontrol>The resource usage is more than the minor threshold, but less than the severe threshold</p></li>
+        <li><p><uicontrol>>Severe:</uicontrol>The resource usage is more than the severe threshold, but less than the critical threshold value.</p</li>
+        <li><p><uicontrol>>Critical:</uicontrol>The resource usage is more than the critical threshold value.</p></li>
+        </example>
+   -	If one or more item descriptions in the list contains more than one complete sentence, even if the first statement is a fragment, initial-cap the first word of every description, as well as the first word of each sentence. Do this also if one or more descriptions contains two or more fragments that are separated by end punctuation.
 ___
+
 ### Section: Tables:
 The following four rules are for Tables. In an XML file, tables are usually defined by a <table> tag. Apply these rules only if they are within such a tag:
 1. **Use Stem Sentences**:
@@ -398,10 +426,9 @@ The following four rules are for Tables. In an XML file, tables are usually defi
 2. **Avoid Positional References**:
    - Do not use references like "below" or "as follows." or "following"
    - Do not use any occurrences of directional words such as "following", "follows", "preceding", "precedes", "below", "above". However, do not confuse or flag usage of the word follow (as in follow these steps) which is acceptable.
-   - <Example>: Instead of "The table below shows...", use "Table 1 shows..." </Example> 
+   - <Example>: Instead of "The table below shows...", use "The table  shows..." </Example> 
 3. **Complete Sentences for Standalone Content**:
    - Ensure that the stem sentence and any standalone content are complete sentences.
-
 4. **Table Structure**:
    - Organize information in a way that makes it easy to access and understand, with rows and columns clearly labeled.
    - Use headers for each column to clarify the type of data being presented.
