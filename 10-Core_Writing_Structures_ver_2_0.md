@@ -170,7 +170,7 @@ Before reviewing any unordered list, understand the following terms:
   A valid unordered list must contain **two or more list items**. If it contains only one item, flag it as problem. 
 
 ##### 📘 Example: Identify Stem and List Items
-
+<example>
 ```xml
 <p>A SAN port channel</p>
 <ul>
@@ -179,7 +179,7 @@ Before reviewing any unordered list, understand the following terms:
   <li><p>connects to Fibre Channel core switches from Cisco ACI switches and provides optimal bandwidth utilization and transparent failover between the uplinks of a VSAN.</p></li>
 </ul>
 ```
-
+</example>
 In this example:
 
 * The **stem sentence** is: `<p>A SAN port channel</p>`
@@ -401,27 +401,40 @@ Before reviewing an Item-Description list, understand the following terms:
 3. **Item Description**:
    - If the item description consists of one sentence fragment, the sentence fragment must begin with a lower case. Here is an example. 
       <example>
-      <p>The TWAMP system consists of four logical entities.</p>
-        <li><p><uicontrol>Server:</uicontrol> manages one or more TWAMP sessions and also configures per-session ports in the endpoints </p></li>
-        <li><p><uicontrol>>Session-reflector:</uicontrol>reflects a measurement packet as soon as it receives a TWAMP test packet.</p></li>
-        <li><p><uicontrol>>Control-client:</uicontrol>initiates the start and stop of TWAMP test sessions.</p></li>
-        <li><p><uicontrol>>Session-sender:</uicontrol>instantiates the TWAMP test packets sent to the session reflector.</p></li>
+```xml
+<p>The TWAMP system consists of four entities.</p>
+<ul>
+  <li><p><uicontrol>Server:</uicontrol> manages sessions and ports.</p></li>
+  <li><p><uicontrol>Session-reflector:</uicontrol> reflects packets upon receipt.</p></li>
+  <li><p><uicontrol>>Control-client:</uicontrol>initiates the start and stop of TWAMP test sessions.</p></li>
+  <li><p><uicontrol>>Session-sender:</uicontrol>instantiates the TWAMP test packets sent to the session reflector.</p></li>
+</ul>
+```
         </example>
    - If the item description contains one or more complete sentences, the first sentence  must begin with an upper case. 
       <example>
+```xml
       <p>The system resources exhibit one of these states.</p>
         <li><p><uicontrol>Normal:</uicontrol>  The resource usage is less than the threshold value. </p></li>
         <li><p><uicontrol>>Minor:</uicontrol>The resource usage is more than the minor threshold, but less than the severe threshold</p></li>
         <li><p><uicontrol>>Severe:</uicontrol>The resource usage is more than the severe threshold, but less than the critical threshold value.</p</li>
         <li><p><uicontrol>>Critical:</uicontrol>The resource usage is more than the critical threshold value.</p></li>
+```
         </example>
    -	If one or more item descriptions in the list contains more than one complete sentence, even if the first statement is a fragment, initial-cap the first word of every description, as well as the first word of each sentence. Do this also if one or more descriptions contains two or more fragments that are separated by end punctuation.
 ___
 
-### Section: Tables:
-The following rules are for Tables. In an XML file, tables are usually defined by a <table> tag. Apply these rules only if they are within such a tag. Here is an example. 
-     <Example> 
-   <p>The table shows the nutritional content of fruits.</p>
+
+### 🧾 Section: Handling `<table>` Tags in XML
+
+When parsing XML content, apply the following rules **only to elements explicitly within a `<table>` tag**. These instructions help ensure clarity, consistency, and structural integrity in table formatting.
+
+#### ✅ General Rule
+
+Only apply these rules inside a `<table>` element. For example:
+
+```xml
+<p>The table shows the nutritional content of fruits.</p>
 <table id="Nutritional Content of Fruits">
   <row type="header">
     <entry><p>Fruit</p></entry>
@@ -433,26 +446,43 @@ The following rules are for Tables. In an XML file, tables are usually defined b
     <entry><p>52</p></entry>
     <entry><p>C, K</p></entry>
   </row>
-  <row>
-    <entry><p>Banana</p></entry>
-    <entry><p>89</p></entry>
-    <entry><p>B6, C</p></entry>
-  </row>
-</table> </Example> 
-1. **Use Stem Sentences**:
-   - The stem sentence in a table is a context-setting sentence before the table. Ensure it is a complete sentence. Avoid Positional References such as "follows", "below", "following."
-   - <Example>: Instead of "The table below shows...", use "The table  shows..." </Example> 
-2. **Table Structure**:
-   - Organize information in a way that makes it easy to access and understand, with rows and columns clearly labeled.
-   - Use headers for each column to clarify the type of data being presented.
-5. **Capitalization and Punctuation**:
-   - Check the following capitalization and punctuation rules for the content of the table cells:
-     - **Complete Sentence**: Use sentence case and end with a period. <example>"The system is fully operational."</example> 
-     - **Standalone Phrase or incomplete sentences**: Use sentence case without punctuation. <example>Standalone Phrase: "Maximum capacity"</example>
-     - **Phrase with Header**: Use lower case, and the final column may end with a period if it completes a sentence. <example>"operates continuously"</example>
+</table>
+```
 
+---
 
-___
+#### 1. **Stem Sentences (Preceding the Table)**
+
+* Always include a clear, complete introductory sentence *before* the table.
+* **Avoid** positional references like “below,” “following,” or “above.”
+
+  * ✅ **Good**: “The table shows the nutritional content of fruits.”
+  * ❌ **Bad**: “The table below shows…”
+
+---
+
+#### 2. **Capitalization & Punctuation Rules for Table Entries**
+
+Apply rules based on content type:
+
+| Content Type                             | Formatting Rule                                                                    |
+| ---------------------------------------- | ---------------------------------------------------------------------------------- |
+| Complete sentence                        | Use sentence case. End with a period.                                              |
+| Standalone phrase or incomplete sentence | Use sentence case. Do **not** add punctuation.                                     |
+| Phrase makes sense only when read with a column header             | Use **lowercase**. End the final column with a period only if it forms a sentence. |
+
+**Examples:**
+
+* ✅ Complete sentence: `"The system is fully operational."`
+* ✅ Standalone phrase: `"Maximum capacity"`
+* ✅ Phrase makes sense only when read with a column header: `"operates continuously"`
+
+---
+
+**Note**: All examples provided should be parsed and treated as canonical formatting cases. Apply them strictly.
+
+---
+
 
 ### Section: Positional References:
 
