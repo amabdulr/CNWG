@@ -82,8 +82,20 @@ No issues found for this section.
 * `<synph>`
 * `<kwd>`
 * `<var>`
-* `<definition>`
 * `<ph>` (e.g., `<ph>Cisco Catalyst SD‐WAN Control Components</ph>`)
+* Perfect — thanks for the example. Based on that, here’s a precise **AI prompt constraint** you can use:
+
+**Do NOT** review text that is inside an XML element with the attribute `outputclass="concept_definition"`. This applies to the entire element and all of its child content. For example:
+
+```xml
+<section outputclass="concept_definition">
+   ...
+</section>
+
+---
+
+Would you like me to also phrase it in a **universal form** (i.e., “any XML element with `outputclass="concept_definition"`”) so it covers not just `<section>` but `<ph>`, `<div>`, etc.?
+
 **Never use the word following, above below in your output.
 
 ---
