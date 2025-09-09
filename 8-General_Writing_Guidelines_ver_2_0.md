@@ -452,7 +452,7 @@ Go step by step for each of the following rules. Review the full document and fi
 ### SECTION: Abbreviations, Acronyms, and Initialisms
 
 1. **Introduction and Expansion**  
-   - **Rule:** Spell out the full form of an acronym or initialism the first time it appears, followed by the abbreviated form in parentheses.  
+   - **Rule:** Spell out the full form of an acronym or initialism the first time it appears, followed by the abbreviated form in parentheses. Do not use expand two-letter acronyms such as AP or HA. 
      Skip this if the acronym is a well-known industry term.  
    - <Example>Interior Gateway Routing Protocol (IGRP)
 
@@ -523,10 +523,10 @@ Go step by step for each of the following rules. Review the full document and fi
       ✅ "a URL"</Example>
 
 17. **Expansion**
-      Expand acronyms on their first occurance. However refer to the expansions exceptions first. 
+      Expand acronyms on their first occurance. However refer to the expansions exceptions first. Do not use expand two-letter acronyms such as AP or HA.  
     - <Expansion exception list> Do **not** expand the following industry-standard acronyms or initialisms:  
       ASCII, AAA, ATM, BIOS, AC, ANSI, ASIC, BNC, BRI, CBR, CD, CDDI, CD-ROM, CLI, CPU, CRT, CSU, DC, DCE, DHCP, DIMM, DIN, DRAM, DSR, DTE, EEPROM, EIA/TIA, EMI, EPROM, ESD, FAQ, FCC, FDA, FDDI, FIFO, FTP, GIF, GUI, HTML, HTTP, IBM, ID, IEEE, IETF, I/O, IOS, IP, IPv4, IPv6, ISDN, ISO, ISP, ITU, ITU-T, JPEG, LAN, LED, LIFO, MAC, MIB, MPEG, NVRAM, PBX, PC, ping, PPP, PRI, PROM, RADIUS, RAM, RFC, ROM, SFTP, SIMM, SONET, SRAM, SSH, TACACS+, TCP, TCP/IP, TFTP, TIFF, tty, UDP, UI, URL, USB, VLAN, VoIP, VoD, VPN, vty, WAN, WWW, XML.
-   - **Rule:** Do **not** expand AP. Do not say access point.  
+   - **Rule:** Do **not** expand two-letter acronyms such as AP or HA.   
      **Rule:** Do **not** expand AAA.
      **Rule:** Do **not** expand URL, DHCP, MAC, RFC, SSH, TCP, UDP, XML.  </Expansion excepton list>
 
