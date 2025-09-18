@@ -147,7 +147,6 @@ Begin with Section 1.
 5. **Agent Variation**: If a section includes several paragraphs with different agents, break these into sub-sections with appropriate titles to manage the content more effectively.
 6. **Avoid Lists as Paragraphs**: Do not present multiple paragraphs as an unordered list.
 ---
-
 ### 🧾 Section: Unordered List
 
 #### 🔍 Step 1: Understand Key Concepts
@@ -183,6 +182,7 @@ Before reviewing any unordered list, understand the following terms:
 
 ##### 📘 Example: Identify Stem and List Items
 
+Unordered List Example 1: 
 <example>
 ```xml
 <p>A SAN port channel</p>
@@ -194,65 +194,13 @@ Before reviewing any unordered list, understand the following terms:
 ``` 
 </example>
 
-In this example:
-
+In Unordered List Example 1:
 * The **stem sentence** is: `<p>A SAN port channel</p>`
 * The list contains **three items**
+* In this example, the stem sentence is phrase. And the list items are also phrases. Observe the punctuation and capitalization.
 
----
 
-#### 📋 Step 2: Determine the Type of Unordered List
-
-There are two relevant types:
-
-* **Type A:**
-
-  * The stem is a **phrase**.
-  * Each list item is a **phrase**, not a complete sentence.
-  * The stem and each item together form a meaningful sentence.
-  * ✅ Proceed to **Step 3**.
-
-* **Type B:**
-
-  * Each list item is a **full sentence**.
-  * The stem may be a phrase or full sentence.
-  * ✅ Proceed to **Step 4**.
-
----
-
-#### 🧪 Step 3: Rules for Type A Unordered List
-
-If you identified a Type A list, review for the following rules:
-
-* ❌ No colon `:` at the end of the stem sentence.
-* ❌ Do not capitalize the first word of list items.
-* ✅ Only the **last** list item ends in a period.
-* ✅ The **second-to-last** item ends with a comma and a conjunction (e.g., `and`, `or`).
-
-##### ✅ Correct Type A Example:
-
-<example>
-```xml
-<p>A SAN port channel</p>
-<ul>
-  <li><p>is a logical interface that combines a set of Fibre Channel interfaces connected to the same Fibre Channel node and operates as one link</p></li>
-  <li><p>supports bandwidth utilization and availability, and</p></li>
-  <li><p>connects to Fibre Channel core switches from Cisco ACI switches and provides optimal bandwidth utilization and transparent failover between the uplinks of a VSAN.</p></li>
-</ul>
-```
-</example>
----
-
-#### 🧾 Step 4: Rules for Type B Unordered List
-
-If you identified a Type B list, review for the frules below based on the stem format:
-
-##### 📌 Rule 1: Stem is a full sentence
-
-* ✅ Stem must end in a period.
-* ✅ All list items must be complete sentences, ending in periods.
-
-**Example:**
+Unordered List Example 2: 
 <example>
 ```xml
 <p>The workshop was beneficial for several reasons.</p>
@@ -264,25 +212,11 @@ If you identified a Type B list, review for the frules below based on the stem f
 ```
 </example>
 
----
+In Unordered List Example 2:
+* The stem sentence is a complete sentence. And the list items are also complete sentences. Observe the punctuations.
+ 
 
-##### 📌 Rule 2: Stem is a phrase
-
-* ✅ Stem must end in a colon.
-* 📝 If list items are sentences → end them with periods.
-* 📝 If list items are single words → no punctuation needed.
-
-**Examples:**
-<example>
-```xml
-<p>List items:</p>
-<ul>
-  <li><p>This is list item number 1.</p></li>
-  <li><p>This is list item number 2.</p></li>
-  <li><p>This is list item number 3.</p></li>
-</ul>
-```
-</example>
+Unordered List Example 3: 
 <example>
 ```xml
 <p>The primary colors are:</p>
@@ -293,92 +227,36 @@ If you identified a Type B list, review for the frules below based on the stem f
 </ul>
 ```
 </example>
+
+In this Unordered List Example 3, the list items are single words. Observe the puncutations.
+
 ---
 
-##### 📌 Rule 3: Capitalization Exceptions
+#### 📋 Step 2: Validate Rule for stem sentence. 
 
-If a list item contains industry-standard acronyms or terms (e.g., **OID**, **SNMP**), preserve their original capitalization.
-
-**Example:**
-<example>
-```xml
-<p>The system monitors these network elements:</p>
-<ul>
-  <li><p>OIDs are tracked for performance analysis.</p></li>
-  <li><p>ipsec tunnels are checked for stability.</p></li>
-  <li><p>SNMP traps are generated for fault detection.</p></li>
-</ul>
-```
-</example>
----
-### 🧾 Section: Ordered List
-
-#### 🔍 Step 1: Understand Key Concepts
-
-Before reviewing any ordered list, understand terms such as stem sentence and list item:
-
-* **Ordered List:**
-  An ordered list is a numbered list that is not a task (does not have steps). In XML, it is structured as:
-
-  ```xml
-  <p>A introductory sentence known as stem sentence<p>
-  <ol>
-    <li><p>Item text</p></li>
-    ...
-  </ol>
-  ```
-* **Stem Sentence:**
-  A stem sentence introduces the list.
-  ✅ It **must not** include positional references like “following” or “below.”
-  ✅ It **can** include general references like “these.”
-
-* **List Item:**
-  Each item in the list is wrapped in:
-
-  ```xml
-  <li><p>Item text</p></li>
-  ```
-  A valid ordered list must contain **two or more list items**. If it contains only one item, flag it as problem.
+If these rules are broken, flag them as errors. 
+1. If stem sentence is a phrase (an incomplete sentence), it should not end in any punctuation. (Unordered List Example 1)
+2. If stem sentence is a complete sentence, it should end in a period or full stop. (Unordered List Example 2)
 
 
-#### 📋 Step 2: Review these Rules for Ordered List
-* If the list item is full sentence, beginning with a capital letter and ending with a period
-* The stem sentece must be a full sentence ending with a colon. 
-* Single word list items should not have a punctuation at the end.
+___
 
-Here are two examples
-<example> 
-```xml
-<p>These are the severity keywords for syslog messages, listed from the highest to the lowest severity level:</p>
-<ol>
-  <li><p>emergencies</p></li>
-  <li><p>alert</p></li>
-  <li><p>critical</p></li>
-  <li><p>warnings</p></li>
-</ol>
-```
-</example>
-<example>
-```xml
-  <p>APIC support for user-defined annotation information has changed overtime, indicated here starting with the earliest change to the latest:</p>
-  <ol>
-    <li>
-      <p>From Cisco APIC Release 3.2(1), support for directly attaching annotations as a property on configurable objects.</p>
-    </li>
-    <li>
-      <p>Prior to Cisco APIC Release 4.2(4), APIC supported tag instances (taglnst), which stored a simple string. In APIC GUI menus, these were labeled as <uicontrol>Tags</uicontrol>.</p>
-    </li>
-    <li>
-      <p>In Cisco APIC Release 4.2(4), because many modern systems use a key and value pair as a label, changes were made to move to key:value annotations (tagAnnotation) as the main label option for API. The shortcut API to query objects via tag instances (<uicontrol>/api/tag/your_tag.json</uicontrol> ) was deprecated. The APIC GUI continued to use the simple string tag instances (taglnst), labeled as <uicontrol>Tags</uicontrol>.</p>
-    </li>
-    <li>
-      <p>In Cisco APIC Release 5.1(1), tag instances (taglnst) were deprecated in the GUI. GUI menus still</p>
-    </li>
-  </ol>
-```
-<example>
-____
+#### 📋 Step 3: Validate Rule for list items.
 
+If these rules are broken, flag them as errors.  
+1. If list item is a phrase (an incomplete sentence), then the
+  - list item phrase should not begin with a capital letter (unless it is a proper noun)
+  - the second-to-last list item phrase should end with a comma and a conjunction (e.g., `and`, `or`).
+  - only the last list item phrase should end in a punctuation.
+  - refer to Unordered List Example 1.  
+2. If list sentence is a complete sentence then
+  - each list item sentence should end in a period (full stop).
+  - each list item sentence should begin with a capital letter.
+  - then refer to Unordered List Example 2
+3. If list item is a single word, then do not add a punctuation mark at the end of it. Refer to Unordered List Example 3. 
+  
+
+___
 ### Section: Item-Description Lists:
 
 #### 🔍 Step 1: Understand Key Concepts
