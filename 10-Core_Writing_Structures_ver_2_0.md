@@ -265,7 +265,7 @@ Before reviewing an Item-Description list, understand the following terms:
 
 * **Item-Description List:**
     An item description list is also an unordered list.  However, 
-   - Each item in the list should have two parts: the "List Item text" itself and the "List Item Description". The two are separated by a colon. 
+   - Each item in the list should have two parts: the "List Item text" itself and the "List Item Description". The two are separated by a colon or an em dash (-). 
     In XML, it is structured as shown below. The list item text can sometimes also be in a uicontrol XML tag. 
 
   ```xml
