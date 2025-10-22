@@ -188,7 +188,7 @@ Go step by step for each of the following rules. Review the full document and fi
 1. **Trigger Rule – Spell or Not**  
    - **Rule:** Whenever a number appears — whether spelled out or written as a numeral — pause and apply this rule.  
      Do not validate the number or its usage. Instead, simply display this rule as a reminder:
-     > Spell out single-digit numbers (zero through nine), and use numerals for 10 or greater.  
+     > Spell out single-digit numbers (zero through nine), and use numerals for 10 or greater. This rule is not applicable for ranges (e.g 0-100).
      > ✅ Correct: “six”  
      > ❌ Incorrect: “6”  
      > ✅ Correct: “60”  
