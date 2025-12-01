@@ -91,6 +91,7 @@ Below is the rewritten prompt divided into three sections: **Title Rules**, **Ch
 
 ## {{Title (follow Concept title rules)}} (Concept)
 **Short description** : {{short description}}
+
 A [term] is a [category] that
 - [key attribute 1]
 - [key attribute 2], and
@@ -120,7 +121,8 @@ A [term] is a [category] that
 #### **Concept Example**
 <example>
 ## Smart licensing using policy (Concept)
-"<shortdesc> This section explains smart licensing using policy</shortdesc>"
+
+Short description: This section explains smart licensing using policy
 
 Disk encryption is a data security mechanism that
 • protects sensitive customer information by encrypting data on the disk
