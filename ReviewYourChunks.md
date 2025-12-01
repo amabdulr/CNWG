@@ -66,9 +66,9 @@ Below is the rewritten prompt divided into three sections: **Title Rules**, **Ch
 
 ### Chunk Organization Rules
 
-  Begin with a header for the title followed by the information type in bold.
-  **Short Description** 1–2 sentence short description (20–50 words) for the concept provided. Starts with "This section explains…”. Generally inside the shortdesc XML tag.
+  Begin with a header for the title, short description, followed by the information type in bold.
   ## {{Title (following the Title Rules)}} (Concept)
+- **Short Description** 1–2 sentence short description (20–50 words) for the concept provided. Starts with "This section explains…”. Generally inside the shortdesc XML tag.
 - **Definition Block:**  
   Immediately after the title, present the definition block using the format outlined in the Chunk Rules:
   A [term] is a [category] that
@@ -90,7 +90,7 @@ Below is the rewritten prompt divided into three sections: **Title Rules**, **Ch
 #### Output Format
 
 ## {{Title (follow Concept title rules)}} (Concept)
-
+**Short description** : {{short description}}
 A [term] is a [category] that
 - [key attribute 1]
 - [key attribute 2], and
@@ -107,7 +107,6 @@ A [term] is a [category] that
 {{Contrast table (optional)}}
 
 {{Analogy (optional)}}
-**Short description** : {{short description}}
 
 ---
 
