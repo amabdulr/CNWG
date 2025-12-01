@@ -120,7 +120,7 @@ A [term] is a [category] that
 #### **Concept Example**
 <example>
 ## Smart licensing using policy (Concept)
-<shortdesc> This section explains smart licensing using policy</shortdesc>
+"<shortdesc> This section explains smart licensing using policy</shortdesc>"
 
 Disk encryption is a data security mechanism that
 • protects sensitive customer information by encrypting data on the disk
