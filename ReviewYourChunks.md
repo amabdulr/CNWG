@@ -91,7 +91,6 @@ Below is the rewritten prompt divided into three sections: **Title Rules**, **Ch
 
 ## {{Title (follow Concept title rules)}} (Concept)
 **Short description** : {{short description}}
-
 A [term] is a [category] that
 - [key attribute 1]
 - [key attribute 2], and
@@ -121,8 +120,7 @@ A [term] is a [category] that
 #### **Concept Example**
 <example>
 ## Smart licensing using policy (Concept)
-
-Short description: This section explains smart licensing using policy
+"<shortdesc> This section explains smart licensing using policy</shortdesc>"
 
 Disk encryption is a data security mechanism that
 • protects sensitive customer information by encrypting data on the disk
@@ -214,6 +212,7 @@ A client allowed list is a WLAN security feature that
 - **Header:**  
   Begin with a title (formatted per the Title Rules) followed by the information type in bold:
   ## {{Title (following Task Title Rules)}} (Task)
+  - **Short Description:** Create a 1–2 sentence short description (20–50 words) for the task provided. Start with “Learn how to…” or “Use this procedure to…”.
 - **Ordered Steps:**  
   Present the task instructions as a clear, ordered list of step commands. Each step should follow the Step Command Formula if applicable.
 - **Grouping:**  
@@ -221,7 +220,7 @@ A client allowed list is a WLAN security feature that
 - **Focus on Outcome:**  
   Ensure that each step provides a clear, actionable command that directly contributes to the successful performance of the task.
 - **Image Limitation:**
-- **Short Description:** Create a 1–2 sentence short description (20–50 words) for the task provided. Start with “Learn how to…” or “Use this procedure to…”.
+
 
 ---
 
@@ -230,7 +229,7 @@ A client allowed list is a WLAN security feature that
 ## {{Title using imperative verb, second person}} **(Task)**
 
 Note: You may have recommendations to include certain elements to your Info Type. However, the labels are merely to assist you in adding the content to the req, and you do not need to label them explicitly. For example, you don’t have to write "Purpose:" or "Context:" before those sections—just state them directly. The CT-Template will give you further guidance on which of these elements are mandatory.
-
+**Short Description**: {{Provide a short description for the task}}
 **Purpose**: {{State the goal of this task}}
 
 **Context**: {{Explain the background or when to perform this task}}
@@ -248,7 +247,6 @@ n. {{Final step command.}}
 
 **Post-requisites**: {{Mention any follow-up actions, if required. Leave this section out if not applicable.}}
 
-**Short Description**: {{Provide a short description for the task}}
 ---
 
 #### **Examples of Task Step Commands**
@@ -262,7 +260,7 @@ n. {{Final step command.}}
 #### **Task Example**
 
 ## Register Crosswork Data Gateway with Crosswork Cloud Applications **(Task)**
-
+Short description: Use this task to enroll  croswork ....
 **Purpose**: Enroll a Crosswork Data Gateway instance into Crosswork Cloud using a registration file.
 
 **Context**: The registration process securely associates the Crosswork Data Gateway with Crosswork Cloud applications using a JSON file that contains unique digital certificates.
@@ -366,7 +364,7 @@ Follow these steps to launch the CFT and configure the parameters:
 #### **Task Example**
 
 ## Discover the devices **(Task)**
-
+Short description: Use this task to configure IP ranges to discover various devices in the network.
 **Purpose**: Identify and register network devices by specifying their IP ranges and access credentials.
 
 **Context**: This task involves configuring the IP range and providing necessary credentials to initiate device discovery. You can optionally assign the loopback address of the appliance as the preferred management IP address.
@@ -453,6 +451,7 @@ Follow these steps to discover the devices:
   Begin with a title (formatted according to the Title Rules) followed by the information type in bold.
   
   ## {{Title (following Process Title Rules)}} (Process)
+  **Short Description:**  Create a 1–2 sentence short description (20–50 words) for the process provided. Start with “This process shows..."
 - **Content Structure:**  
   Present the body in the following order:
   1. **Summary:**  
@@ -463,14 +462,14 @@ Follow these steps to discover the devices:
      - A leading sentence introducing the stages, followed by a structured list of each stage detailing the sequence and conditions.
   4. **Result (Optional):**  
      - A section summarizing the outcome or achievement of the process.
-  5. **Short Description:**  Create a 1–2 sentence short description (20–50 words) for the process provided. Start with “This process shows..."
+
 
 ---
 
 #### Output Format
 
 ## {{Title based on Process titling rules}} (Process)
-
+**Short Description**: {{Include short description for process}}
 **Summary**: {{Provide the summary of the process}}
 
 The key components involved in the process are:
@@ -484,13 +483,12 @@ The process involves the following stages:
 - {{Stage n: Conclude with the final action or confirmation stage}}
 
 **Result**: {{Summarize the outcome or impact of the process}}
-**Short Description**: {{Include short description}}
 ---
 
 #### Process Example
 
 ## How DHCP servers work (Process)
-
+Short description: This process describes how DHCP serveers automate network configuration. It describes the key components involved and the various stages.
 **Summary**:  
 DHCP servers automate network configuration by dynamically assigning IP addresses and other network parameters to devices, simplifying network management and ensuring efficient IP address usage. The key components that are involved in DHCP server process are
 
@@ -555,26 +553,26 @@ The DHCP process provides automated and efficient network configuration, ensurin
 - **Markdown Header:**  
   Begin with a Markdown header that includes the title (formatted according to the Title Rules) followed by the information type in bold:
   ## {{Title (following Reference Title Rules)}} **(Reference)**
+  - **Short Description:**  Create a 1–2 sentence short description (20–50 words) for the reference provided. Start with “This section provides…” or “This table lists…”.
 - **Content Structure:**  
   Organize the body using the most effective format (e.g., paragraphs, bullet lists, tables) to present the key reference information.
 - **Purpose:**  
   Ensure the content is easily accessible and immediately usable by the user for reference purposes.
-- **Short Description:**  Create a 1–2 sentence short description (20–50 words) for the reference provided. Start with “This section provides…” or “This table lists…”.
+
 ---
 
 #### **Output Format**
 
 ## {{Title following reference title rules}} **(Reference)**
-
+**Short description**: {{short description for reference}}
 {{Provide factual information in paragraphs, bullets, or tables. Choose the most appropriate format based on the content type. Keep it clear and usable.}}
-**Short description**: {{short description}}
 
 ---
 
 #### **Reference Example**
 
 ## Routed PON solution **(Reference)**
-
+Short description: This section provides details on how the routed PON solution enhances network efficiency and lowers cost. 
 The routed PON solution enhances network efficiency and lowers costs by providing a streamlined infrastructure that:
 - eliminates third-party hardware for OLTs, which reduces vendor dependency,
 - simplifies deployment and upgrades through the PON Manager, offering centralized management,
@@ -632,15 +630,14 @@ The routed PON solution enhances network efficiency and lowers costs by providin
 
 - **Markdown Header:**  
   Begin with a Markdown header that includes the title (following the Title Rules) and the information type in bold:
-  ## {{Title (following Principle Title Rules)}} (Principle)
-  
+  ## {{Title (following Principle Title Rules)}} (Principle)  
+- **Short Description** Create a 1–2 sentence short description (20–50 words) for the principle provided.
 - **Content Structure:**  
   Follow with the principle body that:
   - Uses active voice, present tense, and the appropriate tone based on the gravity.
   - Clearly advises what to do, what not to do, or when to do something.
   - If multiple principles are provided, organize them in a bulleted list.
- 
-- **Short Description** Create a 1–2 sentence short description (20–50 words) for the principle provided.
+
 
 ---
 
@@ -648,10 +645,9 @@ The routed PON solution enhances network efficiency and lowers costs by providin
 
 
 ## {{Title following Principle title rules}} (Principle)
-
+**Short Description** {{short description}}
 {{State the essence of the principle. If there are multiple related items, use a bullet list. Do not use tables. Keep the tone consistent with the gravity level.}}
 
-**Short Description** {{short description}}
 
 
 ---
@@ -659,7 +655,7 @@ The routed PON solution enhances network efficiency and lowers costs by providin
 #### Principle Example
 
 ## Use the included Torx screwdriver (Principle)
-
+Short description: Recommendations on how to use the Torx screwdriver
 We recommend using the included Torx screwdriver, which is the correct length to reach the screws during this step. This makes the task easier and reduces the risk of damaging the components.
 
 ---
