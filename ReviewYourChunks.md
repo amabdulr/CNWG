@@ -39,7 +39,6 @@ Below is the rewritten prompt divided into three sections: **Title Rules**, **Ch
 - **Prohibited Phrases:** Do not include phrases like “what is”, “introduction”, “about”, “overview”, or “definition of”.
 - **Word Ending:** Avoid words ending in “-ing” (e.g., “understanding”, “monitoring”).
 
----
 
 ### Chunk Rules
 
@@ -67,8 +66,8 @@ Below is the rewritten prompt divided into three sections: **Title Rules**, **Ch
 
 ### Chunk Organization Rules
 
-- **Markdown Output:**  
-  Begin with a Markdown header for the title followed by the information type in bold.
+  Begin with a header for the title followed by the information type in bold.
+  **Short Description** 1–2 sentence short description (20–50 words) for the concept provided. Starts with "This section explains…”. Generally inside the shortdesc XML tag.
   ## {{Title (following the Title Rules)}} (Concept)
 - **Definition Block:**  
   Immediately after the title, present the definition block using the format outlined in the Chunk Rules:
@@ -108,6 +107,7 @@ A [term] is a [category] that
 {{Contrast table (optional)}}
 
 {{Analogy (optional)}}
+**Short description** : {{short description}}
 
 ---
 
@@ -121,6 +121,7 @@ A [term] is a [category] that
 #### **Concept Example**
 <example>
 ## Smart licensing using policy (Concept)
+<shortdesc> This section explains smart licensing using policy</shortdesc>
 
 Disk encryption is a data security mechanism that
 • protects sensitive customer information by encrypting data on the disk
@@ -218,7 +219,9 @@ A client allowed list is a WLAN security feature that
   Group related instructions together to maintain clarity without overloading each step with unnecessary details.
 - **Focus on Outcome:**  
   Ensure that each step provides a clear, actionable command that directly contributes to the successful performance of the task.
-- **Image Limitation:**  
+- **Image Limitation:**
+- **Short Description:** Create a 1–2 sentence short description (20–50 words) for the task provided. Start with “Learn how to…” or “Use this procedure to…”.
+
 ---
 
 #### **Output Format**
@@ -244,6 +247,7 @@ n. {{Final step command.}}
 
 **Post-requisites**: {{Mention any follow-up actions, if required. Leave this section out if not applicable.}}
 
+**Short Description**: {{Provide a short description for the task}}
 ---
 
 #### **Examples of Task Step Commands**
@@ -458,6 +462,7 @@ Follow these steps to discover the devices:
      - A leading sentence introducing the stages, followed by a structured list of each stage detailing the sequence and conditions.
   4. **Result (Optional):**  
      - A section summarizing the outcome or achievement of the process.
+  5. **Short Description:**  Create a 1–2 sentence short description (20–50 words) for the process provided. Start with “This process shows..."
 
 ---
 
@@ -478,7 +483,7 @@ The process involves the following stages:
 - {{Stage n: Conclude with the final action or confirmation stage}}
 
 **Result**: {{Summarize the outcome or impact of the process}}
-
+**Short Description**: {{Include short description}}
 ---
 
 #### Process Example
@@ -553,7 +558,7 @@ The DHCP process provides automated and efficient network configuration, ensurin
   Organize the body using the most effective format (e.g., paragraphs, bullet lists, tables) to present the key reference information.
 - **Purpose:**  
   Ensure the content is easily accessible and immediately usable by the user for reference purposes.
-
+- **Short Description:**  Create a 1–2 sentence short description (20–50 words) for the reference provided. Start with “This section provides…” or “This table lists…”.
 ---
 
 #### **Output Format**
@@ -561,6 +566,7 @@ The DHCP process provides automated and efficient network configuration, ensurin
 ## {{Title following reference title rules}} **(Reference)**
 
 {{Provide factual information in paragraphs, bullets, or tables. Choose the most appropriate format based on the content type. Keep it clear and usable.}}
+**Short description**: {{short description}}
 
 ---
 
@@ -632,6 +638,8 @@ The routed PON solution enhances network efficiency and lowers costs by providin
   - Uses active voice, present tense, and the appropriate tone based on the gravity.
   - Clearly advises what to do, what not to do, or when to do something.
   - If multiple principles are provided, organize them in a bulleted list.
+ 
+- **Short Description** Create a 1–2 sentence short description (20–50 words) for the principle provided.
 
 ---
 
@@ -641,6 +649,8 @@ The routed PON solution enhances network efficiency and lowers costs by providin
 ## {{Title following Principle title rules}} (Principle)
 
 {{State the essence of the principle. If there are multiple related items, use a bullet list. Do not use tables. Keep the tone consistent with the gravity level.}}
+
+**Short Description** {{short description}}
 
 
 ---
