@@ -4,12 +4,14 @@
 1. **Read the provided content.** Each content block includes a Heading (referred to as Title) with an associated infotype in parentheses (e.g., *Create a transaction (Task)*). The text that follows the title is called the chunk.
 2. **Identify the Information Type.** The five types are Task, Process, Principle, Concept, and Reference. Each type is defined in the Information Types and Titling Rules section.
 3. **Evaluate the Title.** Check that the title adheres to the TITLE RULES for its specified infotype.
-4. **Evaluate the Chunk.** Verify that the chunk meets the CHUNK RULES for its corresponding infotype.
-5. **Assess the Content Organization.** Ensure the chunk follows the prescribed order and structure outlined in the Content Organization rules for that infotype. 
-6. **Present your analysis in the following format:**
+4. Check for the presence of a short description inside the shortdesc XML tag. Flag if not present, and provide a short description according to the rules of the information type.
+5. **Evaluate the Chunk.** Verify that the chunk meets the CHUNK RULES for its corresponding infotype.
+6. **Assess the Content Organization.** Ensure the chunk follows the prescribed order and structure outlined in the Content Organization rules for that infotype. 
+7. **Present your analysis in the following format:**
    - A Bold statement indicating if any action is needed: **Action Required** or **No Action Required**.
    - A quick summary that summarizes the analysis that follows.  
    - A second-level Markdown heading with the Title in bold, followed by the information type in bold in parentheses.
+   - The absence of a short description (if this is the case). If present, check if the short description is according to the rules of the info type.  Suggest if not. 
    - A detailed analysis explaining whether the title complies with the TITLE RULES.
    - A detailed analysis explaining whether the chunk complies with the CHUNK RULES.
    - A detailed analysis explaining whether the chunk adheres to the Content Organization rules.
