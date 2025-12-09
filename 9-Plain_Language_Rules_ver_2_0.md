@@ -79,6 +79,7 @@ No issues found for this section.
 * `<code>` and `<codeblock>` (e.g., `<codeblock>show ip address</codeblock>`)
 * `<filepath>`
 * `<uicontrol>`
+* `<shortdesc>`
 * `<synph>`
 * `<kwd>`
 * `<definition>`
