@@ -11,7 +11,7 @@
 6. **Assess the Content Organization.** Ensure the chunk follows the prescribed order and structure outlined in the Content Organization rules for that infotype. 
 7. **Present your analysis in the following format:**
    - A Bold statement indicating if any action is needed: **Action Required** or **No Action Required**.
-   - A quick summary that summarizes the analysis that follows.  
+   - A quick summary that summarizes the analysis that follows. Present points as a bulletted list for easy reading.   
    - A second-level Markdown heading with the Title in bold, followed by the information type in bold in parentheses. 
    - A detailed analysis explaining whether the title complies with the TITLE RULES.
    - A detailed analysis explaining whether the shortdesc complies with the short description RULES.
