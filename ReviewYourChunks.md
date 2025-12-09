@@ -4,14 +4,16 @@
 1. **Read the provided content.** Each content block includes a Heading (referred to as Title) with an associated infotype in parentheses (e.g., *Create a transaction (Task)*). The text that follows the title is called the chunk.
 2. **Identify the Information Type.** The five types are Task, Process, Principle, Concept, and Reference. Each type is defined in the Information Types and Titling Rules section.
 3. **Evaluate the Title.** Check that the title adheres to the TITLE RULES for its specified infotype.
-4. Check for the presence of a short description inside the shortdesc XML tag. Flag if not present, and provide a short description according to the rules of the information type.
+4. **Check for the `<shortdesc>` tag.**
+   - If `<shortdesc>` is missing entirely, output:
+     **"❌ No `<shortdesc>` found."**
 5. **Evaluate the Chunk.** Verify that the chunk meets the CHUNK RULES for its corresponding infotype.
 6. **Assess the Content Organization.** Ensure the chunk follows the prescribed order and structure outlined in the Content Organization rules for that infotype. 
 7. **Present your analysis in the following format:**
    - A Bold statement indicating if any action is needed: **Action Required** or **No Action Required**.
    - A quick summary that summarizes the analysis that follows.  
    - A second-level Markdown heading with the Title in bold, followed by the information type in bold in parentheses.
-   - The absence of a short description (if this is the case). If present, check if the short description is according to the rules of the info type.  Suggest if not. 
+   - If `<shortdesc>` is missing entirely, output: **"❌ No `<shortdesc>` found."**. Else, provide an analysis if content in `<shortdesc>` follows the rules of the info type. 
    - A detailed analysis explaining whether the title complies with the TITLE RULES.
    - A detailed analysis explaining whether the chunk complies with the CHUNK RULES.
    - A detailed analysis explaining whether the chunk adheres to the Content Organization rules.
@@ -66,11 +68,17 @@ Below is the rewritten prompt divided into three sections: **Title Rules**, **Ch
 
 ---
 
+### Short Descrition Rules
+   - If `<shortdesc>` is missing entirely, output: **"❌ No `<shortdesc>` found."**
+  -  Short description should be 1–2 sentences (20–50 words) with "Use this task to…”. 
+Example: Use this task to enroll  croswork ....
+
+---
+
 ### Chunk Organization Rules
 
   Begin with a header for the title, short description, followed by the information type in bold.
   ## {{Title (following the Title Rules)}} (Concept)
-- **Short Description** 1–2 sentence short description (20–50 words) for the concept provided. Starts with "This section explains…”. Generally inside the shortdesc XML tag.
 - **Definition Block:**  
   Immediately after the title, present the definition block using the format outlined in the Chunk Rules:
   A [term] is a [category] that
@@ -122,8 +130,6 @@ A [term] is a [category] that
 #### **Concept Example**
 <example>
 ## Smart licensing using policy (Concept)
-"<shortdesc> This section explains smart licensing using policy</shortdesc>"
-
 Disk encryption is a data security mechanism that
 • protects sensitive customer information by encrypting data on the disk
 • ensures data security if a router leaves the customer premises, preventing unauthorized access to the data stored on the disks, and
@@ -165,6 +171,13 @@ A client allowed list is a WLAN security feature that
 - Upload a customer document  
 
 ---
+
+### Short Descrition Rules
+   - If `<shortdesc>` is missing entirely, output: **"❌ No `<shortdesc>` found."**
+  -  Short description should be 1–2 sentences (20–50 words) that begins with “Learn how to…” or “Use this procedure to…”.
+Example: Use this task to enroll  croswork ....
+
+___
 
 ### Chunk Rules
 
@@ -214,7 +227,6 @@ A client allowed list is a WLAN security feature that
 - **Header:**  
   Begin with a title (formatted per the Title Rules) followed by the information type in bold:
   ## {{Title (following Task Title Rules)}} (Task)
-  - **Short Description:** Create a 1–2 sentence short description (20–50 words) for the task provided. Start with “Learn how to…” or “Use this procedure to…”.
 - **Ordered Steps:**  
   Present the task instructions as a clear, ordered list of step commands. Each step should follow the Step Command Formula if applicable.
 - **Grouping:**  
@@ -222,7 +234,6 @@ A client allowed list is a WLAN security feature that
 - **Focus on Outcome:**  
   Ensure that each step provides a clear, actionable command that directly contributes to the successful performance of the task.
 - **Image Limitation:**
-
 
 ---
 
@@ -262,7 +273,6 @@ n. {{Final step command.}}
 #### **Task Example**
 
 ## Register Crosswork Data Gateway with Crosswork Cloud Applications **(Task)**
-Short description: Use this task to enroll  croswork ....
 **Purpose**: Enroll a Crosswork Data Gateway instance into Crosswork Cloud using a registration file.
 
 **Context**: The registration process securely associates the Crosswork Data Gateway with Crosswork Cloud applications using a JSON file that contains unique digital certificates.
@@ -447,13 +457,19 @@ Follow these steps to discover the devices:
 
 ---
 
+### Short Descrition Rules
+   - If `<shortdesc>` is missing entirely, output: **"❌ No `<shortdesc>` found."**
+  -  Short description should be 1–2 sentences (20–50 words) with "This process describes…”. 
+Example:  This process describes the SNMP handshake, the actors and the various stages..
+
+---
+
 ### Chunk Organization Rules
 
 - **Title:**  
   Begin with a title (formatted according to the Title Rules) followed by the information type in bold.
   
   ## {{Title (following Process Title Rules)}} (Process)
-  **Short Description:**  Create a 1–2 sentence short description (20–50 words) for the process provided. Start with “This process shows..."
 - **Content Structure:**  
   Present the body in the following order:
   1. **Summary:**  
@@ -549,13 +565,17 @@ The DHCP process provides automated and efficient network configuration, ensurin
 - **Content Focus:** Clearly convey facts, attributes, specifications, features, advantages, or benefits.
 
 ---
+### Short Descrition Rules
+   - If `<shortdesc>` is missing entirely, output: **"❌ No `<shortdesc>` found."**
+  -  Short description should be 1–2 sentences (20–50 words) with "This table lists…”. 
+Example:  This section lists..
 
+---
 ### Chunk Organization Rules
 
 - **Markdown Header:**  
   Begin with a Markdown header that includes the title (formatted according to the Title Rules) followed by the information type in bold:
   ## {{Title (following Reference Title Rules)}} **(Reference)**
-  - **Short Description:**  Create a 1–2 sentence short description (20–50 words) for the reference provided. Start with “This section provides…” or “This table lists…”.
 - **Content Structure:**  
   Organize the body using the most effective format (e.g., paragraphs, bullet lists, tables) to present the key reference information.
 - **Purpose:**  
@@ -580,8 +600,6 @@ The routed PON solution enhances network efficiency and lowers costs by providin
 - simplifies deployment and upgrades through the PON Manager, offering centralized management,
 - reduces the physical footprint of network equipment,
 - and reduces the OLT deployment costs compared to chassis-based solutions.
-
----
 
 ---
 
@@ -626,6 +644,12 @@ The routed PON solution enhances network efficiency and lowers costs by providin
   - If there are multiple related principles, present them as a bulleted list.
   - **Avoid tables** for listing multiple principles.
 
+
+---
+### Short Descrition Rules
+   - If `<shortdesc>` is missing entirely, output: **"❌ No `<shortdesc>` found."**
+  -  Short description should be 1–2 sentences (20–50 words) with "This section lists…”. 
+Example:  This section lists..
 ---
 
 ### Chunk Organization Rules
@@ -633,7 +657,6 @@ The routed PON solution enhances network efficiency and lowers costs by providin
 - **Markdown Header:**  
   Begin with a Markdown header that includes the title (following the Title Rules) and the information type in bold:
   ## {{Title (following Principle Title Rules)}} (Principle)  
-- **Short Description** Create a 1–2 sentence short description (20–50 words) for the principle provided.
 - **Content Structure:**  
   Follow with the principle body that:
   - Uses active voice, present tense, and the appropriate tone based on the gravity.
@@ -645,12 +668,8 @@ The routed PON solution enhances network efficiency and lowers costs by providin
 
 #### **Output Format
 
-
 ## {{Title following Principle title rules}} (Principle)
-**Short Description** {{short description}}
 {{State the essence of the principle. If there are multiple related items, use a bullet list. Do not use tables. Keep the tone consistent with the gravity level.}}
-
-
 
 ---
 
