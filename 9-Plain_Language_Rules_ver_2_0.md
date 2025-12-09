@@ -78,6 +78,7 @@ No issues found for this section.
 *  `<example>` tag. This is an Example for your reference only. The example ends with the `</example>` tag.
 * `<code>` and `<codeblock>` (e.g., `<codeblock>show ip address</codeblock>`)
 * `<filepath>`
+* `<shortdesc>`
 * `<uicontrol>`
 * `<shortdesc>`
 * `<synph>`
