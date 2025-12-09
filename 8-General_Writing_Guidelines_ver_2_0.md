@@ -180,7 +180,8 @@ Go step by step for each of the following rules. Review the full document and fi
      
 12. **Check Spelling Mistake**  
     - **Rule:** Look for mistakes in spelling. Use American English. 
-
+13. **Check Missing Short Description**  
+    - **Rule:**  If `<shortdesc>` is missing entirely, output: **"❌ No `<shortdesc>` found."**
 <!-- START: Section X – NUMBERS -->
 
 ### SECTION: Numbers
