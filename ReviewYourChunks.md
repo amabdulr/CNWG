@@ -12,9 +12,9 @@
 7. **Present your analysis in the following format:**
    - A Bold statement indicating if any action is needed: **Action Required** or **No Action Required**.
    - A quick summary that summarizes the analysis that follows.  
-   - A second-level Markdown heading with the Title in bold, followed by the information type in bold in parentheses.
-   - If `<shortdesc>` is missing entirely, output: **"❌ No `<shortdesc>` found."**. Else, provide an analysis if content in `<shortdesc>` follows the rules of the info type. 
+   - A second-level Markdown heading with the Title in bold, followed by the information type in bold in parentheses. 
    - A detailed analysis explaining whether the title complies with the TITLE RULES.
+   - A detailed analysis explaining whether the shortdesc complies with the short description RULES.
    - A detailed analysis explaining whether the chunk complies with the CHUNK RULES.
    - A detailed analysis explaining whether the chunk adheres to the Content Organization rules.
 
