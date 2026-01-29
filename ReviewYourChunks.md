@@ -68,10 +68,10 @@ Below is the rewritten prompt divided into three sections: **Title Rules**, **Ch
 
 ---
 
-### Short Descrition Rules
+### Short Description Rules
    - If `<shortdesc>` is missing entirely, output: **"❌ No `<shortdesc>` found."**
-  -  Short description should be 1–2 sentences (20–50 words) with "Use this task to…”. 
-Example: Use this task to enroll  croswork ....
+  -  Short description should be 1–2 sentences (20–50 words) and begins with "This concept explains …" 
+  Example: This concept explains…
 
 ---
 
@@ -172,10 +172,10 @@ A client allowed list is a WLAN security feature that
 
 ---
 
-### Short Descrition Rules
+### Short Description Rules
    - If `<shortdesc>` is missing entirely, output: **"❌ No `<shortdesc>` found."**
-  -  Short description should be 1–2 sentences (20–50 words) that begins with “Learn how to…” or “Use this procedure to…”.
-Example: Use this task to enroll  croswork ....
+  -  Create a short description that should be 1–2 sentences (20–50 words) that begins with "Learn how to…" or "Use this procedure to…"
+  -  Example: Use this task to enroll crosswork ….
 
 ___
 
@@ -457,7 +457,7 @@ Follow these steps to discover the devices:
 
 ---
 
-### Short Descrition Rules
+### Short Description Rules
    - If `<shortdesc>` is missing entirely, output: **"❌ No `<shortdesc>` found."**
   -  Short description should be 1–2 sentences (20–50 words) with "This process describes…”. 
 Example:  This process describes the SNMP handshake, the actors and the various stages..
@@ -565,7 +565,7 @@ The DHCP process provides automated and efficient network configuration, ensurin
 - **Content Focus:** Clearly convey facts, attributes, specifications, features, advantages, or benefits.
 
 ---
-### Short Descrition Rules
+### Short Description Rules
    - If `<shortdesc>` is missing entirely, output: **"❌ No `<shortdesc>` found."**
   -  Short description should be 1–2 sentences (20–50 words) with "This table lists…”. 
 Example:  This section lists..
@@ -646,10 +646,11 @@ The routed PON solution enhances network efficiency and lowers costs by providin
 
 
 ---
-### Short Descrition Rules
+### Short Description Rules
    - If `<shortdesc>` is missing entirely, output: **"❌ No `<shortdesc>` found."**
-  -  Short description should be 1–2 sentences (20–50 words) with "This section lists…”. 
-Example:  This section lists..
+  -  Short description should be 1–2 sentences (20–50 words) begins with "This topic outlines the…"
+  -  Example: This topic outlines the …
+  -  Example: Consider these guidelines when
 ---
 
 ### Chunk Organization Rules
