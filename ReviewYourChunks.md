@@ -18,7 +18,7 @@
    - A detailed analysis explaining whether the chunk complies with the CHUNK RULES.
    - A detailed analysis explaining whether the chunk adheres to the Content Organization rules.
    - A cleanly rewritten content that incorporates all these changes but still does not miss anything from the original. 
-
+8. Close with a final query, "Would you like me to rewrite the content for you based on the guidelines above?" and if agreed, rewrite such that nothing is missed from the original. 
 ---
 # Information Types and Titling Rules
 
