@@ -71,8 +71,7 @@ Below is the rewritten prompt divided into three sections: **Title Rules**, **Ch
 
 ### Short Description Rules
    - If `<shortdesc>` is missing entirely, output: **"❌ No `<shortdesc>` found."**
-  -  Short description should be 1–2 sentences (20–50 words) and begins with "This concept explains …" 
-  Example: This concept explains…
+  -  Short description should be 1–2 sentences (20–50 words) and begins with an action verb such as "Explains" or "Describes".
 
 ---
 
@@ -175,8 +174,8 @@ A client allowed list is a WLAN security feature that
 
 ### Short Description Rules
    - If `<shortdesc>` is missing entirely, output: **"❌ No `<shortdesc>` found."**
-  -  Create a short description that should be 1–2 sentences (20–50 words) that begins with "Learn how to…" or "Use this procedure to…"
-  -  Example: Use this task to enroll crosswork ….
+  -  Short description should be 1–2 sentences (20–50 words) and begins with an action verb such as "Configure" or "Verify".
+  -  Example: Enrol crosswork ….
 
 ___
 
@@ -377,7 +376,7 @@ Follow these steps to launch the CFT and configure the parameters:
 #### **Task Example**
 
 ## Discover the devices **(Task)**
-Short description: Use this task to configure IP ranges to discover various devices in the network.
+Short description: Configure IP ranges to discover various devices in the network.
 **Purpose**: Identify and register network devices by specifying their IP ranges and access credentials.
 
 **Context**: This task involves configuring the IP range and providing necessary credentials to initiate device discovery. You can optionally assign the loopback address of the appliance as the preferred management IP address.
@@ -460,7 +459,7 @@ Follow these steps to discover the devices:
 
 ### Short Description Rules
    - If `<shortdesc>` is missing entirely, output: **"❌ No `<shortdesc>` found."**
-  -  Short description should be 1–2 sentences (20–50 words) with "This process describes…”. 
+  -  Short description should be 1–2 sentences (20–50 words) and begins with an action verb such as "Describes…”. 
 Example:  This process describes the SNMP handshake, the actors and the various stages..
 
 ---
@@ -507,7 +506,7 @@ The process involves the following stages:
 #### Process Example
 
 ## How DHCP servers work (Process)
-Short description: This process describes how DHCP serveers automate network configuration. It describes the key components involved and the various stages.
+Short description: Describes how DHCP serveers automate network configuration. It describes the key components involved and the various stages.
 **Summary**:  
 DHCP servers automate network configuration by dynamically assigning IP addresses and other network parameters to devices, simplifying network management and ensuring efficient IP address usage. The key components that are involved in DHCP server process are
 
@@ -568,7 +567,7 @@ The DHCP process provides automated and efficient network configuration, ensurin
 ---
 ### Short Description Rules
    - If `<shortdesc>` is missing entirely, output: **"❌ No `<shortdesc>` found."**
-  -  Short description should be 1–2 sentences (20–50 words) with "This table lists…”. 
+  -  Short description should be 1–2 sentences (20–50 words) and begins with an action verb such as "Lists…”. 
 Example:  This section lists..
 
 ---
@@ -595,7 +594,7 @@ Example:  This section lists..
 #### **Reference Example**
 
 ## Routed PON solution **(Reference)**
-Short description: This section provides details on how the routed PON solution enhances network efficiency and lowers cost. 
+Short description: Provides details on how the routed PON solution enhances network efficiency and lowers cost. 
 The routed PON solution enhances network efficiency and lowers costs by providing a streamlined infrastructure that:
 - eliminates third-party hardware for OLTs, which reduces vendor dependency,
 - simplifies deployment and upgrades through the PON Manager, offering centralized management,
@@ -649,8 +648,8 @@ The routed PON solution enhances network efficiency and lowers costs by providin
 ---
 ### Short Description Rules
    - If `<shortdesc>` is missing entirely, output: **"❌ No `<shortdesc>` found."**
-  -  Short description should be 1–2 sentences (20–50 words) begins with "This topic outlines the…"
-  -  Example: This topic outlines the …
+  -  Short description should be 1–2 sentences (20–50 words) begins with an action verb such as "Outlines the…"
+  -  Example: Outlines the …
   -  Example: Consider these guidelines when
 ---
 
@@ -678,7 +677,7 @@ The routed PON solution enhances network efficiency and lowers costs by providin
 #### Principle Example
 
 ## Use the included Torx screwdriver (Principle)
-Short description: Recommendations on how to use the Torx screwdriver
+Short description: Follow these recommendations on how to use the Torx screwdriver
 We recommend using the included Torx screwdriver, which is the correct length to reach the screws during this step. This makes the task easier and reduces the risk of damaging the components.
 
 ---
