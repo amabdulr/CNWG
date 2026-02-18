@@ -23,7 +23,7 @@
 - **Content:** Ensure all topics within the H1 section are considered in the summary
 - **Scope:** More specific than Chapter, covering the immediate subsection
 - **Tone:** Succinct and informative
-- **Acronyms:** Do not abbreviate acronyms
+- **Acronyms:** Do not expand the acronyms
 
 ---
 
