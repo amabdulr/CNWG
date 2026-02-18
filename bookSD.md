@@ -23,7 +23,7 @@
 - **Content:** Summarize the overall purpose and scope of the entire guide
 - **Scope:** Cover the main themes and intended use cases of the complete documentation
 - **Tone:** Succinct and informative
-- **Acronyms:** Do not abbreviate acronyms
+- **Acronyms:** Do not spell out the acronyms
 
 ---
 
