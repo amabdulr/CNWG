@@ -23,7 +23,7 @@
 - **Content:** Summarize what the chapter covers at a high level
 - **Scope:** Broader than H1 sections but more focused than the entire book
 - **Tone:** Succinct and informative
-- **Acronyms:** Do not abbreviate acronyms
+- **Acronyms:** Do not expand acronyms
 
 ---
 
