@@ -1,4 +1,4 @@
-# AI Prompt: Generate H1 Short Descriptions from DITA XML Map
+# AI Prompt: Generate a Chapter Description and an all H1 Short Descriptions from DITA XML Map
 
 ## Task Overview
 Analyze the provided DITA XML map file and generate short descriptions for each H1-level section. You will identify all H1 logical entities and create concise, informative short descriptions for each.
